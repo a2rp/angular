@@ -25,7 +25,6 @@ A normal interceptor calls next:
 ~~~ts
 import {
   HttpEvent,
-  HttpHandlerFn,
   HttpInterceptorFn
 } from '@angular/common/http';
 import { Observable } from 'rxjs';
