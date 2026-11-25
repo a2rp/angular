@@ -126,10 +126,7 @@ export class ProductApiService {
   }
 
   getById(id: number): Observable<Product> {
-    return this.http.get<Product[]>(this.baseUrl)
-      .pipe(
-        map(products => products.find(product => product.id === id)!)
-      );
+    return this.http.get<Product>(this.baseUrl + '/' + id);
   }
 
   create(input: CreateProductRequest): Observable<Product> {
@@ -150,15 +147,7 @@ export class ProductApiService {
 }
 ~~~
 
-In a real API, getById should usually call the dedicated endpoint instead of downloading the collection and searching it. A corrected direct implementation is:
-
-~~~ts
-getById(id: number): Observable<Product> {
-  return this.http.get<Product>(this.baseUrl + '/' + id);
-}
-~~~
-
-The example illustrates a common shape; use the endpoint contract your backend actually provides.
+This method assumes the backend exposes a dedicated item endpoint. Use the endpoint contract your backend actually provides.
 
 ## 5. Return the Observable from the service
 
