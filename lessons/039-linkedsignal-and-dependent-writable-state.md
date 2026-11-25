@@ -159,6 +159,8 @@ Avoid using an `effect()` to watch a source and copy a value into a separate sig
 A service can keep the linked signal private and expose a readonly view together with operations that define how consumers may choose values:
 
 ~~~ts
+import { Injectable, linkedSignal, signal } from '@angular/core';
+
 @Injectable({ providedIn: 'root' })
 export class ShippingState {
   private readonly _options = signal<ShippingOption[]>([]);
