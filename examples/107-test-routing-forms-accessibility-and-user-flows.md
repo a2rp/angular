@@ -54,7 +54,7 @@ export class ProfileEditPage {
       </p>
     }
 
-    <button type="submit" [disabled]="form.invalid">
+    <button type="submit">
       Save profile
     </button>
   </form>
@@ -65,7 +65,7 @@ export class ProfileEditPage {
 </main>
 ~~~
 
-The form has a visible label. Its error is text, the control exposes invalid state, and the error is associated with the input. A production form may keep the submit button enabled and report errors on submission; choose one consistent interaction.
+The form has a visible label. Its error is text, the control exposes invalid state, and the error is associated with the input. This example keeps submit enabled so the user can submit and receive validation feedback.
 
 ## 2. Configure the router and create the harness
 
