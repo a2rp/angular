@@ -156,7 +156,7 @@ import { Component, input, output } from '@angular/core';
   templateUrl: './demo-notice.html',
   styleUrl: './demo-notice.css',
   host: {
-    'role': 'status',
+    '[attr.role]': 'kind() === "error" ? "alert" : "status"',
     '[attr.aria-live]': 'kind() === "error" ? "assertive" : "polite"',
     '[attr.aria-atomic]': '"true"',
     '[class.notice--error]': 'kind() === "error"',
@@ -224,7 +224,7 @@ button:focus-visible {
 }
 ~~~
 
-`kind` controls the host's `aria-live`, error class, and CSS custom property. The host itself receives `role="status"` and `aria-atomic="true"`. The parent removes the component when it receives `dismissed`; Angular then removes its host listener with the component instance.
+`kind` controls the host's `aria-live`, error class, and CSS custom property. The host switches between `role="status"` and `role="alert"` with matching `aria-live` politeness, and keeps `aria-atomic="true"`. The parent removes the component when it receives `dismissed`; Angular then removes its host listener with the component instance.
 
 ## 4. Define reusable hover behavior
 
@@ -315,7 +315,7 @@ The component explicitly exposes the host directive's `label` input as `accessib
 ## 5. Try it in the browser
 
 1. Start the Angular app and inspect `<app-demo-notice>` in the Elements panel. It has `role`, `aria-live`, and `aria-atomic` host attributes.
-2. Change the notice's `kind` input in `app.html` to `error`. The host's `aria-live`, error class, and accent custom property update together.
+2. Change the notice's `kind` input in `app.html` to `error`. The host switches to `role="alert"`, and its `aria-live`, error class, and accent custom property update together.
 3. Press Escape anywhere in the page or use the Dismiss button. The parent removes the notice component; its window listener is no longer attached after destruction.
 4. Move the pointer over the card. The host directive updates the card's `data-hovered` attribute and class, and the component's `:host(.is-hovered)` style responds.
 5. Inspect the card's accessible label. The directive input is public on the component only because `hostDirectives` explicitly exposes it as `accessibleLabel`.

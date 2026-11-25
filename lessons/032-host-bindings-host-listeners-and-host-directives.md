@@ -52,11 +52,14 @@ import { Component, signal } from '@angular/core';
   host: {
     'role': 'button',
     '[attr.aria-pressed]': 'pressed() ? "true" : "false"',
+    '[attr.aria-disabled]': 'disabled() ? "true" : "false"',
     '[class.is-pressed]': 'pressed()',
     '[style.--toggle-accent]': 'accent()',
     '[tabIndex]': 'disabled() ? -1 : 0',
     '(click)': 'activate()',
     '(keydown.enter)': 'activate()',
+    '(keydown.code.Space)': 'onSpaceKeydown($event)',
+    '(keyup.code.Space)': 'onSpaceKeyup($event)',
   },
 })
 export class ToggleComponent {
@@ -68,6 +71,15 @@ export class ToggleComponent {
     if (!this.disabled()) {
       this.pressed.update((value) => !value);
     }
+  }
+
+  onSpaceKeydown(event: KeyboardEvent): void {
+    event.preventDefault();
+  }
+
+  onSpaceKeyup(event: KeyboardEvent): void {
+    event.preventDefault();
+    this.activate();
   }
 }
 ~~~
