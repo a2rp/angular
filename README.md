@@ -56,6 +56,7 @@ The course focuses on current standalone APIs and modern Angular patterns while 
 ## Quick references
 
 - [Angular keywords and concepts](angular-keywords.md)
+- [Angular complete summary](angular-summary.md)
 
 ## Course roadmap
 
