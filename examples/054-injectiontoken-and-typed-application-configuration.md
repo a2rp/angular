@@ -229,7 +229,7 @@ const routes: Routes = [
 ];
 ~~~
 
-The same token and helper can be used in an environment scope. This route's configuration is available to its route content and child routes. See [component-scoped and route-scoped providers](../../lessons/053-component-scoped-and-route-scoped-providers.md) for the injector behavior.
+The same token and helper can be used in an environment scope. This route's configuration is available to its route content and child routes. See [component-scoped and route-scoped providers](../lessons/053-component-scoped-and-route-scoped-providers.md) for the injector behavior.
 
 ## What this example demonstrates
 
