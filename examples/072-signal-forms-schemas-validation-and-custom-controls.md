@@ -484,7 +484,7 @@ export class RegistrationComponent {
         const values = field().value();
         this.statusMessage =
           'Form is valid. Registration data was not sent to a server.';
-        console.info('Validated registration for:', values.email);
+        void values;
       },
     );
 
