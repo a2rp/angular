@@ -80,28 +80,6 @@ Create `src/app/app.component.ts`:
 
 ~~~ts
 import {Component} from '@angular/core';
-import {RouterOutlet} from '@angular/router';
-
-@Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-  template: `
-    <header>
-      <a routerLink="/orders/42/edit">Order editor</a>
-    </header>
-    <main>
-      <router-outlet />
-    </main>
-  `,
-})
-export class AppComponent {}
-~~~
-
-The root component also needs `RouterLink` in its standalone imports because the header uses it:
-
-~~~ts
-import {Component} from '@angular/core';
 import {RouterLink, RouterOutlet} from '@angular/router';
 
 @Component({
@@ -120,7 +98,7 @@ import {RouterLink, RouterOutlet} from '@angular/router';
 export class AppComponent {}
 ~~~
 
-Use the second version of `AppComponent`; it includes all directives used by its template.
+The component imports both directives used by its template: `RouterLink` for the anchor and `RouterOutlet` for the active route view.
 
 The CLI-generated `src/main.ts` should bootstrap the root component with the configuration:
 
@@ -257,7 +235,7 @@ import {ActivatedRoute, RouterLink} from '@angular/router';
   template: `
     <h1>Order saved</h1>
     <p>Order ID: {{ orderId }}</p>
-    <a routerLink="/orders/42/edit">Return to the editor</a>
+    <a [routerLink]="['/orders', orderId, 'edit']">Return to the editor</a>
   `,
 })
 export class OrderConfirmationPage {
