@@ -68,9 +68,9 @@ class SearchModel {
     startWith(this.searchControl.value),
     map((value) => value.trim()),
     distinctUntilChanged(),
-    switchMap((query): ReturnType<typeof of<SearchState>> | any => {
+    switchMap((query) => {
       if (query.length < 2) {
-        return of({ kind: 'idle', query } satisfies SearchState);
+        return of({ kind: 'idle' as const, query });
       }
 
       return timer(250).pipe(
