@@ -320,6 +320,7 @@ A regular `effect()` is not a post-render DOM hook. For a chart or other imperat
 import {
   afterRenderEffect,
   ElementRef,
+  signal,
   viewChild,
 } from '@angular/core';
 
