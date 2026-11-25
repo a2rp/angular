@@ -126,7 +126,8 @@ A component can represent idle, active, complete, and failed states:
 
 ~~~ts
 // file-upload.component.ts
-import { Component, inject, signal } from '@angular/core';
+import { Component, DestroyRef, inject, signal } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { FileUploadService, UploadState } from './file-upload.service';
 
 type UploadUiState =
@@ -141,6 +142,7 @@ type UploadUiState =
 })
 export class FileUploadComponent {
   private readonly uploader = inject(FileUploadService);
+  private readonly destroyRef = inject(DestroyRef);
   readonly state = signal<UploadUiState>({ kind: 'idle' });
 
   selectFile(event: Event): void {
@@ -153,7 +155,9 @@ export class FileUploadComponent {
 
     this.state.set({ kind: 'idle' });
 
-    this.uploader.upload(file).subscribe({
+    this.uploader.upload(file).pipe(
+      takeUntilDestroyed(this.destroyRef)
+    ).subscribe({
       next: state => this.state.set(state),
       error: () => {
         this.state.set({
@@ -173,10 +177,10 @@ export class FileUploadComponent {
 @if (state(); as current) {
   @if (current.kind === 'uploading') {
     @if (current.percent !== null) {
-      <progress [value]="current.percent" max="100"></progress>
+      <progress aria-label="File upload progress" [value]="current.percent" max="100"></progress>
       <p>Uploading: {{ current.percent }}%</p>
     } @else {
-      <progress></progress>
+      <progress aria-label="File upload progress"></progress>
       <p>Uploading…</p>
     }
   }
@@ -224,18 +228,14 @@ The stream can include Sent, ResponseHeader, DownloadProgress, and the final Res
 ## 6. Consume download progress and wait for completion
 
 ~~~ts
-import {
-  HttpEvent,
-  HttpEventType,
-  HttpDownloadProgressEvent,
-  HttpResponse
-} from '@angular/common/http';
+import { HttpEventType } from '@angular/common/http';
 
+ // This code runs in a component with ReportDownloadService injected and
+ // downloadMessage and reportBlob signals declared.
 this.reportDownload.downloadReport().subscribe({
   next: event => {
     if (event.type === HttpEventType.DownloadProgress) {
-      const progress = event as HttpDownloadProgressEvent;
-      const percent = progressPercent(progress.loaded, progress.total);
+      const percent = progressPercent(event.loaded, event.total);
 
       if (percent === null) {
         this.downloadMessage.set('Downloading report…');
@@ -245,15 +245,13 @@ this.reportDownload.downloadReport().subscribe({
     }
 
     if (event.type === HttpEventType.Response) {
-      const response = event as HttpResponse<Blob>;
-
-      if (response.body === null) {
+      if (event.body === null) {
         this.downloadMessage.set('The server returned an empty file.');
         return;
       }
 
       this.downloadMessage.set('Download complete.');
-      this.reportBlob.set(response.body);
+      this.reportBlob.set(event.body);
     }
   },
   error: () => {
