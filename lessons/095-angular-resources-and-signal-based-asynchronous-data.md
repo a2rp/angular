@@ -362,7 +362,8 @@ Resources make asynchronous reads reactive: params determine what to load, resou
 - Q&A: qnas/095-angular-resources-and-signal-based-asynchronous-data.md
 - Examples: examples/095-angular-resources-and-signal-based-asynchronous-data.md
 - Angular async reactivity with resources: https://angular.dev/guide/signals/resource
-- Angular resource API: https://angular.dev/api/core/resource`r`n- Angular streaming resource loader API: https://angular.dev/api/core/ResourceStreamingLoader
+- Angular resource API: https://angular.dev/api/core/resource
+- Angular streaming resource loader API: https://angular.dev/api/core/ResourceStreamingLoader
 - Angular reactive data fetching with httpResource: https://angular.dev/guide/http/http-resource
 - Angular httpResource API: https://angular.dev/api/common/http/httpResource
 - Angular RxJS interop and rxResource: https://angular.dev/guide/signals/rxjs-interop
