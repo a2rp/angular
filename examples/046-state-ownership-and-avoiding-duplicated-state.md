@@ -45,7 +45,8 @@ export class TaskBoardState {
   // Consumers can read the collection but only change it through methods below.
   readonly tasks = this.#tasks.asReadonly();
 
-  readonly selectedTaskId = signal<number | null>(null);
+  readonly #selectedTaskId = signal<number | null>(null);
+  readonly selectedTaskId = this.#selectedTaskId.asReadonly();
 
   // Always look up the selected task from the latest collection.
   readonly selectedTask = computed(() => {
@@ -66,7 +67,7 @@ export class TaskBoardState {
     const exists = this.tasks().some((task) => task.id === id);
 
     if (exists) {
-      this.selectedTaskId.set(id);
+      this.#selectedTaskId.set(id);
     }
   }
 
@@ -81,7 +82,7 @@ export class TaskBoardState {
   removeTask(id: number): void {
     // Clear selection so it cannot point to a removed task.
     if (this.selectedTaskId() === id) {
-      this.selectedTaskId.set(null);
+      this.#selectedTaskId.set(null);
     }
 
     this.#tasks.update((tasks) => tasks.filter((task) => task.id !== id));
@@ -109,7 +110,7 @@ type TaskFilter = 'all' | 'open' | 'done';
 
       <p>{{ state.completedCount() }} completed</p>
 
-      <div aria-label="Filter tasks">
+      <div role="group" aria-label="Filter tasks">
         <button
           type="button"
           [attr.aria-pressed]="filter() === 'all'"
