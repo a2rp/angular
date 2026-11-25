@@ -1,4 +1,4 @@
-﻿# Examples: Built-in Control Flow with if and switch
+# Examples: Built-in Control Flow with if and switch
 
 This standalone Angular component demonstrates conditional branches with @if and @else if, a local alias, and a typed @switch. Buttons change the component state so you can observe which block Angular renders.
 
@@ -120,7 +120,7 @@ Create src/app/control-flow-demo.html:
       @default never;
     }
 
-    <div class="actions" aria-label="Choose a load state">
+    <div class="actions" role="group" aria-label="Choose a load state">
       <button type="button" (click)="showLoading()">Loading</button>
       <button type="button" (click)="showReady()">Ready</button>
       <button type="button" (click)="showError()">Error</button>
