@@ -125,6 +125,7 @@ import {
   map,
   startWith,
 } from 'rxjs';
+import type { Observable } from 'rxjs';
 
 interface Task {
   title: string;
@@ -179,6 +180,7 @@ For finite sources, **combineLatest()** completes after all inputs complete. If 
 
 ~~~ts
 import { Subject, withLatestFrom } from 'rxjs';
+import type { Observable } from 'rxjs';
 
 declare const currentDraft$: Observable<string>;
 
@@ -216,9 +218,10 @@ The output pairs **Ada** with 10 and **Grace** with 20. The unmatched 30 has no 
 
 ~~~ts
 import { forkJoin } from 'rxjs';
+import type { Observable } from 'rxjs';
 
-declare const profile$: Observable<Profile>;
-declare const settings$: Observable<Settings>;
+declare const profile$: Observable<string>;
+declare const settings$: Observable<string>;
 
 const initialPageData$ = forkJoin({
   profile: profile$,
@@ -238,6 +241,10 @@ These creation functions both combine multiple sources into one stream, but thei
 
 ~~~ts
 import { merge } from 'rxjs';
+import type { Observable } from 'rxjs';
+
+declare const localMessages$: Observable<string>;
+declare const serverMessages$: Observable<string>;
 
 const userMessages$ = merge(localMessages$, serverMessages$);
 ~~~
