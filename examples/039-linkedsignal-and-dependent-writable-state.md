@@ -53,6 +53,7 @@ const initialOptions: ShippingOption[] = [
 @Component({
   selector: 'app-root',
   standalone: true,
+  imports: [CurrencyPipe],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
