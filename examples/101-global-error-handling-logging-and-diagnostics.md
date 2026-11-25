@@ -64,7 +64,7 @@ This reporter intentionally omits error.message and stack because those values c
 ## 3. Forward unexpected Angular errors
 
 ~~~ts
-import { ErrorHandler, Injectable, inject } from '@angular/core';
+import { ErrorHandler, Injectable, inject, isDevMode } from '@angular/core';
 import { DiagnosticsService } from './diagnostics.service';
 
 @Injectable()
@@ -81,11 +81,6 @@ export class AppErrorHandler implements ErrorHandler {
 }
 ~~~
 
-Add the missing Angular import at the top:
-
-~~~ts
-import { isDevMode } from '@angular/core';
-~~~
 
 In a production application, send only the minimized diagnostic event. Use the console branch for local development. Avoid recursively calling ErrorHandler if the diagnostic request fails.
 
