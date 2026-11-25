@@ -77,17 +77,18 @@ Create `src/app/route-guards.ts`:
 
 ~~~ts
 import {inject} from '@angular/core';
-import {
+import {Router} from '@angular/router';
+import type {
   CanActivateChildFn,
   CanActivateFn,
   CanDeactivateFn,
   CanMatchFn,
-  Router,
   UrlTree,
 } from '@angular/router';
 
-import {EditorPage} from './pages/editor.page';
-import {DemoRole, SessionService} from './session.service';
+import type {EditorPage} from './pages/editor.page';
+import type {DemoRole} from './session.service';
+import {SessionService} from './session.service';
 
 export const signedInGuard: CanActivateFn = (_route, state) => {
   const session = inject(SessionService);
@@ -199,7 +200,8 @@ Create `src/app/pages/login.page.ts`. The return URL is accepted only when it is
 import {Component, inject} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 
-import {DemoRole, SessionService} from '../session.service';
+import type {DemoRole} from '../session.service';
+import {SessionService} from '../session.service';
 
 @Component({
   selector: 'app-login',
@@ -220,13 +222,13 @@ export class LoginPage {
     this.session.signInAs(role);
 
     const returnUrl = this.route.snapshot.queryParamMap.get('returnUrl');
-    const isLocalPath =
-      returnUrl?.startsWith('/') === true &&
-      returnUrl.startsWith('//') === false;
 
-    await this.router.navigateByUrl(
-      isLocalPath ? returnUrl : '/workspace/overview',
-    );
+    if (returnUrl?.startsWith('/') && !returnUrl.startsWith('//')) {
+      await this.router.navigateByUrl(returnUrl);
+      return;
+    }
+
+    await this.router.navigateByUrl('/workspace/overview');
   }
 }
 ~~~
@@ -282,7 +284,7 @@ The leave decision compares current text to saved text. Saving updates the basel
 Create `src/app/app.routes.ts`:
 
 ~~~ts
-import {Routes} from '@angular/router';
+import type {Routes} from '@angular/router';
 
 import {EditorPage} from './pages/editor.page';
 import {LoginPage} from './pages/login.page';
@@ -458,7 +460,7 @@ export class AppComponent {
 Create `src/app/app.config.ts`:
 
 ~~~ts
-import {ApplicationConfig} from '@angular/core';
+import type {ApplicationConfig} from '@angular/core';
 import {provideRouter} from '@angular/router';
 
 import {routes} from './app.routes';
@@ -489,7 +491,7 @@ Run the Angular development server and try these flows:
 2. Continue as a member. The overview loads. Open Admin users; the admin guard redirects to Access denied.
 3. Sign in as admin and open Admin users or Admin settings. The child routes are allowed.
 4. Open the editor, change the draft, and select another route. Canceling the browser confirmation keeps the editor active. Saving the draft makes the guard allow navigation.
-5. Toggle the reports feature off and open Reports. `CanMatch` skips the first route definition and the fallback page appears. Toggle it on and open Reports again.
+5. Toggle the reports feature off, navigate away from Reports, then open Reports. `CanMatch` skips the first route definition and the fallback page appears. Toggle it on, navigate away again, and reopen Reports.
 6. Sign out and try a workspace link again. The client router returns to the login page.
 
 These steps demonstrate client navigation only. Add a server or API check and verify it rejects unauthorized requests even when a caller skips Angular routing.
