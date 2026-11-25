@@ -53,6 +53,10 @@ Angular CLI defaults and supported Node.js, TypeScript, and RxJS versions change
 
 The course focuses on current standalone APIs and modern Angular patterns while explaining older patterns when they matter for existing applications. APIs can differ by Angular version; check the linked official references before using a version-specific feature. Signal Forms and other newer APIs are called out with their compatibility notes in the relevant chapters.
 
+## Quick references
+
+- [Angular keywords and concepts](angular-keywords.md)
+
 ## Course roadmap
 
 The roadmap contains 120 chapters across ten parts. Every row reserves a lesson, Q&A, and practical example path. Files are developed chapter by chapter.
