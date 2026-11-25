@@ -17,7 +17,7 @@ type Task = {
   selector: 'app-task-list',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  template: @@BT@@
+  template: `
     <section aria-labelledby="tasks-heading">
       <h1 id="tasks-heading">Tasks</h1>
 
@@ -52,7 +52,7 @@ type Task = {
         <p>No matching tasks.</p>
       }
     </section>
-  @@BT@@,
+  `,
 })
 export class TaskListComponent {
   readonly query = signal('');
