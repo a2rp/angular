@@ -311,7 +311,7 @@ rxResource does not replace RxJS. Use RxJS operators for debounce, combining sou
 
 A promise loader returns one result per request. For data that keeps changing, Angular's resource API also has a streaming form whose stream loader returns a Promise of a Signal. rxResource can consume an Observable source. A service may also keep its Observable API directly when it needs richer backpressure, buffering, reconnect, or event-processing behavior.
 
-A resource can provide the latest value and status to the view, but it does not decide your reconnection policy, event ordering, message retention, or offline behavior. Those remain application decisions. The next lesson covers live connections in more depth.
+The streaming loader returns a Signal<ResourceStreamItem<T>> or a Promise of one. Each signal value is a ResourceStreamItem: either { value: T } or { error: Error }. A resource can provide the latest value and status to the view, but it does not decide your reconnection policy, event ordering, message retention, or offline behavior. Those remain application decisions. The next lesson covers live connections in more depth.
 
 ## 10. SSR, caching, and sensitive data
 
@@ -362,7 +362,7 @@ Resources make asynchronous reads reactive: params determine what to load, resou
 - Q&A: qnas/095-angular-resources-and-signal-based-asynchronous-data.md
 - Examples: examples/095-angular-resources-and-signal-based-asynchronous-data.md
 - Angular async reactivity with resources: https://angular.dev/guide/signals/resource
-- Angular resource API: https://angular.dev/api/core/resource
+- Angular resource API: https://angular.dev/api/core/resource`r`n- Angular streaming resource loader API: https://angular.dev/api/core/ResourceStreamingLoader
 - Angular reactive data fetching with httpResource: https://angular.dev/guide/http/http-resource
 - Angular httpResource API: https://angular.dev/api/common/http/httpResource
 - Angular RxJS interop and rxResource: https://angular.dev/guide/signals/rxjs-interop

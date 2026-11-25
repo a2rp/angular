@@ -118,7 +118,7 @@ Use an approach that models a long-lived stream. Depending on the API and applic
 
 ## 30. What does the resource streaming API return?
 
-The streaming form returns a Promise of a Signal whose value can continue to change as new data arrives. It is distinct from a promise loader that resolves once for a request.
+The streaming form returns a Signal<ResourceStreamItem<T>> or a Promise of one. Each signal value is either { value: T } or { error: Error }, and it can continue to change as new data arrives. This is distinct from a promise loader that resolves once for a request.
 
 ## 31. Can I cache a resource value through SSR?
 
@@ -149,7 +149,7 @@ Use a Resource when a read should react to changing signal-based params and expo
 - Lesson: lessons/095-angular-resources-and-signal-based-asynchronous-data.md
 - Examples: examples/095-angular-resources-and-signal-based-asynchronous-data.md
 - Angular async reactivity with resources: https://angular.dev/guide/signals/resource
-- Angular resource API: https://angular.dev/api/core/resource
+- Angular resource API: https://angular.dev/api/core/resource`r`n- Angular streaming resource loader API: https://angular.dev/api/core/ResourceStreamingLoader
 - Angular reactive data fetching with httpResource: https://angular.dev/guide/http/http-resource
 - Angular httpResource API: https://angular.dev/api/common/http/httpResource
 - Angular RxJS interop and rxResource: https://angular.dev/guide/signals/rxjs-interop
