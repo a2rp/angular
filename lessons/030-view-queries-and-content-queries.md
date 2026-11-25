@@ -5,7 +5,7 @@ Angular queries let a component find children or values associated with elements
 The signal-based query functions return signals that Angular keeps up to date as the matching elements appear or disappear:
 
 ~~~ts
-import { Component, viewChild } from '@angular/core';
+import { Component, ElementRef, viewChild } from '@angular/core';
 
 @Component({
   selector: 'app-search-panel',
