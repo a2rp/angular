@@ -80,7 +80,7 @@ export class ContactFormComponent {
     required
   />
 
-  <button type="submit" [disabled]="contactForm.invalid">
+  <button type="submit">
     Send
   </button>
 </form>
@@ -132,7 +132,7 @@ export class ContactFormComponent {
   <label for="contact-name">Name</label>
   <input id="contact-name" formControlName="name" />
 
-  <button type="submit" [disabled]="form.invalid">
+  <button type="submit">
     Send
   </button>
 </form>
@@ -190,7 +190,7 @@ export class ContactFormComponent {
     <input type="email" [formField]="contactForm.email" />
   </label>
 
-  <button type="submit" [disabled]="contactForm().invalid() || contactForm().submitting()">
+  <button type="submit" [disabled]="contactForm().submitting()">
     Send
   </button>
 </form>
@@ -225,6 +225,8 @@ Reactive forms provide **FormArray** and explicit APIs for adding and removing c
 ### Submission
 
 All approaches can handle the browser's submit event. Use a native **<form>** and a **type="submit"** button so keyboard users can submit with Enter. In Angular, bind the form's submit flow rather than using a click handler as the only path.
+
+In many forms, leave the submit button available while the form is invalid so users can trigger error feedback. Disable it for a clear reason such as an in-progress submission, and also guard the submit handler.
 
 Before saving:
 
