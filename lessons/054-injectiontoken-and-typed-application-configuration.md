@@ -158,12 +158,12 @@ A library or feature can export a function that accepts typed options and return
 ~~~ts
 // src/app/search.providers.ts
 import {
-  EnvironmentProviders,
   InjectionToken,
+  inject,
   makeEnvironmentProviders,
   Service,
-  inject,
 } from '@angular/core';
+import type { EnvironmentProviders } from '@angular/core';
 
 export interface SearchConfig {
   readonly apiOrigin: string;
