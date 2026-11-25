@@ -16,7 +16,7 @@ ng new angular-provider-scopes --standalone --routing --style=css
 cd angular-provider-scopes
 ~~~
 
-Create or replace the files shown below. The snippets target current Angular and use the Angular v22 Service decorator. In projects using Injectable, use Injectable() without providedIn for these manually scoped services.
+Create or replace the files shown below. The snippets target Angular v22.1 and newer, which provides the Service decorator. In projects using Injectable, use Injectable() without providedIn for these manually scoped services.
 
 ## File layout
 
@@ -37,7 +37,8 @@ src/
     ├── home.page.html
     ├── admin-layout.page.ts
     ├── admin-layout.page.html
-    └── admin-dashboard.page.ts
+    ├── admin-dashboard.page.ts
+    └── admin-dashboard.page.html
 ~~~
 
 ## 1. Create a component-scoped editor state
@@ -163,7 +164,7 @@ The route will provide both AdminWorkspace and ADMIN_AREA_NAME. The service is n
 ~~~ts
 // src/app/admin.guard.ts
 import { inject } from '@angular/core';
-import { CanActivateFn } from '@angular/router';
+import type { CanActivateFn } from '@angular/router';
 import { AdminWorkspace } from './admin-workspace';
 
 export const adminGuard: CanActivateFn = () =>
@@ -210,11 +211,22 @@ import { AdminWorkspace } from './admin-workspace';
 
 @Component({
   standalone: true,
-  template: '<section><h2>Admin dashboard child route</h2><p>Shared updates: {{ workspace.updateCount() }}</p><button type="button" (click)="workspace.recordUpdate()">Record an update</button></section>',
+  templateUrl: './admin-dashboard.page.html',
 })
 export class AdminDashboardPage {
   protected readonly workspace = inject(AdminWorkspace);
 }
+~~~
+
+~~~html
+<!-- src/app/admin-dashboard.page.html -->
+<section>
+  <h2>Admin dashboard child route</h2>
+  <p>Shared updates: {{ workspace.updateCount() }}</p>
+  <button type="button" (click)="workspace.recordUpdate()">
+    Record an update
+  </button>
+</section>
 ~~~
 
 The parent layout and child dashboard are in the admin route subtree. Both resolve the same route-provided AdminWorkspace instance, so the count displayed in both places changes together.

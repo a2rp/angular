@@ -105,7 +105,7 @@ Avoid duplicate registrations unless a local override is intentional.
 
 ## 19. How should I mark a service that will only be manually provided?
 
-In current Angular, use @Service({ autoProvided: false }) and add the class to the appropriate component or route providers array. In projects using @Injectable, use @Injectable() without providedIn and register the class manually.
+In Angular v22.1 and newer, use @Service({ autoProvided: false }) and add the class to the appropriate component or route providers array. In projects using @Injectable, use @Injectable() without providedIn and register the class manually.
 
 ~~~ts
 @Service({ autoProvided: false })

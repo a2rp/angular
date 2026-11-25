@@ -101,7 +101,7 @@ A route's providers array registers dependencies for that route and its child ro
 
 ~~~ts
 import { InjectionToken } from '@angular/core';
-import { Routes } from '@angular/router';
+import type { Routes } from '@angular/router';
 import { AdminWorkspace } from './admin-workspace';
 import { adminGuard } from './admin.guard';
 import { AdminPage } from './admin-page';
@@ -129,7 +129,7 @@ A functional guard can use a dependency supplied by its route:
 
 ~~~ts
 import { inject } from '@angular/core';
-import { CanActivateFn } from '@angular/router';
+import type { CanActivateFn } from '@angular/router';
 import { AdminWorkspace } from './admin-workspace';
 
 export const adminGuard: CanActivateFn = () =>
@@ -187,7 +187,7 @@ Prefer explicit scoping when a service owns state. Keep truly shared cross-featu
 - **Assuming route scope means one instance per navigation:** Route injectors are managed by the Router and route reuse. Pick the scope based on the route feature, and explicitly manage resources that need a shorter lifetime.
 - **Using a component provider for app-wide coordination:** Component state is intentionally isolated. Use an appropriate shared ancestor or environment provider when unrelated trees must coordinate.
 
-For manual local or route provisioning in current Angular, define a service with **Service({ autoProvided: false })** and add it to the relevant providers array. In projects using **Injectable**, **Injectable()** without providedIn is the corresponding manually provided pattern. Existing **Injectable({ providedIn: 'root' })** services can still be overridden locally, but a separate non-auto-provided service makes the intended scope clearer.
+For manual local or route provisioning in Angular v22.1 and newer, define a service with **Service({ autoProvided: false })** and add it to the relevant providers array. In projects using **Injectable**, **Injectable()** without providedIn is the corresponding manually provided pattern. Existing **Injectable({ providedIn: 'root' })** services can still be overridden locally, but a separate non-auto-provided service makes the intended scope clearer.
 
 ## Debugging scope problems
 
