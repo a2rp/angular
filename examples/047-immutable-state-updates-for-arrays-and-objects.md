@@ -275,8 +275,16 @@ Do not update stored state like this:
 
 ~~~ts
 // Both operations mutate values already held in state.
-const items = this.state.items() as InventoryItem[];
-items[0].quantity += 1;
+const items = this.state.items() as unknown as {
+  name: string;
+  quantity: number;
+}[];
+const firstItem = items[0];
+
+if (firstItem) {
+  firstItem.quantity += 1;
+}
+
 items.sort((a, b) => a.name.localeCompare(b.name));
 ~~~
 
