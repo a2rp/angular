@@ -67,8 +67,8 @@ Error bodies are backend-controlled. This helper selects safe text from stable s
 import { AsyncPipe, CurrencyPipe } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
+import type { Observable } from 'rxjs';
 import {
-  Observable,
   Subject,
   catchError,
   map,
@@ -76,12 +76,8 @@ import {
   startWith,
   switchMap
 } from 'rxjs';
-import {
-  Product,
-  ProductListState,
-  isRetryable,
-  toProductErrorMessage
-} from './product-list.state';
+import { isRetryable, toProductErrorMessage } from './product-list.state';
+import type { Product, ProductListState } from './product-list.state';
 
 @Component({
   selector: 'app-product-list',

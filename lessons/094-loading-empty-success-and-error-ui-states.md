@@ -48,7 +48,8 @@ The request layer can map successful values and errors into the union:
 ~~~ts
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
-import { Observable, catchError, map, of, startWith } from 'rxjs';
+import { catchError, map, of, startWith } from 'rxjs';
+import type { Observable } from 'rxjs';
 
 interface Product {
   id: string;
