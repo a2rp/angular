@@ -40,7 +40,7 @@ In TypeScript, mark user-facing strings with Angular's $localize tagged message 
 const savedMessage = $localize`:notice|Shown after preferences are saved:Your preferences were saved.`;
 ~~~
 
-The placeholder notation above is illustrative: replace ` with a backtick character around the $localize metadata and message, as required by TypeScript syntax. Prefer keeping user-facing copy in templates where possible.
+The metadata supplies translator context; the text after the second colon is the source message. Prefer keeping user-facing copy in templates where possible.
 
 Do not assemble translated sentences by concatenating fragments. Word order and grammar vary. Mark the full sentence and use named placeholders for values when needed.
 
