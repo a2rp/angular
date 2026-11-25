@@ -120,6 +120,7 @@ The resolver captures injected services synchronously, reads the target route pa
 Create `src/app/products/product-detail.page.ts`:
 
 ~~~ts
+import {CurrencyPipe} from '@angular/common';
 import {Component, input} from '@angular/core';
 
 import type {Product} from './product.model';
@@ -127,6 +128,7 @@ import type {Product} from './product.model';
 @Component({
   selector: 'app-product-detail',
   standalone: true,
+  imports: [CurrencyPipe],
   template: '<article><h1>{{ product().name }}</h1><p>{{ product().description }}</p><p>Price: {{ product().price | currency }}</p></article>',
 })
 export class ProductDetailPage {
