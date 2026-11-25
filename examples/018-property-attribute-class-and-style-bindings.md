@@ -1,4 +1,4 @@
-﻿# Examples: Property, Attribute, Class, and Style Bindings
+# Examples: Property, Attribute, Class, and Style Bindings
 
 This walkthrough builds a small task panel that demonstrates bindings to DOM properties, HTML attributes, CSS classes, and styles. It uses Angular's standalone component format. File names in an existing app may differ; adapt the import and root component names to your workspace.
 
@@ -19,11 +19,11 @@ export class BindingDemo {
   readonly taskTitle = 'Prepare the release notes';
   readonly isSaving = true;
 
-  readonly status = 'In progress';
+  status = 'In progress';
   readonly descriptionId = 'task-status-help';
   readonly optionalReference: string | null = null;
 
-  readonly isUrgent = true;
+  isUrgent = true;
 
   classNames: Record<string, boolean> = {
     'task-status': true,
