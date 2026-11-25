@@ -93,7 +93,7 @@ function emailAvailabilityValidator(api: ContactApi): AsyncValidatorFn {
   selector: 'app-root',
   standalone: true,
   imports: [ReactiveFormsModule],
-  template: \`
+  template: `
     <main>
       <h1>Contact form</h1>
       <p>
@@ -199,7 +199,7 @@ function emailAvailabilityValidator(api: ContactApi): AsyncValidatorFn {
 
       <p>Form status: {{ contactForm.status }}</p>
     </main>
-  \`,
+  `,
 })
 export class AppComponent {
   private readonly api = inject(ContactApi);
@@ -245,7 +245,7 @@ export class AppComponent {
             email: '',
             message: '',
           });
-          this.successMessage = \`Message saved. Reference: ${result.reference}\`;
+          this.successMessage = `Message saved. Reference: ${result.reference}`;
         },
         error: () => {
           // Leave the entered values in place so the user can retry.

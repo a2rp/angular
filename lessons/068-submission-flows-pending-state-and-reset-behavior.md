@@ -74,10 +74,10 @@ submit(): void {
     )
     .subscribe({
       next: (result) => {
-        this.successMessage = ${Message saved. Reference: ${result.reference}¤};
+        this.successMessage = `Message saved. Reference: ${result.reference}`;
       },
       error: () => {
-        this.submitError = ${The message could not be saved. Your entries are still here; please try again.¤};
+        this.submitError = 'The message could not be saved. Your entries are still here; please try again.';
       },
     });
 }
