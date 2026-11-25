@@ -201,7 +201,7 @@ A route parameter can change while the component stays alive. switchMap makes ea
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
 import { inject } from '@angular/core';
-import { map, switchMap } from 'rxjs';
+import { map, of, switchMap } from 'rxjs';
 
 interface User {
   id: string;
@@ -225,7 +225,7 @@ class UserDetailModel {
 }
 ~~~
 
-Add of to the rxjs imports in this snippet. In a component template, the async pipe can subscribe to user$ and release the request when that view is destroyed.
+In a component template, the async pipe can subscribe to user$ and release the request when that view is destroyed.
 
 ## 5. Tie an imperative subscription to component destruction
 

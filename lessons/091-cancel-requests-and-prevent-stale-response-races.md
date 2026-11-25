@@ -39,7 +39,7 @@ switchMap maps each source value to an inner Observable. When a new source value
 
 ~~~ts
 import { HttpClient } from '@angular/common/http';
-import { inject } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import {
   catchError,
   distinctUntilChanged,
@@ -74,7 +74,7 @@ class SearchModel {
       }
 
       return timer(250).pipe(
-        switchMap(() => this.http.get<SearchResult[]>('/api/search', {
+        switchMap(() => http.get<SearchResult[]>('/api/search', {
           params: { q: query }
         })),
         map((results): SearchState => ({
@@ -103,7 +103,7 @@ Place catchError inside the switchMap request branch when later source values sh
 ~~~ts
 queries$.pipe(
   switchMap((query) =>
-    this.http.get<SearchResult[]>('/api/search', {
+    http.get<SearchResult[]>('/api/search', {
       params: { q: query }
     }).pipe(
       catchError(() => of([] as SearchResult[]))
@@ -176,7 +176,7 @@ readonly state$ = this.searchControl.valueChanges.pipe(
     }
 
     return timer(250).pipe(
-      switchMap(() => this.http.get<SearchResult[]>('/api/search', {
+      switchMap(() => http.get<SearchResult[]>('/api/search', {
         params: { q: query }
       })),
       map((results): SearchState => ({
