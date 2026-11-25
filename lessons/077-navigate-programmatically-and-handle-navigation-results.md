@@ -73,7 +73,7 @@ await this.router.navigate(['edit'], {
 });
 ~~~
 
-Without `relativeTo`, a leading slash makes a target root-relative. A command without a leading slash is relative to the current route context. Relative navigation is useful in nested route trees; use an explicit root-relative path when the target should always start at the application root.
+Without `relativeTo`, commands are resolved from the application root. Supply `relativeTo` when a command such as `['edit']` should be resolved from the current activated route. A leading slash makes a root-relative target explicit.
 
 `navigate()` also accepts URL creation options, such as query parameters and fragments:
 
@@ -127,7 +127,9 @@ A resolved `false` and a rejected promise are different outcomes. Do not treat `
 When a method only starts navigation and does not need to inspect its result, it can intentionally ignore the returned promise with `void`. Do this only when errors are handled elsewhere or cannot affect the caller's UI:
 
 ~~~ts
-void this.router.navigate(['/help']);
+void this.router.navigate(['/help']).catch((error: unknown) => {
+  console.error('Navigation failed', error);
+});
 ~~~
 
 ## Cancellation, skipping, and errors
@@ -168,12 +170,26 @@ The router exposes an event stream for application-wide diagnostics. A service c
 import {DestroyRef, inject, Injectable} from '@angular/core';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
 import {
+  Event as RouterEvent,
   NavigationCancel,
   NavigationError,
   NavigationSkipped,
   Router,
 } from '@angular/router';
 import {filter} from 'rxjs';
+
+type DiagnosticNavigationEvent =
+  | NavigationCancel
+  | NavigationSkipped
+  | NavigationError;
+
+function isDiagnosticNavigationEvent(
+  event: RouterEvent,
+): event is DiagnosticNavigationEvent {
+  return event instanceof NavigationCancel ||
+    event instanceof NavigationSkipped ||
+    event instanceof NavigationError;
+}
 
 @Injectable({providedIn: 'root'})
 export class RouterDiagnostics {
@@ -183,11 +199,7 @@ export class RouterDiagnostics {
   constructor() {
     this.router.events
       .pipe(
-        filter((event) =>
-          event instanceof NavigationCancel ||
-          event instanceof NavigationSkipped ||
-          event instanceof NavigationError
-        ),
+        filter(isDiagnosticNavigationEvent),
         takeUntilDestroyed(this.destroyRef),
       )
       .subscribe((event) => {
