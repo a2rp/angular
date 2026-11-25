@@ -95,7 +95,7 @@ OnPush lets Angular skip an unchanged component subtree until it receives a rele
 A component can declare the strategy explicitly:
 
 ~~~ts
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-product-card',
