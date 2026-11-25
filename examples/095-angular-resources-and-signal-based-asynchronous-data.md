@@ -204,7 +204,7 @@ export class ProductSearchComponent {
 If HttpClient is not already configured, add provideHttpClient() to the application providers:
 
 ~~~ts
-import { ApplicationConfig } from '@angular/core';
+import type { ApplicationConfig } from '@angular/core';
 import { provideHttpClient } from '@angular/common/http';
 
 export const appConfig: ApplicationConfig = {
@@ -359,23 +359,19 @@ This Observable must emit a value or an error before it completes. An Observable
 A promise loader resolves one value for a request. A streaming Resource instead observes a Signal of ResourceStreamItem values. The signal can publish a new value later.
 
 ~~~ts
-import {
-  Component,
-  ResourceStreamItem,
-  resource,
-  signal
-} from '@angular/core';
+import { Component, resource, signal } from '@angular/core';
+import type { ResourceStreamItem } from '@angular/core';
 
 @Component({
   selector: 'app-live-price',
   standalone: true,
-  template: \`
+  template: `
     @if (price.hasValue()) {
       <p>Latest price: {{ price.value() }}</p>
     } @else if (price.error()) {
       <p role="alert">Price updates are unavailable.</p>
     }
-  \`
+  `
 })
 export class LivePriceComponent {
   private readonly updates = signal<ResourceStreamItem<number>>({
