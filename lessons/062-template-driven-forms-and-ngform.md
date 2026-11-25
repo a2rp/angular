@@ -56,6 +56,7 @@ export class ContactFormComponent {
     email: '',
     topic: '',
     message: '',
+    address: { city: '', postalCode: '' },
   };
 
   submitted = false;
@@ -84,6 +85,7 @@ export class ContactFormComponent {
       email: '',
       topic: '',
       message: '',
+      address: { city: '', postalCode: '' },
     };
     form.resetForm(this.model);
   }
