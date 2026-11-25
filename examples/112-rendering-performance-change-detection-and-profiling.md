@@ -94,11 +94,14 @@ product-row.component.ts:
 
 ~~~ts
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { CurrencyPipe } from '@angular/common';
+import { CurrencyPipe } from '@angular/common';
 import type { Product } from './product-list.component';
 
 @Component({
   selector: 'app-product-row',
   standalone: true,
+  imports: [CurrencyPipe],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './product-row.html',
 })
@@ -117,7 +120,7 @@ product-row.html:
 </article>
 ~~~
 
-The component strategy is explicit for clarity. CurrencyPipe is available from CommonModule; if this standalone component does not already have that import in your setup, import CurrencyPipe from @angular/common in the component's imports. In Angular v22 and later, OnPush is the documented default, but explicit declaration can communicate the intended boundary.
+The component imports CurrencyPipe explicitly because it uses that pipe in a standalone template. The strategy is explicit for clarity. In Angular v22 and later, OnPush is the documented default, but explicit declaration can communicate the intended boundary.
 
 ## 3. Handle an external callback with reactive state
 
