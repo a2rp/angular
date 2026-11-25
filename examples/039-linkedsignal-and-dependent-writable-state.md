@@ -35,6 +35,7 @@ src/app/
 Replace or adapt `src/app/app.component.ts`:
 
 ~~~ts
+import { CurrencyPipe } from '@angular/common';
 import { Component, linkedSignal, signal } from '@angular/core';
 
 interface ShippingOption {
@@ -206,17 +207,7 @@ Create or replace `src/app/app.component.html`:
 </main>
 ~~~
 
-The template uses Angular's built-in `currency` pipe from `CommonModule` in NgModule applications or `CurrencyPipe` in the standalone component's imports. Add the import required by your application architecture:
-
-~~~ts
-// Standalone component: add CurrencyPipe to the @angular/common import
-// and add CurrencyPipe to the component's imports array.
-import { CurrencyPipe } from '@angular/common';
-
-// NgModule-based component: import CommonModule in its declaring module.
-~~~
-
-For a minimal component without formatting dependencies, you can replace `{{ option.price | currency }}` and `{{ selected.price | currency }}` with `{{ option.price }}` and `{{ selected.price }}`.
+The standalone component imports `CurrencyPipe` from `@angular/common`. In an NgModule-based app, import `CommonModule` in the declaring module instead.
 
 ## 3. Add the styles
 
