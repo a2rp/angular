@@ -37,7 +37,7 @@ Use a description to clarify context. The word "Open" could be a verb on a butto
 In TypeScript, mark user-facing strings with Angular's $localize tagged message when the package and build setup supports it:
 
 ~~~ts
-const savedMessage = $localize`:notice|Shown after preferences are saved`Your preferences were saved.;
+const savedMessage = $localize`:notice|Shown after preferences are saved:Your preferences were saved.`;
 ~~~
 
 The placeholder notation above is illustrative: replace ` with a backtick character around the $localize metadata and message, as required by TypeScript syntax. Prefer keeping user-facing copy in templates where possible.
