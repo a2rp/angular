@@ -233,18 +233,17 @@ import {
 import { filter } from 'rxjs';
 
 const events$ = this.http.get<Product[]>('/api/products', {
-  observe: 'events',
-  reportProgress: true
+  observe: 'events'
 });
 
 const finalResponse$ = events$.pipe(
   filter(
-    (event: HttpEvent<Product[]>) =>
+    (event): event is HttpResponse<Product[]> =>
       event.type === HttpEventType.Response
   )
 );
 
-finalResponse$.subscribe((response: HttpResponse<Product[]>) => {
+finalResponse$.subscribe(response => {
   console.log(response.body);
 });
 ~~~
