@@ -91,7 +91,6 @@ export class AccessibleSearch {
       name="query"
       type="search"
       [(ngModel)]="query"
-      aria-describedby="query-help"
       [attr.aria-invalid]="invalid() ? 'true' : null"
       [attr.aria-describedby]="invalid() ? 'query-help query-error' : 'query-help'"
     />
@@ -123,24 +122,7 @@ export class AccessibleSearch {
 
 The example uses a real label, input, submit button, headings, list, and links. The error is text and is referenced from the input. The result count is exposed through a polite status region without moving keyboard focus.
 
-## 3. Make the error relationship conditional
-
-The template above binds aria-describedby to the help text and, when invalid, the error text as well. Avoid duplicate static and bound attributes with the same name. Use this corrected input element in the final template:
-
-~~~html
-<input
-  id="help-search"
-  name="query"
-  type="search"
-  [(ngModel)]="query"
-  [attr.aria-invalid]="invalid() ? 'true' : null"
-  [attr.aria-describedby]="invalid() ? 'query-help query-error' : 'query-help'"
-/>
-~~~
-
-Keep keyboard focus on the search field after an invalid submission so the user can correct it. Do not clear their entry. The status region reports the result count after a successful search; it is not necessary to announce every internal calculation.
-
-## 4. Review the interaction manually
+## 3. Review the interaction manually
 
 - Tab to the search field and button; confirm focus is visible.
 - Use Enter from the field to submit the form.
@@ -150,7 +132,26 @@ Keep keyboard focus on the search field after an invalid submission so the user 
 - Check the status announcement with a screen reader.
 - Zoom in and test a narrow viewport.
 
-## 5. Further patterns
+## 4. Further patterns
+
+For a modal, menu, combobox, or tab system, use the matching native element or a tested accessibility implementation. Angular CDK and Angular Aria provide helpers for several interaction patterns. After router navigation, decide where focus should move so users can find the new page content.
+
+## Further reading
+
+- [Angular accessibility best practices](https://angular.dev/best-practices/a11y)
+- [Angular Aria overview](https://angular.dev/guide/aria/overview)
+- [Angular template bindings](https://angular.dev/guide/templates/binding)
+## 3. Review the interaction manually
+
+- Tab to the search field and button; confirm focus is visible.
+- Use Enter from the field to submit the form.
+- Submit an empty or one-character value and confirm the error is readable and associated with the input.
+- Search for matching and non-matching terms.
+- Confirm results use a heading and a list of real navigation links.
+- Check the status announcement with a screen reader.
+- Zoom in and test a narrow viewport.
+
+## 4. Further patterns
 
 For a modal, menu, combobox, or tab system, use the matching native element or a tested accessibility implementation. Angular CDK and Angular Aria provide helpers for several interaction patterns. After router navigation, decide where focus should move so users can find the new page content.
 
