@@ -342,4 +342,4 @@ Do not recreate Angular's internal provider arrays in application code. Use publ
 - Previous: [InjectionToken and typed application configuration](054-injectiontoken-and-typed-application-configuration.md)
 - Q&A: [Provider recipes, multi providers, and provider functions](../qnas/055-provider-recipes-multi-providers-and-provider-functions.md)
 - Example: [Provider recipes, multi providers, and provider functions](../examples/055-provider-recipes-multi-providers-and-provider-functions.md)
-- Next: [Injection context and inject()](056-injection-context-and-inject.md)
+- Next: [Injection contexts and resource lifetimes](056-injection-contexts-and-resource-lifetimes.md)
