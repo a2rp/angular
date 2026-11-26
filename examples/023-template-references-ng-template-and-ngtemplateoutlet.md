@@ -1,4 +1,4 @@
-﻿# Examples: Template references, ng-template, and ngTemplateOutlet
+# Examples: Template references, ng-template, and ngTemplateOutlet
 
 This example defines one person-card fragment and renders it twice with different context values. The fragment receives its person through `$implicit` and a heading through a named context key. It also reads a property from the component that declared the fragment, showing the difference between component scope and outlet context.
 
@@ -210,8 +210,17 @@ The page contains two accessible article cards. Both use the same declared fragm
 - If the page title is blank, confirm the fragment is declared in `TemplateGallery` and that the component property is named `pageTitle`.
 - Keep HTML tags balanced and ensure each template reference is declared once in its template scope.
 
-## Official references
+## Chapter navigation
 
-- [Create template fragments with ng-template](https://angular.dev/guide/templates/ng-template)
-- [Variables in templates](https://angular.dev/guide/templates/variables)
-- [NgTemplateOutlet API](https://angular.dev/api/common/NgTemplateOutlet)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="022-render-collections-with-for-track-and-empty.md">022 - 22. Render collections with for, track, and empty</a></td><td><a href="../lessons/023-template-references-ng-template-and-ngtemplateoutlet.md">Lesson</a></td><td><a href="../qnas/023-template-references-ng-template-and-ngtemplateoutlet.md">Q&amp;A</a></td><td><a href="024-built-in-directives-and-structural-directive-syntax.md">024 - 24. Built-in directives and structural directive syntax</a></td>
+</tr>
+  </tbody>
+</table>

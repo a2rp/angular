@@ -180,12 +180,17 @@ Use reportUploadProgress and reportDownloadProgress where available. Use the ver
 
 Progress is part of the HttpClient event stream. Enable it only when needed, check the event type, treat total as optional, and wait for the final response before declaring success. Upload progress specifically requires an XHR backend in current Angular.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/088-upload-and-download-progress-events.md
-- Examples: examples/088-upload-and-download-progress-events.md
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- HttpEventType: https://angular.dev/api/common/http/HttpEventType
-- Upload progress event: https://angular.dev/api/common/http/HttpUploadProgressEvent
-- Download progress event: https://angular.dev/api/common/http/HttpDownloadProgressEvent
-- withXhr: https://angular.dev/api/common/http/withXhr
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="087-url-parameters-headers-response-types-and-credentials.md">087 - URL Parameters, Headers, Response Types, and Credentials</a></td><td><a href="../qnas/088-upload-and-download-progress-events.md">Q&amp;A</a></td><td><a href="../examples/088-upload-and-download-progress-events.md">Example</a></td><td><a href="089-functional-interceptors-and-request-context.md">089 - Functional Interceptors and Request Context</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# 29. Content projection and multiple slots
+# 29. Content projection and multiple slots
 
 Content projection lets a component provide a wrapper or layout while letting its consumer supply part of the markup. The component's template places `<ng-content>` where that caller-provided content should appear.
 
@@ -216,8 +216,17 @@ When designing a component that accepts content, confirm that:
 - A dynamic template fragment would not fit the requirement better.
 - Any library component's projected-child requirements are understood.
 
-## Further reading
+## Chapter navigation
 
-- [Content projection with `ng-content`](https://angular.dev/guide/components/content-projection)
-- [`ng-content` API reference](https://angular.dev/api/core/ng-content)
-- [Create template fragments with `ng-template`](https://angular.dev/guide/templates/ng-template)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="028-parent-child-communication-and-one-way-data-flow.md">028 - 28. Parent-child communication and one-way data flow</a></td><td><a href="../qnas/029-content-projection-and-multiple-slots.md">Q&amp;A</a></td><td><a href="../examples/029-content-projection-and-multiple-slots.md">Example</a></td><td><a href="030-view-queries-and-content-queries.md">030 - 30. View queries and content queries</a></td>
+</tr>
+  </tbody>
+</table>

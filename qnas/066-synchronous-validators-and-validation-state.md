@@ -192,9 +192,17 @@ Yes. Validation status describes whether the values satisfy the rules; it does n
 
 Disabled controls are exempt from validation. If a value remains required, do not disable that control to bypass its error.
 
-## Official references
+## Chapter navigation
 
-- [Validate form input](https://angular.dev/guide/forms/form-validation)
-- [Validators API](https://angular.dev/api/forms/Validators)
-- [Reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [AbstractControl API](https://angular.dev/api/forms/AbstractControl)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="065-formarray-and-dynamic-form-structures.md">065 - FormArray and dynamic form structures</a></td><td><a href="../lessons/066-synchronous-validators-and-validation-state.md">Lesson</a></td><td><a href="../examples/066-synchronous-validators-and-validation-state.md">Example</a></td><td><a href="067-cross-field-and-asynchronous-validation.md">067 - Cross-field and asynchronous validation</a></td>
+</tr>
+  </tbody>
+</table>

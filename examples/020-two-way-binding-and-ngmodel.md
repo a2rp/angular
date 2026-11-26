@@ -1,4 +1,4 @@
-﻿# Examples: Two-Way Binding and ngModel
+# Examples: Two-Way Binding and ngModel
 
 This walkthrough builds a small template-driven profile editor. It demonstrates two-way value synchronization, control registration, validation state, a standalone control, form submission, and programmatic model updates.
 
@@ -290,3 +290,18 @@ The shorthand is clearer when no custom change handling is needed. If the applic
 6. Compare the template-driven ngModel approach with the reactive forms approach in its later lesson; do not put both directives on the same control.
 
 Do not treat form synchronization as validation or server-side trust. Validate data according to application rules before using or storing it.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="019-event-bindings-event-objects-and-keyboard-input.md">019 - 19. Event bindings, event objects, and keyboard input</a></td><td><a href="../lessons/020-two-way-binding-and-ngmodel.md">Lesson</a></td><td><a href="../qnas/020-two-way-binding-and-ngmodel.md">Q&amp;A</a></td><td><a href="021-built-in-control-flow-with-if-and-switch.md">021 - 21. Built-in control flow with if and switch</a></td>
+</tr>
+  </tbody>
+</table>

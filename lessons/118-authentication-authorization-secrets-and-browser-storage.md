@@ -130,12 +130,17 @@ Ask these questions before shipping:
 - Cookie sessions need secure attributes and a deliberate CSRF defense.
 - Enforce authentication, authorization, expiry, and logout on the server.
 
-## Further reading
+## Chapter navigation
 
-- [Angular route guards](https://angular.dev/guide/routing/route-guards)
-- [OWASP Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
-- [OWASP Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)
-- [OWASP HTML5 Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html)
-- [OWASP CSRF Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
-- [RFC 10017: OAuth 2.0 for Browser-Based Applications](https://datatracker.ietf.org/doc/html/rfc10017)
-- [OWASP Secrets Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="117-security-xss-sanitization-csp-and-trusted-content.md">117 - Security: XSS, Sanitization, CSP, and Trusted Content</a></td><td><a href="../qnas/118-authentication-authorization-secrets-and-browser-storage.md">Q&amp;A</a></td><td><a href="../examples/118-authentication-authorization-secrets-and-browser-storage.md">Example</a></td><td><a href="119-service-workers-offline-behavior-deployment-and-updates.md">119 - Service Workers, Offline Behavior, Deployment, and Updates</a></td>
+</tr>
+  </tbody>
+</table>

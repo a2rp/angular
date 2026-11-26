@@ -249,10 +249,17 @@ Routine loading progress should not interrupt users. Use a polite status for pro
 
 Represent the request lifecycle as typed, mutually exclusive states. Render loading, successful data, empty success, and failure separately; keep retry and stale-data behavior intentional and accessible.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/094-loading-empty-success-and-error-ui-states.md
-- Q&A: qnas/094-loading-empty-success-and-error-ui-states.md
-- Angular template control flow: https://angular.dev/guide/templates/control-flow
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- RxJS catchError: https://rxjs.dev/api/operators/catchError
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="093-caching-revalidation-and-transfer-cache.md">093 - Caching, Revalidation, and Transfer Cache</a></td><td><a href="../lessons/094-loading-empty-success-and-error-ui-states.md">Lesson</a></td><td><a href="../qnas/094-loading-empty-success-and-error-ui-states.md">Q&amp;A</a></td><td><a href="095-angular-resources-and-signal-based-asynchronous-data.md">095 - Angular Resources and Signal-Based Asynchronous Data</a></td>
+</tr>
+  </tbody>
+</table>

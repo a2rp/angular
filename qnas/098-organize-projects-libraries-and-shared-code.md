@@ -56,9 +56,17 @@ No. A feature folder groups code by capability inside an application. A library 
 
 Identify its consumers, define the supported API, choose ownership and dependency direction, generate the project with the CLI, update imports to use the public entry point, and decide how builds and tests work. If the library will be published, also plan package compatibility and versioning.
 
-## Further reading
+## Chapter navigation
 
-- [Angular workspace and file structure](https://angular.dev/reference/configs/file-structure)
-- [Workspace configuration](https://angular.dev/reference/configs/workspace-config)
-- [Angular library generator](https://angular.dev/cli/generate/library)
-- [Creating Angular libraries](https://angular.dev/tools/libraries/creating-libraries)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="097-feature-based-application-architecture.md">097 - Feature-Based Application Architecture</a></td><td><a href="../lessons/098-organize-projects-libraries-and-shared-code.md">Lesson</a></td><td><a href="../examples/098-organize-projects-libraries-and-shared-code.md">Example</a></td><td><a href="099-reusable-ui-components-and-design-system-boundaries.md">099 - Reusable UI Components and Design-System Boundaries</a></td>
+</tr>
+  </tbody>
+</table>

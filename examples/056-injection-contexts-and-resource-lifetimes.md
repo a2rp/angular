@@ -407,12 +407,17 @@ A service can live longer than a component that consumes it. A subscription star
 - [Q&A: Injection contexts and resource lifetimes](../qnas/056-injection-contexts-and-resource-lifetimes.md)
 - [Next lesson: RxJS Observables, subscriptions, and stream basics](../lessons/057-rxjs-observables-subscriptions-and-stream-basics.md)
 
-## Further reading
+## Chapter navigation
 
-- [Injection context guide](https://angular.dev/guide/di/dependency-injection-context)
-- [runInInjectionContext() API](https://angular.dev/api/core/runInInjectionContext)
-- [DestroyRef API](https://angular.dev/api/core/DestroyRef)
-- [takeUntilDestroyed() API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
-- [toSignal() API](https://angular.dev/api/core/rxjs-interop/toSignal)
-- [Effect cleanup](https://angular.dev/guide/signals/effect)
-- [Resource API](https://angular.dev/api/core/resource)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="055-provider-recipes-multi-providers-and-provider-functions.md">055 - Provider recipes, multi providers, and provider functions</a></td><td><a href="../lessons/056-injection-contexts-and-resource-lifetimes.md">Lesson</a></td><td><a href="../qnas/056-injection-contexts-and-resource-lifetimes.md">Q&amp;A</a></td><td><a href="057-rxjs-observables-subscriptions-and-stream-basics.md">057 - RxJS Observables, subscriptions, and stream basics</a></td>
+</tr>
+  </tbody>
+</table>

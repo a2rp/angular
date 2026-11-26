@@ -244,19 +244,23 @@ Ask whether the source completes by itself. Finite sources such as **of()** and 
 
 For component-owned work, prefer **AsyncPipe**, **toSignal()**, or **takeUntilDestroyed()**. For custom sources, return teardown that releases their resources.
 
-## Further reading
-
-- [RxJS glossary and semantics](https://rxjs.dev/guide/glossary-and-semantics)
-- [RxJS Subscription guide](https://rxjs.dev/guide/subscription)
-- [Observer API](https://rxjs.dev/api/index/interface/Observer)
-- [Subscription API](https://rxjs.dev/api/index/class/Subscription)
-- [RxJS subscribe argument guidance](https://rxjs.dev/deprecations/subscribe-arguments)
-- [Angular AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Angular toSignal() API](https://angular.dev/api/core/rxjs-interop/toSignal)
-- [Angular HttpClient Observables](https://angular.dev/guide/http/making-requests)
-
 ## Continue learning
 
 - Lesson: [RxJS Observables, subscriptions, and stream basics](../lessons/057-rxjs-observables-subscriptions-and-stream-basics.md)
 - Example: [RxJS Observables, subscriptions, and stream basics](../examples/057-rxjs-observables-subscriptions-and-stream-basics.md)
 - Next lesson: [RxJS operators for mapping and combining streams](../lessons/058-rxjs-operators-for-mapping-and-combining-streams.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="056-injection-contexts-and-resource-lifetimes.md">056 - Injection contexts and resource lifetimes</a></td><td><a href="../lessons/057-rxjs-observables-subscriptions-and-stream-basics.md">Lesson</a></td><td><a href="../examples/057-rxjs-observables-subscriptions-and-stream-basics.md">Example</a></td><td><a href="058-rxjs-operators-for-mapping-and-combining-streams.md">058 - RxJS operators for mapping and combining streams</a></td>
+</tr>
+  </tbody>
+</table>

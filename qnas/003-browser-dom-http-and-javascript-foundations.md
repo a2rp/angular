@@ -1,4 +1,4 @@
-﻿# Browser, DOM, HTTP, and JavaScript Foundations: Q&A
+# Browser, DOM, HTTP, and JavaScript Foundations: Q&A
 
 This Q&A accompanies [Chapter 3: Browser, DOM, HTTP, and JavaScript Foundations](../lessons/003-browser-dom-http-and-javascript-foundations.md).
 
@@ -174,14 +174,17 @@ No. Bundling or minifying does not make client code private. Move privileged API
 
 Open the Network panel and verify that the request URL and method are expected, the response status is successful, and the response body has the expected shape. Then inspect the Console and the component's state and template bindings.
 
-## References
+## Chapter navigation
 
-- [HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)
-- [HTTP methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods)
-- [HTTP status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
-- [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS)
-- [DOM anatomy](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Anatomy_of_the_DOM)
-- [Browser events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events)
-- [Using promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
-- [Angular templates](https://angular.dev/guide/templates)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="002-angular-compared-with-angularjs.md">002 - Angular Compared with AngularJS</a></td><td><a href="../lessons/003-browser-dom-http-and-javascript-foundations.md">Lesson</a></td><td><a href="../examples/003-browser-dom-http-and-javascript-foundations.md">Example</a></td><td><a href="004-typescript-essentials-values-types-and-inference.md">004 - TypeScript Essentials: Values, Types, and Inference</a></td>
+</tr>
+  </tbody>
+</table>

@@ -35,7 +35,7 @@ The Components view presents the rendered Angular component and directive hierar
 
 Angular DevTools needs Angular's development debugging hooks. A normal development server build is suitable. Optimized production builds remove debugging code and metadata to reduce bundle size, so an extension may not show the same component information there. Do not disable production optimization on a public deployment just to make DevTools work. Reproduce the problem locally or use a controlled, access-restricted diagnostic build.
 
-See the official [Angular DevTools overview](https://angular.dev/tools/devtools).
+See the official Angular DevTools overview.
 
 ## 3. Inspect signals and component state
 
@@ -43,7 +43,7 @@ The Components view helps connect rendered output to the state that produced it.
 
 Angular DevTools can display a signal dependency graph for supported Angular versions in development mode. The graph can show signals, computed values, and effects associated with the selected component. Meaningful debug names make nodes easier to identify. Use the graph to trace a surprising value through its dependencies; do not treat the displayed graph as a substitute for understanding the application's state ownership.
 
-Signal graph availability is version- and build-dependent. Consult the current [signals DevTools guide](https://angular.dev/tools/devtools/signals) when using it.
+Signal graph availability is version- and build-dependent. Consult the current signals DevTools guide when using it.
 
 ## 4. Profile change detection
 
@@ -59,7 +59,7 @@ Use the profiler to locate a cause before optimizing. Common follow-up actions i
 
 After a change, record the same interaction under comparable conditions. Profiling data is diagnostic evidence, not a universal performance score; development instrumentation and machine load affect measurements.
 
-The official [Profiler guide](https://angular.dev/tools/devtools/profiler) explains recordings, cycle views, and component execution details.
+The official Profiler guide explains recordings, cycle views, and component execution details.
 
 ## 5. Correlate framework and browser activity
 
@@ -82,7 +82,7 @@ enableProfiling();
 bootstrapApplication(AppComponent);
 ~~~
 
-Alternatively, when available in the browser console, call the Angular profiling hook there before recording. The integration is development-only; it is a way to inspect framework work alongside browser activity, not an always-on production monitor. See [Profiling with Chrome DevTools](https://angular.dev/best-practices/profiling-with-chrome-devtools) and [Angular performance best practices](https://angular.dev/best-practices/performance).
+Alternatively, when available in the browser console, call the Angular profiling hook there before recording. The integration is development-only; it is a way to inspect framework work alongside browser activity, not an always-on production monitor. See Profiling with Chrome DevTools and Angular performance best practices.
 
 ## 6. Diagnose errors at their source
 
@@ -90,13 +90,13 @@ Start with the earliest meaningful error. Later template or navigation failures 
 
 Handle errors where the application still has enough context to recover. For example, a form submission can show a retryable message, while an unexpected programming error should be reported with enough context for diagnosis. Angular's ErrorHandler is a useful reporting boundary for errors Angular surfaces to it; it does not automatically catch every exception thrown by arbitrary application code. Use local error handling for expected failures and use global reporting for unexpected failures.
 
-Angular's [error handling guidance](https://angular.dev/best-practices/error-handling) describes the framework boundary and recommended approach. Avoid logging credentials, access tokens, personal data, or full request bodies.
+Angular's error handling guidance describes the framework boundary and recommended approach. Avoid logging credentials, access tokens, personal data, or full request bodies.
 
 ## 7. Turn on useful compiler diagnostics
 
 Template type checking catches many mistakes before runtime. Keep strict template checking enabled in maintained applications. Angular extended diagnostics can warn about suspicious but syntactically valid template patterns, such as an uninvoked signal or an unused standalone import.
 
-Diagnostics are version-sensitive and new checks may appear in minor releases. Treat warnings as actionable review items, and configure severity deliberately rather than suppressing all diagnostics. See [Angular extended diagnostics](https://angular.dev/extended-diagnostics).
+Diagnostics are version-sensitive and new checks may appear in minor releases. Treat warnings as actionable review items, and configure severity deliberately rather than suppressing all diagnostics. See Angular extended diagnostics.
 
 ## 8. Use source maps with care
 
@@ -124,12 +124,17 @@ A diagnostic build should match the release configuration closely enough to repr
 - Handle expected failures locally and report unexpected errors with useful, privacy-conscious context.
 - Keep strict template checks and review extended diagnostics as Angular versions evolve.
 
-## Further reading
+## Chapter navigation
 
-- [Angular DevTools](https://angular.dev/tools/devtools)
-- [Angular DevTools Profiler](https://angular.dev/tools/devtools/profiler)
-- [Inspect signals in Angular DevTools](https://angular.dev/tools/devtools/signals)
-- [Angular performance best practices](https://angular.dev/best-practices/performance)
-- [Profiling with Chrome DevTools](https://angular.dev/best-practices/profiling-with-chrome-devtools)
-- [Angular error handling](https://angular.dev/best-practices/error-handling)
-- [Extended diagnostics](https://angular.dev/extended-diagnostics)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="108-end-to-end-testing-coverage-and-test-strategy.md">108 - End-to-End Testing, Coverage, and Test Strategy</a></td><td><a href="../qnas/109-angular-devtools-debugging-and-production-diagnostics.md">Q&amp;A</a></td><td><a href="../examples/109-angular-devtools-debugging-and-production-diagnostics.md">Example</a></td><td><a href="110-measure-performance-bundle-size-and-core-web-vitals.md">110 - Measure Performance, Bundle Size, and Core Web Vitals</a></td>
+</tr>
+  </tbody>
+</table>

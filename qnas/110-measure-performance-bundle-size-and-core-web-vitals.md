@@ -106,9 +106,17 @@ Record the route, build and commit, device class, browser, network profile, repr
 6. Check field data when available.
 7. Add or adjust budgets only with a clear baseline and purpose.
 
-## Further reading
+## Chapter navigation
 
-- [Angular performance best practices](https://angular.dev/best-practices/performance)
-- [Angular CLI build configuration and budgets](https://angular.dev/tools/cli/build)
-- [Google Web Vitals](https://web.dev/articles/vitals)
-- [Angular image optimization](https://angular.dev/best-practices/performance/image-optimization)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="109-angular-devtools-debugging-and-production-diagnostics.md">109 - Angular DevTools, Debugging, and Production Diagnostics</a></td><td><a href="../lessons/110-measure-performance-bundle-size-and-core-web-vitals.md">Lesson</a></td><td><a href="../examples/110-measure-performance-bundle-size-and-core-web-vitals.md">Example</a></td><td><a href="111-lazy-loading-and-deferrable-views-with-defer.md">111 - Lazy Loading and Deferrable Views with defer</a></td>
+</tr>
+  </tbody>
+</table>

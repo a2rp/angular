@@ -32,7 +32,7 @@ A typical setup flow is:
 ng e2e
 ~~~
 
-Use the Angular CLI's current [end-to-end testing guide](https://angular.dev/tools/cli/end-to-end) to select and configure a supported integration. Do not assume ng e2e is a built-in browser runner in every workspace; it invokes the project's configured target.
+Use the Angular CLI's current end-to-end testing guide to select and configure a supported integration. Do not assume ng e2e is a built-in browser runner in every workspace; it invokes the project's configured target.
 
 ## 3. Pick high-value journeys
 
@@ -87,4 +87,19 @@ Review test duration and failure history. Remove duplicate tests or replace brit
 
 Ask which high-impact journeys are not covered, whether failures are actionable, whether tests use isolated data, and which coverage gaps carry real risk. Update the suite when user flows or deployment architecture change.
 
-Angular documents [e2e testing setup](https://angular.dev/tools/cli/end-to-end) and [code coverage configuration](https://angular.dev/guide/testing/code-coverage). Playwright's official guide describes [browser test installation](https://playwright.dev/docs/intro) and [retrying web-first assertions](https://playwright.dev/docs/test-assertions).
+Angular documents e2e testing setup and code coverage configuration. Playwright's official guide describes browser test installation and retrying web-first assertions.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="107-test-routing-forms-accessibility-and-user-flows.md">107 - Test Routing, Forms, Accessibility, and User Flows</a></td><td><a href="../qnas/108-end-to-end-testing-coverage-and-test-strategy.md">Q&amp;A</a></td><td><a href="../examples/108-end-to-end-testing-coverage-and-test-strategy.md">Example</a></td><td><a href="109-angular-devtools-debugging-and-production-diagnostics.md">109 - Angular DevTools, Debugging, and Production Diagnostics</a></td>
+</tr>
+  </tbody>
+</table>

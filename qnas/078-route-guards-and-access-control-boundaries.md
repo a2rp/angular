@@ -107,10 +107,25 @@ No. Client code is delivered to the browser. Do not put secrets or authoritative
 
 ## 22. Where can I read the official API guidance?
 
-Start with the [Angular route guards guide](https://angular.dev/guide/routing/route-guards), then see the APIs for [CanActivateFn](https://angular.dev/api/router/CanActivateFn), [CanActivateChildFn](https://angular.dev/api/router/CanActivateChildFn), [CanDeactivateFn](https://angular.dev/api/router/CanDeactivateFn), [CanMatchFn](https://angular.dev/api/router/CanMatchFn), and [RedirectCommand](https://angular.dev/api/router/RedirectCommand).
+Start with the Angular route guards guide, then see the APIs for CanActivateFn, CanActivateChildFn, CanDeactivateFn, CanMatchFn, and RedirectCommand.
 
 ## Related material
 
 - [Lesson: Route guards and access control boundaries](../lessons/078-route-guards-and-access-control-boundaries.md)
 - [Example: Route guards and access control boundaries](../examples/078-route-guards-and-access-control-boundaries.md)
 - [Authentication, authorization, secrets, and browser storage](../lessons/118-authentication-authorization-secrets-and-browser-storage.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="077-navigate-programmatically-and-handle-navigation-results.md">077 - Navigate programmatically and handle navigation results</a></td><td><a href="../lessons/078-route-guards-and-access-control-boundaries.md">Lesson</a></td><td><a href="../examples/078-route-guards-and-access-control-boundaries.md">Example</a></td><td><a href="079-resolvers-route-data-and-loading-a-page-before-activation.md">079 - Resolvers, route data, and loading a page before activation</a></td>
+</tr>
+  </tbody>
+</table>

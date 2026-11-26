@@ -118,11 +118,17 @@ First verify that the production issue is reproducible and identify the exact de
 
 Changing code before identifying the failing layer. A symptom that looks like rendering can originate from stale state, a failed request, a route guard, a browser layout rule, or a third-party script. Gather a small amount of targeted evidence first.
 
-## Further reading
+## Chapter navigation
 
-- [Angular DevTools](https://angular.dev/tools/devtools)
-- [Angular DevTools Profiler](https://angular.dev/tools/devtools/profiler)
-- [Angular signals in DevTools](https://angular.dev/tools/devtools/signals)
-- [Angular performance best practices](https://angular.dev/best-practices/performance)
-- [Angular error handling](https://angular.dev/best-practices/error-handling)
-- [Angular extended diagnostics](https://angular.dev/extended-diagnostics)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="108-end-to-end-testing-coverage-and-test-strategy.md">108 - End-to-End Testing, Coverage, and Test Strategy</a></td><td><a href="../lessons/109-angular-devtools-debugging-and-production-diagnostics.md">Lesson</a></td><td><a href="../examples/109-angular-devtools-debugging-and-production-diagnostics.md">Example</a></td><td><a href="110-measure-performance-bundle-size-and-core-web-vitals.md">110 - Measure Performance, Bundle Size, and Core Web Vitals</a></td>
+</tr>
+  </tbody>
+</table>

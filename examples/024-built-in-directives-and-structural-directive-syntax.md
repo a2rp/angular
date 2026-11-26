@@ -338,9 +338,17 @@ The page initially shows a syntax hint and two tasks. Hiding the hint removes it
 - If a structural directive's local value is not available, review the directive's template context and its `let-` declaration. This example has no local context values.
 - Keep built-in control-flow syntax separate from asterisk directive syntax; the control-flow blocks need no directive import.
 
-## Official references
+## Chapter navigation
 
-- [Directives overview](https://angular.dev/guide/directives)
-- [Structural directives and microsyntax](https://angular.dev/guide/directives/structural-directives)
-- [Attribute directives](https://angular.dev/guide/directives/attribute-directives)
-- [Angular control flow](https://angular.dev/guide/templates/control-flow)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="023-template-references-ng-template-and-ngtemplateoutlet.md">023 - 23. Template references, ng-template, and ngTemplateOutlet</a></td><td><a href="../lessons/024-built-in-directives-and-structural-directive-syntax.md">Lesson</a></td><td><a href="../qnas/024-built-in-directives-and-structural-directive-syntax.md">Q&amp;A</a></td><td><a href="025-signal-inputs-required-inputs-and-input-transforms.md">025 - 25. Signal inputs, required inputs, and input transforms</a></td>
+</tr>
+  </tbody>
+</table>

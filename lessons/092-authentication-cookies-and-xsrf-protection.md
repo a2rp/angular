@@ -201,12 +201,17 @@ Sending secrets to untrusted or cross-origin destinations can leak credentials. 
 
 For cookie-based authentication, the backend issues and validates the session and CSRF tokens. Angular can copy a JavaScript-readable XSRF cookie into a request header for eligible same-origin mutations. Secure cookie attributes, correct CORS configuration, server-side authorization, and XSS defenses complete the design.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/092-authentication-cookies-and-xsrf-protection.md
-- Examples: examples/092-authentication-cookies-and-xsrf-protection.md
-- Angular security and XSRF: https://angular.dev/best-practices/security
-- Angular HttpClient setup: https://angular.dev/guide/http/setup
-- Angular XSRF configuration API: https://angular.dev/api/common/http/withXsrfConfiguration
-- MDN Set-Cookie header: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie
-- OWASP CSRF Prevention Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="091-cancel-requests-and-prevent-stale-response-races.md">091 - Cancel Requests and Prevent Stale Response Races</a></td><td><a href="../qnas/092-authentication-cookies-and-xsrf-protection.md">Q&amp;A</a></td><td><a href="../examples/092-authentication-cookies-and-xsrf-protection.md">Example</a></td><td><a href="093-caching-revalidation-and-transfer-cache.md">093 - Caching, Revalidation, and Transfer Cache</a></td>
+</tr>
+  </tbody>
+</table>

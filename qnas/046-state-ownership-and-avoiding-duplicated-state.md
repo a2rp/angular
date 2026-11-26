@@ -142,8 +142,23 @@ Ask whether it can always be recomputed from existing state and whether it has a
 
 ## 36. Which Angular documentation explains these APIs?
 
-- [Signals and computed values](https://angular.dev/guide/signals)
-- [Dependent state with `linkedSignal`](https://angular.dev/guide/signals/linked-signal)
-- [Effects and when to use them](https://angular.dev/guide/signals/effect)
-- [Dependency provider configuration](https://angular.dev/guide/di/dependency-injection-providers)
-- [Hierarchical dependency injection](https://angular.dev/guide/di/hierarchical-dependency-injection)
+- Signals and computed values
+- [Dependent state with `linkedSignal`](`https://angular.dev/guide/signals/linked-signal`)
+- Effects and when to use them
+- Dependency provider configuration
+- Hierarchical dependency injection
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="045-zoneless-angular-applications.md">045 - 45. Zoneless Angular applications</a></td><td><a href="../lessons/046-state-ownership-and-avoiding-duplicated-state.md">Lesson</a></td><td><a href="../examples/046-state-ownership-and-avoiding-duplicated-state.md">Example</a></td><td><a href="047-immutable-state-updates-for-arrays-and-objects.md">047 - Immutable state updates for arrays and objects</a></td>
+</tr>
+  </tbody>
+</table>

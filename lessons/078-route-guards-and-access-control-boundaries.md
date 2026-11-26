@@ -162,7 +162,7 @@ A client guard improves navigation behavior, but it cannot grant or deny access 
 3. The API must validate the session or credential and check the requested operation against the user’s permissions.
 4. The API should return an appropriate denial when authorization fails. The Angular app can then show a useful error or sign-in route.
 
-Do not place passwords, API secrets, or authoritative permission decisions in a guard or bundle. A client may keep display-oriented session state to choose a route, but the server remains authoritative. Review [Angular’s security guide](https://angular.dev/best-practices/security) and the [route guards guide](https://angular.dev/guide/routing/route-guards) alongside this lesson.
+Do not place passwords, API secrets, or authoritative permission decisions in a guard or bundle. A client may keep display-oriented session state to choose a route, but the server remains authoritative. Review Angular’s security guide and the route guards guide alongside this lesson.
 
 ## Practical checklist
 
@@ -183,7 +183,22 @@ Before adding a guard, ask:
 - [Navigate programmatically and handle navigation results](077-navigate-programmatically-and-handle-navigation-results.md)
 - [Resolvers, route data, and loading a page before activation](079-resolvers-route-data-and-loading-a-page-before-activation.md)
 - [Authentication, authorization, secrets, and browser storage](118-authentication-authorization-secrets-and-browser-storage.md)
-- [Official Angular route guards guide](https://angular.dev/guide/routing/route-guards)
-- [CanActivateFn API](https://angular.dev/api/router/CanActivateFn)
-- [CanMatchFn API](https://angular.dev/api/router/CanMatchFn)
-- [RedirectCommand API](https://angular.dev/api/router/RedirectCommand)
+- Official Angular route guards guide
+- CanActivateFn API
+- CanMatchFn API
+- RedirectCommand API
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="077-navigate-programmatically-and-handle-navigation-results.md">077 - Navigate programmatically and handle navigation results</a></td><td><a href="../qnas/078-route-guards-and-access-control-boundaries.md">Q&amp;A</a></td><td><a href="../examples/078-route-guards-and-access-control-boundaries.md">Example</a></td><td><a href="079-resolvers-route-data-and-loading-a-page-before-activation.md">079 - Resolvers, route data, and loading a page before activation</a></td>
+</tr>
+  </tbody>
+</table>

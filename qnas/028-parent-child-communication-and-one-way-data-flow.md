@@ -1,4 +1,4 @@
-﻿# 28. Q&A: Parent-child communication and one-way data flow
+# 28. Q&A: Parent-child communication and one-way data flow
 
 ## 1. What does one-way data flow mean in a component tree?
 
@@ -168,4 +168,19 @@ Check whether the child is genuinely editing one shared value. If so, a model in
 
 ## 35. Where can I read Angular's official guidance?
 
-See Angular's [input properties guide](https://angular.dev/guide/components/inputs), [custom events with outputs](https://angular.dev/guide/components/outputs), and [dependency provider guide](https://angular.dev/guide/di/dependency-injection-providers).
+See Angular's input properties guide, custom events with outputs, and dependency provider guide.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="027-model-inputs-and-component-level-two-way-binding.md">027 - 27. Model inputs and component-level two-way binding</a></td><td><a href="../lessons/028-parent-child-communication-and-one-way-data-flow.md">Lesson</a></td><td><a href="../examples/028-parent-child-communication-and-one-way-data-flow.md">Example</a></td><td><a href="029-content-projection-and-multiple-slots.md">029 - 29. Content projection and multiple slots</a></td>
+</tr>
+  </tbody>
+</table>

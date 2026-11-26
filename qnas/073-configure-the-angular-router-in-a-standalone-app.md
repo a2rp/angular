@@ -168,10 +168,17 @@ Import the routes into the existing app config, add `provideRouter(routes)` to i
 - [ ] The wildcard route is last.
 - [ ] Production hosting is configured to serve the app for deep client routes.
 
-## References
+## Chapter navigation
 
-- [Angular routing overview](https://angular.dev/guide/routing)
-- [Define routes](https://angular.dev/guide/routing/define-routes)
-- [Show routes with outlets](https://angular.dev/guide/routing/show-routes-with-outlets)
-- [provideRouter() API](https://angular.dev/api/router/provideRouter)
-- [Router reference](https://angular.dev/guide/routing/router-reference)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="072-signal-forms-schemas-validation-and-custom-controls.md">072 - Signal Forms: schemas, validation, and custom controls</a></td><td><a href="../lessons/073-configure-the-angular-router-in-a-standalone-app.md">Lesson</a></td><td><a href="../examples/073-configure-the-angular-router-in-a-standalone-app.md">Example</a></td><td><a href="074-routeroutlet-routerlink-and-active-route-links.md">074 - RouterOutlet, RouterLink, and active route links</a></td>
+</tr>
+  </tbody>
+</table>

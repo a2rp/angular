@@ -80,7 +80,7 @@ features/
 
 A feature may still contain focused subfolders such as pages, data-access, or ui when that improves clarity. The important boundary is the product capability, not the exact set of folder names.
 
-Angular's style guide recommends grouping closely related files and organizing code by feature areas. It also recommends one main concept per file. See the [Angular style guide](https://angular.dev/style-guide).
+Angular's style guide recommends grouping closely related files and organizing code by feature areas. It also recommends one main concept per file. See the Angular style guide.
 
 ## 3. Separate feature-owned and application-wide code
 
@@ -159,7 +159,7 @@ export const ORDER_ROUTES: Routes = [
 ];
 ~~~
 
-Lazy loading affects when code is loaded; it does not automatically create good architecture. A route should still have clear ownership, sensible dependencies, and appropriate loading and error states. Follow the current Angular [routing guide](https://angular.dev/guide/routing).
+Lazy loading affects when code is loaded; it does not automatically create good architecture. A route should still have clear ownership, sensible dependencies, and appropriate loading and error states. Follow the current Angular routing guide.
 
 ## 6. Choose provider scope deliberately
 
@@ -186,3 +186,18 @@ Before adding or moving code, ask:
 7. Is the new layer solving a real maintenance problem?
 
 Feature-based architecture is successful when it reduces the cost of understanding and changing the application. A small, consistent structure is better than a large directory taxonomy that no one follows.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="096-server-sent-events-websockets-and-live-updates.md">096 - Server-Sent Events, WebSockets, and Live Updates</a></td><td><a href="../qnas/097-feature-based-application-architecture.md">Q&amp;A</a></td><td><a href="../examples/097-feature-based-application-architecture.md">Example</a></td><td><a href="098-organize-projects-libraries-and-shared-code.md">098 - Organize Projects, Libraries, and Shared Code</a></td>
+</tr>
+  </tbody>
+</table>

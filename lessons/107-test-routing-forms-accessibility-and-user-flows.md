@@ -75,10 +75,17 @@ Automated DOM assertions can detect missing labels, incorrect state attributes, 
 
 Use automated checks, keyboard review, and screen-reader review together. Test validation and navigation states, not only the default page.
 
-## Further reading
+## Chapter navigation
 
-- [Testing routing and navigation](https://angular.dev/guide/routing/testing)
-- [Component testing scenarios](https://angular.dev/guide/testing/component-scenarios)
-- [Angular form validation](https://angular.dev/guide/forms/form-validation)
-- [Angular accessibility best practices](https://angular.dev/best-practices/a11y)
-- [RouterTestingHarness API](https://angular.dev/api/router/testing/RouterTestingHarness)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="106-test-services-dependency-injection-and-http-requests.md">106 - Test Services, Dependency Injection, and HTTP Requests</a></td><td><a href="../qnas/107-test-routing-forms-accessibility-and-user-flows.md">Q&amp;A</a></td><td><a href="../examples/107-test-routing-forms-accessibility-and-user-flows.md">Example</a></td><td><a href="108-end-to-end-testing-coverage-and-test-strategy.md">108 - End-to-End Testing, Coverage, and Test Strategy</a></td>
+</tr>
+  </tbody>
+</table>

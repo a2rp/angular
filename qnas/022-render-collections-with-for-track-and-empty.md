@@ -1,4 +1,4 @@
-﻿# Q&A: Render Collections with for, track, and empty
+# Q&A: Render Collections with for, track, and empty
 
 ## @for basics
 
@@ -182,10 +182,17 @@ Use a stable, unique identifier from each item, such as track item.id.
 
 Track logical identity, not changing position or display text. Use @empty for the no-items case, and use contextual variables only for presentation and iteration-specific logic.
 
-## Further reading
+## Chapter navigation
 
-- [Angular control flow](https://angular.dev/guide/templates/control-flow)
-- [Angular @for API](https://angular.dev/api/core/%40for)
-- [Angular expression syntax](https://angular.dev/guide/templates/expression-syntax)
-- [Angular error NG0955: duplicate tracking keys](https://angular.dev/errors/NG0955)
-- [Angular error NG0956: track expression recreates the DOM](https://angular.dev/errors/NG0956)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="021-built-in-control-flow-with-if-and-switch.md">021 - 21. Built-in control flow with if and switch</a></td><td><a href="../lessons/022-render-collections-with-for-track-and-empty.md">Lesson</a></td><td><a href="../examples/022-render-collections-with-for-track-and-empty.md">Example</a></td><td><a href="023-template-references-ng-template-and-ngtemplateoutlet.md">023 - 23. Template references, ng-template, and ngTemplateOutlet</a></td>
+</tr>
+  </tbody>
+</table>

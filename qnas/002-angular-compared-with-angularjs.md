@@ -1,4 +1,4 @@
-﻿# Angular Compared with AngularJS: Q&A
+# Angular Compared with AngularJS: Q&A
 
 This Q&A accompanies [Chapter 2: Angular Compared with AngularJS](../lessons/002-angular-compared-with-angularjs.md).
 
@@ -22,7 +22,7 @@ No. They share history and broad ideas such as templates, directives, dependency
 
 ### 5. Is AngularJS still officially supported?
 
-The AngularJS project ended official long-term support in January 2022. Existing applications can continue running, but their owners must account for framework maintenance, security, browser compatibility, and dependency risks. See the [official AngularJS migration guide](https://docs.angularjs.org/guide/migration).
+The AngularJS project ended official long-term support in January 2022. Existing applications can continue running, but their owners must account for framework maintenance, security, browser compatibility, and dependency risks. See the official AngularJS migration guide.
 
 ## Architecture and terminology
 
@@ -161,3 +161,18 @@ Shared ideas can help with orientation, but framework APIs, component architectu
 ### 37. Where should you look for authoritative guidance on a specific project's migration?
 
 Start with the official AngularJS migration guide and the official Angular documentation. Then check the specific Angular and AngularJS versions, dependencies, and project constraints before deciding how to apply that guidance.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="001-angular-and-component-based-web-applications.md">001 - Angular and Component-Based Web Applications</a></td><td><a href="../lessons/002-angular-compared-with-angularjs.md">Lesson</a></td><td><a href="../examples/002-angular-compared-with-angularjs.md">Example</a></td><td><a href="003-browser-dom-http-and-javascript-foundations.md">003 - Browser, DOM, HTTP, and JavaScript Foundations</a></td>
+</tr>
+  </tbody>
+</table>

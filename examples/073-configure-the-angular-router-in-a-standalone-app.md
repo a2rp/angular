@@ -185,10 +185,17 @@ If a route does not appear:
 6. Keep the wildcard after all normal paths.
 7. If direct refresh of a deep URL fails only after deployment, configure the web server's application fallback.
 
-## References
+## Chapter navigation
 
-- [Angular routing overview](https://angular.dev/guide/routing)
-- [Define routes](https://angular.dev/guide/routing/define-routes)
-- [Show routes with outlets](https://angular.dev/guide/routing/show-routes-with-outlets)
-- [provideRouter() API](https://angular.dev/api/router/provideRouter)
-- [Router reference](https://angular.dev/guide/routing/router-reference)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="072-signal-forms-schemas-validation-and-custom-controls.md">072 - Signal Forms: schemas, validation, and custom controls</a></td><td><a href="../lessons/073-configure-the-angular-router-in-a-standalone-app.md">Lesson</a></td><td><a href="../qnas/073-configure-the-angular-router-in-a-standalone-app.md">Q&amp;A</a></td><td><a href="074-routeroutlet-routerlink-and-active-route-links.md">074 - RouterOutlet, RouterLink, and active route links</a></td>
+</tr>
+  </tbody>
+</table>

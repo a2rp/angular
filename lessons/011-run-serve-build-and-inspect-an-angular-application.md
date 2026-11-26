@@ -1,4 +1,4 @@
-﻿# Run, Serve, Build, and Inspect an Angular Application
+# Run, Serve, Build, and Inspect an Angular Application
 
 Once an Angular workspace exists, the usual workflow is to start the development server, inspect the application in a browser, make a source change, and build the configured project. These commands use targets in angular.json, so knowing the difference between the development server and a build helps explain what the CLI is doing.
 
@@ -188,15 +188,17 @@ Check the build target's outputPath and any server-rendering configuration. The 
 - Use browser developer tools to inspect runtime behavior after compilation.
 - A successful build does not deploy the app or prove the complete user experience.
 
-## Further reading
+## Chapter navigation
 
-- [Angular CLI ng serve](https://angular.dev/cli/serve)
-- [Angular CLI ng build](https://angular.dev/cli/build)
-- [Angular workspace configuration](https://angular.dev/reference/configs/workspace-config)
-- [Angular CLI builders](https://angular.dev/tools/cli/cli-builder)
-- [Angular deployment](https://angular.dev/tools/cli/deployment)
-- [Angular build environments](https://angular.dev/tools/cli/environments)
-
----
-
-[← Lesson 010: Workspace Structure, Source Files, and Configuration](010-workspace-structure-source-files-and-configuration.md) | [Q&A 011 →](../qnas/011-run-serve-build-and-inspect-an-angular-application.md) | [Examples 011 →](../examples/011-run-serve-build-and-inspect-an-angular-application.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="010-workspace-structure-source-files-and-configuration.md">010 - Workspace Structure, Source Files, and Configuration</a></td><td><a href="../qnas/011-run-serve-build-and-inspect-an-angular-application.md">Q&amp;A</a></td><td><a href="../examples/011-run-serve-build-and-inspect-an-angular-application.md">Example</a></td><td><a href="012-bootstrap-applicationconfig-and-application-providers.md">012 - 12. Bootstrap, ApplicationConfig, and application providers</a></td>
+</tr>
+  </tbody>
+</table>

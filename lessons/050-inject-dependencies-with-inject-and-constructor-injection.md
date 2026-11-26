@@ -363,17 +363,24 @@ Before injecting a dependency, check:
 - Optional injection can return `null`, so handle it explicitly.
 - Both styles use the same injector hierarchy; changing injection syntax does not change provider scope.
 
-## Further reading
-
-- [Dependency-injection overview](https://angular.dev/guide/di)
-- [The `inject()` API](https://angular.dev/api/core/inject)
-- [Injection context](https://angular.dev/guide/di/dependency-injection-context)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Hierarchical injectors](https://angular.dev/guide/di/hierarchical-dependency-injection)
-
 ## Continue learning
 
 - Previous: [Services and the injectable pattern](049-services-and-the-injectable-pattern.md)
 - Q&A: [Inject dependencies with inject and constructor injection](../qnas/050-inject-dependencies-with-inject-and-constructor-injection.md)
 - Example: [Inject dependencies with inject and constructor injection](../examples/050-inject-dependencies-with-inject-and-constructor-injection.md)
 - Next: [Hierarchical dependency injection](051-hierarchical-dependency-injection.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="049-services-and-the-injectable-pattern.md">049 - Services and the injectable pattern</a></td><td><a href="../qnas/050-inject-dependencies-with-inject-and-constructor-injection.md">Q&amp;A</a></td><td><a href="../examples/050-inject-dependencies-with-inject-and-constructor-injection.md">Example</a></td><td><a href="051-hierarchical-dependency-injection.md">051 - Hierarchical dependency injection</a></td>
+</tr>
+  </tbody>
+</table>

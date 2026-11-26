@@ -217,10 +217,17 @@ Before using a custom control, confirm that:
 - The widget has an accessible name, instructions, keyboard behavior, and visible error feedback.
 - Reset, disable, enable, and programmatic value updates all display correctly.
 
-## Further reading
+## Chapter navigation
 
-- [ControlValueAccessor API](https://angular.dev/api/forms/ControlValueAccessor)
-- [NG_VALUE_ACCESSOR API](https://angular.dev/api/forms/NG_VALUE_ACCESSOR)
-- [Angular reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [Angular form validation](https://angular.dev/guide/forms/form-validation)
-- [Validator interface](https://angular.dev/api/forms/Validator)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="069-accessible-labels-instructions-and-validation-messages.md">069 - Accessible labels, instructions, and validation messages</a></td><td><a href="../qnas/070-custom-controls-with-controlvalueaccessor.md">Q&amp;A</a></td><td><a href="../examples/070-custom-controls-with-controlvalueaccessor.md">Example</a></td><td><a href="071-signal-forms-models-fields-and-form-setup.md">071 - Signal Forms: models, fields, and form setup</a></td>
+</tr>
+  </tbody>
+</table>

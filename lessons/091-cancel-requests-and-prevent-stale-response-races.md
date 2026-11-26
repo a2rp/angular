@@ -219,10 +219,17 @@ Latest-wins is correct for searches and many reads. It may be wrong when every s
 
 Use switchMap when newer input makes older request results irrelevant. HttpClient unsubscription can abort an in-flight client request, while the stream structure prevents stale results from reaching the UI. Choose another operator when the application must preserve every operation, and never assume client cancellation rolls back server-side effects.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/091-cancel-requests-and-prevent-stale-response-races.md
-- Examples: examples/091-cancel-requests-and-prevent-stale-response-races.md
-- Angular making HTTP requests and cancelling subscriptions: https://angular.dev/guide/http/making-requests
-- Angular takeUntilDestroyed: https://angular.dev/ecosystem/rxjs-interop/take-until-destroyed
-- RxJS switchMap: https://rxjs.dev/api/operators/switchMap
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="090-http-errors-retry-policy-and-timeout-handling.md">090 - HTTP Errors, Retry Policy, and Timeout Handling</a></td><td><a href="../qnas/091-cancel-requests-and-prevent-stale-response-races.md">Q&amp;A</a></td><td><a href="../examples/091-cancel-requests-and-prevent-stale-response-races.md">Example</a></td><td><a href="092-authentication-cookies-and-xsrf-protection.md">092 - Authentication, Cookies, and XSRF Protection</a></td>
+</tr>
+  </tbody>
+</table>

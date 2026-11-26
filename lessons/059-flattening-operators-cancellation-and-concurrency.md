@@ -253,20 +253,24 @@ When called inside an injection context such as a constructor, **takeUntilDestro
 - **Manually subscribing without a lifecycle owner:** use **AsyncPipe**, **toSignal()**, or **takeUntilDestroyed()** as appropriate.
 - **Forgetting inner errors:** an error can terminate the flattened output; choose an error-handling strategy for the stream's intended lifetime.
 
-## Further reading
-
-- [RxJS switchMap() API](https://rxjs.dev/api/operators/switchMap)
-- [RxJS mergeMap() API](https://rxjs.dev/api/operators/mergeMap)
-- [RxJS concatMap() API](https://rxjs.dev/api/operators/concatMap)
-- [RxJS exhaustMap() API](https://rxjs.dev/api/operators/exhaustMap)
-- [RxJS mergeMap() concurrency guide](https://rxjs.dev/api/operators/mergeMap)
-- [Angular HttpClient Observables and cancellation](https://angular.dev/guide/http/making-requests)
-- [Angular takeUntilDestroyed() API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
-- [Angular RxJS cleanup guide](https://angular.dev/ecosystem/rxjs-interop/take-until-destroyed)
-
 ## Continue learning
 
 - Previous: [RxJS operators for mapping and combining streams](058-rxjs-operators-for-mapping-and-combining-streams.md)
 - Q&A: [Flattening operators, cancellation, and concurrency](../qnas/059-flattening-operators-cancellation-and-concurrency.md)
 - Example: [Flattening operators, cancellation, and concurrency](../examples/059-flattening-operators-cancellation-and-concurrency.md)
 - Next: [Error handling, cleanup, and takeUntilDestroyed](060-error-handling-cleanup-and-takeuntildestroyed.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="058-rxjs-operators-for-mapping-and-combining-streams.md">058 - RxJS operators for mapping and combining streams</a></td><td><a href="../qnas/059-flattening-operators-cancellation-and-concurrency.md">Q&amp;A</a></td><td><a href="../examples/059-flattening-operators-cancellation-and-concurrency.md">Example</a></td><td><a href="060-error-handling-cleanup-and-takeuntildestroyed.md">060 - Error handling, cleanup, and takeUntilDestroyed</a></td>
+</tr>
+  </tbody>
+</table>

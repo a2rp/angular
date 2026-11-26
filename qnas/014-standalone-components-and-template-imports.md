@@ -1,4 +1,4 @@
-﻿# Q&A: Standalone Components and Template Imports
+# Q&A: Standalone Components and Template Imports
 
 ## Standalone components
 
@@ -150,9 +150,17 @@ Usually not for a new standalone app. Direct imports make dependencies explicit.
 
 Make it standalone, identify its current NgModule template dependencies, and list those dependencies in its own imports array. Then update consumers to import the component directly and check the build for dependencies that were previously inherited from module scope.
 
-## Further reading
+## Chapter navigation
 
-- [Using components and template imports](https://angular.dev/guide/components/importing)
-- [Component decorator API](https://angular.dev/api/core/Component)
-- [NgModules overview](https://angular.dev/guide/ngmodules/overview)
-- [Standalone migration guide](https://angular.dev/reference/migrations/standalone)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="013-components-metadata-and-component-boundaries.md">013 - 13. Components, metadata, and component boundaries</a></td><td><a href="../lessons/014-standalone-components-and-template-imports.md">Lesson</a></td><td><a href="../examples/014-standalone-components-and-template-imports.md">Example</a></td><td><a href="015-selectors-and-the-component-host-element.md">015 - 15. Selectors and the component host element</a></td>
+</tr>
+  </tbody>
+</table>

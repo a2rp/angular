@@ -127,10 +127,17 @@ No. Cancellation is appropriate when old work is no longer useful. Some operatio
 
 Use switchMap for latest-value-wins reads, lifecycle-bound cleanup for manual subscriptions, and explicit state for loading and errors. Treat client cancellation as client-side cleanup, not as proof that the server has undone a mutation.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/091-cancel-requests-and-prevent-stale-response-races.md
-- Examples: examples/091-cancel-requests-and-prevent-stale-response-races.md
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- Angular takeUntilDestroyed: https://angular.dev/ecosystem/rxjs-interop/take-until-destroyed
-- RxJS switchMap: https://rxjs.dev/api/operators/switchMap
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="090-http-errors-retry-policy-and-timeout-handling.md">090 - HTTP Errors, Retry Policy, and Timeout Handling</a></td><td><a href="../lessons/091-cancel-requests-and-prevent-stale-response-races.md">Lesson</a></td><td><a href="../examples/091-cancel-requests-and-prevent-stale-response-races.md">Example</a></td><td><a href="092-authentication-cookies-and-xsrf-protection.md">092 - Authentication, Cookies, and XSRF Protection</a></td>
+</tr>
+  </tbody>
+</table>

@@ -96,9 +96,17 @@ That route is usually a poor fit for public prerendering. Build-time HTML is sha
 
 Confirm that it supports the build's output type, direct route requests, static asset serving, request-time execution if SSR routes exist, required Node/runtime versions, and the desired cache behavior.
 
-## Further reading
+## Chapter navigation
 
-- [Angular SSR and hybrid rendering](https://angular.dev/guide/ssr)
-- [Angular prerendering and fallbacks](https://angular.dev/guide/prerendering)
-- [Angular ServerRoute API](https://angular.dev/api/ssr/ServerRoute)
-- [Angular provideServerRendering API](https://angular.dev/api/ssr/provideServerRendering)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="113-client-rendering-server-rendering-and-prerendering.md">113 - Client Rendering, Server Rendering, and Prerendering</a></td><td><a href="../lessons/114-set-up-server-side-rendering-and-hybrid-route-rendering.md">Lesson</a></td><td><a href="../examples/114-set-up-server-side-rendering-and-hybrid-route-rendering.md">Example</a></td><td><a href="115-hydration-event-replay-and-incremental-hydration.md">115 - Hydration, Event Replay, and Incremental Hydration</a></td>
+</tr>
+  </tbody>
+</table>

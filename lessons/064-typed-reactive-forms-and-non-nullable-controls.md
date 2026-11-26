@@ -270,10 +270,17 @@ The form type should model actual values and reset behavior. Validation is a sep
 - Work through the [complete example](../examples/064-typed-reactive-forms-and-non-nullable-controls.md).
 - Revisit [Reactive forms with FormControl and FormGroup](063-reactive-forms-with-formcontrol-and-formgroup.md).
 
-## Official references
+## Chapter navigation
 
-- [Strictly typed reactive forms](https://angular.dev/guide/forms/typed-forms)
-- [FormControl API](https://angular.dev/api/forms/FormControl)
-- [FormBuilder API](https://angular.dev/api/forms/FormBuilder)
-- [NonNullableFormBuilder API](https://angular.dev/api/forms/NonNullableFormBuilder)
-- [FormGroup API](https://angular.dev/api/forms/FormGroup)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="063-reactive-forms-with-formcontrol-and-formgroup.md">063 - Reactive forms with FormControl and FormGroup</a></td><td><a href="../qnas/064-typed-reactive-forms-and-non-nullable-controls.md">Q&amp;A</a></td><td><a href="../examples/064-typed-reactive-forms-and-non-nullable-controls.md">Example</a></td><td><a href="065-formarray-and-dynamic-form-structures.md">065 - FormArray and dynamic form structures</a></td>
+</tr>
+  </tbody>
+</table>

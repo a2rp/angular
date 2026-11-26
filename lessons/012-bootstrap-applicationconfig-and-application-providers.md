@@ -1,4 +1,4 @@
-﻿# 12. Bootstrap, ApplicationConfig, and application providers
+# 12. Bootstrap, ApplicationConfig, and application providers
 
 A browser needs an entry point before it can render an Angular application. In a modern standalone application, that entry point is usually the call to `bootstrapApplication` in `main.ts`. This lesson explains how that call starts the root component, how `ApplicationConfig` supplies application-wide providers, and how a dependency token can make a shared value available throughout the app.
 
@@ -215,14 +215,21 @@ Use the configuration created for your Angular version as the starting point. Ne
 - [ ] Existing generated providers are preserved.
 - [ ] Browser configuration contains no secrets.
 
-## Further reading
-
-- [bootstrapApplication API](https://angular.dev/api/platform-browser/bootstrapApplication)
-- [ApplicationConfig API](https://angular.dev/api/core/ApplicationConfig)
-- [Define dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Dependency injection providers](https://angular.dev/guide/di/dependency-injection-providers)
-- [Component overview](https://angular.dev/guide/components)
-
 ## Next lesson
 
 Continue with [Components, metadata, and component boundaries](013-components-metadata-and-component-boundaries.md).
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="011-run-serve-build-and-inspect-an-angular-application.md">011 - Run, Serve, Build, and Inspect an Angular Application</a></td><td><a href="../qnas/012-bootstrap-applicationconfig-and-application-providers.md">Q&amp;A</a></td><td><a href="../examples/012-bootstrap-applicationconfig-and-application-providers.md">Example</a></td><td><a href="013-components-metadata-and-component-boundaries.md">013 - 13. Components, metadata, and component boundaries</a></td>
+</tr>
+  </tbody>
+</table>

@@ -168,9 +168,17 @@ Keep the pipe and directive focused on their Angular integration. Move reusable 
 
 See [Example 36](../examples/036-custom-pipes-attribute-directives-and-reusable-behavior.md). The concepts and trade-offs are explained in [Lesson 36](../lessons/036-custom-pipes-attribute-directives-and-reusable-behavior.md).
 
-## Further reading
+## Chapter navigation
 
-- [Angular pipes guide](https://angular.dev/guide/templates/pipes)
-- [Pipe API](https://angular.dev/api/core/Pipe)
-- [Attribute directives guide](https://angular.dev/guide/directives/attribute-directives)
-- [Directive composition API](https://angular.dev/guide/directives/directive-composition-api)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="035-built-in-pipes-and-the-async-pipe.md">035 - 35. Built-in pipes and the async pipe</a></td><td><a href="../lessons/036-custom-pipes-attribute-directives-and-reusable-behavior.md">Lesson</a></td><td><a href="../examples/036-custom-pipes-attribute-directives-and-reusable-behavior.md">Example</a></td><td><a href="037-writable-signals-and-updating-signal-state.md">037 - 37. Writable signals and updating signal state</a></td>
+</tr>
+  </tbody>
+</table>

@@ -155,10 +155,17 @@ Then open the same routes in a browser and verify the client application starts 
 
 SSR adds server request handling. Keep Angular packages on supported security patches, and deploy behind a correctly configured proxy. Treat forwarded host and protocol headers according to the platform's trusted-proxy configuration. Do not construct absolute URLs or cache keys from unvalidated request headers in custom server code.
 
-## References
+## Chapter navigation
 
-- [Angular SSR setup](https://angular.dev/guide/ssr)
-- [Angular prerendering and fallback strategies](https://angular.dev/guide/prerendering)
-- [ServerRoute API](https://angular.dev/api/ssr/ServerRoute)
-- [provideServerRendering API](https://angular.dev/api/ssr/provideServerRendering)
-- [Angular security best practices](https://angular.dev/best-practices/security)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="113-client-rendering-server-rendering-and-prerendering.md">113 - Client Rendering, Server Rendering, and Prerendering</a></td><td><a href="../lessons/114-set-up-server-side-rendering-and-hybrid-route-rendering.md">Lesson</a></td><td><a href="../qnas/114-set-up-server-side-rendering-and-hybrid-route-rendering.md">Q&amp;A</a></td><td><a href="115-hydration-event-replay-and-incremental-hydration.md">115 - Hydration, Event Replay, and Incremental Hydration</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Examples: Parent-child communication and one-way data flow
+# Examples: Parent-child communication and one-way data flow
 
 Build a task list with one parent and two child component types. The parent owns the task collection. Each task row receives one task through an input and emits toggle or delete requests. A sibling summary receives counts from the same parent.
 
@@ -361,3 +361,18 @@ The event bindings are on the components that declare the outputs. Each row repo
 - A row can request a toggle or deletion, but does not mutate its input.
 - The parent updates the collection immutably and distributes the result through inputs.
 - Adding, toggling, and deleting tasks updates both the list and the sibling summary.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="027-model-inputs-and-component-level-two-way-binding.md">027 - 27. Model inputs and component-level two-way binding</a></td><td><a href="../lessons/028-parent-child-communication-and-one-way-data-flow.md">Lesson</a></td><td><a href="../qnas/028-parent-child-communication-and-one-way-data-flow.md">Q&amp;A</a></td><td><a href="029-content-projection-and-multiple-slots.md">029 - 29. Content projection and multiple slots</a></td>
+</tr>
+  </tbody>
+</table>

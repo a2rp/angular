@@ -292,19 +292,24 @@ ApplicationConfig and route configuration can also register a different provider
 - **Returning Provider[] from an environment-only helper:** prefer makeEnvironmentProviders and EnvironmentProviders when a helper is meant for application or route injectors.
 - **Putting a token factory at root for route-specific configuration:** root factories resolve in the root injector context. Register an explicit route-level provider if the value varies by route.
 
-## Further reading
-
-- [InjectionToken API](https://angular.dev/api/core/InjectionToken)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Injection context](https://angular.dev/guide/di/dependency-injection-context)
-- [makeEnvironmentProviders API](https://angular.dev/api/core/makeEnvironmentProviders)
-- [ApplicationConfig API](https://angular.dev/api/core/ApplicationConfig)
-- [bootstrapApplication API](https://angular.dev/api/platform-browser/bootstrapApplication)
-- [Hierarchical dependency injection](https://angular.dev/guide/di/hierarchical-dependency-injection)
-
 ## Continue learning
 
 - Previous: [Component-scoped and route-scoped providers](053-component-scoped-and-route-scoped-providers.md)
 - Q&A: [InjectionToken and typed application configuration](../qnas/054-injectiontoken-and-typed-application-configuration.md)
 - Example: [InjectionToken and typed application configuration](../examples/054-injectiontoken-and-typed-application-configuration.md)
 - Next: [Provider recipes, multi providers, and provider functions](055-provider-recipes-multi-providers-and-provider-functions.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="053-component-scoped-and-route-scoped-providers.md">053 - Component-scoped and route-scoped providers</a></td><td><a href="../qnas/054-injectiontoken-and-typed-application-configuration.md">Q&amp;A</a></td><td><a href="../examples/054-injectiontoken-and-typed-application-configuration.md">Example</a></td><td><a href="055-provider-recipes-multi-providers-and-provider-functions.md">055 - Provider recipes, multi providers, and provider functions</a></td>
+</tr>
+  </tbody>
+</table>

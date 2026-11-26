@@ -134,9 +134,17 @@ Use a clear owner for each ComponentRef. Define when it is replaced, removed, an
 
 Programmatically inserting raw DOM nodes outside Angular can cause the client-rendered DOM to differ from the server-rendered tree. Prefer Angular's rendering APIs, and verify the behavior in SSR and hydration if the component appears on an initially server-rendered route. Do not treat hydration warnings as cosmetic; mismatched ownership can cause missing or duplicated content.
 
-## Further reading
+## Chapter navigation
 
-- [Programmatic component rendering](https://angular.dev/guide/components/programmatic-rendering)
-- [ViewContainerRef API](https://angular.dev/api/core/ViewContainerRef)
-- [Angular component guide](https://angular.dev/guide/components)
-- [Deferrable views](https://angular.dev/guide/templates/defer)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="099-reusable-ui-components-and-design-system-boundaries.md">099 - Reusable UI Components and Design-System Boundaries</a></td><td><a href="../qnas/100-dynamic-components-and-programmatic-rendering.md">Q&amp;A</a></td><td><a href="../examples/100-dynamic-components-and-programmatic-rendering.md">Example</a></td><td><a href="101-global-error-handling-logging-and-diagnostics.md">101 - Global Error Handling, Logging, and Diagnostics</a></td>
+</tr>
+  </tbody>
+</table>

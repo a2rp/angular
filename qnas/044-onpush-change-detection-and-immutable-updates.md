@@ -174,10 +174,17 @@ No. JavaScript objects are still mutable. OnPush is a checking strategy; immutab
 
 No strategy removes the need to profile. OnPush creates opportunities to skip unaffected subtrees, but performance depends on component structure, update frequency, template work, and state flow.
 
-## Official references
+## Chapter navigation
 
-- [Skipping component subtrees](https://angular.dev/best-practices/skipping-subtrees)
-- [Advanced component configuration](https://angular.dev/guide/components/advanced-configuration)
-- [Angular Signals](https://angular.dev/guide/signals)
-- [ChangeDetectorRef API](https://angular.dev/api/core/ChangeDetectorRef)
-- [AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="043-angular-rendering-and-change-detection.md">043 - 43. Angular rendering and change detection</a></td><td><a href="../lessons/044-onpush-change-detection-and-immutable-updates.md">Lesson</a></td><td><a href="../examples/044-onpush-change-detection-and-immutable-updates.md">Example</a></td><td><a href="045-zoneless-angular-applications.md">045 - 45. Zoneless Angular applications</a></td>
+</tr>
+  </tbody>
+</table>

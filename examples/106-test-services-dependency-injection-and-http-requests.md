@@ -161,8 +161,17 @@ HttpTestingController.verify in afterEach detects unexpected or unflushed reques
 
 Run the project's configured test command with ng test. This document shows test code for learning; adapt imports and runner setup to the Angular and test-runner versions in your workspace.
 
-## Further reading
+## Chapter navigation
 
-- [Angular HTTP testing guide](https://angular.dev/guide/http/testing)
-- [Testing services](https://angular.dev/guide/testing/services)
-- [HttpClient setup](https://angular.dev/guide/http/setup)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="105-component-tests-fixtures-and-template-behavior.md">105 - Component Tests, Fixtures, and Template Behavior</a></td><td><a href="../lessons/106-test-services-dependency-injection-and-http-requests.md">Lesson</a></td><td><a href="../qnas/106-test-services-dependency-injection-and-http-requests.md">Q&amp;A</a></td><td><a href="107-test-routing-forms-accessibility-and-user-flows.md">107 - Test Routing, Forms, Accessibility, and User Flows</a></td>
+</tr>
+  </tbody>
+</table>

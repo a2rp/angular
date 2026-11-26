@@ -360,9 +360,17 @@ code {
 - **An async operation stores the wrong thing:** Await or subscribe outside `update()`, then write the completed result with `set()`.
 - **A readonly API still exposes mutable nested data:** `asReadonly()` does not deep-freeze values. Avoid direct mutation and keep state updates immutable.
 
-## Further reading
+## Chapter navigation
 
-- [Lesson 37: Writable signals and updating signal state](../lessons/037-writable-signals-and-updating-signal-state.md)
-- [Q&A 37](../qnas/037-writable-signals-and-updating-signal-state.md)
-- [Angular Signals guide](https://angular.dev/guide/signals)
-- [WritableSignal API](https://angular.dev/api/core/WritableSignal)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="036-custom-pipes-attribute-directives-and-reusable-behavior.md">036 - 36. Custom pipes, attribute directives, and reusable behavior</a></td><td><a href="../lessons/037-writable-signals-and-updating-signal-state.md">Lesson</a></td><td><a href="../qnas/037-writable-signals-and-updating-signal-state.md">Q&amp;A</a></td><td><a href="038-computed-signals-and-derived-values.md">038 - 38. Computed signals and derived values</a></td>
+</tr>
+  </tbody>
+</table>

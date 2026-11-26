@@ -1,4 +1,4 @@
-﻿# Q&A: Node.js, npm, Package Managers, and Workspaces
+# Q&A: Node.js, npm, Package Managers, and Workspaces
 
 ## Node.js and Angular tooling
 
@@ -170,19 +170,17 @@ No. A dependency can run install-time scripts or add code that later runs in the
 
 Use Angular's version compatibility guide for the Angular, Node.js, TypeScript, and RxJS combination. Use the official Node.js and npm documentation for runtime, module, package, and command behavior. Version-specific advice from an old tutorial may no longer apply.
 
-## Official references
+## Chapter navigation
 
-- [Angular local environment setup](https://angular.dev/tools/cli/setup-local)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-- [Angular CLI overview](https://angular.dev/tools/cli)
-- [Node.js introduction](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
-- [Node.js packages and module formats](https://nodejs.org/api/packages.html)
-- [npm workspaces](https://docs.npmjs.com/cli/v11/using-npm/workspaces/)
-- [npm install](https://docs.npmjs.com/cli/v12/commands/npm-install/)
-- [npm ci](https://docs.npmjs.com/cli/v11/commands/npm-ci/)
-- [npm package.json reference](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
-- [npm scripts](https://docs.npmjs.com/cli/v11/using-npm/scripts/)
-
----
-
-[← Lesson 007: Node.js, npm, Package Managers, and Workspaces](../lessons/007-node-js-npm-package-managers-and-workspaces.md) | [Examples 007 →](../examples/007-node-js-npm-package-managers-and-workspaces.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="006-classes-modules-decorators-and-compiler-options.md">006 - Classes, Modules, Decorators, and Compiler Options</a></td><td><a href="../lessons/007-node-js-npm-package-managers-and-workspaces.md">Lesson</a></td><td><a href="../examples/007-node-js-npm-package-managers-and-workspaces.md">Example</a></td><td><a href="008-angular-cli-installation-and-command-basics.md">008 - Angular CLI Installation and Command Basics</a></td>
+</tr>
+  </tbody>
+</table>

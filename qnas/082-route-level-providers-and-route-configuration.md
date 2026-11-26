@@ -172,3 +172,18 @@ No. It can configure the client-side service, but backend endpoints still need t
 - **Nearest provider:** selected first according to Angular's injector hierarchy.
 - **Route data:** metadata, not an injectable service registration.
 - **Route scope:** code organization, not backend authorization.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="081-nested-routes-child-outlets-and-auxiliary-routes.md">081 - 81. Nested routes, child outlets, and auxiliary routes</a></td><td><a href="../lessons/082-route-level-providers-and-route-configuration.md">Lesson</a></td><td><a href="../examples/082-route-level-providers-and-route-configuration.md">Example</a></td><td><a href="083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">083 - 83. Page titles, redirects, wildcard routes, and not-found pages</a></td>
+</tr>
+  </tbody>
+</table>

@@ -290,3 +290,18 @@ If all permitted attempts fail, the final error reaches the next operator or sub
 - Do not retry mutations unless they are idempotent or the server supports idempotency keys.
 - Keep technical details out of end-user messages.
 - Distinguish a fallback state from a successful empty result.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="089-functional-interceptors-and-request-context.md">089 - Functional Interceptors and Request Context</a></td><td><a href="../lessons/090-http-errors-retry-policy-and-timeout-handling.md">Lesson</a></td><td><a href="../qnas/090-http-errors-retry-policy-and-timeout-handling.md">Q&amp;A</a></td><td><a href="091-cancel-requests-and-prevent-stale-response-races.md">091 - Cancel Requests and Prevent Stale Response Races</a></td>
+</tr>
+  </tbody>
+</table>

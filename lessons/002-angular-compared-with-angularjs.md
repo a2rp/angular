@@ -1,4 +1,4 @@
-﻿# Angular Compared with AngularJS
+# Angular Compared with AngularJS
 
 Angular and AngularJS are related by name and history, but they are different generations of the framework. This chapter explains how to tell them apart, what ideas they share, and what changes when a legacy AngularJS application is moved to modern Angular.
 
@@ -18,7 +18,7 @@ AngularJS usually means the original framework in the 1.x series. It is written 
 
 Angular usually means the modern framework that followed AngularJS. It is commonly written in TypeScript and organizes user interfaces around components. Its ecosystem includes the Angular CLI, templates, dependency injection, routing, forms, HTTP support, and build tools.
 
-The names are easy to confuse. In this course, “AngularJS” means the 1.x framework, while “Angular” means the modern framework. The official AngularJS project ended long-term support in January 2022. That matters when maintaining an old application: its framework no longer receives official maintenance and security updates from the AngularJS team. See the [AngularJS migration guide](https://docs.angularjs.org/guide/migration) and the [Angular overview](https://angular.dev/overview).
+The names are easy to confuse. In this course, “AngularJS” means the 1.x framework, while “Angular” means the modern framework. The official AngularJS project ended long-term support in January 2022. That matters when maintaining an old application: its framework no longer receives official maintenance and security updates from the AngularJS team. See the AngularJS migration guide and the Angular overview.
 
 ## The short comparison
 
@@ -74,7 +74,7 @@ export class CounterComponent {
 }
 ~~~
 
-The component's selector lets another template use it as an element. The signal stores a value that can change; reading it in the template makes that value available for rendering. Modern Angular components are standalone by default in Angular 19 and later. Earlier Angular versions commonly required an explicit standalone setting or registration in an NgModule, so check the version used by a project. Learn more in the official [component guide](https://angular.dev/guide/components) and [signals guide](https://angular.dev/guide/signals).
+The component's selector lets another template use it as an element. The signal stores a value that can change; reading it in the template makes that value available for rendering. Modern Angular components are standalone by default in Angular 19 and later. Earlier Angular versions commonly required an explicit standalone setting or registration in an NgModule, so check the version used by a project. Learn more in the official component guide and signals guide.
 
 ## Similar ideas, different APIs
 
@@ -117,7 +117,7 @@ These terms describe different amounts of change:
 - An Angular migration moves an application from AngularJS to modern Angular. This changes the framework and usually requires changes to templates, components, dependency injection, build tooling, tests, and libraries.
 - An Angular version upgrade moves an application from one modern Angular version to another. Follow the instructions for the project's current and target versions.
 
-A migration is not just a package-version edit. AngularJS and modern Angular have different APIs, runtime assumptions, and ecosystems. Some organizations migrate gradually with a hybrid period; others replace the application feature by feature or rebuild it. The right approach depends on application size, test coverage, business risk, team capacity, and the health of its dependencies. Read the [official AngularJS migration guide](https://docs.angularjs.org/guide/migration) before planning a legacy migration.
+A migration is not just a package-version edit. AngularJS and modern Angular have different APIs, runtime assumptions, and ecosystems. Some organizations migrate gradually with a hybrid period; others replace the application feature by feature or rebuild it. The right approach depends on application size, test coverage, business risk, team capacity, and the health of its dependencies. Read the official AngularJS migration guide before planning a legacy migration.
 
 ## A practical legacy-app assessment
 
@@ -153,10 +153,17 @@ Do not begin by renaming files or changing syntax everywhere. A migration succee
 
 Answers are in [Chapter 2 Q&A](../qnas/002-angular-compared-with-angularjs.md). To see both styles side by side, work through [Chapter 2 examples](../examples/002-angular-compared-with-angularjs.md).
 
-## Further reading
+## Chapter navigation
 
-- [Angular overview](https://angular.dev/overview)
-- [Angular components](https://angular.dev/guide/components)
-- [Angular signals](https://angular.dev/guide/signals)
-- [AngularJS migration guide](https://docs.angularjs.org/guide/migration)
-- [AngularJS scope guide](https://docs.angularjs.org/guide/scope)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="001-angular-and-component-based-web-applications.md">001 - Angular and Component-Based Web Applications</a></td><td><a href="../qnas/002-angular-compared-with-angularjs.md">Q&amp;A</a></td><td><a href="../examples/002-angular-compared-with-angularjs.md">Example</a></td><td><a href="003-browser-dom-http-and-javascript-foundations.md">003 - Browser, DOM, HTTP, and JavaScript Foundations</a></td>
+</tr>
+  </tbody>
+</table>

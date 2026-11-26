@@ -136,10 +136,17 @@ Make loading and errors perceivable without forcing unexpected focus changes. Us
 
 Represent each meaningful outcome explicitly. Render empty, success, and error separately, and make refresh, stale-data, and retry behavior intentional.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/094-loading-empty-success-and-error-ui-states.md
-- Examples: examples/094-loading-empty-success-and-error-ui-states.md
-- Angular template control flow: https://angular.dev/guide/templates/control-flow
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- RxJS catchError: https://rxjs.dev/api/operators/catchError
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="093-caching-revalidation-and-transfer-cache.md">093 - Caching, Revalidation, and Transfer Cache</a></td><td><a href="../lessons/094-loading-empty-success-and-error-ui-states.md">Lesson</a></td><td><a href="../examples/094-loading-empty-success-and-error-ui-states.md">Example</a></td><td><a href="095-angular-resources-and-signal-based-asynchronous-data.md">095 - Angular Resources and Signal-Based Asynchronous Data</a></td>
+</tr>
+  </tbody>
+</table>

@@ -96,8 +96,17 @@ No. Critical controls should become interactive promptly. Static or below-the-fo
 
 Load an SSR or prerendered route directly, inspect the HTML, wait for client startup, and interact with important controls. Test early interactions during startup if Event Replay is enabled. Check console output and layout stability.
 
-## Further reading
+## Chapter navigation
 
-- [Angular hydration](https://angular.dev/guide/hydration)
-- [Incremental hydration](https://angular.dev/guide/incremental-hydration)
-- [Deferrable views](https://angular.dev/guide/templates/defer)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="114-set-up-server-side-rendering-and-hybrid-route-rendering.md">114 - Set Up Server-Side Rendering and Hybrid Route Rendering</a></td><td><a href="../lessons/115-hydration-event-replay-and-incremental-hydration.md">Lesson</a></td><td><a href="../examples/115-hydration-event-replay-and-incremental-hydration.md">Example</a></td><td><a href="116-server-compatible-code-metadata-and-search-visibility.md">116 - Server-Compatible Code, Metadata, and Search Visibility</a></td>
+</tr>
+  </tbody>
+</table>

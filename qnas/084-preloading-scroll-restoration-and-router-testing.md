@@ -198,10 +198,17 @@ A test may omit providers, lazy chunk delivery, base URL configuration, server f
 | Test a normal routed component | RouterTestingHarness |
 | Test named outlets or full browser viewport behavior | Host-component or browser-level test as appropriate |
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/084-preloading-scroll-restoration-and-router-testing.md
-- Examples: examples/084-preloading-scroll-restoration-and-router-testing.md
-- Angular routing tests: https://angular.dev/guide/routing/testing
-- Angular preloading strategies: https://angular.dev/guide/routing/customizing-route-behavior
-- Angular in-memory scrolling options: https://angular.dev/api/router/InMemoryScrollingOptions
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">083 - 83. Page titles, redirects, wildcard routes, and not-found pages</a></td><td><a href="../lessons/084-preloading-scroll-restoration-and-router-testing.md">Lesson</a></td><td><a href="../examples/084-preloading-scroll-restoration-and-router-testing.md">Example</a></td><td><a href="085-configure-httpclient-with-providehttpclient.md">085 - Configure HttpClient with provideHttpClient</a></td>
+</tr>
+  </tbody>
+</table>

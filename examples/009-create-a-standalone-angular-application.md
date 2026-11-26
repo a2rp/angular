@@ -1,4 +1,4 @@
-﻿# Examples: Create a Standalone Angular Application
+# Examples: Create a Standalone Angular Application
 
 This guided exercise creates a standalone Angular task-tracker app, identifies how Angular starts, changes its root screen, then serves and builds it. Use a scratch directory separate from the angular notes repository.
 
@@ -175,17 +175,17 @@ This traces the path from static HTML through Angular bootstrap to rendered temp
 5. Inspect how the generated CLI version and Angular package versions are recorded in package.json and the lockfile.
 6. Compare ng serve with ng build: observe which one starts a local server and which one writes build output.
 
-## References
+## Chapter navigation
 
-- [Lesson 009: Create a Standalone Angular Application](../lessons/009-create-a-standalone-angular-application.md)
-- [Q&A 009](../qnas/009-create-a-standalone-angular-application.md)
-- [Angular local environment setup](https://angular.dev/tools/cli/setup-local)
-- [Angular CLI ng new command](https://angular.dev/cli/new)
-- [Angular bootstrapApplication API](https://angular.dev/api/platform-browser/bootstrapApplication)
-- [Angular component guide](https://angular.dev/guide/components)
-- [Angular Component API](https://angular.dev/api/core/Component)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-
----
-
-[← Lesson 009](../lessons/009-create-a-standalone-angular-application.md) | [← Q&A 009](../qnas/009-create-a-standalone-angular-application.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="008-angular-cli-installation-and-command-basics.md">008 - Angular CLI Installation and Command Basics</a></td><td><a href="../lessons/009-create-a-standalone-angular-application.md">Lesson</a></td><td><a href="../qnas/009-create-a-standalone-angular-application.md">Q&amp;A</a></td><td><a href="010-workspace-structure-source-files-and-configuration.md">010 - Workspace Structure, Source Files, and Configuration</a></td>
+</tr>
+  </tbody>
+</table>

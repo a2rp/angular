@@ -170,9 +170,17 @@ The route harness creates the page using application routing, while the test con
 
 For a production form, add focused tests for any server failure, disabled or pending state, and retry behavior. Review the flow with keyboard navigation and a screen reader. Automated DOM assertions can check roles and relationships but cannot fully confirm spoken feedback.
 
-## Further reading
+## Chapter navigation
 
-- [Angular routing testing](https://angular.dev/guide/routing/testing)
-- [RouterTestingHarness API](https://angular.dev/api/router/testing/RouterTestingHarness)
-- [Angular form validation](https://angular.dev/guide/forms/form-validation)
-- [Angular accessibility best practices](https://angular.dev/best-practices/a11y)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="106-test-services-dependency-injection-and-http-requests.md">106 - Test Services, Dependency Injection, and HTTP Requests</a></td><td><a href="../lessons/107-test-routing-forms-accessibility-and-user-flows.md">Lesson</a></td><td><a href="../qnas/107-test-routing-forms-accessibility-and-user-flows.md">Q&amp;A</a></td><td><a href="108-end-to-end-testing-coverage-and-test-strategy.md">108 - End-to-End Testing, Coverage, and Test Strategy</a></td>
+</tr>
+  </tbody>
+</table>

@@ -121,14 +121,29 @@ Yes. Route configuration supports a static title or a title resolver. Keep title
 
 ## 22. Where are the official references?
 
-- [Angular data resolvers guide](https://angular.dev/guide/routing/data-resolvers)
-- [ResolveFn API](https://angular.dev/api/router/ResolveFn)
-- [withComponentInputBinding API](https://angular.dev/api/router/withComponentInputBinding)
-- [withNavigationErrorHandler API](https://angular.dev/api/router/withNavigationErrorHandler)
-- [Route resources guide](https://angular.dev/guide/routing/data-fetching-with-resources)
+- Angular data resolvers guide
+- ResolveFn API
+- withComponentInputBinding API
+- withNavigationErrorHandler API
+- Route resources guide
 
 ## Related material
 
 - [Lesson: Resolvers, route data, and loading a page before activation](../lessons/079-resolvers-route-data-and-loading-a-page-before-activation.md)
 - [Example: Resolvers, route data, and loading a page before activation](../examples/079-resolvers-route-data-and-loading-a-page-before-activation.md)
 - [Route guards and access control boundaries](../lessons/078-route-guards-and-access-control-boundaries.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="078-route-guards-and-access-control-boundaries.md">078 - Route guards and access control boundaries</a></td><td><a href="../lessons/079-resolvers-route-data-and-loading-a-page-before-activation.md">Lesson</a></td><td><a href="../examples/079-resolvers-route-data-and-loading-a-page-before-activation.md">Example</a></td><td><a href="080-lazy-load-routes-and-standalone-components.md">080 - Lazy-load routes and standalone components</a></td>
+</tr>
+  </tbody>
+</table>

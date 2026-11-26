@@ -124,10 +124,17 @@ Search engines vary in their ability and willingness to execute client JavaScrip
 - Titles and metadata should be route-specific and present in the initial HTML.
 - Search visibility depends on content, links, accessibility, status behavior, performance, and metadata; no single API guarantees it.
 
-## Further reading
+## Chapter navigation
 
-- [Angular SSR: server-compatible components](https://angular.dev/best-practices/performance/ssr)
-- [Angular hydration constraints](https://angular.dev/guide/hydration)
-- [Angular Meta service](https://angular.dev/api/platform-browser/Meta)
-- [Angular Title service](https://angular.dev/api/platform-browser/Title)
-- [Angular route titles](https://angular.dev/guide/routing/define-routes)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="115-hydration-event-replay-and-incremental-hydration.md">115 - Hydration, Event Replay, and Incremental Hydration</a></td><td><a href="../qnas/116-server-compatible-code-metadata-and-search-visibility.md">Q&amp;A</a></td><td><a href="../examples/116-server-compatible-code-metadata-and-search-visibility.md">Example</a></td><td><a href="117-security-xss-sanitization-csp-and-trusted-content.md">117 - Security: XSS, Sanitization, CSP, and Trusted Content</a></td>
+</tr>
+  </tbody>
+</table>

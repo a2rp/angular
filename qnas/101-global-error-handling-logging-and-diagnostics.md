@@ -56,9 +56,17 @@ Not necessarily. Excessive success logging can obscure failures and collect unne
 
 A correlation ID can connect client diagnostics with server logs for the same request. It helps trace a failure across systems without putting credentials or personal data into free-form messages.
 
-## Further reading
+## Chapter navigation
 
-- [Angular error handling best practices](https://angular.dev/best-practices/error-handling)
-- [Angular ErrorHandler API](https://angular.dev/api/core/ErrorHandler)
-- [Browser global error listeners](https://angular.dev/api/core/provideBrowserGlobalErrorListeners)
-- [Angular template error boundaries](https://angular.dev/guide/templates/error-boundaries)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="100-dynamic-components-and-programmatic-rendering.md">100 - Dynamic Components and Programmatic Rendering</a></td><td><a href="../lessons/101-global-error-handling-logging-and-diagnostics.md">Lesson</a></td><td><a href="../examples/101-global-error-handling-logging-and-diagnostics.md">Example</a></td><td><a href="102-internationalization-localization-and-formatting.md">102 - Internationalization, Localization, and Formatting</a></td>
+</tr>
+  </tbody>
+</table>

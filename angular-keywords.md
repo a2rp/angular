@@ -1,4 +1,4 @@
-﻿# Angular Keywords and Concepts
+# Angular Keywords and Concepts
 
 A practical glossary for the Angular learning roadmap. It explains Angular APIs, template syntax, TypeScript terms used in Angular code, and the ideas that connect them.
 
@@ -480,22 +480,3 @@ Angular uses TypeScript, which builds on JavaScript and adds type syntax. These 
 | satisfies | TypeScript operator that checks compatibility while preserving a specific inferred type. |
 | enum | TypeScript enum construct. String unions or constant objects are alternatives used in many codebases. |
 | Access modifier | TypeScript visibility syntax such as public, protected, and private. It does not replace runtime authorization. |
-
-## Official references
-
-- [Angular documentation](https://angular.dev/overview)
-- [Angular templates and syntax](https://angular.dev/guide/templates)
-- [Angular components](https://angular.dev/guide/components)
-- [Angular signals](https://angular.dev/guide/signals)
-- [Dependency injection](https://angular.dev/guide/di)
-- [Angular forms](https://angular.dev/guide/forms)
-- [Signal Forms](https://angular.dev/guide/forms/signals/overview)
-- [Angular routing](https://angular.dev/guide/routing)
-- [Angular HTTP Client](https://angular.dev/guide/http)
-- [Angular testing](https://angular.dev/guide/testing)
-- [Server-side and hybrid rendering](https://angular.dev/guide/ssr)
-- [Angular security](https://angular.dev/best-practices/security)
-- [Version compatibility](https://angular.dev/reference/versions)
-- [Releases and support policy](https://angular.dev/reference/releases)
-- [Angular update guide](https://angular.dev/update)
-

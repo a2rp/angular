@@ -357,15 +357,17 @@ A one-result loader is a poor fit for continuous updates. Use a streaming resour
 
 Resources make asynchronous reads reactive: params determine what to load, resource signals describe the current result, and cancellation helps keep the view aligned with the latest request. Use the right resource variant for the data source, guard value reads, and keep mutations in explicit HTTP workflows.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/095-angular-resources-and-signal-based-asynchronous-data.md
-- Examples: examples/095-angular-resources-and-signal-based-asynchronous-data.md
-- Angular async reactivity with resources: https://angular.dev/guide/signals/resource
-- Angular resource API: https://angular.dev/api/core/resource
-- Angular streaming resource loader API: https://angular.dev/api/core/ResourceStreamingLoader
-- Angular reactive data fetching with httpResource: https://angular.dev/guide/http/http-resource
-- Angular httpResource API: https://angular.dev/api/common/http/httpResource
-- Angular RxJS interop and rxResource: https://angular.dev/guide/signals/rxjs-interop
-- Angular rxResource API: https://angular.dev/api/core/rxjs-interop/rxResource
-- Angular version compatibility: https://angular.dev/reference/versions
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="094-loading-empty-success-and-error-ui-states.md">094 - Loading, Empty, Success, and Error UI States</a></td><td><a href="../qnas/095-angular-resources-and-signal-based-asynchronous-data.md">Q&amp;A</a></td><td><a href="../examples/095-angular-resources-and-signal-based-asynchronous-data.md">Example</a></td><td><a href="096-server-sent-events-websockets-and-live-updates.md">096 - Server-Sent Events, WebSockets, and Live Updates</a></td>
+</tr>
+  </tbody>
+</table>

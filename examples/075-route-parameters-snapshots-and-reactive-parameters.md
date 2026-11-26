@@ -238,8 +238,17 @@ Then check:
 - URL parameters are visible and untrusted; do not put secrets in them.
 - A valid-looking ID can still refer to a missing record.
 
-## Official references
+## Chapter navigation
 
-- [Read route state](https://angular.dev/guide/routing/read-route-state)
-- [ActivatedRoute API](https://angular.dev/api/router/ActivatedRoute)
-- [ParamMap API](https://angular.dev/api/router/ParamMap)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="074-routeroutlet-routerlink-and-active-route-links.md">074 - RouterOutlet, RouterLink, and active route links</a></td><td><a href="../lessons/075-route-parameters-snapshots-and-reactive-parameters.md">Lesson</a></td><td><a href="../qnas/075-route-parameters-snapshots-and-reactive-parameters.md">Q&amp;A</a></td><td><a href="076-query-parameters-fragments-and-navigation-state.md">076 - Query parameters, fragments, and navigation state</a></td>
+</tr>
+  </tbody>
+</table>

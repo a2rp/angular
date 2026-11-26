@@ -277,11 +277,17 @@ Avoid duplicate subscriptions when the feature intends to make one request. If m
 - Use finalize for cleanup that must also happen on errors or unsubscribe.
 - Do not log secrets or sensitive payloads.
 
-## Related files and official documentation
+## Chapter navigation
 
-- Lesson: lessons/089-functional-interceptors-and-request-context.md
-- Q&A: qnas/089-functional-interceptors-and-request-context.md
-- Angular interceptors: https://angular.dev/guide/http/interceptors
-- withInterceptors API: https://angular.dev/api/common/http/withInterceptors
-- HttpContext API: https://angular.dev/api/common/http/HttpContext
-- HttpContextToken API: https://angular.dev/api/common/http/HttpContextToken
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="088-upload-and-download-progress-events.md">088 - Upload and Download Progress Events</a></td><td><a href="../lessons/089-functional-interceptors-and-request-context.md">Lesson</a></td><td><a href="../qnas/089-functional-interceptors-and-request-context.md">Q&amp;A</a></td><td><a href="090-http-errors-retry-policy-and-timeout-handling.md">090 - HTTP Errors, Retry Policy, and Timeout Handling</a></td>
+</tr>
+  </tbody>
+</table>

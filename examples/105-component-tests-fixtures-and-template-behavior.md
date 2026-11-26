@@ -138,9 +138,17 @@ ng test
 
 This is illustrative test content; adapt the runner imports to the project's configured test environment. Vitest is the default in new Angular CLI projects, while older workspaces may use Karma and Jasmine.
 
-## Further reading
+## Chapter navigation
 
-- [Component testing basics](https://angular.dev/guide/testing/components-basics)
-- [Component testing scenarios](https://angular.dev/guide/testing/component-scenarios)
-- [ComponentFixture API](https://angular.dev/api/core/testing/ComponentFixture)
-- [Creating component harnesses](https://angular.dev/guide/testing/creating-component-harnesses)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="104-angular-testing-fundamentals-and-the-cli-test-runner.md">104 - Angular Testing Fundamentals and the CLI Test Runner</a></td><td><a href="../lessons/105-component-tests-fixtures-and-template-behavior.md">Lesson</a></td><td><a href="../qnas/105-component-tests-fixtures-and-template-behavior.md">Q&amp;A</a></td><td><a href="106-test-services-dependency-injection-and-http-requests.md">106 - Test Services, Dependency Injection, and HTTP Requests</a></td>
+</tr>
+  </tbody>
+</table>

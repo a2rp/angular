@@ -270,20 +270,24 @@ Migrate incrementally when there is a concrete benefit. A rewrite only to adopt 
 - **Using a button click as the only submit path:** keep a semantic form and submit button so keyboard submission works.
 - **Rewriting a working form without a requirement:** migrate when there is a maintenance, capability, or consistency benefit.
 
-## Further reading
-
-- [Angular forms overview and comparison](https://angular.dev/guide/forms)
-- [Angular template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
-- [Angular reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [Strictly typed reactive forms](https://angular.dev/guide/forms/typed-forms)
-- [Signal Forms overview](https://angular.dev/guide/forms/signals/overview)
-- [Signal Forms comparison with other approaches](https://angular.dev/guide/forms/signals/comparison)
-- [Signal Forms validation](https://angular.dev/guide/forms/signals/validation)
-- [Signal Forms submission](https://angular.dev/guide/forms/signals/form-submission)
-
 ## Continue learning
 
 - Previous: [Error handling, cleanup, and takeUntilDestroyed](060-error-handling-cleanup-and-takeuntildestroyed.md)
 - Q&A: [Choose template-driven, reactive, or signal forms](../qnas/061-choose-template-driven-reactive-or-signal-forms.md)
 - Example: [Choose template-driven, reactive, or signal forms](../examples/061-choose-template-driven-reactive-or-signal-forms.md)
 - Next: [Template-driven forms and ngForm](062-template-driven-forms-and-ngform.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="060-error-handling-cleanup-and-takeuntildestroyed.md">060 - Error handling, cleanup, and takeUntilDestroyed</a></td><td><a href="../qnas/061-choose-template-driven-reactive-or-signal-forms.md">Q&amp;A</a></td><td><a href="../examples/061-choose-template-driven-reactive-or-signal-forms.md">Example</a></td><td><a href="062-template-driven-forms-and-ngform.md">062 - Template-driven forms and NgForm</a></td>
+</tr>
+  </tbody>
+</table>

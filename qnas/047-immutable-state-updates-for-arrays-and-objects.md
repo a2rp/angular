@@ -146,7 +146,22 @@ Chapter 044 explains how immutable references relate to OnPush input checks and 
 
 ## 37. Which official references explain these details?
 
-- [Angular signals](https://angular.dev/guide/signals)
-- [WritableSignal API](https://angular.dev/api/core/WritableSignal)
-- [TypeScript object types and readonly properties](https://www.typescriptlang.org/docs/handbook/2/objects.html)
-- [TypeScript spread syntax](https://www.typescriptlang.org/docs/handbook/variable-declarations.html#spread)
+- Angular signals
+- WritableSignal API
+- TypeScript object types and readonly properties
+- TypeScript spread syntax
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="046-state-ownership-and-avoiding-duplicated-state.md">046 - State ownership and avoiding duplicated state</a></td><td><a href="../lessons/047-immutable-state-updates-for-arrays-and-objects.md">Lesson</a></td><td><a href="../examples/047-immutable-state-updates-for-arrays-and-objects.md">Example</a></td><td><a href="048-inspect-signals-and-components-with-angular-devtools.md">048 - Inspect signals and components with Angular DevTools</a></td>
+</tr>
+  </tbody>
+</table>

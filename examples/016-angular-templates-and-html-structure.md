@@ -1,4 +1,4 @@
-﻿# Examples: Angular Templates and HTML Structure
+# Examples: Angular Templates and HTML Structure
 
 This walkthrough builds a small semantic event page from a root component and a child card. It demonstrates that an Angular template is a view fragment, uses ordinary HTML structure, and can include Angular component elements.
 
@@ -197,10 +197,17 @@ Use this only when a specific text space is required. For layout and spacing bet
 - If visual spacing differs from source indentation, use CSS layout and spacing rules.
 - If the browser DOM includes extra nodes or attributes, compare the rendered Elements panel with Angular's compilation behavior instead of treating every generated node as source markup.
 
-## Further reading
+## Chapter navigation
 
-- [Angular template syntax overview](https://angular.dev/guide/templates)
-- [Whitespace in templates](https://angular.dev/guide/templates/whitespace)
-- [Angular component anatomy](https://angular.dev/guide/components)
-- [Angular accessibility practices](https://angular.dev/best-practices/a11y)
-- [Angular self-closing tag migration](https://angular.dev/reference/migrations/self-closing-tags)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="015-selectors-and-the-component-host-element.md">015 - 15. Selectors and the component host element</a></td><td><a href="../lessons/016-angular-templates-and-html-structure.md">Lesson</a></td><td><a href="../qnas/016-angular-templates-and-html-structure.md">Q&amp;A</a></td><td><a href="017-interpolation-and-template-expressions.md">017 - 17. Interpolation and template expressions</a></td>
+</tr>
+  </tbody>
+</table>

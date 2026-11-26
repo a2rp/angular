@@ -144,15 +144,17 @@ No. Their API status and availability vary by release. The current Angular docum
 
 Use a Resource when a read should react to changing signal-based params and expose its value and status as signals. Choose resource, httpResource, or rxResource based on the data source, guard value reads, and keep mutations in explicit HTTP workflows.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/095-angular-resources-and-signal-based-asynchronous-data.md
-- Examples: examples/095-angular-resources-and-signal-based-asynchronous-data.md
-- Angular async reactivity with resources: https://angular.dev/guide/signals/resource
-- Angular resource API: https://angular.dev/api/core/resource
-- Angular streaming resource loader API: https://angular.dev/api/core/ResourceStreamingLoader
-- Angular reactive data fetching with httpResource: https://angular.dev/guide/http/http-resource
-- Angular httpResource API: https://angular.dev/api/common/http/httpResource
-- Angular RxJS interop and rxResource: https://angular.dev/guide/signals/rxjs-interop
-- Angular rxResource API: https://angular.dev/api/core/rxjs-interop/rxResource
-- Angular version compatibility: https://angular.dev/reference/versions
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="094-loading-empty-success-and-error-ui-states.md">094 - Loading, Empty, Success, and Error UI States</a></td><td><a href="../lessons/095-angular-resources-and-signal-based-asynchronous-data.md">Lesson</a></td><td><a href="../examples/095-angular-resources-and-signal-based-asynchronous-data.md">Example</a></td><td><a href="096-server-sent-events-websockets-and-live-updates.md">096 - Server-Sent Events, WebSockets, and Live Updates</a></td>
+</tr>
+  </tbody>
+</table>

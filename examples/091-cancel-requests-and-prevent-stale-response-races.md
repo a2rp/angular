@@ -324,3 +324,18 @@ The old request might still consume server resources if the backend had already 
 - Use takeUntilDestroyed for imperative subscriptions tied to a component lifecycle.
 - Choose concatMap, mergeMap, or exhaustMap when their semantics fit better.
 - Treat client abort as cleanup, not server rollback.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="090-http-errors-retry-policy-and-timeout-handling.md">090 - HTTP Errors, Retry Policy, and Timeout Handling</a></td><td><a href="../lessons/091-cancel-requests-and-prevent-stale-response-races.md">Lesson</a></td><td><a href="../qnas/091-cancel-requests-and-prevent-stale-response-races.md">Q&amp;A</a></td><td><a href="092-authentication-cookies-and-xsrf-protection.md">092 - Authentication, Cookies, and XSRF Protection</a></td>
+</tr>
+  </tbody>
+</table>

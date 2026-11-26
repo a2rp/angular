@@ -1,4 +1,4 @@
-﻿# Examples: Run, Serve, Build, and Inspect an Angular Application
+# Examples: Run, Serve, Build, and Inspect an Angular Application
 
 This walkthrough runs an existing Angular workspace, observes a development rebuild, checks browser diagnostics, and compares configured build outputs. Use the practice app from the previous chapter or another Angular workspace.
 
@@ -136,16 +136,17 @@ Expected idea: serve is the local development workflow; build creates configured
 5. Inspect whether the production configuration uses budgets and what the build reports.
 6. If your project uses server rendering, identify browser and server outputs from the build summary.
 
-## References
+## Chapter navigation
 
-- [Lesson 011: Run, Serve, Build, and Inspect an Angular Application](../lessons/011-run-serve-build-and-inspect-an-angular-application.md)
-- [Q&A 011](../qnas/011-run-serve-build-and-inspect-an-angular-application.md)
-- [Angular CLI ng serve](https://angular.dev/cli/serve)
-- [Angular CLI ng build](https://angular.dev/cli/build)
-- [Angular workspace configuration](https://angular.dev/reference/configs/workspace-config)
-- [Angular CLI builders](https://angular.dev/tools/cli/cli-builder)
-- [Angular deployment](https://angular.dev/tools/cli/deployment)
-
----
-
-[← Lesson 011](../lessons/011-run-serve-build-and-inspect-an-angular-application.md) | [← Q&A 011](../qnas/011-run-serve-build-and-inspect-an-angular-application.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="010-workspace-structure-source-files-and-configuration.md">010 - Workspace Structure, Source Files, and Configuration</a></td><td><a href="../lessons/011-run-serve-build-and-inspect-an-angular-application.md">Lesson</a></td><td><a href="../qnas/011-run-serve-build-and-inspect-an-angular-application.md">Q&amp;A</a></td><td><a href="012-bootstrap-applicationconfig-and-application-providers.md">012 - 12. Bootstrap, ApplicationConfig, and application providers</a></td>
+</tr>
+  </tbody>
+</table>

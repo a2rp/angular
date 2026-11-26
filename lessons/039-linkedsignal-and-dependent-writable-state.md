@@ -234,9 +234,17 @@ The setter option receives the new destination value and a `rawSet` function. It
 - Choose `computed()` for read-only derivation and `linkedSignal()` for dependent state that must remain writable.
 - Avoid effects for copying signal state from one signal to another.
 
-## Further reading
+## Chapter navigation
 
-- [Angular linkedSignal guide](https://angular.dev/guide/signals/linked-signal)
-- [linkedSignal API](https://angular.dev/api/core/linkedSignal)
-- [Effects guide](https://angular.dev/guide/signals/effect)
-- [Signal writes in a disallowed context](https://angular.dev/errors/NG0600)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="038-computed-signals-and-derived-values.md">038 - 38. Computed signals and derived values</a></td><td><a href="../qnas/039-linkedsignal-and-dependent-writable-state.md">Q&amp;A</a></td><td><a href="../examples/039-linkedsignal-and-dependent-writable-state.md">Example</a></td><td><a href="040-effects-cleanup-and-when-not-to-use-effects.md">040 - 40. Effects, cleanup, and when not to use effects</a></td>
+</tr>
+  </tbody>
+</table>

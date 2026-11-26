@@ -1,4 +1,4 @@
-﻿# Examples: Node.js, npm, Package Managers, and Workspaces
+# Examples: Node.js, npm, Package Managers, and Workspaces
 
 These exercises inspect a real Angular CLI project and then build a tiny two-package npm workspace. The first part shows how Node.js and npm support Angular development. The second part demonstrates what npm workspaces add when a repository contains multiple packages.
 
@@ -191,18 +191,17 @@ For a multi-package Angular repository, decide which layer owns each concern:
 
 Before adding workspace configuration to an existing project, check its Angular CLI structure and package-manager setup. Follow the current Angular and npm documentation for the versions in use.
 
-## References
+## Chapter navigation
 
-- [Lesson 007: Node.js, npm, Package Managers, and Workspaces](../lessons/007-node-js-npm-package-managers-and-workspaces.md)
-- [Q&A 007](../qnas/007-node-js-npm-package-managers-and-workspaces.md)
-- [Angular local environment setup](https://angular.dev/tools/cli/setup-local)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-- [Node.js introduction](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
-- [Node.js packages and module formats](https://nodejs.org/api/packages.html)
-- [npm workspaces](https://docs.npmjs.com/cli/v11/using-npm/workspaces/)
-- [npm install](https://docs.npmjs.com/cli/v12/commands/npm-install/)
-- [npm ci](https://docs.npmjs.com/cli/v11/commands/npm-ci/)
-
----
-
-[← Lesson 007](../lessons/007-node-js-npm-package-managers-and-workspaces.md) | [← Q&A 007](../qnas/007-node-js-npm-package-managers-and-workspaces.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="006-classes-modules-decorators-and-compiler-options.md">006 - Classes, Modules, Decorators, and Compiler Options</a></td><td><a href="../lessons/007-node-js-npm-package-managers-and-workspaces.md">Lesson</a></td><td><a href="../qnas/007-node-js-npm-package-managers-and-workspaces.md">Q&amp;A</a></td><td><a href="008-angular-cli-installation-and-command-basics.md">008 - Angular CLI Installation and Command Basics</a></td>
+</tr>
+  </tbody>
+</table>

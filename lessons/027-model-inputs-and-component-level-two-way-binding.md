@@ -1,4 +1,4 @@
-﻿# 27. Model inputs and component-level two-way binding
+# 27. Model inputs and component-level two-way binding
 
 A model input lets a component receive a value from its parent and publish changes to that value back to the parent. It is useful for interactive controls whose main job is to edit a value, such as a slider, checkbox, date picker, or custom select.
 
@@ -219,9 +219,17 @@ Before adding a model input, confirm that:
 - A regular input/output pair would not communicate the contract more clearly.
 - No input transform is being assumed for the model.
 
-## Further reading
+## Chapter navigation
 
-- [Model inputs in the component inputs guide](https://angular.dev/guide/components/inputs#model-inputs)
-- [Two-way binding](https://angular.dev/guide/templates/two-way-binding)
-- [`model()` API](https://angular.dev/api/core/model)
-- [`ModelSignal` API](https://angular.dev/api/core/ModelSignal)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="026-component-outputs-and-custom-events.md">026 - 26. Component outputs and custom events</a></td><td><a href="../qnas/027-model-inputs-and-component-level-two-way-binding.md">Q&amp;A</a></td><td><a href="../examples/027-model-inputs-and-component-level-two-way-binding.md">Example</a></td><td><a href="028-parent-child-communication-and-one-way-data-flow.md">028 - 28. Parent-child communication and one-way data flow</a></td>
+</tr>
+  </tbody>
+</table>

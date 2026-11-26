@@ -56,9 +56,17 @@ No. jsdom and happy-dom emulate parts of the DOM but do not fully reproduce brow
 
 It controls asynchronous work and external values, cleans up timers and mocks, and asserts on public behavior. It should not rely on test ordering or a particular internal sequence of method calls.
 
-## Further reading
+## Chapter navigation
 
-- [Component testing basics](https://angular.dev/guide/testing/components-basics)
-- [Component testing scenarios](https://angular.dev/guide/testing/component-scenarios)
-- [Angular testing utility APIs](https://angular.dev/guide/testing/utility-apis)
-- [Creating component harnesses](https://angular.dev/guide/testing/creating-component-harnesses)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="104-angular-testing-fundamentals-and-the-cli-test-runner.md">104 - Angular Testing Fundamentals and the CLI Test Runner</a></td><td><a href="../lessons/105-component-tests-fixtures-and-template-behavior.md">Lesson</a></td><td><a href="../examples/105-component-tests-fixtures-and-template-behavior.md">Example</a></td><td><a href="106-test-services-dependency-injection-and-http-requests.md">106 - Test Services, Dependency Injection, and HTTP Requests</a></td>
+</tr>
+  </tbody>
+</table>

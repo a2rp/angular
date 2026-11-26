@@ -1,4 +1,4 @@
-﻿# 24. Built-in directives and structural directive syntax
+# 24. Built-in directives and structural directive syntax
 
 Directives add behavior to elements and components. Angular has attribute directives that change an element's appearance or behavior, and structural directives that add or remove embedded views. Angular also has built-in template control-flow blocks such as `@if` and `@for`; those are part of template syntax, not directives.
 
@@ -318,13 +318,17 @@ When reading or writing directive syntax, ask:
 - Would `ng-container` clarify the nesting without creating an unnecessary DOM wrapper?
 - For new conditional and repeated content, should this use `@if`, `@for`, or `@switch` instead?
 
-## Further reading
+## Chapter navigation
 
-- [Directives overview](https://angular.dev/guide/directives)
-- [Structural directives and microsyntax](https://angular.dev/guide/directives/structural-directives)
-- [Attribute directives](https://angular.dev/guide/directives/attribute-directives)
-- [Control flow blocks](https://angular.dev/guide/templates/control-flow)
-- [NgIf API and deprecation status](https://angular.dev/api/common/NgIf)
-- [NgFor API and deprecation status](https://angular.dev/api/common/NgFor)
-- [NgClass API](https://angular.dev/api/common/NgClass)
-- [NgStyle API](https://angular.dev/api/common/NgStyle)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="023-template-references-ng-template-and-ngtemplateoutlet.md">023 - 23. Template references, ng-template, and ngTemplateOutlet</a></td><td><a href="../qnas/024-built-in-directives-and-structural-directive-syntax.md">Q&amp;A</a></td><td><a href="../examples/024-built-in-directives-and-structural-directive-syntax.md">Example</a></td><td><a href="025-signal-inputs-required-inputs-and-input-transforms.md">025 - 25. Signal inputs, required inputs, and input transforms</a></td>
+</tr>
+  </tbody>
+</table>

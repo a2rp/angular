@@ -28,7 +28,7 @@ ng test
 
 For a non-interactive CI run, use the supported one-shot options for the installed CLI or the CI environment setting it detects. Check ng test --help for the version in your project.
 
-The Angular testing guide documents the current [CLI and Vitest setup](https://angular.dev/guide/testing) and the [Karma setup](https://angular.dev/guide/testing/karma).
+The Angular testing guide documents the current CLI and Vitest setup and the Karma setup.
 
 ## 2. Choose the test boundary
 
@@ -115,3 +115,18 @@ For each behavior, ask:
 - Is a real browser needed for this behavior?
 
 A maintainable suite makes ordinary changes safer without encoding accidental implementation details.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="103-semantic-html-keyboard-access-and-accessible-angular-ui.md">103 - Semantic HTML, Keyboard Access, and Accessible Angular UI</a></td><td><a href="../qnas/104-angular-testing-fundamentals-and-the-cli-test-runner.md">Q&amp;A</a></td><td><a href="../examples/104-angular-testing-fundamentals-and-the-cli-test-runner.md">Example</a></td><td><a href="105-component-tests-fixtures-and-template-behavior.md">105 - Component Tests, Fixtures, and Template Behavior</a></td>
+</tr>
+  </tbody>
+</table>

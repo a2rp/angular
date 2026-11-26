@@ -1,4 +1,4 @@
-﻿# 20. Two-way binding and ngModel
+# 20. Two-way binding and ngModel
 
 Two-way binding keeps a value synchronized in both directions: the component supplies the current value to the view, and user changes are sent back to the component.
 
@@ -269,9 +269,17 @@ This chapter introduces synchronization and ngModel. Validation rules, custom va
 7. Am I reading the right NgModel or NgForm state?
 8. Am I keeping template-driven and reactive form APIs separate?
 
-## Further reading
+## Chapter navigation
 
-- [Angular two-way binding](https://angular.dev/guide/templates/two-way-binding)
-- [Angular template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
-- [NgModel API](https://angular.dev/api/forms/NgModel)
-- [NgForm API](https://angular.dev/api/forms/NgForm)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="019-event-bindings-event-objects-and-keyboard-input.md">019 - 19. Event bindings, event objects, and keyboard input</a></td><td><a href="../qnas/020-two-way-binding-and-ngmodel.md">Q&amp;A</a></td><td><a href="../examples/020-two-way-binding-and-ngmodel.md">Example</a></td><td><a href="021-built-in-control-flow-with-if-and-switch.md">021 - 21. Built-in control flow with if and switch</a></td>
+</tr>
+  </tbody>
+</table>

@@ -271,9 +271,17 @@ Client-side guards and redirects are also not server authorization. Protected da
 - Wildcard routes are fallbacks and belong after specific route definitions.
 - A client-side not-found page does not itself set an HTTP 404 response.
 
-## Further reading
+## Chapter navigation
 
-- [Define routes: redirects, titles, and wildcards](https://angular.dev/guide/routing/define-routes)
-- [Redirecting routes](https://angular.dev/guide/routing/redirecting-routes)
-- [TitleStrategy API](https://angular.dev/api/router/TitleStrategy)
-- [RedirectFunction API](https://angular.dev/api/router/RedirectFunction)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="082-route-level-providers-and-route-configuration.md">082 - 82. Route-level providers and route configuration</a></td><td><a href="../qnas/083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">Q&amp;A</a></td><td><a href="../examples/083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">Example</a></td><td><a href="084-preloading-scroll-restoration-and-router-testing.md">084 - 84. Preloading, scroll restoration, and router testing</a></td>
+</tr>
+  </tbody>
+</table>

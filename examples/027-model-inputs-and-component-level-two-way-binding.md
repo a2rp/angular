@@ -1,4 +1,4 @@
-﻿# Examples: Model inputs and component-level two-way binding
+# Examples: Model inputs and component-level two-way binding
 
 Build a reusable counter component whose `count` model is supplied by a parent and can also be changed by the child. The parent binds a writable signal with `[(count)]`, displays the same signal, and can reset it itself.
 
@@ -230,3 +230,18 @@ Use `[(count)]` when the purpose is to keep one parent value and one child model
 - The parent's signal and displayed value follow changes made by the child.
 - A parent reset updates the value shown by the child.
 - The two-way binding uses the signal instance as its writable target and calls the signal only when reading it.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="026-component-outputs-and-custom-events.md">026 - 26. Component outputs and custom events</a></td><td><a href="../lessons/027-model-inputs-and-component-level-two-way-binding.md">Lesson</a></td><td><a href="../qnas/027-model-inputs-and-component-level-two-way-binding.md">Q&amp;A</a></td><td><a href="028-parent-child-communication-and-one-way-data-flow.md">028 - 28. Parent-child communication and one-way data flow</a></td>
+</tr>
+  </tbody>
+</table>

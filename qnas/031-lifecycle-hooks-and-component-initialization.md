@@ -1,4 +1,4 @@
-﻿# 31. Q&A: Lifecycle hooks and component initialization
+# 31. Q&A: Lifecycle hooks and component initialization
 
 ## Lifecycle fundamentals
 
@@ -172,7 +172,22 @@ Confirm the component is actually instantiated, the hook name and signature are 
 
 - [Lesson 31: Lifecycle hooks and component initialization](../lessons/031-lifecycle-hooks-and-component-initialization.md)
 - [Example 31: Lifecycle hooks and component initialization](../examples/031-lifecycle-hooks-and-component-initialization.md)
-- [Angular component lifecycle guide](https://angular.dev/guide/components/lifecycle)
-- [Angular `afterNextRender` API](https://angular.dev/api/core/afterNextRender)
-- [Angular `DestroyRef` API](https://angular.dev/api/core/DestroyRef)
-- [Angular `takeUntilDestroyed` API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
+- Angular component lifecycle guide
+- [Angular `afterNextRender` API](`https://angular.dev/api/core/afterNextRender`)
+- [Angular `DestroyRef` API](`https://angular.dev/api/core/DestroyRef`)
+- [Angular `takeUntilDestroyed` API](`https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed`)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="030-view-queries-and-content-queries.md">030 - 30. View queries and content queries</a></td><td><a href="../lessons/031-lifecycle-hooks-and-component-initialization.md">Lesson</a></td><td><a href="../examples/031-lifecycle-hooks-and-component-initialization.md">Example</a></td><td><a href="032-host-bindings-host-listeners-and-host-directives.md">032 - 32. Host bindings, host listeners, and host directives</a></td>
+</tr>
+  </tbody>
+</table>

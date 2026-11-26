@@ -96,10 +96,17 @@ No. Angular handles versioned resources and configured data groups according to 
 
 It should state that the network is unavailable, distinguish cached content from current server data, explain which actions need connectivity, and offer a retry. It should not present stale cached values as live or claim a server-side change succeeded when it did not.
 
-## Further reading
+## Chapter navigation
 
-- [Angular service worker overview](https://angular.dev/ecosystem/service-workers)
-- [Angular service worker configuration](https://angular.dev/ecosystem/service-workers/config)
-- [Angular service worker communications](https://angular.dev/ecosystem/service-workers/communications)
-- [Angular service worker deployment guidance](https://angular.dev/ecosystem/service-workers/devops)
-- [MDN: Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="118-authentication-authorization-secrets-and-browser-storage.md">118 - Authentication, Authorization, Secrets, and Browser Storage</a></td><td><a href="../lessons/119-service-workers-offline-behavior-deployment-and-updates.md">Lesson</a></td><td><a href="../examples/119-service-workers-offline-behavior-deployment-and-updates.md">Example</a></td><td><a href="120-upgrade-angular-safely-and-build-an-accessible-capstone-app.md">120 - Upgrade Angular Safely and Build an Accessible Capstone App</a></td>
+</tr>
+  </tbody>
+</table>

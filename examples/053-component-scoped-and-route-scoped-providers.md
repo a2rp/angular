@@ -341,11 +341,17 @@ Open the local address printed by the Angular CLI.
 
 A route provider controls dependency scope inside the client application. The demonstration guard returns true and is not a security boundary. Real authorization must be enforced by the server for protected data and actions.
 
-## Further reading
+## Chapter navigation
 
-- [The lesson](../lessons/053-component-scoped-and-route-scoped-providers.md)
-- [The Q&A](../qnas/053-component-scoped-and-route-scoped-providers.md)
-- [Hierarchical dependency injection](https://angular.dev/guide/di/hierarchical-dependency-injection)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Route-level providers](https://angular.dev/guide/routing/define-routes#route-level-providers-for-dependency-injection)
-- [Route API](https://angular.dev/api/router/Route)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="052-application-and-environment-providers.md">052 - Application and environment providers</a></td><td><a href="../lessons/053-component-scoped-and-route-scoped-providers.md">Lesson</a></td><td><a href="../qnas/053-component-scoped-and-route-scoped-providers.md">Q&amp;A</a></td><td><a href="054-injectiontoken-and-typed-application-configuration.md">054 - InjectionToken and typed application configuration</a></td>
+</tr>
+  </tbody>
+</table>

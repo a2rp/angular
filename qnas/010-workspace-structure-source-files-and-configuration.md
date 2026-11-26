@@ -1,4 +1,4 @@
-﻿# Q&A: Workspace Structure, Source Files, and Configuration
+# Q&A: Workspace Structure, Source Files, and Configuration
 
 ## Workspace and project layout
 
@@ -156,15 +156,17 @@ Search for imports or references from the entry point, component metadata, TypeS
 
 Use Angular's file-structure and workspace-configuration guides for the version you are using. CLI-generated structure changes, so check the current docs and the configuration in your own workspace.
 
-## Official references
+## Chapter navigation
 
-- [Angular workspace and project file structure](https://angular.dev/reference/configs/file-structure)
-- [Angular workspace configuration](https://angular.dev/reference/configs/workspace-config)
-- [Angular CLI ng new command](https://angular.dev/cli/new)
-- [Angular CLI ng config command](https://angular.dev/cli/config)
-- [Angular application npm packages](https://angular.dev/reference/configs/npm-packages)
-- [Angular Component API](https://angular.dev/api/core/Component)
-
----
-
-[← Lesson 010: Workspace Structure, Source Files, and Configuration](../lessons/010-workspace-structure-source-files-and-configuration.md) | [Examples 010 →](../examples/010-workspace-structure-source-files-and-configuration.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="009-create-a-standalone-angular-application.md">009 - Create a Standalone Angular Application</a></td><td><a href="../lessons/010-workspace-structure-source-files-and-configuration.md">Lesson</a></td><td><a href="../examples/010-workspace-structure-source-files-and-configuration.md">Example</a></td><td><a href="011-run-serve-build-and-inspect-an-angular-application.md">011 - Run, Serve, Build, and Inspect an Angular Application</a></td>
+</tr>
+  </tbody>
+</table>

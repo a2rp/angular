@@ -44,7 +44,7 @@ Prerendered files can be delivered by static hosting or a CDN without running An
 
 Angular server route configuration supports Client, Server, and Prerender modes. A hybrid application could prerender documentation routes, use SSR for public search results that need fresh content, and keep a signed-in workspace client-rendered.
 
-The actual route setup is covered in chapter 114. See Angular's [rendering strategies guide](https://angular.dev/guide/routing/rendering-strategies).
+The actual route setup is covered in chapter 114. See Angular's rendering strategies guide.
 
 ## 6. Data freshness and caching
 
@@ -101,9 +101,17 @@ Choose CSR when browser rendering fits. Choose prerendering for stable content k
 - Match data freshness and caching to whether content is public or user-specific.
 - Choose from route requirements, measurements, and hosting capability.
 
-## Further reading
+## Chapter navigation
 
-- [Angular rendering strategies](https://angular.dev/guide/routing/rendering-strategies)
-- [Angular server and hybrid rendering](https://angular.dev/guide/prerendering)
-- [Angular SSR guide](https://angular.dev/guide/ssr)
-- [Server-side rendering performance guide](https://angular.dev/best-practices/performance/ssr)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="112-rendering-performance-change-detection-and-profiling.md">112 - Rendering Performance, Change Detection, and Profiling</a></td><td><a href="../qnas/113-client-rendering-server-rendering-and-prerendering.md">Q&amp;A</a></td><td><a href="../examples/113-client-rendering-server-rendering-and-prerendering.md">Example</a></td><td><a href="114-set-up-server-side-rendering-and-hybrid-route-rendering.md">114 - Set Up Server-Side Rendering and Hybrid Route Rendering</a></td>
+</tr>
+  </tbody>
+</table>

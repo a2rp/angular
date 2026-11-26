@@ -136,13 +136,17 @@ This often simplifies browser cookie and XSRF behavior. The browser sees same-or
 
 Angular can attach the XSRF header for eligible requests. The browser enforces cookie rules and same-origin restrictions. The backend must issue and validate sessions and CSRF tokens, apply authorization, and configure CORS and cookie attributes correctly.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/092-authentication-cookies-and-xsrf-protection.md
-- Examples: examples/092-authentication-cookies-and-xsrf-protection.md
-- Angular security and XSRF: https://angular.dev/best-practices/security
-- Angular HttpClient setup: https://angular.dev/guide/http/setup
-- Angular XSRF configuration API: https://angular.dev/api/common/http/withXsrfConfiguration
-- Angular request credentials: https://angular.dev/guide/http/making-requests
-- MDN Set-Cookie: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie
-- OWASP CSRF Prevention Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="091-cancel-requests-and-prevent-stale-response-races.md">091 - Cancel Requests and Prevent Stale Response Races</a></td><td><a href="../lessons/092-authentication-cookies-and-xsrf-protection.md">Lesson</a></td><td><a href="../examples/092-authentication-cookies-and-xsrf-protection.md">Example</a></td><td><a href="093-caching-revalidation-and-transfer-cache.md">093 - Caching, Revalidation, and Transfer Cache</a></td>
+</tr>
+  </tbody>
+</table>

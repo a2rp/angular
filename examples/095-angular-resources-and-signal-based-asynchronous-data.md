@@ -436,15 +436,17 @@ A Resource exposes state; it does not define the whole socket lifecycle. A servi
 
 Use resource for custom promise reads, httpResource for reactive HttpClient reads, and rxResource for Observable-backed data. In every case, make params explicit, validate external data where needed, and render loading, empty, success, and error states deliberately.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/095-angular-resources-and-signal-based-asynchronous-data.md
-- Q&A: qnas/095-angular-resources-and-signal-based-asynchronous-data.md
-- Angular async reactivity with resources: https://angular.dev/guide/signals/resource
-- Angular resource API: https://angular.dev/api/core/resource
-- Angular streaming resource loader API: https://angular.dev/api/core/ResourceStreamingLoader
-- Angular reactive data fetching with httpResource: https://angular.dev/guide/http/http-resource
-- Angular httpResource API: https://angular.dev/api/common/http/httpResource
-- Angular RxJS interop and rxResource: https://angular.dev/guide/signals/rxjs-interop
-- Angular rxResource API: https://angular.dev/api/core/rxjs-interop/rxResource
-- Angular version compatibility: https://angular.dev/reference/versions
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="094-loading-empty-success-and-error-ui-states.md">094 - Loading, Empty, Success, and Error UI States</a></td><td><a href="../lessons/095-angular-resources-and-signal-based-asynchronous-data.md">Lesson</a></td><td><a href="../qnas/095-angular-resources-and-signal-based-asynchronous-data.md">Q&amp;A</a></td><td><a href="096-server-sent-events-websockets-and-live-updates.md">096 - Server-Sent Events, WebSockets, and Live Updates</a></td>
+</tr>
+  </tbody>
+</table>

@@ -341,11 +341,17 @@ Host directives must be standalone and cannot be added dynamically at runtime th
 - Design directive interactions with native semantics, keyboard support, and visible focus in mind.
 - Use `hostDirectives` to compose behavior that belongs to a component's implementation, exposing only intentional inputs and outputs.
 
-## Further reading
+## Chapter navigation
 
-- [Angular pipes guide](https://angular.dev/guide/templates/pipes)
-- [Pipe API](https://angular.dev/api/core/Pipe)
-- [Attribute directives guide](https://angular.dev/guide/directives/attribute-directives)
-- [Directive overview](https://angular.dev/guide/directives)
-- [Host elements and host bindings](https://angular.dev/guide/components/host-elements)
-- [Directive composition API](https://angular.dev/guide/directives/directive-composition-api)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="035-built-in-pipes-and-the-async-pipe.md">035 - 35. Built-in pipes and the async pipe</a></td><td><a href="../qnas/036-custom-pipes-attribute-directives-and-reusable-behavior.md">Q&amp;A</a></td><td><a href="../examples/036-custom-pipes-attribute-directives-and-reusable-behavior.md">Example</a></td><td><a href="037-writable-signals-and-updating-signal-state.md">037 - 37. Writable signals and updating signal state</a></td>
+</tr>
+  </tbody>
+</table>

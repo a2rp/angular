@@ -1,4 +1,4 @@
-﻿# Q&A: Angular Templates and HTML Structure
+# Q&A: Angular Templates and HTML Structure
 
 ## Templates and document structure
 
@@ -150,10 +150,17 @@ Inspect it when the UI structure, styles, or component placement differs from wh
 
 The next lesson explains interpolation and the expressions Angular evaluates in template text.
 
-## Further reading
+## Chapter navigation
 
-- [Angular template syntax overview](https://angular.dev/guide/templates)
-- [Whitespace in templates](https://angular.dev/guide/templates/whitespace)
-- [Angular component anatomy](https://angular.dev/guide/components)
-- [Angular accessibility practices](https://angular.dev/best-practices/a11y)
-- [Angular self-closing tag migration](https://angular.dev/reference/migrations/self-closing-tags)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="015-selectors-and-the-component-host-element.md">015 - 15. Selectors and the component host element</a></td><td><a href="../lessons/016-angular-templates-and-html-structure.md">Lesson</a></td><td><a href="../examples/016-angular-templates-and-html-structure.md">Example</a></td><td><a href="017-interpolation-and-template-expressions.md">017 - 17. Interpolation and template expressions</a></td>
+</tr>
+  </tbody>
+</table>

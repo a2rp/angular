@@ -247,10 +247,17 @@ For a stream of refresh triggers, catch the request error inside the request bra
 
 Model each meaningful asynchronous outcome explicitly. A successful empty response, an error, and a request in progress are different states with different UI. Use an accessible template for each state and make retry and stale-data behavior deliberate.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/094-loading-empty-success-and-error-ui-states.md
-- Examples: examples/094-loading-empty-success-and-error-ui-states.md
-- Angular template control flow: https://angular.dev/guide/templates/control-flow
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- RxJS catchError: https://rxjs.dev/api/operators/catchError
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="093-caching-revalidation-and-transfer-cache.md">093 - Caching, Revalidation, and Transfer Cache</a></td><td><a href="../qnas/094-loading-empty-success-and-error-ui-states.md">Q&amp;A</a></td><td><a href="../examples/094-loading-empty-success-and-error-ui-states.md">Example</a></td><td><a href="095-angular-resources-and-signal-based-asynchronous-data.md">095 - Angular Resources and Signal-Based Asynchronous Data</a></td>
+</tr>
+  </tbody>
+</table>

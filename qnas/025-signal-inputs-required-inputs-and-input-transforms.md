@@ -1,4 +1,4 @@
-﻿# Q&A: Signal inputs, required inputs, and input transforms
+# Q&A: Signal inputs, required inputs, and input transforms
 
 ## Signal input basics
 
@@ -194,9 +194,17 @@ Prefer a pure input transform for simple boundary normalization. Avoid expensive
 
 No. Required inputs catch missing bindings in checked templates. They do not validate untrusted API data, dynamic values, or business rules such as string length and numeric range.
 
-## Official references
+## Chapter navigation
 
-- [Accepting data with input properties](https://angular.dev/guide/components/inputs)
-- [input API](https://angular.dev/api/core/input)
-- [InputSignalWithTransform API](https://angular.dev/api/core/InputSignalWithTransform)
-- [Migration to signal inputs](https://angular.dev/reference/migrations/signal-inputs)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="024-built-in-directives-and-structural-directive-syntax.md">024 - 24. Built-in directives and structural directive syntax</a></td><td><a href="../lessons/025-signal-inputs-required-inputs-and-input-transforms.md">Lesson</a></td><td><a href="../examples/025-signal-inputs-required-inputs-and-input-transforms.md">Example</a></td><td><a href="026-component-outputs-and-custom-events.md">026 - 26. Component outputs and custom events</a></td>
+</tr>
+  </tbody>
+</table>

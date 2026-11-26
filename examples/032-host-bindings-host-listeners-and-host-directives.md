@@ -1,4 +1,4 @@
-﻿# 32. Example: Host bindings, host listeners, and host directives
+# 32. Example: Host bindings, host listeners, and host directives
 
 This standalone Angular app demonstrates three host-element patterns: a notice component binds its role, ARIA state, class, and style on its own host; a host event listens for Escape on `window`; and a reusable hover directive is composed into a card component with `hostDirectives`.
 
@@ -333,5 +333,20 @@ The component explicitly exposes the host directive's `label` input as `accessib
 
 - [Lesson 32: Host bindings, host listeners, and host directives](../lessons/032-host-bindings-host-listeners-and-host-directives.md)
 - [Q&A 32: Host bindings, host listeners, and host directives](../qnas/032-host-bindings-host-listeners-and-host-directives.md)
-- [Angular component host elements](https://angular.dev/guide/components/host-elements)
-- [Angular directive composition API](https://angular.dev/guide/directives/directive-composition-api)
+- Angular component host elements
+- Angular directive composition API
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="031-lifecycle-hooks-and-component-initialization.md">031 - 31. Lifecycle hooks and component initialization</a></td><td><a href="../lessons/032-host-bindings-host-listeners-and-host-directives.md">Lesson</a></td><td><a href="../qnas/032-host-bindings-host-listeners-and-host-directives.md">Q&amp;A</a></td><td><a href="033-component-styles-and-view-encapsulation.md">033 - 33. Component styles and view encapsulation</a></td>
+</tr>
+  </tbody>
+</table>

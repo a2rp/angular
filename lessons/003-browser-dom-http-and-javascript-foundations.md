@@ -1,4 +1,4 @@
-﻿# Browser, DOM, HTTP, and JavaScript Foundations
+# Browser, DOM, HTTP, and JavaScript Foundations
 
 Angular applications run in a browser and communicate with servers through web platform APIs. Understanding the browser, the DOM, events, asynchronous JavaScript, and HTTP makes Angular code easier to reason about and helps you debug issues that are not caused by Angular itself.
 
@@ -58,7 +58,7 @@ For example:
 </main>
 ~~~
 
-The browser creates corresponding element objects with parent and child relationships. JavaScript can inspect or change the DOM through browser APIs such as document and Element. The [MDN DOM anatomy guide](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Anatomy_of_the_DOM) explains the tree model.
+The browser creates corresponding element objects with parent and child relationships. JavaScript can inspect or change the DOM through browser APIs such as document and Element. The MDN DOM anatomy guide explains the tree model.
 
 In plain JavaScript, a script might find a button and attach a listener:
 
@@ -70,7 +70,7 @@ button.addEventListener('click', () => {
 });
 ~~~
 
-Angular also results in DOM elements, but Angular templates express the view declaratively. The framework tracks component data and template bindings and updates the rendered view as that data changes. The [Angular template guide](https://angular.dev/guide/templates) describes templates as the way components define the DOM they render.
+Angular also results in DOM elements, but Angular templates express the view declaratively. The framework tracks component data and template bindings and updates the rendered view as that data changes. The Angular template guide describes templates as the way components define the DOM they render.
 
 When Angular owns a component's view, prefer Angular template bindings and component state for normal UI updates. Directly changing the same nodes with document.querySelector or innerHTML can conflict with Angular's view model, bypass expected behavior, and create security or accessibility problems. Direct DOM access has specialized uses; later lessons cover Angular's supported options.
 
@@ -89,7 +89,7 @@ In Angular templates, common event bindings use parentheses around the event nam
 </form>
 ~~~
 
-An event binding connects an event to a component expression. The button still emits a browser click event; Angular provides a declarative way to handle it. The [MDN events guide](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events) covers browser events, listeners, event objects, bubbling, and default actions.
+An event binding connects an event to a component expression. The button still emits a browser click event; Angular provides a declarative way to handle it. The MDN events guide covers browser events, listeners, event objects, bubbling, and default actions.
 
 Use semantic HTML controls where possible. A real button supports keyboard interaction and accessibility behavior that a clickable generic div does not provide automatically.
 
@@ -120,7 +120,7 @@ The try/catch handles rejected operations and errors thrown in the try block. Ch
 
 Angular applications use the same JavaScript runtime concepts. Depending on the Angular API, asynchronous results may be represented as promises, RxJS observables, or signals that hold the latest state. Later chapters explain these Angular patterns.
 
-For more about promises and async/await, see [Using promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) and [async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function).
+For more about promises and async/await, see Using promises and async functions.
 
 ## HTTP: requests and responses
 
@@ -149,7 +149,7 @@ Common methods include:
 | PATCH | Apply a partial change |
 | DELETE | Request removal of a resource |
 
-These are protocol semantics, not a guarantee that every API is designed well. Check the API's documentation before relying on what an endpoint does. The [HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview) describes the request and response model, and the [HTTP methods reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods) describes method semantics.
+These are protocol semantics, not a guarantee that every API is designed well. Check the API's documentation before relying on what an endpoint does. The HTTP overview describes the request and response model, and the HTTP methods reference describes method semantics.
 
 Status codes are grouped into classes:
 
@@ -158,7 +158,7 @@ Status codes are grouped into classes:
 - **4xx**: the request has a client-side problem, such as missing authentication or a resource that does not exist.
 - **5xx**: the server failed while handling the request.
 
-A response with a 404 status is still an HTTP response. It is different from a network failure where the browser could not obtain a usable response at all. See the [HTTP status reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status).
+A response with a 404 status is still an HTTP response. It is different from a network failure where the browser could not obtain a usable response at all. See the HTTP status reference.
 
 HTTP is described as stateless: each request is interpreted on its own unless an application uses additional mechanisms such as cookies or tokens to associate requests with a session. HTTPS is HTTP carried over a TLS-protected connection; it protects data in transit but does not by itself guarantee that an application handles data safely.
 
@@ -183,7 +183,7 @@ async function getTasks() {
 
 Calling response.json() reads and parses the response body. It does not itself mean the server returned a successful status. Always consider the status and handle failures.
 
-Fetch commonly rejects for network-level failures, but an HTTP response with a 404 or 500 status does not automatically reject the fetch promise. Check response.ok or response.status. The [Fetch API guide](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) explains this distinction and response-body handling.
+Fetch commonly rejects for network-level failures, but an HTTP response with a 404 or 500 status does not automatically reject the fetch promise. Check response.ok or response.status. The Fetch API guide explains this distinction and response-body handling.
 
 ## Origins, same-origin policy, and CORS
 
@@ -191,7 +191,7 @@ A web **origin** is made from a scheme, host, and port. For example, differences
 
 Browsers restrict scripts from reading many responses from a different origin. This is part of the same-origin policy. **CORS**, or **Cross-Origin Resource Sharing**, is a server-controlled mechanism that can allow selected cross-origin responses to be read by browser JavaScript. CORS is not a frontend switch that can force another server to allow access; the server must send appropriate response headers.
 
-For local development, a frontend may run on one port while an API runs on another. Those are different origins, so the API may need a development CORS configuration or the frontend dev server may need a proxy. Never solve a CORS issue by disabling browser security for normal browsing. Read [MDN's CORS guide](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) before changing server policy.
+For local development, a frontend may run on one port while an API runs on another. Those are different origins, so the API may need a development CORS configuration or the frontend dev server may need a proxy. Never solve a CORS issue by disabling browser security for normal browsing. Read MDN's CORS guide before changing server policy.
 
 ## How Angular connects these foundations
 
@@ -242,14 +242,17 @@ For an API problem, check the Network panel before changing Angular code. Confir
 
 Answers are in [Chapter 3 Q&A](../qnas/003-browser-dom-http-and-javascript-foundations.md). Follow the [Chapter 3 examples](../examples/003-browser-dom-http-and-javascript-foundations.md) to build a small page using DOM events, Fetch, JSON, and error states.
 
-## Further reading
+## Chapter navigation
 
-- [How the web works](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works)
-- [DOM anatomy](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Anatomy_of_the_DOM)
-- [Browser events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events)
-- [HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)
-- [HTTP methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods)
-- [HTTP status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
-- [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS)
-- [Angular templates](https://angular.dev/guide/templates)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="002-angular-compared-with-angularjs.md">002 - Angular Compared with AngularJS</a></td><td><a href="../qnas/003-browser-dom-http-and-javascript-foundations.md">Q&amp;A</a></td><td><a href="../examples/003-browser-dom-http-and-javascript-foundations.md">Example</a></td><td><a href="004-typescript-essentials-values-types-and-inference.md">004 - TypeScript Essentials: Values, Types, and Inference</a></td>
+</tr>
+  </tbody>
+</table>

@@ -227,13 +227,17 @@ Do not paste live session cookies, CSRF tokens, passwords, or authorization head
 - Invalidate the server session during logout.
 - Avoid exposing credentials and tokens in browser storage, URLs, or logs.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/092-authentication-cookies-and-xsrf-protection.md
-- Q&A: qnas/092-authentication-cookies-and-xsrf-protection.md
-- Angular security and XSRF: https://angular.dev/best-practices/security
-- Angular HttpClient setup: https://angular.dev/guide/http/setup
-- Angular XSRF configuration API: https://angular.dev/api/common/http/withXsrfConfiguration
-- Angular request credentials: https://angular.dev/guide/http/making-requests
-- MDN Set-Cookie header: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie
-- OWASP CSRF Prevention Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="091-cancel-requests-and-prevent-stale-response-races.md">091 - Cancel Requests and Prevent Stale Response Races</a></td><td><a href="../lessons/092-authentication-cookies-and-xsrf-protection.md">Lesson</a></td><td><a href="../qnas/092-authentication-cookies-and-xsrf-protection.md">Q&amp;A</a></td><td><a href="093-caching-revalidation-and-transfer-cache.md">093 - Caching, Revalidation, and Transfer Cache</a></td>
+</tr>
+  </tbody>
+</table>

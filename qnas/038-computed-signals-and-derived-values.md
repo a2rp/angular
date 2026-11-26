@@ -142,10 +142,17 @@ When an `OnPush` component template reads a computed signal, Angular tracks that
 
 See [Example 38](../examples/038-computed-signals-and-derived-values.md). The concepts and design choices are explained in [Lesson 38](../lessons/038-computed-signals-and-derived-values.md).
 
-## Further reading
+## Chapter navigation
 
-- [Angular Signals guide](https://angular.dev/guide/signals)
-- [computed API](https://angular.dev/api/core/computed)
-- [Signal writes in a disallowed context](https://angular.dev/errors/NG0600)
-- [Effects guide](https://angular.dev/guide/signals/effect)
-- [Linked signals](https://angular.dev/guide/signals/linked-signal)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="037-writable-signals-and-updating-signal-state.md">037 - 37. Writable signals and updating signal state</a></td><td><a href="../lessons/038-computed-signals-and-derived-values.md">Lesson</a></td><td><a href="../examples/038-computed-signals-and-derived-values.md">Example</a></td><td><a href="039-linkedsignal-and-dependent-writable-state.md">039 - 39. `linkedSignal` and dependent writable state</a></td>
+</tr>
+  </tbody>
+</table>

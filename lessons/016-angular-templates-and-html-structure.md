@@ -1,4 +1,4 @@
-﻿# 16. Angular templates and HTML structure
+# 16. Angular templates and HTML structure
 
 An Angular template is the view markup for a component. It is based on HTML, so good HTML structure, semantic elements, and accessible markup still matter. Angular adds its own compilation and template syntax on top of that HTML.
 
@@ -155,14 +155,21 @@ Keep the template readable:
 - [ ] Whitespace and comments are not being mistaken for visible content.
 - [ ] The rendered DOM has been inspected when the visual structure is unexpected.
 
-## Further reading
-
-- [Angular template syntax overview](https://angular.dev/guide/templates)
-- [Whitespace in templates](https://angular.dev/guide/templates/whitespace)
-- [Angular component anatomy](https://angular.dev/guide/components)
-- [Angular accessibility practices](https://angular.dev/best-practices/a11y)
-- [Angular self-closing tag migration](https://angular.dev/reference/migrations/self-closing-tags)
-
 ## Next lesson
 
 Continue with [Interpolation and template expressions](017-interpolation-and-template-expressions.md).
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="015-selectors-and-the-component-host-element.md">015 - 15. Selectors and the component host element</a></td><td><a href="../qnas/016-angular-templates-and-html-structure.md">Q&amp;A</a></td><td><a href="../examples/016-angular-templates-and-html-structure.md">Example</a></td><td><a href="017-interpolation-and-template-expressions.md">017 - 17. Interpolation and template expressions</a></td>
+</tr>
+  </tbody>
+</table>

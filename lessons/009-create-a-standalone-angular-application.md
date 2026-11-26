@@ -1,4 +1,4 @@
-﻿# Create a Standalone Angular Application
+# Create a Standalone Angular Application
 
 The Angular CLI can create a working Angular application from a few terminal prompts. A modern standalone application starts from a root component and uses Angular's standalone bootstrap API rather than requiring a root NgModule. This lesson creates that app, follows how the browser reaches its root component, and verifies the development and build workflows.
 
@@ -184,15 +184,17 @@ Angular CLI changes defaults and file naming conventions over time. Use the curr
 - ng serve is for local development; ng build creates configured build output.
 - CLI prompts, generated filenames, and defaults depend on the installed version.
 
-## Further reading
+## Chapter navigation
 
-- [Angular local environment setup](https://angular.dev/tools/cli/setup-local)
-- [Angular CLI ng new command](https://angular.dev/cli/new)
-- [Angular bootstrapApplication API](https://angular.dev/api/platform-browser/bootstrapApplication)
-- [Angular component guide](https://angular.dev/guide/components)
-- [Angular Component API](https://angular.dev/api/core/Component)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-
----
-
-[← Lesson 008: Angular CLI Installation and Command Basics](008-angular-cli-installation-and-command-basics.md) | [Q&A 009 →](../qnas/009-create-a-standalone-angular-application.md) | [Examples 009 →](../examples/009-create-a-standalone-angular-application.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="008-angular-cli-installation-and-command-basics.md">008 - Angular CLI Installation and Command Basics</a></td><td><a href="../qnas/009-create-a-standalone-angular-application.md">Q&amp;A</a></td><td><a href="../examples/009-create-a-standalone-angular-application.md">Example</a></td><td><a href="010-workspace-structure-source-files-and-configuration.md">010 - Workspace Structure, Source Files, and Configuration</a></td>
+</tr>
+  </tbody>
+</table>

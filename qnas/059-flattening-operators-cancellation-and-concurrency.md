@@ -189,18 +189,23 @@ Yes. The projection can remain the same while the operator changes the policy. T
 
 Combination operators join values from independent streams, such as **combineLatest()** and **withLatestFrom()** from the previous chapter. Flattening operators handle a source that emits other Observables and decide how to subscribe to those inner streams.
 
-## Further reading
-
-- [RxJS switchMap() API](https://rxjs.dev/api/operators/switchMap)
-- [RxJS mergeMap() API](https://rxjs.dev/api/operators/mergeMap)
-- [RxJS concatMap() API](https://rxjs.dev/api/operators/concatMap)
-- [RxJS exhaustMap() API](https://rxjs.dev/api/operators/exhaustMap)
-- [Angular HttpClient request cancellation](https://angular.dev/guide/http/making-requests)
-- [Angular takeUntilDestroyed() API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
-- [Angular RxJS cleanup guide](https://angular.dev/ecosystem/rxjs-interop/take-until-destroyed)
-
 ## Continue learning
 
 - Lesson: [Flattening operators, cancellation, and concurrency](../lessons/059-flattening-operators-cancellation-and-concurrency.md)
 - Example: [Flattening operators, cancellation, and concurrency](../examples/059-flattening-operators-cancellation-and-concurrency.md)
 - Next lesson: [Error handling, cleanup, and takeUntilDestroyed](../lessons/060-error-handling-cleanup-and-takeuntildestroyed.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="058-rxjs-operators-for-mapping-and-combining-streams.md">058 - RxJS operators for mapping and combining streams</a></td><td><a href="../lessons/059-flattening-operators-cancellation-and-concurrency.md">Lesson</a></td><td><a href="../examples/059-flattening-operators-cancellation-and-concurrency.md">Example</a></td><td><a href="060-error-handling-cleanup-and-takeuntildestroyed.md">060 - Error handling, cleanup, and takeUntilDestroyed</a></td>
+</tr>
+  </tbody>
+</table>

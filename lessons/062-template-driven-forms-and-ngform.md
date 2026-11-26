@@ -262,10 +262,17 @@ Template-driven forms are a good fit when the form is small, mostly static, and 
 - Review the [Q&A](../qnas/062-template-driven-forms-and-ngform.md).
 - Work through the [complete example](../examples/062-template-driven-forms-and-ngform.md).
 
-## Official references
+## Chapter navigation
 
-- [Template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
-- [Forms overview](https://angular.dev/guide/forms)
-- [Validate form input](https://angular.dev/guide/forms/form-validation)
-- [NgForm API](https://angular.dev/api/forms/NgForm)
-- [NgModel API](https://angular.dev/api/forms/NgModel)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="061-choose-template-driven-reactive-or-signal-forms.md">061 - Choose template-driven, reactive, or signal forms</a></td><td><a href="../qnas/062-template-driven-forms-and-ngform.md">Q&amp;A</a></td><td><a href="../examples/062-template-driven-forms-and-ngform.md">Example</a></td><td><a href="063-reactive-forms-with-formcontrol-and-formgroup.md">063 - Reactive forms with FormControl and FormGroup</a></td>
+</tr>
+  </tbody>
+</table>

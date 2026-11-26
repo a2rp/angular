@@ -161,3 +161,18 @@ Call **setValue()**, **patchValue()**, and **reset()** on the parent control and
 ### 38. What is the essential CVA checklist?
 
 Render **writeValue()**, call **onChange** only for actual user changes, call **onTouched** at the right focus boundary, propagate disabled state to the UI, register with **NG_VALUE_ACCESSOR**, and provide custom validation and accessibility separately where needed.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="069-accessible-labels-instructions-and-validation-messages.md">069 - Accessible labels, instructions, and validation messages</a></td><td><a href="../lessons/070-custom-controls-with-controlvalueaccessor.md">Lesson</a></td><td><a href="../examples/070-custom-controls-with-controlvalueaccessor.md">Example</a></td><td><a href="071-signal-forms-models-fields-and-form-setup.md">071 - Signal Forms: models, fields, and form setup</a></td>
+</tr>
+  </tbody>
+</table>

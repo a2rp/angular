@@ -308,15 +308,23 @@ Check that the list calls `catalog.addSampleProduct()` and that both components 
 
 Standalone components must import the pipe used in their own template. This example imports `CurrencyPipe` in both components that display currency values.
 
-## Further reading
-
-- [Creating and using services](https://angular.dev/guide/di/creating-and-using-services)
-- [The `@Service` API](https://angular.dev/api/core/Service)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Dependency-injection context](https://angular.dev/guide/di/dependency-injection-context)
-
 ## Continue learning
 
 - Lesson: [Services and the injectable pattern](../lessons/049-services-and-the-injectable-pattern.md)
 - Q&A: [Services and the injectable pattern](../qnas/049-services-and-the-injectable-pattern.md)
 - Next lesson: [Inject dependencies with inject and constructor injection](../lessons/050-inject-dependencies-with-inject-and-constructor-injection.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="048-inspect-signals-and-components-with-angular-devtools.md">048 - Inspect signals and components with Angular DevTools</a></td><td><a href="../lessons/049-services-and-the-injectable-pattern.md">Lesson</a></td><td><a href="../qnas/049-services-and-the-injectable-pattern.md">Q&amp;A</a></td><td><a href="050-inject-dependencies-with-inject-and-constructor-injection.md">050 - Inject dependencies with `inject()` and constructor injection</a></td>
+</tr>
+  </tbody>
+</table>

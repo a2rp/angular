@@ -1,4 +1,4 @@
-﻿# 29. Q&A: Content projection and multiple slots
+# 29. Q&A: Content projection and multiple slots
 
 ## 1. What is content projection?
 
@@ -30,7 +30,7 @@ The consumer marks the intended content with matching attributes, classes, or el
 
 ## 6. What selector forms can `select` use?
 
-Angular supports selectors using tag names, attributes, CSS classes, and the `:not()` pseudo-class. Selectors can combine these forms. See the [`ng-content` API](https://angular.dev/api/core/ng-content) for the supported selector details.
+Angular supports selectors using tag names, attributes, CSS classes, and the `:not()` pseudo-class. Selectors can combine these forms. See the [`ng-content` API](`https://angular.dev/api/core/ng-content`) for the supported selector details.
 
 ## 7. How does the consumer mark content for a slot?
 
@@ -164,4 +164,19 @@ They are similar composition ideas, but Angular `<ng-content>` is Angular's comp
 
 ## 34. Where can I read Angular's official documentation?
 
-See [Content projection with `ng-content`](https://angular.dev/guide/components/content-projection), the [`ng-content` API reference](https://angular.dev/api/core/ng-content), and [Create template fragments with `ng-template`](https://angular.dev/guide/templates/ng-template).
+See [Content projection with `ng-content`](`https://angular.dev/guide/components/content-projection`), the [`ng-content` API reference](`https://angular.dev/api/core/ng-content`), and [Create template fragments with `ng-template`](`https://angular.dev/guide/templates/ng-template`).
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="028-parent-child-communication-and-one-way-data-flow.md">028 - 28. Parent-child communication and one-way data flow</a></td><td><a href="../lessons/029-content-projection-and-multiple-slots.md">Lesson</a></td><td><a href="../examples/029-content-projection-and-multiple-slots.md">Example</a></td><td><a href="030-view-queries-and-content-queries.md">030 - 30. View queries and content queries</a></td>
+</tr>
+  </tbody>
+</table>

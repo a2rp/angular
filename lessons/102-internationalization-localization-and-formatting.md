@@ -58,7 +58,7 @@ A practical Angular build-time workflow is:
 
 Use the translation file format and configuration supported by your Angular CLI. Treat source text and translations as maintained assets; re-extract and review changes when messages are added or altered.
 
-See [Prepare component for translation](https://angular.dev/guide/i18n/prepare), [Work with translation files](https://angular.dev/guide/i18n/translation-files), and [Merge translations into the app](https://angular.dev/guide/i18n/merge).
+See Prepare component for translation, Work with translation files, and Merge translations into the app.
 
 ## 3. Understand build-time and runtime localization
 
@@ -83,7 +83,7 @@ Currency formatting communicates presentation, not financial conversion. Store m
 
 Dates also require a timezone decision. A date-only concept such as a birthday is not the same as a timestamp such as a payment event. Avoid shifting a date-only value across timezones by treating it as a local timestamp without a clear policy.
 
-Angular's built-in data pipes use locale information. See [Format data based on locale](https://angular.dev/guide/i18n/format-data-locale). When overriding the app locale, also ensure the required locale data is registered.
+Angular's built-in data pipes use locale information. See Format data based on locale. When overriding the app locale, also ensure the required locale data is registered.
 
 ## 5. Translate plural and alternate forms as whole messages
 
@@ -114,3 +114,18 @@ Review line wrapping, truncation, headings, screen-reader announcements, and key
 Before adding localization infrastructure, define supported locales, URL and language-switch behavior, catalog ownership, translation review, number and currency policy, timezone behavior, right-to-left requirements, and fallback rules.
 
 Angular's built-in localization is suitable for marked messages and localized builds. Runtime switching, user-specific catalogs, or frequent remote translation updates may require a dedicated runtime localization solution. Choose based on the product requirement and document how it affects loading and caching.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="101-global-error-handling-logging-and-diagnostics.md">101 - Global Error Handling, Logging, and Diagnostics</a></td><td><a href="../qnas/102-internationalization-localization-and-formatting.md">Q&amp;A</a></td><td><a href="../examples/102-internationalization-localization-and-formatting.md">Example</a></td><td><a href="103-semantic-html-keyboard-access-and-accessible-angular-ui.md">103 - Semantic HTML, Keyboard Access, and Accessible Angular UI</a></td>
+</tr>
+  </tbody>
+</table>

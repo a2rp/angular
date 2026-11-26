@@ -1,4 +1,4 @@
-﻿# TypeScript Essentials: Values, Types, and Inference — Q&A
+# TypeScript Essentials: Values, Types, and Inference — Q&A
 
 This Q&A accompanies [Chapter 4: TypeScript Essentials: Values, Types, and Inference](../lessons/004-typescript-essentials-values-types-and-inference.md).
 
@@ -166,10 +166,17 @@ The array method provides contextual information. For example, the callback pass
 
 Hover over the variable, parameter, or expression in an editor that supports TypeScript, or use the TypeScript Playground. The displayed type helps explain what the compiler inferred.
 
-## References
+## Chapter navigation
 
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-- [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
-- [Type Inference](https://www.typescriptlang.org/docs/handbook/type-inference.html)
-- [Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
-- [TypeScript Playground](https://www.typescriptlang.org/play/)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="003-browser-dom-http-and-javascript-foundations.md">003 - Browser, DOM, HTTP, and JavaScript Foundations</a></td><td><a href="../lessons/004-typescript-essentials-values-types-and-inference.md">Lesson</a></td><td><a href="../examples/004-typescript-essentials-values-types-and-inference.md">Example</a></td><td><a href="005-typescript-interfaces-unions-generics-and-narrowing.md">005 - TypeScript Interfaces, Unions, Generics, and Narrowing</a></td>
+</tr>
+  </tbody>
+</table>

@@ -369,9 +369,17 @@ select:focus-visible {
 - **`linkedSignal` cannot be imported:** Confirm that the project uses Angular 20 or later.
 - **The displayed value does not change after selection:** Make sure the UI reads `selectedOption()` and that the change handler calls `.set()` with an option from the current source list.
 
-## Further reading
+## Chapter navigation
 
-- [Lesson 39: `linkedSignal` and dependent writable state](../lessons/039-linkedsignal-and-dependent-writable-state.md)
-- [Q&A 39](../qnas/039-linkedsignal-and-dependent-writable-state.md)
-- [Angular linkedSignal guide](https://angular.dev/guide/signals/linked-signal)
-- [linkedSignal API](https://angular.dev/api/core/linkedSignal)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="038-computed-signals-and-derived-values.md">038 - 38. Computed signals and derived values</a></td><td><a href="../lessons/039-linkedsignal-and-dependent-writable-state.md">Lesson</a></td><td><a href="../qnas/039-linkedsignal-and-dependent-writable-state.md">Q&amp;A</a></td><td><a href="040-effects-cleanup-and-when-not-to-use-effects.md">040 - 40. Effects, cleanup, and when not to use effects</a></td>
+</tr>
+  </tbody>
+</table>

@@ -331,3 +331,18 @@ A pure helper is useful when the transformation is complex enough to reuse or re
 - Unchanged items keep their references.
 - No-op and invalid transitions do not create a new array.
 - Read-only signals and readonly types help protect the boundary but do not deeply freeze JavaScript values.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="046-state-ownership-and-avoiding-duplicated-state.md">046 - State ownership and avoiding duplicated state</a></td><td><a href="../lessons/047-immutable-state-updates-for-arrays-and-objects.md">Lesson</a></td><td><a href="../qnas/047-immutable-state-updates-for-arrays-and-objects.md">Q&amp;A</a></td><td><a href="048-inspect-signals-and-components-with-angular-devtools.md">048 - Inspect signals and components with Angular DevTools</a></td>
+</tr>
+  </tbody>
+</table>

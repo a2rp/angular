@@ -342,10 +342,17 @@ For repeated controls whose count changes at runtime, use **FormArray**. For a s
 - Review the [Q&A](../qnas/063-reactive-forms-with-formcontrol-and-formgroup.md).
 - Work through the [complete example](../examples/063-reactive-forms-with-formcontrol-and-formgroup.md).
 
-## Official references
+## Chapter navigation
 
-- [Reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [FormControl API](https://angular.dev/api/forms/FormControl)
-- [FormGroup API](https://angular.dev/api/forms/FormGroup)
-- [ReactiveFormsModule API](https://angular.dev/api/forms/ReactiveFormsModule)
-- [Validators API](https://angular.dev/api/forms/Validators)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="062-template-driven-forms-and-ngform.md">062 - Template-driven forms and NgForm</a></td><td><a href="../qnas/063-reactive-forms-with-formcontrol-and-formgroup.md">Q&amp;A</a></td><td><a href="../examples/063-reactive-forms-with-formcontrol-and-formgroup.md">Example</a></td><td><a href="064-typed-reactive-forms-and-non-nullable-controls.md">064 - Typed reactive forms and non-nullable controls</a></td>
+</tr>
+  </tbody>
+</table>

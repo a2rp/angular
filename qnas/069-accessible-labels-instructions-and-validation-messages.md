@@ -179,3 +179,18 @@ No. Client-side validation improves feedback, but the server must validate submi
 ### 42. What is the core checklist for an accessible Reactive Form?
 
 Use meaningful visible labels, provide persistent instructions, associate help and errors with the correct inputs, reveal errors at a deliberate time, expose **aria-invalid** consistently, and make submit feedback easy to find and understand.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="068-submission-flows-pending-state-and-reset-behavior.md">068 - Submission flows, pending state, and reset behavior</a></td><td><a href="../lessons/069-accessible-labels-instructions-and-validation-messages.md">Lesson</a></td><td><a href="../examples/069-accessible-labels-instructions-and-validation-messages.md">Example</a></td><td><a href="070-custom-controls-with-controlvalueaccessor.md">070 - Custom controls with ControlValueAccessor</a></td>
+</tr>
+  </tbody>
+</table>

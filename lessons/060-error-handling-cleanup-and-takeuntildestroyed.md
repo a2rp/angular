@@ -247,21 +247,24 @@ Place **takeUntilDestroyed()** after operators that create inner subscriptions, 
 - **Manually subscribing to template data without a lifetime:** use **AsyncPipe**, **toSignal()**, or **takeUntilDestroyed()** as appropriate.
 - **Displaying raw error details:** keep internal diagnostics separate from safe user-facing messages.
 
-## Further reading
-
-- [RxJS catchError() API](https://rxjs.dev/api/operators/catchError)
-- [RxJS retry() API](https://rxjs.dev/api/index/function/retry)
-- [RxJS finalize() API](https://rxjs.dev/api/operators/finalize)
-- [Angular HttpClient errors and request behavior](https://angular.dev/guide/http/making-requests)
-- [Angular HttpErrorResponse API](https://angular.dev/api/common/http/HttpErrorResponse)
-- [Angular AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Angular toSignal() API](https://angular.dev/api/core/rxjs-interop/toSignal)
-- [Angular takeUntilDestroyed() API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
-- [Angular RxJS cleanup guide](https://angular.dev/ecosystem/rxjs-interop/take-until-destroyed)
-
 ## Continue learning
 
 - Previous: [Flattening operators, cancellation, and concurrency](059-flattening-operators-cancellation-and-concurrency.md)
 - Q&A: [Error handling, cleanup, and takeUntilDestroyed](../qnas/060-error-handling-cleanup-and-takeuntildestroyed.md)
 - Example: [Error handling, cleanup, and takeUntilDestroyed](../examples/060-error-handling-cleanup-and-takeuntildestroyed.md)
 - Next: [Choose template-driven, reactive, or signal forms](061-choose-template-driven-reactive-or-signal-forms.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="059-flattening-operators-cancellation-and-concurrency.md">059 - Flattening operators, cancellation, and concurrency</a></td><td><a href="../qnas/060-error-handling-cleanup-and-takeuntildestroyed.md">Q&amp;A</a></td><td><a href="../examples/060-error-handling-cleanup-and-takeuntildestroyed.md">Example</a></td><td><a href="061-choose-template-driven-reactive-or-signal-forms.md">061 - Choose template-driven, reactive, or signal forms</a></td>
+</tr>
+  </tbody>
+</table>

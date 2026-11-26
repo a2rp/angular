@@ -250,9 +250,17 @@ HttpClient's body Observable normally emits the response and completes. Do not c
 
 The server contract takes precedence. In particular, match the response type to what the endpoint really returns.
 
-## Related files and official documentation
+## Chapter navigation
 
-- Lesson: lessons/086-build-typed-http-requests-and-api-services.md
-- Q&A: qnas/086-build-typed-http-requests-and-api-services.md
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- HttpClient API: https://angular.dev/api/common/http/HttpClient
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="085-configure-httpclient-with-providehttpclient.md">085 - Configure HttpClient with provideHttpClient</a></td><td><a href="../lessons/086-build-typed-http-requests-and-api-services.md">Lesson</a></td><td><a href="../qnas/086-build-typed-http-requests-and-api-services.md">Q&amp;A</a></td><td><a href="087-url-parameters-headers-response-types-and-credentials.md">087 - URL Parameters, Headers, Response Types, and Credentials</a></td>
+</tr>
+  </tbody>
+</table>

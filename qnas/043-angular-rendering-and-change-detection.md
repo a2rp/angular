@@ -1,4 +1,4 @@
-﻿# 43. Angular rendering and change detection — Q&A
+# 43. Angular rendering and change detection — Q&A
 
 ## Core model
 
@@ -121,10 +121,17 @@ It is the default starting in Angular v22. Earlier versions defaulted to the eag
 
 No. Angular checks an `OnPush` subtree when its documented triggers occur, such as a changed template-bound input, an event in the subtree, an explicit mark, or a changed signal read by the template. See the next chapter for scenarios and subtree behavior.
 
-## Official references
+## Chapter navigation
 
-- [Angular component lifecycle](https://angular.dev/guide/components/lifecycle)
-- [Angular advanced component configuration](https://angular.dev/guide/components/advanced-configuration)
-- [Angular zoneless guide](https://angular.dev/guide/experimental/zoneless)
-- [Angular `ChangeDetectorRef` API](https://angular.dev/api/core/ChangeDetectorRef)
-- [Angular `NG0100` error guide](https://angular.dev/errors/NG0100)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="042-rxjs-interop-with-tosignal-and-toobservable.md">042 - 42. RxJS interop with `toSignal()` and `toObservable()`</a></td><td><a href="../lessons/043-angular-rendering-and-change-detection.md">Lesson</a></td><td><a href="../examples/043-angular-rendering-and-change-detection.md">Example</a></td><td><a href="044-onpush-change-detection-and-immutable-updates.md">044 - 44. OnPush change detection and immutable updates</a></td>
+</tr>
+  </tbody>
+</table>

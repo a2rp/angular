@@ -1,4 +1,4 @@
-﻿# Examples: Bootstrap, ApplicationConfig, and Application Providers
+# Examples: Bootstrap, ApplicationConfig, and Application Providers
 
 This walkthrough configures an Angular standalone application with a typed settings token, the router, and the HTTP client. A routed standalone page injects the app title. The sample shows how startup configuration and template imports work together.
 
@@ -177,11 +177,17 @@ These are separate layers: application providers configure services and values, 
 
 The sample's title and relative API URL are public client settings. Do not put passwords, private API keys, or database credentials in the app settings token or any other file bundled for the browser. Browser code and its downloaded configuration can be inspected by users.
 
-## Further reading
+## Chapter navigation
 
-- [bootstrapApplication API](https://angular.dev/api/platform-browser/bootstrapApplication)
-- [ApplicationConfig API](https://angular.dev/api/core/ApplicationConfig)
-- [Define dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Dependency injection providers](https://angular.dev/guide/di/dependency-injection-providers)
-- [Angular routing](https://angular.dev/guide/routing)
-- [Angular HTTP](https://angular.dev/guide/http)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="011-run-serve-build-and-inspect-an-angular-application.md">011 - Run, Serve, Build, and Inspect an Angular Application</a></td><td><a href="../lessons/012-bootstrap-applicationconfig-and-application-providers.md">Lesson</a></td><td><a href="../qnas/012-bootstrap-applicationconfig-and-application-providers.md">Q&amp;A</a></td><td><a href="013-components-metadata-and-component-boundaries.md">013 - 13. Components, metadata, and component boundaries</a></td>
+</tr>
+  </tbody>
+</table>

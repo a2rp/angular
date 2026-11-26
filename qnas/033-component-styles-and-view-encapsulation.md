@@ -1,4 +1,4 @@
-﻿# 33. Q&A: Component styles and view encapsulation
+# 33. Q&A: Component styles and view encapsulation
 
 ## Component styles
 
@@ -152,6 +152,21 @@ Angular associates component styles with the component and includes them when th
 
 - [Lesson 33: Component styles and view encapsulation](../lessons/033-component-styles-and-view-encapsulation.md)
 - [Example 33: Component styles and view encapsulation](../examples/033-component-styles-and-view-encapsulation.md)
-- [Angular styling guide](https://angular.dev/guide/components/styling)
-- [`ViewEncapsulation` API](https://angular.dev/api/core/ViewEncapsulation)
-- [Component host elements](https://angular.dev/guide/components/host-elements)
+- Angular styling guide
+- [`ViewEncapsulation` API](`https://angular.dev/api/core/ViewEncapsulation`)
+- Component host elements
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="032-host-bindings-host-listeners-and-host-directives.md">032 - 32. Host bindings, host listeners, and host directives</a></td><td><a href="../lessons/033-component-styles-and-view-encapsulation.md">Lesson</a></td><td><a href="../examples/033-component-styles-and-view-encapsulation.md">Example</a></td><td><a href="034-global-styles-css-variables-and-theming.md">034 - 34. Global styles, CSS variables, and theming</a></td>
+</tr>
+  </tbody>
+</table>

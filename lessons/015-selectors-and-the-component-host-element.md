@@ -1,4 +1,4 @@
-﻿# 15. Selectors and the component host element
+# 15. Selectors and the component host element
 
 A component selector tells Angular which template element should instantiate the component. The matching element becomes the component's host element, and the component's view is rendered inside it. Understanding both ideas helps you choose clear selectors, inspect rendered DOM, and put attributes or bindings on the correct element.
 
@@ -191,13 +191,21 @@ The .badge rule targets an element in the component template; :host targets the 
 - [ ] Host metadata and consumer bindings do not compete for the same dynamic property.
 - [ ] Styles distinguish :host from elements inside the component template.
 
-## Further reading
-
-- [Angular component selectors](https://angular.dev/guide/components/selectors)
-- [Component host elements](https://angular.dev/guide/components/host-elements)
-- [Component decorator API](https://angular.dev/api/core/Component)
-- [Component styling](https://angular.dev/guide/components/styling)
-
 ## Next lesson
 
 Continue with [Angular templates and HTML structure](016-angular-templates-and-html-structure.md).
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="014-standalone-components-and-template-imports.md">014 - 14. Standalone components and template imports</a></td><td><a href="../qnas/015-selectors-and-the-component-host-element.md">Q&amp;A</a></td><td><a href="../examples/015-selectors-and-the-component-host-element.md">Example</a></td><td><a href="016-angular-templates-and-html-structure.md">016 - 16. Angular templates and HTML structure</a></td>
+</tr>
+  </tbody>
+</table>

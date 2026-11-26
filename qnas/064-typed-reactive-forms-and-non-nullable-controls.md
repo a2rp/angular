@@ -151,13 +151,17 @@ No. Types describe possible value shapes; validators decide whether current valu
 
 For a complete profile form, continue to the [example](../examples/064-typed-reactive-forms-and-non-nullable-controls.md).
 
-## Official references
+## Chapter navigation
 
-- [Strictly typed reactive forms](https://angular.dev/guide/forms/typed-forms)
-- [FormControl API](https://angular.dev/api/forms/FormControl)
-- [FormControlOptions API](https://angular.dev/api/forms/FormControlOptions)
-- [FormGroup API](https://angular.dev/api/forms/FormGroup)
-- [FormBuilder API](https://angular.dev/api/forms/FormBuilder)
-- [NonNullableFormBuilder API](https://angular.dev/api/forms/NonNullableFormBuilder)
-- [FormArray API](https://angular.dev/api/forms/FormArray)
-- [FormRecord API](https://angular.dev/api/forms/FormRecord)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="063-reactive-forms-with-formcontrol-and-formgroup.md">063 - Reactive forms with FormControl and FormGroup</a></td><td><a href="../lessons/064-typed-reactive-forms-and-non-nullable-controls.md">Lesson</a></td><td><a href="../examples/064-typed-reactive-forms-and-non-nullable-controls.md">Example</a></td><td><a href="065-formarray-and-dynamic-form-structures.md">065 - FormArray and dynamic form structures</a></td>
+</tr>
+  </tbody>
+</table>

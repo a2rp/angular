@@ -116,12 +116,17 @@ An offline fallback page can explain that the network is unavailable, but it can
 - Test deployed offline and update behavior, including failures and user data safety.
 - For advanced offline workflows, consider whether the limited Angular worker is sufficient before building a custom strategy.
 
-## Further reading
+## Chapter navigation
 
-- [Angular service worker overview](https://angular.dev/ecosystem/service-workers)
-- [Getting started with Angular service workers](https://angular.dev/ecosystem/service-workers/getting-started)
-- [Angular service worker configuration](https://angular.dev/ecosystem/service-workers/config)
-- [Angular service worker communications and updates](https://angular.dev/ecosystem/service-workers/communications)
-- [Angular service worker deployment guidance](https://angular.dev/ecosystem/service-workers/devops)
-- [MDN: Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
-- [MDN: Secure contexts](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Secure_Contexts)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="118-authentication-authorization-secrets-and-browser-storage.md">118 - Authentication, Authorization, Secrets, and Browser Storage</a></td><td><a href="../qnas/119-service-workers-offline-behavior-deployment-and-updates.md">Q&amp;A</a></td><td><a href="../examples/119-service-workers-offline-behavior-deployment-and-updates.md">Example</a></td><td><a href="120-upgrade-angular-safely-and-build-an-accessible-capstone-app.md">120 - Upgrade Angular Safely and Build an Accessible Capstone App</a></td>
+</tr>
+  </tbody>
+</table>

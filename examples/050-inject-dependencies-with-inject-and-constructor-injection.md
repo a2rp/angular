@@ -349,16 +349,23 @@ Check that neither child component provides `ProductCatalogService` locally. A n
 
 The example's service files target current Angular v22. In Angular v17-v21, replace `@Service()` with `@Injectable({ providedIn: 'root' })` and update the imports. Check the installed package version before using the current decorator.
 
-## Further reading
-
-- [Dependency-injection overview](https://angular.dev/guide/di)
-- [The `inject()` API](https://angular.dev/api/core/inject)
-- [Injection context](https://angular.dev/guide/di/dependency-injection-context)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Hierarchical injectors](https://angular.dev/guide/di/hierarchical-dependency-injection)
-
 ## Continue learning
 
 - Lesson: [Inject dependencies with inject and constructor injection](../lessons/050-inject-dependencies-with-inject-and-constructor-injection.md)
 - Q&A: [Inject dependencies with inject and constructor injection](../qnas/050-inject-dependencies-with-inject-and-constructor-injection.md)
 - Next lesson: [Hierarchical dependency injection](../lessons/051-hierarchical-dependency-injection.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="049-services-and-the-injectable-pattern.md">049 - Services and the injectable pattern</a></td><td><a href="../lessons/050-inject-dependencies-with-inject-and-constructor-injection.md">Lesson</a></td><td><a href="../qnas/050-inject-dependencies-with-inject-and-constructor-injection.md">Q&amp;A</a></td><td><a href="051-hierarchical-dependency-injection.md">051 - Hierarchical dependency injection</a></td>
+</tr>
+  </tbody>
+</table>

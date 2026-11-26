@@ -226,3 +226,18 @@ This method is not wired to a button in this chapter's example because event bin
 8. Compare [disabled]="false" with [attr.disabled]="false" on a temporary native button, then remove the experiment. The property binding enables the button; the attribute form still emits a present boolean attribute.
 
 Do not insert untrusted strings as HTML or bypass Angular's security checks to make arbitrary values render. Prefer text bindings and fixed CSS classes for user-facing content and design states.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="017-interpolation-and-template-expressions.md">017 - 17. Interpolation and template expressions</a></td><td><a href="../lessons/018-property-attribute-class-and-style-bindings.md">Lesson</a></td><td><a href="../qnas/018-property-attribute-class-and-style-bindings.md">Q&amp;A</a></td><td><a href="019-event-bindings-event-objects-and-keyboard-input.md">019 - 19. Event bindings, event objects, and keyboard input</a></td>
+</tr>
+  </tbody>
+</table>

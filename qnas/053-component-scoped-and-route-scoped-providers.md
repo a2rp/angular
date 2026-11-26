@@ -154,12 +154,17 @@ TestBed.configureTestingModule({
 
 A root test provider is a convenient substitute for an isolated unit test, but it does not prove that the production component or route has the correct provider scope.
 
-## Further reading
+## Chapter navigation
 
-- [The lesson](../lessons/053-component-scoped-and-route-scoped-providers.md)
-- [The example](../examples/053-component-scoped-and-route-scoped-providers.md)
-- [Hierarchical dependency injection](https://angular.dev/guide/di/hierarchical-dependency-injection)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Route-level providers](https://angular.dev/guide/routing/define-routes#route-level-providers-for-dependency-injection)
-- [Route API](https://angular.dev/api/router/Route)
-- [Debugging and troubleshooting DI](https://angular.dev/guide/di/debugging-and-troubleshooting-di)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="052-application-and-environment-providers.md">052 - Application and environment providers</a></td><td><a href="../lessons/053-component-scoped-and-route-scoped-providers.md">Lesson</a></td><td><a href="../examples/053-component-scoped-and-route-scoped-providers.md">Example</a></td><td><a href="054-injectiontoken-and-typed-application-configuration.md">054 - InjectionToken and typed application configuration</a></td>
+</tr>
+  </tbody>
+</table>

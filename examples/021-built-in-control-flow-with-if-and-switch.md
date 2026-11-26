@@ -238,3 +238,18 @@ Use @default never; only when the switch is a finite typed union and every allow
 ## Compatibility note
 
 Built-in @if and @switch blocks are available in modern Angular and require no NgIf or NgSwitch import. The @default never; exhaustive form depends on the Angular compiler and its template type-checking support. If it is not available in the project's version, use a normal @default block and verify all states through the project's checks.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="020-two-way-binding-and-ngmodel.md">020 - 20. Two-way binding and ngModel</a></td><td><a href="../lessons/021-built-in-control-flow-with-if-and-switch.md">Lesson</a></td><td><a href="../qnas/021-built-in-control-flow-with-if-and-switch.md">Q&amp;A</a></td><td><a href="022-render-collections-with-for-track-and-empty.md">022 - 22. Render collections with for, track, and empty</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# 30. Q&A: View queries and content queries
+# 30. Q&A: View queries and content queries
 
 ## 1. What is an Angular query?
 
@@ -190,4 +190,19 @@ An input is an explicit data contract from parent to child. A query retrieves a 
 
 ## 36. Where can I read Angular's official query documentation?
 
-See [Referencing component children with queries](https://angular.dev/guide/components/queries), [`viewChild()`](https://angular.dev/api/core/viewChild), [`contentChild()`](https://angular.dev/api/core/contentChild), [`viewChildren()`](https://angular.dev/api/core/viewChildren), and [`contentChildren()`](https://angular.dev/api/core/contentChildren).
+See Referencing component children with queries, [`viewChild()`](`https://angular.dev/api/core/viewChild`), [`contentChild()`](`https://angular.dev/api/core/contentChild`), [`viewChildren()`](`https://angular.dev/api/core/viewChildren`), and [`contentChildren()`](`https://angular.dev/api/core/contentChildren`).
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="029-content-projection-and-multiple-slots.md">029 - 29. Content projection and multiple slots</a></td><td><a href="../lessons/030-view-queries-and-content-queries.md">Lesson</a></td><td><a href="../examples/030-view-queries-and-content-queries.md">Example</a></td><td><a href="031-lifecycle-hooks-and-component-initialization.md">031 - 31. Lifecycle hooks and component initialization</a></td>
+</tr>
+  </tbody>
+</table>

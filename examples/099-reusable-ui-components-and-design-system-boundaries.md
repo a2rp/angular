@@ -215,9 +215,17 @@ Before reusing or publishing these components, document:
 
 Try the components with long messages, no optional projected content, keyboard-only navigation, and narrow layouts. Keep them in the settings feature if no other workflow needs them; move them into a shared library only when there is a stable cross-application contract.
 
-## Further reading
+## Chapter navigation
 
-- [Angular component guide](https://angular.dev/guide/components)
-- [Angular content projection guide](https://angular.dev/guide/components/content-projection)
-- [Angular template control flow](https://angular.dev/guide/templates/control-flow)
-- [Angular style guide](https://angular.dev/style-guide)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="098-organize-projects-libraries-and-shared-code.md">098 - Organize Projects, Libraries, and Shared Code</a></td><td><a href="../lessons/099-reusable-ui-components-and-design-system-boundaries.md">Lesson</a></td><td><a href="../qnas/099-reusable-ui-components-and-design-system-boundaries.md">Q&amp;A</a></td><td><a href="100-dynamic-components-and-programmatic-rendering.md">100 - Dynamic Components and Programmatic Rendering</a></td>
+</tr>
+  </tbody>
+</table>

@@ -249,10 +249,17 @@ Before shipping, confirm that:
 - Directive and application-level state are reset where needed.
 - The server validates the final payload and handles retries safely.
 
-## Further reading
+## Chapter navigation
 
-- [Reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [Form validation](https://angular.dev/guide/forms/form-validation)
-- [FormGroup API](https://angular.dev/api/forms/FormGroup)
-- [AbstractFormDirective API](https://angular.dev/api/forms/AbstractFormDirective)
-- [FormControlStatus API](https://angular.dev/api/forms/FormControlStatus)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="067-cross-field-and-asynchronous-validation.md">067 - Cross-field and asynchronous validation</a></td><td><a href="../qnas/068-submission-flows-pending-state-and-reset-behavior.md">Q&amp;A</a></td><td><a href="../examples/068-submission-flows-pending-state-and-reset-behavior.md">Example</a></td><td><a href="069-accessible-labels-instructions-and-validation-messages.md">069 - Accessible labels, instructions, and validation messages</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# 33. Component styles and view encapsulation
+# 33. Component styles and view encapsulation
 
 Angular components can keep CSS next to the component that owns the template. **View encapsulation** determines how Angular scopes those component styles. Angular's default, `Emulated`, scopes selectors to a component's template without creating a browser Shadow DOM. `ShadowDom` uses a real shadow root, while `None` makes a component's styles global. Current Angular documentation also lists `ExperimentalIsolatedShadowDom`, an experimental mode that blocks styles from leaking into or out of a shadow root.
 
@@ -244,9 +244,17 @@ Before choosing where a style belongs, ask:
 - Would `ShadowDom` introduce event, slot, or tooling changes for this component?
 - Is the experimental isolated mode worth its compatibility and stability tradeoffs?
 
-## Further reading
+## Chapter navigation
 
-- [Styling components](https://angular.dev/guide/components/styling)
-- [`ViewEncapsulation` API](https://angular.dev/api/core/ViewEncapsulation)
-- [Component host elements](https://angular.dev/guide/components/host-elements)
-- [Angular component anatomy](https://angular.dev/guide/components)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="032-host-bindings-host-listeners-and-host-directives.md">032 - 32. Host bindings, host listeners, and host directives</a></td><td><a href="../qnas/033-component-styles-and-view-encapsulation.md">Q&amp;A</a></td><td><a href="../examples/033-component-styles-and-view-encapsulation.md">Example</a></td><td><a href="034-global-styles-css-variables-and-theming.md">034 - 34. Global styles, CSS variables, and theming</a></td>
+</tr>
+  </tbody>
+</table>

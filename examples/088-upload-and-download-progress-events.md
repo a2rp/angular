@@ -335,12 +335,17 @@ On those versions, reportProgress asks for progress events generally. Upload sti
 - Let the browser set FormData's multipart Content-Type.
 - Use accessible labels and avoid excessive announcements.
 
-## Related files and official documentation
+## Chapter navigation
 
-- Lesson: lessons/088-upload-and-download-progress-events.md
-- Q&A: qnas/088-upload-and-download-progress-events.md
-- Angular HTTP request events: https://angular.dev/guide/http/making-requests
-- HttpEventType: https://angular.dev/api/common/http/HttpEventType
-- Upload progress event: https://angular.dev/api/common/http/HttpUploadProgressEvent
-- Download progress event: https://angular.dev/api/common/http/HttpDownloadProgressEvent
-- withXhr: https://angular.dev/api/common/http/withXhr
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="087-url-parameters-headers-response-types-and-credentials.md">087 - URL Parameters, Headers, Response Types, and Credentials</a></td><td><a href="../lessons/088-upload-and-download-progress-events.md">Lesson</a></td><td><a href="../qnas/088-upload-and-download-progress-events.md">Q&amp;A</a></td><td><a href="089-functional-interceptors-and-request-context.md">089 - Functional Interceptors and Request Context</a></td>
+</tr>
+  </tbody>
+</table>

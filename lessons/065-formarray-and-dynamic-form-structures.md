@@ -341,9 +341,17 @@ Calling **reset()** resets existing children and marks descendants pristine and 
 - Work through the [complete example](../examples/065-formarray-and-dynamic-form-structures.md).
 - Revisit [Typed reactive forms and non-nullable controls](064-typed-reactive-forms-and-non-nullable-controls.md).
 
-## Official references
+## Chapter navigation
 
-- [Reactive forms and dynamic FormArray controls](https://angular.dev/guide/forms/reactive-forms)
-- [FormArray API](https://angular.dev/api/forms/FormArray)
-- [Strictly typed reactive forms](https://angular.dev/guide/forms/typed-forms)
-- [Building dynamic forms](https://angular.dev/guide/forms/dynamic-forms)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="064-typed-reactive-forms-and-non-nullable-controls.md">064 - Typed reactive forms and non-nullable controls</a></td><td><a href="../qnas/065-formarray-and-dynamic-form-structures.md">Q&amp;A</a></td><td><a href="../examples/065-formarray-and-dynamic-form-structures.md">Example</a></td><td><a href="066-synchronous-validators-and-validation-state.md">066 - Synchronous validators and validation state</a></td>
+</tr>
+  </tbody>
+</table>

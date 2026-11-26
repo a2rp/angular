@@ -1,4 +1,4 @@
-﻿# Examples: Component outputs and custom events
+# Examples: Component outputs and custom events
 
 Build a small task editor that emits two events to its parent. Saving emits a typed task object; cancelling emits no payload. The parent listens to both outputs, assigns the saved task an ID, and owns the displayed list.
 
@@ -230,3 +230,18 @@ The child does not modify the parent's list directly. It reports what happened, 
 - The parent assigns an ID and renders the saved task.
 - Cancelling emits no payload and updates the parent status message.
 - The child remains reusable because it announces events without owning the parent's list.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="025-signal-inputs-required-inputs-and-input-transforms.md">025 - 25. Signal inputs, required inputs, and input transforms</a></td><td><a href="../lessons/026-component-outputs-and-custom-events.md">Lesson</a></td><td><a href="../qnas/026-component-outputs-and-custom-events.md">Q&amp;A</a></td><td><a href="027-model-inputs-and-component-level-two-way-binding.md">027 - 27. Model inputs and component-level two-way binding</a></td>
+</tr>
+  </tbody>
+</table>

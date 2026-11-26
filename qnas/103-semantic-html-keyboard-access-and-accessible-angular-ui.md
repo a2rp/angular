@@ -60,8 +60,17 @@ Provide useful alternative text for informative images and empty alt text for de
 
 No. Automated tools can find some missing names, invalid attributes, and contrast issues. They cannot fully judge whether a workflow is understandable, spoken feedback is useful, or focus moves correctly. Combine automated checks with keyboard and screen-reader review.
 
-## Further reading
+## Chapter navigation
 
-- [Angular accessibility best practices](https://angular.dev/best-practices/a11y)
-- [Angular Aria overview](https://angular.dev/guide/aria/overview)
-- [Angular component guide](https://angular.dev/guide/components)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="102-internationalization-localization-and-formatting.md">102 - Internationalization, Localization, and Formatting</a></td><td><a href="../lessons/103-semantic-html-keyboard-access-and-accessible-angular-ui.md">Lesson</a></td><td><a href="../examples/103-semantic-html-keyboard-access-and-accessible-angular-ui.md">Example</a></td><td><a href="104-angular-testing-fundamentals-and-the-cli-test-runner.md">104 - Angular Testing Fundamentals and the CLI Test Runner</a></td>
+</tr>
+  </tbody>
+</table>

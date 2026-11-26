@@ -204,17 +204,24 @@ Give it a clear owner. Use **AsyncPipe** or **toSignal()** for view data, or **t
 
 No. It can abort the client's in-progress request, but the server may already have received or processed it. Treat cancellation as client-side lifecycle control, not transaction rollback.
 
-## References
-
-- [RxJS catchError() API](https://rxjs.dev/api/operators/catchError)
-- [RxJS retry() API](https://rxjs.dev/api/index/function/retry)
-- [RxJS finalize() API](https://rxjs.dev/api/operators/finalize)
-- [Angular HttpClient guide](https://angular.dev/guide/http/making-requests)
-- [Angular takeUntilDestroyed() API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
-
 ## Continue learning
 
 - Previous: [Flattening operators, cancellation, and concurrency](../lessons/059-flattening-operators-cancellation-and-concurrency.md)
 - Lesson: [Error handling, cleanup, and takeUntilDestroyed](../lessons/060-error-handling-cleanup-and-takeuntildestroyed.md)
 - Example: [Error handling, cleanup, and takeUntilDestroyed](../examples/060-error-handling-cleanup-and-takeuntildestroyed.md)
 - Next: [Choose template-driven, reactive, or signal forms](../lessons/061-choose-template-driven-reactive-or-signal-forms.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="059-flattening-operators-cancellation-and-concurrency.md">059 - Flattening operators, cancellation, and concurrency</a></td><td><a href="../lessons/060-error-handling-cleanup-and-takeuntildestroyed.md">Lesson</a></td><td><a href="../examples/060-error-handling-cleanup-and-takeuntildestroyed.md">Example</a></td><td><a href="061-choose-template-driven-reactive-or-signal-forms.md">061 - Choose template-driven, reactive, or signal forms</a></td>
+</tr>
+  </tbody>
+</table>

@@ -177,10 +177,17 @@ Before moving on, make sure you can:
 - Read the whole model and individual field state.
 - Explain why Signal Forms and Reactive Forms directives are different.
 
-## References
+## Chapter navigation
 
-- [Signal Forms overview](https://angular.dev/guide/forms/signals/overview)
-- [Signal Forms essentials](https://angular.dev/essentials/signal-forms)
-- [Form models](https://angular.dev/guide/forms/signals/models)
-- [form() API](https://angular.dev/api/forms/signals/form)
-- [FormField API](https://angular.dev/api/forms/signals/FormField)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="070-custom-controls-with-controlvalueaccessor.md">070 - Custom controls with ControlValueAccessor</a></td><td><a href="../lessons/071-signal-forms-models-fields-and-form-setup.md">Lesson</a></td><td><a href="../examples/071-signal-forms-models-fields-and-form-setup.md">Example</a></td><td><a href="072-signal-forms-schemas-validation-and-custom-controls.md">072 - Signal Forms: schemas, validation, and custom controls</a></td>
+</tr>
+  </tbody>
+</table>

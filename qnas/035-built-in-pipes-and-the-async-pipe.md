@@ -1,4 +1,4 @@
-﻿# 35. Q&A: Built-in pipes and the async pipe
+# 35. Q&A: Built-in pipes and the async pipe
 
 ## Pipe fundamentals
 
@@ -170,10 +170,17 @@ For rendering an Observable or Promise value, `AsyncPipe` usually keeps template
 
 Pipes are designed for template expressions. For non-template formatting, use appropriate functions exported by `@angular/common`, such as `formatDate`, `formatCurrency`, `formatNumber`, or `formatPercent`, with the required locale data.
 
-## References
+## Chapter navigation
 
-- [Lesson 35: Built-in pipes and the async pipe](../lessons/035-built-in-pipes-and-the-async-pipe.md)
-- [Example 35](../examples/035-built-in-pipes-and-the-async-pipe.md)
-- [Angular pipes guide](https://angular.dev/guide/templates/pipes)
-- [AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Locale formatting guide](https://angular.dev/guide/i18n/format-data-locale)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="034-global-styles-css-variables-and-theming.md">034 - 34. Global styles, CSS variables, and theming</a></td><td><a href="../lessons/035-built-in-pipes-and-the-async-pipe.md">Lesson</a></td><td><a href="../examples/035-built-in-pipes-and-the-async-pipe.md">Example</a></td><td><a href="036-custom-pipes-attribute-directives-and-reusable-behavior.md">036 - 36. Custom pipes, attribute directives, and reusable behavior</a></td>
+</tr>
+  </tbody>
+</table>

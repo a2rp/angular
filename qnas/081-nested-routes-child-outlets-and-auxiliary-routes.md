@@ -248,3 +248,18 @@ The outlet is an insertion anchor. Angular inserts the activated routed componen
 - **Named outlet:** an additional outlet addressed by a matching route `outlet` name.
 - **Auxiliary route:** a secondary router branch that can coexist with the primary branch.
 - **Close one auxiliary branch:** navigate with that outlet set to `null`.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="080-lazy-load-routes-and-standalone-components.md">080 - Lazy-load routes and standalone components</a></td><td><a href="../lessons/081-nested-routes-child-outlets-and-auxiliary-routes.md">Lesson</a></td><td><a href="../examples/081-nested-routes-child-outlets-and-auxiliary-routes.md">Example</a></td><td><a href="082-route-level-providers-and-route-configuration.md">082 - 82. Route-level providers and route configuration</a></td>
+</tr>
+  </tbody>
+</table>

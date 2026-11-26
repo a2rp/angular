@@ -1,4 +1,4 @@
-﻿# Angular Compared with AngularJS: Examples
+# Angular Compared with AngularJS: Examples
 
 This example builds the same tiny counter in AngularJS 1.x and modern Angular. It highlights the different application structure and template APIs.
 
@@ -230,3 +230,18 @@ Angular CLI templates can vary by version and options. Keep the project configur
 ## Key takeaway
 
 AngularJS and modern Angular can implement the same user-facing feature, but they use different application structures and APIs. Compare behavior and responsibilities, then rebuild each feature using the modern framework's component model and tools.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="001-angular-and-component-based-web-applications.md">001 - Angular and Component-Based Web Applications</a></td><td><a href="../lessons/002-angular-compared-with-angularjs.md">Lesson</a></td><td><a href="../qnas/002-angular-compared-with-angularjs.md">Q&amp;A</a></td><td><a href="003-browser-dom-http-and-javascript-foundations.md">003 - Browser, DOM, HTTP, and JavaScript Foundations</a></td>
+</tr>
+  </tbody>
+</table>

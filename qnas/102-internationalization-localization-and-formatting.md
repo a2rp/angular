@@ -56,9 +56,17 @@ Use long translations or pseudolocalized strings, then check wrapping, clipping,
 
 No. Store stable internal codes, IDs, and data values. Translate display labels at the presentation boundary. This keeps business logic and persisted data independent from the active locale.
 
-## Further reading
+## Chapter navigation
 
-- [Angular internationalization guide](https://angular.dev/guide/i18n)
-- [Prepare components for translation](https://angular.dev/guide/i18n/prepare)
-- [Work with translation files](https://angular.dev/guide/i18n/translation-files)
-- [Format data based on locale](https://angular.dev/guide/i18n/format-data-locale)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="101-global-error-handling-logging-and-diagnostics.md">101 - Global Error Handling, Logging, and Diagnostics</a></td><td><a href="../lessons/102-internationalization-localization-and-formatting.md">Lesson</a></td><td><a href="../examples/102-internationalization-localization-and-formatting.md">Example</a></td><td><a href="103-semantic-html-keyboard-access-and-accessible-angular-ui.md">103 - Semantic HTML, Keyboard Access, and Accessible Angular UI</a></td>
+</tr>
+  </tbody>
+</table>

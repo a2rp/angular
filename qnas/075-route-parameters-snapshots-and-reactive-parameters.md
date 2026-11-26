@@ -148,4 +148,19 @@ Check that:
 
 ## 23. Where can I verify the behavior?
 
-See Angular's official [route state guide](https://angular.dev/guide/routing/read-route-state), [ActivatedRoute API](https://angular.dev/api/router/ActivatedRoute), [ParamMap API](https://angular.dev/api/router/ParamMap), and [component input binding API](https://angular.dev/api/router/withComponentInputBinding).
+See Angular's official route state guide, ActivatedRoute API, ParamMap API, and component input binding API.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="074-routeroutlet-routerlink-and-active-route-links.md">074 - RouterOutlet, RouterLink, and active route links</a></td><td><a href="../lessons/075-route-parameters-snapshots-and-reactive-parameters.md">Lesson</a></td><td><a href="../examples/075-route-parameters-snapshots-and-reactive-parameters.md">Example</a></td><td><a href="076-query-parameters-fragments-and-navigation-state.md">076 - Query parameters, fragments, and navigation state</a></td>
+</tr>
+  </tbody>
+</table>

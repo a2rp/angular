@@ -225,24 +225,6 @@ The roadmap contains 120 chapters across ten parts. Every row reserves a lesson,
 | 119 | [Service workers, offline behavior, deployment, and updates](lessons/119-service-workers-offline-behavior-deployment-and-updates.md) | [Open Q&A](qnas/119-service-workers-offline-behavior-deployment-and-updates.md) | [Open Example](examples/119-service-workers-offline-behavior-deployment-and-updates.md) |
 | 120 | [Upgrade Angular safely and build an accessible capstone app](lessons/120-upgrade-angular-safely-and-build-an-accessible-capstone-app.md) | [Open Q&A](qnas/120-upgrade-angular-safely-and-build-an-accessible-capstone-app.md) | [Open Example](examples/120-upgrade-angular-safely-and-build-an-accessible-capstone-app.md) |
 
-## Official references
-
-- [Angular documentation](https://angular.dev/overview)
-- [Angular installation](https://angular.dev/installation)
-- [Angular CLI](https://angular.dev/tools/cli)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-- [Angular release and support policy](https://angular.dev/reference/releases)
-- [Angular templates and control flow](https://angular.dev/guide/templates)
-- [Angular signals](https://angular.dev/guide/signals)
-- [Angular forms overview](https://angular.dev/guide/forms)
-- [Signal Forms](https://angular.dev/guide/forms/signals/overview)
-- [Angular routing](https://angular.dev/guide/routing)
-- [Angular HTTP](https://angular.dev/guide/http)
-- [Angular testing](https://angular.dev/guide/testing)
-- [Server-side and hybrid rendering](https://angular.dev/guide/ssr)
-- [Hydration](https://angular.dev/guide/hydration)
-- [Angular update guide](https://angular.dev/update)
-
 ## License
 
 This repository is licensed under the MIT License. See [LICENSE](LICENSE).

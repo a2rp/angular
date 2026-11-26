@@ -434,10 +434,17 @@ input:focus-visible {
 - **A request runs fewer times than expected:** Computed callbacks are lazy and memoized. Start asynchronous work in an appropriate resource or service workflow, not inside `computed()`.
 - **A signal is missing from the active dependency set:** Only signals read in the latest execution are tracked. A conditional branch can add or remove dependencies.
 
-## Further reading
+## Chapter navigation
 
-- [Lesson 38: Computed signals and derived values](../lessons/038-computed-signals-and-derived-values.md)
-- [Q&A 38](../qnas/038-computed-signals-and-derived-values.md)
-- [Angular Signals guide](https://angular.dev/guide/signals)
-- [computed API](https://angular.dev/api/core/computed)
-- [Angular DevTools signal graph](https://angular.dev/tools/devtools/signals)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="037-writable-signals-and-updating-signal-state.md">037 - 37. Writable signals and updating signal state</a></td><td><a href="../lessons/038-computed-signals-and-derived-values.md">Lesson</a></td><td><a href="../qnas/038-computed-signals-and-derived-values.md">Q&amp;A</a></td><td><a href="039-linkedsignal-and-dependent-writable-state.md">039 - 39. `linkedSignal` and dependent writable state</a></td>
+</tr>
+  </tbody>
+</table>

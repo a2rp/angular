@@ -165,10 +165,17 @@ Keep user-specific data out of prerendered HTML and public shared caches. Reques
 - Static output and request-time SSR require different deployment capabilities.
 - Verify routes by direct request and inspect the actual response and build output.
 
-## Further reading
+## Chapter navigation
 
-- [Angular SSR and hybrid rendering](https://angular.dev/guide/ssr)
-- [Angular prerendering](https://angular.dev/guide/prerendering)
-- [Angular ServerRoute API](https://angular.dev/api/ssr/ServerRoute)
-- [Angular provideServerRendering API](https://angular.dev/api/ssr/provideServerRendering)
-- [Angular security best practices](https://angular.dev/best-practices/security)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="113-client-rendering-server-rendering-and-prerendering.md">113 - Client Rendering, Server Rendering, and Prerendering</a></td><td><a href="../qnas/114-set-up-server-side-rendering-and-hybrid-route-rendering.md">Q&amp;A</a></td><td><a href="../examples/114-set-up-server-side-rendering-and-hybrid-route-rendering.md">Example</a></td><td><a href="115-hydration-event-replay-and-incremental-hydration.md">115 - Hydration, Event Replay, and Incremental Hydration</a></td>
+</tr>
+  </tbody>
+</table>

@@ -250,11 +250,17 @@ HttpClient Observables are cold. Each subscription sends a request and runs the 
 
 Functional interceptors centralize cross-cutting HTTP behavior. Register them explicitly, clone immutable requests to make changes, and use typed HttpContext metadata for per-request client-side policies.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/089-functional-interceptors-and-request-context.md
-- Examples: examples/089-functional-interceptors-and-request-context.md
-- Angular interceptors: https://angular.dev/guide/http/interceptors
-- withInterceptors API: https://angular.dev/api/common/http/withInterceptors
-- HttpContext API: https://angular.dev/api/common/http/HttpContext
-- HttpContextToken API: https://angular.dev/api/common/http/HttpContextToken
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="088-upload-and-download-progress-events.md">088 - Upload and Download Progress Events</a></td><td><a href="../qnas/089-functional-interceptors-and-request-context.md">Q&amp;A</a></td><td><a href="../examples/089-functional-interceptors-and-request-context.md">Example</a></td><td><a href="090-http-errors-retry-policy-and-timeout-handling.md">090 - HTTP Errors, Retry Policy, and Timeout Handling</a></td>
+</tr>
+  </tbody>
+</table>

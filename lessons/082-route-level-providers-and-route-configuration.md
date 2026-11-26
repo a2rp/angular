@@ -267,9 +267,17 @@ Use router guards for client-side navigation decisions and enforce authorization
 - Route data is metadata; route providers supply dependencies.
 - Route-level injection improves feature organization, but it does not replace server-side authorization.
 
-## Further reading
+## Chapter navigation
 
-- [Define routes: route-level providers](https://angular.dev/guide/routing/define-routes#route-level-providers-for-dependency-injection)
-- [Route API](https://angular.dev/api/router/Route)
-- [Hierarchical dependency injection](https://angular.dev/guide/di/hierarchical-dependency-injection)
-- [Dependency injection providers](https://angular.dev/guide/di/defining-dependency-providers)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="081-nested-routes-child-outlets-and-auxiliary-routes.md">081 - 81. Nested routes, child outlets, and auxiliary routes</a></td><td><a href="../qnas/082-route-level-providers-and-route-configuration.md">Q&amp;A</a></td><td><a href="../examples/082-route-level-providers-and-route-configuration.md">Example</a></td><td><a href="083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">083 - 83. Page titles, redirects, wildcard routes, and not-found pages</a></td>
+</tr>
+  </tbody>
+</table>

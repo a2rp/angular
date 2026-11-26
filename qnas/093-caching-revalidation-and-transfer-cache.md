@@ -136,10 +136,17 @@ Inspect the Network panel for cache indicators, request and response Cache-Contr
 
 Cache public data according to server-defined HTTP policy. Revalidate data when freshness matters. Treat transfer cache as a short-lived hydration optimization, and keep personalized responses out of shared or cross-user caches.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/093-caching-revalidation-and-transfer-cache.md
-- Examples: examples/093-caching-revalidation-and-transfer-cache.md
-- Angular SSR and HttpClient transfer cache: https://angular.dev/best-practices/performance/ssr
-- Angular Fetch cache options: https://angular.dev/guide/http/making-requests
-- MDN HTTP caching and revalidation: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="092-authentication-cookies-and-xsrf-protection.md">092 - Authentication, Cookies, and XSRF Protection</a></td><td><a href="../lessons/093-caching-revalidation-and-transfer-cache.md">Lesson</a></td><td><a href="../examples/093-caching-revalidation-and-transfer-cache.md">Example</a></td><td><a href="094-loading-empty-success-and-error-ui-states.md">094 - Loading, Empty, Success, and Error UI States</a></td>
+</tr>
+  </tbody>
+</table>

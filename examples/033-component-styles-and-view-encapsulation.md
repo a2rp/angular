@@ -1,4 +1,4 @@
-﻿# 33. Example: Component styles and view encapsulation
+# 33. Example: Component styles and view encapsulation
 
 This standalone Angular app shows how three encapsulation modes affect CSS: the default `Emulated`, global `None`, and native `ShadowDom`. It also shows a global stylesheet, a selector scoped to one component, and a `None` selector that affects an element outside the component that declared it.
 
@@ -344,5 +344,20 @@ This option prevents external styles from affecting elements inside the componen
 
 - [Lesson 33: Component styles and view encapsulation](../lessons/033-component-styles-and-view-encapsulation.md)
 - [Q&A 33: Component styles and view encapsulation](../qnas/033-component-styles-and-view-encapsulation.md)
-- [Angular styling guide](https://angular.dev/guide/components/styling)
-- [`ViewEncapsulation` API](https://angular.dev/api/core/ViewEncapsulation)
+- Angular styling guide
+- [`ViewEncapsulation` API](`https://angular.dev/api/core/ViewEncapsulation`)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="032-host-bindings-host-listeners-and-host-directives.md">032 - 32. Host bindings, host listeners, and host directives</a></td><td><a href="../lessons/033-component-styles-and-view-encapsulation.md">Lesson</a></td><td><a href="../qnas/033-component-styles-and-view-encapsulation.md">Q&amp;A</a></td><td><a href="034-global-styles-css-variables-and-theming.md">034 - 34. Global styles, CSS variables, and theming</a></td>
+</tr>
+  </tbody>
+</table>

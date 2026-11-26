@@ -1,4 +1,4 @@
-﻿# Q&A: Interpolation and Template Expressions
+# Q&A: Interpolation and Template Expressions
 
 ## Interpolation basics
 
@@ -158,9 +158,17 @@ Check the spelling, whether the value is a signal that needs to be called, wheth
 
 Use an explicit fallback such as customer?.name ?? 'Guest' when that matches the desired UI. This avoids silently rendering a blank value.
 
-## Further reading
+## Chapter navigation
 
-- [Angular expression syntax](https://angular.dev/guide/templates/expression-syntax)
-- [Binding dynamic text and properties](https://angular.dev/guide/templates/binding)
-- [Angular security best practices](https://angular.dev/best-practices/security)
-- [Signals](https://angular.dev/guide/signals)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="016-angular-templates-and-html-structure.md">016 - 16. Angular templates and HTML structure</a></td><td><a href="../lessons/017-interpolation-and-template-expressions.md">Lesson</a></td><td><a href="../examples/017-interpolation-and-template-expressions.md">Example</a></td><td><a href="018-property-attribute-class-and-style-bindings.md">018 - 18. Property, attribute, class, and style bindings</a></td>
+</tr>
+  </tbody>
+</table>

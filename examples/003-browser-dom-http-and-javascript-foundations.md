@@ -1,4 +1,4 @@
-﻿# Browser, DOM, HTTP, and JavaScript Foundations: Examples
+# Browser, DOM, HTTP, and JavaScript Foundations: Examples
 
 This standalone browser exercise brings together HTML, the DOM, events, asynchronous JavaScript, Fetch, JSON, and HTTP status handling. It is plain browser JavaScript so the underlying web platform is visible. Angular-specific versions of these ideas appear in later chapters.
 
@@ -318,7 +318,7 @@ On systems where the command is python3 instead, use:
 python3 -m http.server 8000
 ~~~
 
-Open http://localhost:8000 in a browser. Keep the terminal process running while you use the page. The page and tasks.json are now served from the same origin.
+Open `http://localhost:8000` in a browser. Keep the terminal process running while you use the page. The page and tasks.json are now served from the same origin.
 
 ## Follow the request in developer tools
 
@@ -418,3 +418,18 @@ That is expected. The page changes only its in-memory array. Saving data across 
 ## Key takeaway
 
 HTML gives the page structure, the DOM represents that structure in the browser, events report user actions, JavaScript manages behavior, and HTTP moves data between the browser and a server. Angular builds on these browser foundations with components, templates, services, and its own state and HTTP APIs.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="002-angular-compared-with-angularjs.md">002 - Angular Compared with AngularJS</a></td><td><a href="../lessons/003-browser-dom-http-and-javascript-foundations.md">Lesson</a></td><td><a href="../qnas/003-browser-dom-http-and-javascript-foundations.md">Q&amp;A</a></td><td><a href="004-typescript-essentials-values-types-and-inference.md">004 - TypeScript Essentials: Values, Types, and Inference</a></td>
+</tr>
+  </tbody>
+</table>

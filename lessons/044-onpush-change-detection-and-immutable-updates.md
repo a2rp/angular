@@ -286,10 +286,17 @@ OnPush also does not enforce immutable state. JavaScript objects remain mutable,
 - Parent checks do not automatically force unchanged OnPush children to refresh.
 - OnPush helps reduce unnecessary subtree checks, but checked templates still need to be efficient.
 
-## Official references
+## Chapter navigation
 
-- [Skipping component subtrees](https://angular.dev/best-practices/skipping-subtrees)
-- [Advanced component configuration](https://angular.dev/guide/components/advanced-configuration)
-- [Angular Signals](https://angular.dev/guide/signals)
-- [ChangeDetectorRef API](https://angular.dev/api/core/ChangeDetectorRef)
-- [AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="043-angular-rendering-and-change-detection.md">043 - 43. Angular rendering and change detection</a></td><td><a href="../qnas/044-onpush-change-detection-and-immutable-updates.md">Q&amp;A</a></td><td><a href="../examples/044-onpush-change-detection-and-immutable-updates.md">Example</a></td><td><a href="045-zoneless-angular-applications.md">045 - 45. Zoneless Angular applications</a></td>
+</tr>
+  </tbody>
+</table>

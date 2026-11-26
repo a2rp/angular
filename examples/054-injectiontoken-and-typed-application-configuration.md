@@ -242,11 +242,17 @@ The same token and helper can be used in an environment scope. This route's conf
 | makeEnvironmentProviders() | Marks the provider bundle for environment injector configuration |
 | ApplicationConfig.providers | Makes the settings and service available to the application |
 
-## Further reading
+## Chapter navigation
 
-- [The lesson](../lessons/054-injectiontoken-and-typed-application-configuration.md)
-- [The Q&A](../qnas/054-injectiontoken-and-typed-application-configuration.md)
-- [InjectionToken API](https://angular.dev/api/core/InjectionToken)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Injection context](https://angular.dev/guide/di/dependency-injection-context)
-- [makeEnvironmentProviders API](https://angular.dev/api/core/makeEnvironmentProviders)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="053-component-scoped-and-route-scoped-providers.md">053 - Component-scoped and route-scoped providers</a></td><td><a href="../lessons/054-injectiontoken-and-typed-application-configuration.md">Lesson</a></td><td><a href="../qnas/054-injectiontoken-and-typed-application-configuration.md">Q&amp;A</a></td><td><a href="055-provider-recipes-multi-providers-and-provider-functions.md">055 - Provider recipes, multi providers, and provider functions</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Workspace Structure, Source Files, and Configuration
+# Workspace Structure, Source Files, and Configuration
 
 An Angular workspace is more than the application source folder. It includes workspace-wide configuration, package metadata, TypeScript settings, application entry points, assets, and one or more Angular projects. This lesson maps the important files and explains which tool or part of the app uses each one.
 
@@ -196,15 +196,17 @@ Static files and application source have different roles. Put source code under 
 - File names and optional files vary with Angular CLI version and project choices.
 - Inspect the active configuration before making changes.
 
-## Further reading
+## Chapter navigation
 
-- [Angular workspace and project file structure](https://angular.dev/reference/configs/file-structure)
-- [Angular workspace configuration](https://angular.dev/reference/configs/workspace-config)
-- [Angular CLI ng new command](https://angular.dev/cli/new)
-- [Angular CLI ng config command](https://angular.dev/cli/config)
-- [Angular application npm packages](https://angular.dev/reference/configs/npm-packages)
-- [Angular Component API](https://angular.dev/api/core/Component)
-
----
-
-[← Lesson 009: Create a Standalone Angular Application](009-create-a-standalone-angular-application.md) | [Q&A 010 →](../qnas/010-workspace-structure-source-files-and-configuration.md) | [Examples 010 →](../examples/010-workspace-structure-source-files-and-configuration.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="009-create-a-standalone-angular-application.md">009 - Create a Standalone Angular Application</a></td><td><a href="../qnas/010-workspace-structure-source-files-and-configuration.md">Q&amp;A</a></td><td><a href="../examples/010-workspace-structure-source-files-and-configuration.md">Example</a></td><td><a href="011-run-serve-build-and-inspect-an-angular-application.md">011 - Run, Serve, Build, and Inspect an Angular Application</a></td>
+</tr>
+  </tbody>
+</table>

@@ -228,8 +228,23 @@ A resolver can improve the initial page state, but it also blocks navigation. Ch
 
 - [Route guards and access control boundaries](078-route-guards-and-access-control-boundaries.md)
 - [Lazy-load routes and standalone components](080-lazy-load-routes-and-standalone-components.md)
-- [Official Angular data resolvers guide](https://angular.dev/guide/routing/data-resolvers)
-- [ResolveFn API](https://angular.dev/api/router/ResolveFn)
-- [withComponentInputBinding API](https://angular.dev/api/router/withComponentInputBinding)
-- [withNavigationErrorHandler API](https://angular.dev/api/router/withNavigationErrorHandler)
-- [Angular route resources guide](https://angular.dev/guide/routing/data-fetching-with-resources)
+- Official Angular data resolvers guide
+- ResolveFn API
+- withComponentInputBinding API
+- withNavigationErrorHandler API
+- Angular route resources guide
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="078-route-guards-and-access-control-boundaries.md">078 - Route guards and access control boundaries</a></td><td><a href="../qnas/079-resolvers-route-data-and-loading-a-page-before-activation.md">Q&amp;A</a></td><td><a href="../examples/079-resolvers-route-data-and-loading-a-page-before-activation.md">Example</a></td><td><a href="080-lazy-load-routes-and-standalone-components.md">080 - Lazy-load routes and standalone components</a></td>
+</tr>
+  </tbody>
+</table>

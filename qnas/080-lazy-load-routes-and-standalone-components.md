@@ -106,13 +106,28 @@ Compare production build output and browser network behavior. Check the initial 
 
 ## 22. Where can I read the official guidance?
 
-- [Lazy-loaded routes and performance](https://angular.dev/best-practices/performance/lazy-loaded-routes)
-- [Route loading strategies](https://angular.dev/guide/routing/loading-strategies)
-- [Preloading and route behavior](https://angular.dev/guide/routing/customizing-route-behavior)
-- [Standalone component imports](https://angular.dev/guide/components/importing)
+- Lazy-loaded routes and performance
+- Route loading strategies
+- Preloading and route behavior
+- Standalone component imports
 
 ## Related material
 
 - [Lesson: Lazy-load routes and standalone components](../lessons/080-lazy-load-routes-and-standalone-components.md)
 - [Example: Lazy-load routes and standalone components](../examples/080-lazy-load-routes-and-standalone-components.md)
 - [Resolvers, route data, and loading a page before activation](../lessons/079-resolvers-route-data-and-loading-a-page-before-activation.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="079-resolvers-route-data-and-loading-a-page-before-activation.md">079 - Resolvers, route data, and loading a page before activation</a></td><td><a href="../lessons/080-lazy-load-routes-and-standalone-components.md">Lesson</a></td><td><a href="../examples/080-lazy-load-routes-and-standalone-components.md">Example</a></td><td><a href="081-nested-routes-child-outlets-and-auxiliary-routes.md">081 - 81. Nested routes, child outlets, and auxiliary routes</a></td>
+</tr>
+  </tbody>
+</table>

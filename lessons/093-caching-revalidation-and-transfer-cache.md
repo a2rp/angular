@@ -221,10 +221,17 @@ Transfer-cached POST requests must represent safe, idempotent reads. Do not incl
 
 Choose server HTTP directives and validators for browser and intermediary caches. Use Angular transfer cache only to reuse safe SSR responses during hydration, and exclude personalized data. Keep browser HTTP caching, Angular transfer caching, and application-state caching as distinct tools.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/093-caching-revalidation-and-transfer-cache.md
-- Examples: examples/093-caching-revalidation-and-transfer-cache.md
-- Angular SSR and HttpClient transfer cache: https://angular.dev/best-practices/performance/ssr
-- Angular Fetch cache options: https://angular.dev/guide/http/making-requests
-- MDN HTTP caching and revalidation: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="092-authentication-cookies-and-xsrf-protection.md">092 - Authentication, Cookies, and XSRF Protection</a></td><td><a href="../qnas/093-caching-revalidation-and-transfer-cache.md">Q&amp;A</a></td><td><a href="../examples/093-caching-revalidation-and-transfer-cache.md">Example</a></td><td><a href="094-loading-empty-success-and-error-ui-states.md">094 - Loading, Empty, Success, and Error UI States</a></td>
+</tr>
+  </tbody>
+</table>

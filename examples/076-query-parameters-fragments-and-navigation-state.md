@@ -401,11 +401,17 @@ Then verify the behavior:
 - Navigation `state` is stored with a browser history entry but is absent from the URL.
 - Optional navigation state must not be required for a direct page load.
 
-## Official references
+## Chapter navigation
 
-- [Read route state](https://angular.dev/guide/routing/read-route-state)
-- [Navigate to routes](https://angular.dev/guide/routing/navigate-to-routes)
-- [RouterLink API](https://angular.dev/api/router/RouterLink)
-- [NavigationExtras API](https://angular.dev/api/router/NavigationExtras)
-- [QueryParamsHandling API](https://angular.dev/api/router/QueryParamsHandling)
-- [InMemoryScrollingOptions API](https://angular.dev/api/router/InMemoryScrollingOptions)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="075-route-parameters-snapshots-and-reactive-parameters.md">075 - Route parameters, snapshots, and reactive parameters</a></td><td><a href="../lessons/076-query-parameters-fragments-and-navigation-state.md">Lesson</a></td><td><a href="../qnas/076-query-parameters-fragments-and-navigation-state.md">Q&amp;A</a></td><td><a href="077-navigate-programmatically-and-handle-navigation-results.md">077 - Navigate programmatically and handle navigation results</a></td>
+</tr>
+  </tbody>
+</table>

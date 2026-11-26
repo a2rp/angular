@@ -56,7 +56,7 @@ export const routes: Routes = [
 
 The router loads the route chunk when navigation requires it. This can reduce startup code, but users may wait for a request when they first visit that feature. Keep the primary landing page and critical initial content available promptly, and check the generated build output to confirm the split.
 
-See [Angular's lazy-loaded routes guide](https://angular.dev/best-practices/performance/lazy-loaded-routes).
+See Angular's lazy-loaded routes guide.
 
 ## 2. Deferrable views
 
@@ -155,9 +155,17 @@ For server-side rendering and static generation, defer blocks normally render th
 - Avoid deferring above-the-fold content in a way that causes layout shift.
 - Inspect a production build to confirm the intended chunks exist.
 
-## Further reading
+## Chapter navigation
 
-- [Deferrable views](https://angular.dev/guide/templates/defer)
-- [Lazy-loaded routes](https://angular.dev/best-practices/performance/lazy-loaded-routes)
-- [Angular performance best practices](https://angular.dev/best-practices/performance)
-- [Angular template control flow](https://angular.dev/guide/templates/control-flow)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="110-measure-performance-bundle-size-and-core-web-vitals.md">110 - Measure Performance, Bundle Size, and Core Web Vitals</a></td><td><a href="../qnas/111-lazy-loading-and-deferrable-views-with-defer.md">Q&amp;A</a></td><td><a href="../examples/111-lazy-loading-and-deferrable-views-with-defer.md">Example</a></td><td><a href="112-rendering-performance-change-detection-and-profiling.md">112 - Rendering Performance, Change Detection, and Profiling</a></td>
+</tr>
+  </tbody>
+</table>

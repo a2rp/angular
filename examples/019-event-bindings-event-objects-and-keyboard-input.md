@@ -1,4 +1,4 @@
-﻿# Examples: Event Bindings, Event Objects, and Keyboard Input
+# Examples: Event Bindings, Event Objects, and Keyboard Input
 
 This standalone Angular component demonstrates input, submit, click, and keyboard event bindings. It uses a native form and buttons so their normal keyboard behavior works without custom key handling.
 
@@ -221,3 +221,18 @@ Set a breakpoint in addTask and inspect the SubmitEvent. Calling preventDefault(
 6. Try the same task action with a div and compare the extra keyboard and accessibility work. Keep the native button in the finished example.
 
 Do not store event objects for later use. Read what the handler needs while it is running, and keep default browser behavior unless the application is intentionally replacing it.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="018-property-attribute-class-and-style-bindings.md">018 - 18. Property, attribute, class, and style bindings</a></td><td><a href="../lessons/019-event-bindings-event-objects-and-keyboard-input.md">Lesson</a></td><td><a href="../qnas/019-event-bindings-event-objects-and-keyboard-input.md">Q&amp;A</a></td><td><a href="020-two-way-binding-and-ngmodel.md">020 - 20. Two-way binding and ngModel</a></td>
+</tr>
+  </tbody>
+</table>

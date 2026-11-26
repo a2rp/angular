@@ -1,4 +1,4 @@
-﻿# Examples: Content projection and multiple slots
+# Examples: Content projection and multiple slots
 
 Build a reusable card with three named slots: title, body, and actions. The consumer supplies different markup to each slot. A second card leaves some slots empty so you can see fallback content. A projected button calls a method in the component that declared the button.
 
@@ -211,3 +211,18 @@ Open the local address printed by the CLI.
 - Content that matches no named slot has no destination unless the card adds a default `<ng-content>`.
 - The projected action button calls the parent component's handler.
 - The card controls layout while the consumer controls the supplied markup.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="028-parent-child-communication-and-one-way-data-flow.md">028 - 28. Parent-child communication and one-way data flow</a></td><td><a href="../lessons/029-content-projection-and-multiple-slots.md">Lesson</a></td><td><a href="../qnas/029-content-projection-and-multiple-slots.md">Q&amp;A</a></td><td><a href="030-view-queries-and-content-queries.md">030 - 30. View queries and content queries</a></td>
+</tr>
+  </tbody>
+</table>

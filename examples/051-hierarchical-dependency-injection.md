@@ -328,3 +328,18 @@ This shows that viewProviders is visible to the component’s own view but not t
 - Lesson: [Hierarchical dependency injection](../lessons/051-hierarchical-dependency-injection.md)
 - Q&A: [Hierarchical dependency injection](../qnas/051-hierarchical-dependency-injection.md)
 - Next lesson: [Application and environment providers](../lessons/052-application-and-environment-providers.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="050-inject-dependencies-with-inject-and-constructor-injection.md">050 - Inject dependencies with `inject()` and constructor injection</a></td><td><a href="../lessons/051-hierarchical-dependency-injection.md">Lesson</a></td><td><a href="../qnas/051-hierarchical-dependency-injection.md">Q&amp;A</a></td><td><a href="052-application-and-environment-providers.md">052 - Application and environment providers</a></td>
+</tr>
+  </tbody>
+</table>

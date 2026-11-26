@@ -1,4 +1,4 @@
-﻿# 31. Lifecycle hooks and component initialization
+# 31. Lifecycle hooks and component initialization
 
 An Angular component moves through creation, input updates, content and view checks, rendering, and destruction. Lifecycle hooks let a component run code at specific points in that process.
 
@@ -201,9 +201,17 @@ Before adding a lifecycle hook, ask:
 - Does this operation truly require the rendered DOM (`afterNextRender` / `afterEveryRender`)?
 - Does the resource need cleanup, and can `DestroyRef` keep setup and cleanup together?
 
-## Further reading
+## Chapter navigation
 
-- [Component lifecycle guide](https://angular.dev/guide/components/lifecycle)
-- [`afterNextRender()` API](https://angular.dev/api/core/afterNextRender)
-- [`DestroyRef` API](https://angular.dev/api/core/DestroyRef)
-- [`takeUntilDestroyed()` API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="030-view-queries-and-content-queries.md">030 - 30. View queries and content queries</a></td><td><a href="../qnas/031-lifecycle-hooks-and-component-initialization.md">Q&amp;A</a></td><td><a href="../examples/031-lifecycle-hooks-and-component-initialization.md">Example</a></td><td><a href="032-host-bindings-host-listeners-and-host-directives.md">032 - 32. Host bindings, host listeners, and host directives</a></td>
+</tr>
+  </tbody>
+</table>

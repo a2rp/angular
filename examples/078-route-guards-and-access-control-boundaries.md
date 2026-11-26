@@ -509,8 +509,23 @@ These steps demonstrate client navigation only. Add a server or API check and ve
 
 - [Lesson: Route guards and access control boundaries](../lessons/078-route-guards-and-access-control-boundaries.md)
 - [Q&A: Route guards and access control boundaries](../qnas/078-route-guards-and-access-control-boundaries.md)
-- [Angular route guards guide](https://angular.dev/guide/routing/route-guards)
-- [CanActivateFn API](https://angular.dev/api/router/CanActivateFn)
-- [CanActivateChildFn API](https://angular.dev/api/router/CanActivateChildFn)
-- [CanDeactivateFn API](https://angular.dev/api/router/CanDeactivateFn)
-- [CanMatchFn API](https://angular.dev/api/router/CanMatchFn)
+- Angular route guards guide
+- CanActivateFn API
+- CanActivateChildFn API
+- CanDeactivateFn API
+- CanMatchFn API
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="077-navigate-programmatically-and-handle-navigation-results.md">077 - Navigate programmatically and handle navigation results</a></td><td><a href="../lessons/078-route-guards-and-access-control-boundaries.md">Lesson</a></td><td><a href="../qnas/078-route-guards-and-access-control-boundaries.md">Q&amp;A</a></td><td><a href="079-resolvers-route-data-and-loading-a-page-before-activation.md">079 - Resolvers, route data, and loading a page before activation</a></td>
+</tr>
+  </tbody>
+</table>

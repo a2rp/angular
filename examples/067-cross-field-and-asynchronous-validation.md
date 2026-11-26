@@ -674,10 +674,17 @@ The mock uses an in-memory set and a timer to make async states visible. It does
 - Continue with [Submission flows, pending state, and reset behavior](../lessons/068-submission-flows-pending-state-and-reset-behavior.md).
 - Revisit [Synchronous validators and validation state](../lessons/066-synchronous-validators-and-validation-state.md).
 
-## Official references
+## Chapter navigation
 
-- [Validate form input](https://angular.dev/guide/forms/form-validation)
-- [AsyncValidatorFn API](https://angular.dev/api/forms/AsyncValidatorFn)
-- [AsyncValidator API](https://angular.dev/api/forms/AsyncValidator)
-- [AbstractControlOptions API](https://angular.dev/api/forms/AbstractControlOptions)
-- [HttpClient](https://angular.dev/guide/http)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="066-synchronous-validators-and-validation-state.md">066 - Synchronous validators and validation state</a></td><td><a href="../lessons/067-cross-field-and-asynchronous-validation.md">Lesson</a></td><td><a href="../qnas/067-cross-field-and-asynchronous-validation.md">Q&amp;A</a></td><td><a href="068-submission-flows-pending-state-and-reset-behavior.md">068 - Submission flows, pending state, and reset behavior</a></td>
+</tr>
+  </tbody>
+</table>

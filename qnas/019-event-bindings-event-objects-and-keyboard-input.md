@@ -1,4 +1,4 @@
-﻿# Q&A: Event Bindings, Event Objects, and Keyboard Input
+# Q&A: Event Bindings, Event Objects, and Keyboard Input
 
 ## Event binding basics
 
@@ -231,11 +231,17 @@ Check that the event name is supported for the element, the listener is attached
 
 Start with native semantic elements. Add keyboard event handlers only for behavior that native controls do not already provide, and make the interaction understandable and accessible.
 
-## Further reading
+## Chapter navigation
 
-- [Angular event binding](https://angular.dev/guide/templates/event-binding)
-- [Angular template expression syntax](https://angular.dev/guide/templates/expression-syntax)
-- [Angular component host elements](https://angular.dev/guide/components/host-elements)
-- [Angular style guide](https://angular.dev/style-guide)
-- [MDN: Event](https://developer.mozilla.org/en-US/docs/Web/API/Event)
-- [MDN: KeyboardEvent](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="018-property-attribute-class-and-style-bindings.md">018 - 18. Property, attribute, class, and style bindings</a></td><td><a href="../lessons/019-event-bindings-event-objects-and-keyboard-input.md">Lesson</a></td><td><a href="../examples/019-event-bindings-event-objects-and-keyboard-input.md">Example</a></td><td><a href="020-two-way-binding-and-ngmodel.md">020 - 20. Two-way binding and ngModel</a></td>
+</tr>
+  </tbody>
+</table>

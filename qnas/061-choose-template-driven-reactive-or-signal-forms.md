@@ -186,19 +186,24 @@ They provide useful browser and Angular feedback, but they may not cover the pro
 
 Implement one representative slice with realistic validation, error display, submission, and a test. Compare the clarity of the model, template, state transitions, and team workflow rather than counting lines in a tiny example.
 
-## References
-
-- [Angular forms overview](https://angular.dev/guide/forms)
-- [Angular template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
-- [Angular reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [Strictly typed reactive forms](https://angular.dev/guide/forms/typed-forms)
-- [Signal Forms overview](https://angular.dev/guide/forms/signals/overview)
-- [Signal Forms comparison](https://angular.dev/guide/forms/signals/comparison)
-- [Signal Forms submission](https://angular.dev/guide/forms/signals/form-submission)
-
 ## Continue learning
 
 - Previous: [Error handling, cleanup, and takeUntilDestroyed](../lessons/060-error-handling-cleanup-and-takeuntildestroyed.md)
 - Lesson: [Choose template-driven, reactive, or signal forms](../lessons/061-choose-template-driven-reactive-or-signal-forms.md)
 - Example: [Choose template-driven, reactive, or signal forms](../examples/061-choose-template-driven-reactive-or-signal-forms.md)
 - Next: [Template-driven forms and ngForm](../lessons/062-template-driven-forms-and-ngform.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="060-error-handling-cleanup-and-takeuntildestroyed.md">060 - Error handling, cleanup, and takeUntilDestroyed</a></td><td><a href="../lessons/061-choose-template-driven-reactive-or-signal-forms.md">Lesson</a></td><td><a href="../examples/061-choose-template-driven-reactive-or-signal-forms.md">Example</a></td><td><a href="062-template-driven-forms-and-ngform.md">062 - Template-driven forms and NgForm</a></td>
+</tr>
+  </tbody>
+</table>

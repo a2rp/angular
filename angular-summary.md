@@ -418,23 +418,3 @@ Angular sanitizes many template-bound values in context-specific ways, but a fra
 6. Run the project's formatter, linting, tests, and production build when configured.
 7. Inspect browser console and network behavior; measure before attempting performance changes.
 8. Verify the exact Angular, Node.js, TypeScript, and RxJS versions and deploy using the chosen rendering mode.
-
-## Official references
-
-- [Angular overview](https://angular.dev/overview)
-- [Installation and CLI](https://angular.dev/installation)
-- [Version compatibility](https://angular.dev/reference/versions)
-- [Release and support policy](https://angular.dev/reference/releases)
-- [Templates and control flow](https://angular.dev/guide/templates)
-- [Components](https://angular.dev/guide/components)
-- [Signals](https://angular.dev/guide/signals)
-- [Dependency injection](https://angular.dev/guide/di)
-- [Forms and Signal Forms](https://angular.dev/guide/forms)
-- [Routing](https://angular.dev/guide/routing)
-- [HTTP Client](https://angular.dev/guide/http)
-- [Testing](https://angular.dev/guide/testing)
-- [Server and hybrid rendering](https://angular.dev/guide/ssr)
-- [Hydration](https://angular.dev/guide/hydration)
-- [Security](https://angular.dev/best-practices/security)
-- [Update guide](https://angular.dev/update)
-

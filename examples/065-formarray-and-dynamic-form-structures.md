@@ -707,9 +707,17 @@ The disabled-row control is included to show value aggregation, not as a recomme
 - Continue with [Synchronous validators and validation state](../lessons/066-synchronous-validators-and-validation-state.md).
 - Revisit [Typed reactive forms and non-nullable controls](../lessons/064-typed-reactive-forms-and-non-nullable-controls.md).
 
-## Official references
+## Chapter navigation
 
-- [Reactive forms and dynamic FormArray controls](https://angular.dev/guide/forms/reactive-forms)
-- [FormArray API](https://angular.dev/api/forms/FormArray)
-- [Strictly typed reactive forms](https://angular.dev/guide/forms/typed-forms)
-- [Building dynamic forms](https://angular.dev/guide/forms/dynamic-forms)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="064-typed-reactive-forms-and-non-nullable-controls.md">064 - Typed reactive forms and non-nullable controls</a></td><td><a href="../lessons/065-formarray-and-dynamic-form-structures.md">Lesson</a></td><td><a href="../qnas/065-formarray-and-dynamic-form-structures.md">Q&amp;A</a></td><td><a href="066-synchronous-validators-and-validation-state.md">066 - Synchronous validators and validation state</a></td>
+</tr>
+  </tbody>
+</table>

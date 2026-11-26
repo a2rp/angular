@@ -237,11 +237,17 @@ For every commit, include the changed package range, migration summary, checks r
 - Critical route, form, API, and rendering flows were checked after the upgrade.
 - The release was exercised in a representative staging environment.
 
-## Further reading
+## Chapter navigation
 
-- [Angular Update Guide](https://angular.dev/update-guide)
-- [Angular CLI `ng update`](https://angular.dev/cli/update)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-- [Angular accessibility best practices](https://angular.dev/best-practices/a11y)
-- [Angular CDK accessibility overview](https://material.angular.dev/cdk/a11y/overview)
-- [W3C WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="119-service-workers-offline-behavior-deployment-and-updates.md">119 - Service Workers, Offline Behavior, Deployment, and Updates</a></td><td><a href="../lessons/120-upgrade-angular-safely-and-build-an-accessible-capstone-app.md">Lesson</a></td><td><a href="../qnas/120-upgrade-angular-safely-and-build-an-accessible-capstone-app.md">Q&amp;A</a></td><td>End of course</td>
+</tr>
+  </tbody>
+</table>

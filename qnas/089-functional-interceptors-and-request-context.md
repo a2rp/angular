@@ -125,11 +125,17 @@ HttpClient Observables are cold. Each subscription sends a new request and trave
 
 A retry can cause the same logical request to pass through interceptors again. Cloning and setting a header consistently avoids accidental duplicate header values. In-place mutation of a body can accumulate changes across attempts.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/089-functional-interceptors-and-request-context.md
-- Examples: examples/089-functional-interceptors-and-request-context.md
-- Angular interceptors: https://angular.dev/guide/http/interceptors
-- withInterceptors API: https://angular.dev/api/common/http/withInterceptors
-- HttpContext API: https://angular.dev/api/common/http/HttpContext
-- HttpContextToken API: https://angular.dev/api/common/http/HttpContextToken
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="088-upload-and-download-progress-events.md">088 - Upload and Download Progress Events</a></td><td><a href="../lessons/089-functional-interceptors-and-request-context.md">Lesson</a></td><td><a href="../examples/089-functional-interceptors-and-request-context.md">Example</a></td><td><a href="090-http-errors-retry-policy-and-timeout-handling.md">090 - HTTP Errors, Retry Policy, and Timeout Handling</a></td>
+</tr>
+  </tbody>
+</table>

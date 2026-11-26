@@ -1,4 +1,4 @@
-﻿# Examples: Render Collections with for, track, and empty
+# Examples: Render Collections with for, track, and empty
 
 This standalone Angular component displays a task collection. You can mark tasks complete, remove them, add another task, reorder the list, and clear it to see @empty. The @for block tracks each task by a stable ID.
 
@@ -298,3 +298,18 @@ For a fixed list that never changes, track $index can be appropriate. Avoid swit
 7. Build a nested collection and alias the outer and inner indexes with different names.
 
 Do not generate IDs during template rendering. Create an item's stable identifier when the item is created, then keep it unchanged while that item remains in the collection.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="021-built-in-control-flow-with-if-and-switch.md">021 - 21. Built-in control flow with if and switch</a></td><td><a href="../lessons/022-render-collections-with-for-track-and-empty.md">Lesson</a></td><td><a href="../qnas/022-render-collections-with-for-track-and-empty.md">Q&amp;A</a></td><td><a href="023-template-references-ng-template-and-ngtemplateoutlet.md">023 - 23. Template references, ng-template, and ngTemplateOutlet</a></td>
+</tr>
+  </tbody>
+</table>

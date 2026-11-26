@@ -178,10 +178,17 @@ Yes. A form can have a group-level cross-field validator and a child-level async
 
 Keep required-field errors on the child controls and have the group validator skip comparison until both values are present. This avoids showing a misleading mismatch alongside empty-field messages.
 
-## Official references
+## Chapter navigation
 
-- [Validate form input](https://angular.dev/guide/forms/form-validation)
-- [AsyncValidatorFn API](https://angular.dev/api/forms/AsyncValidatorFn)
-- [AsyncValidator API](https://angular.dev/api/forms/AsyncValidator)
-- [AbstractControlOptions API](https://angular.dev/api/forms/AbstractControlOptions)
-- [AbstractControl API](https://angular.dev/api/forms/AbstractControl)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="066-synchronous-validators-and-validation-state.md">066 - Synchronous validators and validation state</a></td><td><a href="../lessons/067-cross-field-and-asynchronous-validation.md">Lesson</a></td><td><a href="../examples/067-cross-field-and-asynchronous-validation.md">Example</a></td><td><a href="068-submission-flows-pending-state-and-reset-behavior.md">068 - Submission flows, pending state, and reset behavior</a></td>
+</tr>
+  </tbody>
+</table>

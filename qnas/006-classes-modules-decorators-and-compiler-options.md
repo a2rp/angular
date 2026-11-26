@@ -1,4 +1,4 @@
-﻿# Q&A: Classes, Modules, Decorators, and Compiler Options
+# Q&A: Classes, Modules, Decorators, and Compiler Options
 
 ## Classes and object contracts
 
@@ -171,16 +171,17 @@ No. Type annotations and interfaces are erased and cannot prove that untrusted r
 
 No. Use these notes to learn the concepts, then verify version-sensitive details in the official references below and in the documentation for the versions installed in the project.
 
-## Official references
+## Chapter navigation
 
-- [TypeScript classes](https://www.typescriptlang.org/docs/handbook/2/classes.html)
-- [TypeScript modules](https://www.typescriptlang.org/docs/handbook/modules/introduction)
-- [TypeScript 5.0 decorators](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html)
-- [TypeScript experimentalDecorators option](https://www.typescriptlang.org/tsconfig/experimentalDecorators.html)
-- [TypeScript TSConfig reference](https://www.typescriptlang.org/tsconfig/)
-- [Angular Component API](https://angular.dev/api/core/Component)
-- [Angular compiler options](https://angular.dev/reference/configs/angular-compiler-options)
-
----
-
-[← Lesson 006: Classes, Modules, Decorators, and Compiler Options](../lessons/006-classes-modules-decorators-and-compiler-options.md) | [Examples 006 →](../examples/006-classes-modules-decorators-and-compiler-options.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="005-typescript-interfaces-unions-generics-and-narrowing.md">005 - TypeScript Interfaces, Unions, Generics, and Narrowing</a></td><td><a href="../lessons/006-classes-modules-decorators-and-compiler-options.md">Lesson</a></td><td><a href="../examples/006-classes-modules-decorators-and-compiler-options.md">Example</a></td><td><a href="007-node-js-npm-package-managers-and-workspaces.md">007 - Node.js, npm, Package Managers, and Workspaces</a></td>
+</tr>
+  </tbody>
+</table>

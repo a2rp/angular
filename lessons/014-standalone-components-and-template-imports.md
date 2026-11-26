@@ -1,4 +1,4 @@
-﻿# 14. Standalone components and template imports
+# 14. Standalone components and template imports
 
 A standalone component manages the dependencies used by its own template. When its template uses another component, directive, or pipe, the standalone component lists that dependency in its @Component imports array. This creates a clear, local description of what the template can use.
 
@@ -168,13 +168,21 @@ Avoid adding unrelated dependencies to a shared parent component just in case. A
 - [ ] Keep application providers in application configuration, not template imports.
 - [ ] Follow the installed Angular version and the project's existing conventions.
 
-## Further reading
-
-- [Using components and template imports](https://angular.dev/guide/components/importing)
-- [Component decorator API](https://angular.dev/api/core/Component)
-- [NgModules overview](https://angular.dev/guide/ngmodules/overview)
-- [Standalone migration guide](https://angular.dev/reference/migrations/standalone)
-
 ## Next lesson
 
 Continue with [Selectors and the component host element](015-selectors-and-the-component-host-element.md).
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="013-components-metadata-and-component-boundaries.md">013 - 13. Components, metadata, and component boundaries</a></td><td><a href="../qnas/014-standalone-components-and-template-imports.md">Q&amp;A</a></td><td><a href="../examples/014-standalone-components-and-template-imports.md">Example</a></td><td><a href="015-selectors-and-the-component-host-element.md">015 - 15. Selectors and the component host element</a></td>
+</tr>
+  </tbody>
+</table>

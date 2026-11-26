@@ -1,4 +1,4 @@
-﻿# TypeScript Interfaces, Unions, Generics, and Narrowing — Examples
+# TypeScript Interfaces, Unions, Generics, and Narrowing — Examples
 
 This exercise combines an object interface, a literal union, a generic helper, a discriminated state union, an exhaustive switch, and runtime validation for unknown input.
 
@@ -6,7 +6,7 @@ Read [Chapter 5](../lessons/005-typescript-interfaces-unions-generics-and-narrow
 
 ## Create a TypeScript scratch file
 
-Create a file named task-model.ts. You can paste the code into the [TypeScript Playground](https://www.typescriptlang.org/play/) to inspect inferred types.
+Create a file named task-model.ts. You can paste the code into the TypeScript Playground to inspect inferred types.
 
 To compile it locally with strict checks, set up a small folder:
 
@@ -257,10 +257,17 @@ An Angular feature could use Task as the item type in a component or service, Ta
 
 The TypeScript types help the editor and compiler check the code. Angular renders the chosen state, while runtime validation remains responsible for untrusted response data.
 
-## Further reading
+## Chapter navigation
 
-- [Object types and interfaces](https://www.typescriptlang.org/docs/handbook/2/objects.html)
-- [Everyday Types and unions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
-- [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
-- [Narrowing and discriminated unions](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
-- [TypeScript Playground](https://www.typescriptlang.org/play/)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="004-typescript-essentials-values-types-and-inference.md">004 - TypeScript Essentials: Values, Types, and Inference</a></td><td><a href="../lessons/005-typescript-interfaces-unions-generics-and-narrowing.md">Lesson</a></td><td><a href="../qnas/005-typescript-interfaces-unions-generics-and-narrowing.md">Q&amp;A</a></td><td><a href="006-classes-modules-decorators-and-compiler-options.md">006 - Classes, Modules, Decorators, and Compiler Options</a></td>
+</tr>
+  </tbody>
+</table>

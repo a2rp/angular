@@ -176,9 +176,17 @@ A text match is a review lead, not automatic proof of a vulnerability. A missing
 - Test valid, malformed, empty, and attacker-controlled identifiers.
 - Re-review the flow if the provider, URL format, or data source changes.
 
-## Further reading
+## Chapter navigation
 
-- [Angular security best practices](https://angular.dev/best-practices/security)
-- [Angular `DomSanitizer` API](https://angular.dev/api/platform-browser/DomSanitizer)
-- [Angular `CSP_NONCE` API](https://angular.dev/api/core/CSP_NONCE)
-- [Angular workspace configuration](https://angular.dev/reference/configs/workspace-config)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="116-server-compatible-code-metadata-and-search-visibility.md">116 - Server-Compatible Code, Metadata, and Search Visibility</a></td><td><a href="../lessons/117-security-xss-sanitization-csp-and-trusted-content.md">Lesson</a></td><td><a href="../qnas/117-security-xss-sanitization-csp-and-trusted-content.md">Q&amp;A</a></td><td><a href="118-authentication-authorization-secrets-and-browser-storage.md">118 - Authentication, Authorization, Secrets, and Browser Storage</a></td>
+</tr>
+  </tbody>
+</table>

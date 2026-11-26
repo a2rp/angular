@@ -1,4 +1,4 @@
-﻿# Examples: Standalone Components and Template Imports
+# Examples: Standalone Components and Template Imports
 
 This walkthrough composes a page from standalone components. EventCard uses a standalone StatusPill component and the DatePipe. The root component imports only EventCard, showing that each component declares the dependencies used by its own template.
 
@@ -180,9 +180,17 @@ For a new template, Angular's built-in @if syntax avoids the NgIf import. Use an
 - If an imports property is rejected, check whether the component is marked standalone. A component declared in an NgModule cannot use standalone component imports metadata.
 - If a dependency is not standalone, look for the NgModule that declares and exports it and import that module instead.
 
-## Further reading
+## Chapter navigation
 
-- [Using components and template imports](https://angular.dev/guide/components/importing)
-- [Component decorator API](https://angular.dev/api/core/Component)
-- [NgModules overview](https://angular.dev/guide/ngmodules/overview)
-- [Standalone migration guide](https://angular.dev/reference/migrations/standalone)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="013-components-metadata-and-component-boundaries.md">013 - 13. Components, metadata, and component boundaries</a></td><td><a href="../lessons/014-standalone-components-and-template-imports.md">Lesson</a></td><td><a href="../qnas/014-standalone-components-and-template-imports.md">Q&amp;A</a></td><td><a href="015-selectors-and-the-component-host-element.md">015 - 15. Selectors and the component host element</a></td>
+</tr>
+  </tbody>
+</table>

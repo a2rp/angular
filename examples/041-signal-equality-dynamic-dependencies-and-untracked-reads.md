@@ -1,4 +1,4 @@
-﻿# 41. Example: signal equality, dynamic dependencies, and `untracked()`
+# 41. Example: signal equality, dynamic dependencies, and `untracked()`
 
 This standalone Angular page makes signal behavior observable with three small demos. One uses a custom comparator for a product signal, one uses a computed signal with a conditional dependency, and one uses `untracked()` so a diagnostic counter does not trigger an audit effect.
 
@@ -327,10 +327,17 @@ button:focus-visible {
 - `untracked()` reads the latest counter value but does not make the audit effect depend on it.
 - Immutable updates create new object values rather than mutating a value held by a signal.
 
-## Official references
+## Chapter navigation
 
-- [Angular signals guide: equality and dynamic dependencies](https://angular.dev/guide/signals)
-- [Angular `signal()` API](https://angular.dev/api/core/signal)
-- [Angular `CreateSignalOptions` API](https://angular.dev/api/core/CreateSignalOptions)
-- [Angular `CreateComputedOptions` API](https://angular.dev/api/core/CreateComputedOptions)
-- [Angular `untracked()` API](https://angular.dev/api/core/untracked)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="040-effects-cleanup-and-when-not-to-use-effects.md">040 - 40. Effects, cleanup, and when not to use effects</a></td><td><a href="../lessons/041-signal-equality-dynamic-dependencies-and-untracked-reads.md">Lesson</a></td><td><a href="../qnas/041-signal-equality-dynamic-dependencies-and-untracked-reads.md">Q&amp;A</a></td><td><a href="042-rxjs-interop-with-tosignal-and-toobservable.md">042 - 42. RxJS interop with `toSignal()` and `toObservable()`</a></td>
+</tr>
+  </tbody>
+</table>

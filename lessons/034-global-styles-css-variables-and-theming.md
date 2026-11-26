@@ -1,4 +1,4 @@
-﻿# 34. Global styles, CSS variables, and theming
+# 34. Global styles, CSS variables, and theming
 
 Angular applications use both **global styles**, which can affect the whole application, and **component styles**, which are scoped according to the component's view encapsulation mode. CSS custom properties (often called CSS variables) provide a useful bridge: define shared theme tokens globally, then let components consume them without reaching into each other's templates.
 
@@ -317,10 +317,17 @@ Before adding a global rule or theme token, ask:
 - Is a system preference a default, and can an explicit user choice override it?
 - If CSS-variable namespacing is enabled, are global styles, library styles, and dynamic style updates compatible with it?
 
-## Further reading
+## Chapter navigation
 
-- [Angular styling guide](https://angular.dev/guide/components/styling)
-- [`provideCssVarNamespacing` API](https://angular.dev/api/platform-browser/provideCssVarNamespacing)
-- [`APP_ID` API](https://angular.dev/api/core/APP_ID)
-- [Angular workspace file structure](https://angular.dev/reference/configs/file-structure)
-- [Component styles and view encapsulation](033-component-styles-and-view-encapsulation.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="033-component-styles-and-view-encapsulation.md">033 - 33. Component styles and view encapsulation</a></td><td><a href="../qnas/034-global-styles-css-variables-and-theming.md">Q&amp;A</a></td><td><a href="../examples/034-global-styles-css-variables-and-theming.md">Example</a></td><td><a href="035-built-in-pipes-and-the-async-pipe.md">035 - 35. Built-in pipes and the async pipe</a></td>
+</tr>
+  </tbody>
+</table>

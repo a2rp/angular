@@ -111,4 +111,19 @@ Vitest with jsdom or happy-dom provides a fast DOM-like environment, not a full 
 - Would a harmless template refactor break the test?
 - Does the feature need a real-browser check in addition to a DOM test?
 
-See Angular's [component testing basics](https://angular.dev/guide/testing/components-basics), [component testing scenarios](https://angular.dev/guide/testing/component-scenarios), and [testing utility APIs](https://angular.dev/guide/testing/utility-apis).
+See Angular's component testing basics, component testing scenarios, and testing utility APIs.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="104-angular-testing-fundamentals-and-the-cli-test-runner.md">104 - Angular Testing Fundamentals and the CLI Test Runner</a></td><td><a href="../qnas/105-component-tests-fixtures-and-template-behavior.md">Q&amp;A</a></td><td><a href="../examples/105-component-tests-fixtures-and-template-behavior.md">Example</a></td><td><a href="106-test-services-dependency-injection-and-http-requests.md">106 - Test Services, Dependency Injection, and HTTP Requests</a></td>
+</tr>
+  </tbody>
+</table>

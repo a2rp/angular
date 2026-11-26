@@ -1,4 +1,4 @@
-﻿# 28. Parent-child communication and one-way data flow
+# 28. Parent-child communication and one-way data flow
 
 A component tree is easier to reason about when shared state has a clear owner. In a common Angular pattern, a parent passes values down to children through inputs. A child reports user actions upward through outputs. The parent handles those events, changes its state, and passes the updated values down again.
 
@@ -175,9 +175,17 @@ When designing a parent-child interaction, ask:
 - Would forwarding events through the tree remain clear, or is shared state more appropriate?
 - Is a model input more accurate than a separate event for this interaction?
 
-## Further reading
+## Chapter navigation
 
-- [Accepting data with input properties](https://angular.dev/guide/components/inputs)
-- [Custom events with outputs](https://angular.dev/guide/components/outputs)
-- [Model inputs](https://angular.dev/guide/components/inputs#model-inputs)
-- [Defining dependency providers](https://angular.dev/guide/di/dependency-injection-providers)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="027-model-inputs-and-component-level-two-way-binding.md">027 - 27. Model inputs and component-level two-way binding</a></td><td><a href="../qnas/028-parent-child-communication-and-one-way-data-flow.md">Q&amp;A</a></td><td><a href="../examples/028-parent-child-communication-and-one-way-data-flow.md">Example</a></td><td><a href="029-content-projection-and-multiple-slots.md">029 - 29. Content projection and multiple slots</a></td>
+</tr>
+  </tbody>
+</table>

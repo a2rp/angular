@@ -112,7 +112,7 @@ No. Both request a token from the same DI system. Changing syntax does not add a
 
 ## 26. How should I debug a missing or unexpected service?
 
-Start with the exact token object, then find every place it is provided. Begin at the requesting component and walk upward through eligible element injectors; if no provider is found, inspect the environment or module configuration. Check for a nearer override, content projection, route scope, and resolution modifiers. Angular’s [DI troubleshooting guide](https://angular.dev/guide/di/debugging-and-troubleshooting-di) covers common symptoms.
+Start with the exact token object, then find every place it is provided. Begin at the requesting component and walk upward through eligible element injectors; if no provider is found, inspect the environment or module configuration. Check for a nearer override, content projection, route scope, and resolution modifiers. Angular’s DI troubleshooting guide covers common symptoms.
 
 ## 27. Where should shared state between two child components be provided?
 
@@ -122,15 +122,23 @@ Provide it in the nearest common ancestor that owns the shared workflow. Both ch
 
 No. Choose scope based on the intended sharing boundary. Root scope is appropriate for app-wide shared behavior; route scope fits route-specific features; component scope fits state that should be isolated per component instance.
 
-## Further reading
-
-- [Hierarchical injectors](https://angular.dev/guide/di/hierarchical-dependency-injection)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Dependency-injection debugging](https://angular.dev/guide/di/debugging-and-troubleshooting-di)
-- [InjectOptions API](https://angular.dev/api/core/InjectOptions)
-
 ## Continue learning
 
 - Lesson: [Hierarchical dependency injection](../lessons/051-hierarchical-dependency-injection.md)
 - Example: [Hierarchical dependency injection](../examples/051-hierarchical-dependency-injection.md)
 - Next lesson: [Application and environment providers](../lessons/052-application-and-environment-providers.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="050-inject-dependencies-with-inject-and-constructor-injection.md">050 - Inject dependencies with `inject()` and constructor injection</a></td><td><a href="../lessons/051-hierarchical-dependency-injection.md">Lesson</a></td><td><a href="../examples/051-hierarchical-dependency-injection.md">Example</a></td><td><a href="052-application-and-environment-providers.md">052 - Application and environment providers</a></td>
+</tr>
+  </tbody>
+</table>

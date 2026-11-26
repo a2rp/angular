@@ -1,4 +1,4 @@
-﻿# Q&A: Built-in Control Flow with if and switch
+# Q&A: Built-in Control Flow with if and switch
 
 ## @if and its branches
 
@@ -216,9 +216,17 @@ A false conditional removes its embedded view from the rendered template. CSS vi
 
 Use @if for conditions and @switch for one value with named alternatives. Account for truthiness, use explicit comparisons for meaningful falsy values, and make unknown states intentional.
 
-## Further reading
+## Chapter navigation
 
-- [Angular control flow](https://angular.dev/guide/templates/control-flow)
-- [Angular variables in templates](https://angular.dev/guide/templates/variables)
-- [Angular control-flow migration](https://angular.dev/reference/migrations/control-flow)
-- [Angular template expression syntax](https://angular.dev/guide/templates/expression-syntax)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="020-two-way-binding-and-ngmodel.md">020 - 20. Two-way binding and ngModel</a></td><td><a href="../lessons/021-built-in-control-flow-with-if-and-switch.md">Lesson</a></td><td><a href="../examples/021-built-in-control-flow-with-if-and-switch.md">Example</a></td><td><a href="022-render-collections-with-for-track-and-empty.md">022 - 22. Render collections with for, track, and empty</a></td>
+</tr>
+  </tbody>
+</table>

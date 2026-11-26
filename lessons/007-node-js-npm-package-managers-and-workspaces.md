@@ -1,4 +1,4 @@
-﻿# Node.js, npm, Package Managers, and Workspaces
+# Node.js, npm, Package Managers, and Workspaces
 
 Angular development uses more than the browser. Node.js runs JavaScript tooling on your computer, a package manager installs project dependencies, and workspace configuration organizes projects and commands. Knowing which tool owns each job makes setup and dependency problems easier to diagnose.
 
@@ -191,19 +191,17 @@ Do not install a global package to compensate for a missing local dependency wit
 - Workspaces help manage multiple local packages, but a single Angular app does not need them.
 - Node's CommonJS and ECMAScript module markers matter for Node-executed code; Angular bundling has its own project configuration.
 
-## Further reading
+## Chapter navigation
 
-- [Angular local environment setup](https://angular.dev/tools/cli/setup-local)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-- [Angular CLI overview](https://angular.dev/tools/cli)
-- [Node.js introduction](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
-- [Node.js packages and module formats](https://nodejs.org/api/packages.html)
-- [npm workspaces](https://docs.npmjs.com/cli/v11/using-npm/workspaces/)
-- [npm install and lockfile behavior](https://docs.npmjs.com/cli/v12/commands/npm-install/)
-- [npm ci](https://docs.npmjs.com/cli/v11/commands/npm-ci/)
-- [npm package.json reference](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
-- [npm scripts](https://docs.npmjs.com/cli/v11/using-npm/scripts/)
-
----
-
-[← Lesson 006: Classes, Modules, Decorators, and Compiler Options](006-classes-modules-decorators-and-compiler-options.md) | [Q&A 007 →](../qnas/007-node-js-npm-package-managers-and-workspaces.md) | [Examples 007 →](../examples/007-node-js-npm-package-managers-and-workspaces.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="006-classes-modules-decorators-and-compiler-options.md">006 - Classes, Modules, Decorators, and Compiler Options</a></td><td><a href="../qnas/007-node-js-npm-package-managers-and-workspaces.md">Q&amp;A</a></td><td><a href="../examples/007-node-js-npm-package-managers-and-workspaces.md">Example</a></td><td><a href="008-angular-cli-installation-and-command-basics.md">008 - Angular CLI Installation and Command Basics</a></td>
+</tr>
+  </tbody>
+</table>

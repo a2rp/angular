@@ -116,4 +116,19 @@ Review pages with:
 - Automated checks and accessibility linting.
 - Realistic validation, loading, empty, error, and success states.
 
-Angular's [accessibility guide](https://angular.dev/best-practices/a11y) covers ARIA, native elements, and CDK tools. Angular Aria provides headless interaction patterns for supported controls; use those when a custom widget needs more than basic native HTML.
+Angular's accessibility guide covers ARIA, native elements, and CDK tools. Angular Aria provides headless interaction patterns for supported controls; use those when a custom widget needs more than basic native HTML.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="102-internationalization-localization-and-formatting.md">102 - Internationalization, Localization, and Formatting</a></td><td><a href="../qnas/103-semantic-html-keyboard-access-and-accessible-angular-ui.md">Q&amp;A</a></td><td><a href="../examples/103-semantic-html-keyboard-access-and-accessible-angular-ui.md">Example</a></td><td><a href="104-angular-testing-fundamentals-and-the-cli-test-runner.md">104 - Angular Testing Fundamentals and the CLI Test Runner</a></td>
+</tr>
+  </tbody>
+</table>

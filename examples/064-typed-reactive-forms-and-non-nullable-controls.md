@@ -559,10 +559,17 @@ These are different kinds of absence:
 - Review the [Q&A](../qnas/064-typed-reactive-forms-and-non-nullable-controls.md).
 - Continue with [FormArray and dynamic form structures](../lessons/065-formarray-and-dynamic-form-structures.md).
 
-## Official references
+## Chapter navigation
 
-- [Strictly typed reactive forms](https://angular.dev/guide/forms/typed-forms)
-- [FormControl API](https://angular.dev/api/forms/FormControl)
-- [FormGroup API](https://angular.dev/api/forms/FormGroup)
-- [FormBuilder API](https://angular.dev/api/forms/FormBuilder)
-- [NonNullableFormBuilder API](https://angular.dev/api/forms/NonNullableFormBuilder)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="063-reactive-forms-with-formcontrol-and-formgroup.md">063 - Reactive forms with FormControl and FormGroup</a></td><td><a href="../lessons/064-typed-reactive-forms-and-non-nullable-controls.md">Lesson</a></td><td><a href="../qnas/064-typed-reactive-forms-and-non-nullable-controls.md">Q&amp;A</a></td><td><a href="065-formarray-and-dynamic-form-structures.md">065 - FormArray and dynamic form structures</a></td>
+</tr>
+  </tbody>
+</table>

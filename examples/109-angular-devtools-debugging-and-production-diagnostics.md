@@ -254,11 +254,17 @@ Sensitive data removed:
 
 Keep the note focused on the evidence that helped isolate the issue. Redact user identifiers, credentials, and private URLs before sharing it.
 
-## References
+## Chapter navigation
 
-- [Angular DevTools](https://angular.dev/tools/devtools)
-- [Angular DevTools Profiler](https://angular.dev/tools/devtools/profiler)
-- [Angular signals in DevTools](https://angular.dev/tools/devtools/signals)
-- [Profiling with Chrome DevTools](https://angular.dev/best-practices/profiling-with-chrome-devtools)
-- [Angular error handling](https://angular.dev/best-practices/error-handling)
-- [Extended diagnostics](https://angular.dev/extended-diagnostics)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="108-end-to-end-testing-coverage-and-test-strategy.md">108 - End-to-End Testing, Coverage, and Test Strategy</a></td><td><a href="../lessons/109-angular-devtools-debugging-and-production-diagnostics.md">Lesson</a></td><td><a href="../qnas/109-angular-devtools-debugging-and-production-diagnostics.md">Q&amp;A</a></td><td><a href="110-measure-performance-bundle-size-and-core-web-vitals.md">110 - Measure Performance, Bundle Size, and Core Web Vitals</a></td>
+</tr>
+  </tbody>
+</table>

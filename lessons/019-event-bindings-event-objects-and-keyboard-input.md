@@ -1,4 +1,4 @@
-﻿# 19. Event bindings, event objects, and keyboard input
+# 19. Event bindings, event objects, and keyboard input
 
 Event bindings let a template respond to browser events. Angular uses parentheses around an event name and runs a statement when that event occurs:
 
@@ -235,11 +235,17 @@ Before adding an event binding, ask:
 7. Should the event bubble to an ancestor listener?
 8. Does this keyboard shortcut respect normal typing, platform conventions, and accessibility?
 
-## Further reading
+## Chapter navigation
 
-- [Angular event binding](https://angular.dev/guide/templates/event-binding)
-- [Angular template expression syntax and event listener statements](https://angular.dev/guide/templates/expression-syntax)
-- [Angular component host elements](https://angular.dev/guide/components/host-elements)
-- [Angular style guide: event handler names](https://angular.dev/style-guide)
-- [MDN: Event](https://developer.mozilla.org/en-US/docs/Web/API/Event)
-- [MDN: KeyboardEvent](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="018-property-attribute-class-and-style-bindings.md">018 - 18. Property, attribute, class, and style bindings</a></td><td><a href="../qnas/019-event-bindings-event-objects-and-keyboard-input.md">Q&amp;A</a></td><td><a href="../examples/019-event-bindings-event-objects-and-keyboard-input.md">Example</a></td><td><a href="020-two-way-binding-and-ngmodel.md">020 - 20. Two-way binding and ngModel</a></td>
+</tr>
+  </tbody>
+</table>

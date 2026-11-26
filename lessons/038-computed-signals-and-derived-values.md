@@ -266,10 +266,17 @@ If you need a value that is initially derived but can be changed independently w
 - Keep computed functions pure: derive and return values; do not write state or perform side effects.
 - Derive synchronous values instead of storing duplicate writable state.
 
-## Further reading
+## Chapter navigation
 
-- [Angular Signals guide](https://angular.dev/guide/signals)
-- [computed API](https://angular.dev/api/core/computed)
-- [Signal writes in a disallowed context](https://angular.dev/errors/NG0600)
-- [Effects guide](https://angular.dev/guide/signals/effect)
-- [Linked signals](https://angular.dev/guide/signals/linked-signal)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="037-writable-signals-and-updating-signal-state.md">037 - 37. Writable signals and updating signal state</a></td><td><a href="../qnas/038-computed-signals-and-derived-values.md">Q&amp;A</a></td><td><a href="../examples/038-computed-signals-and-derived-values.md">Example</a></td><td><a href="039-linkedsignal-and-dependent-writable-state.md">039 - 39. `linkedSignal` and dependent writable state</a></td>
+</tr>
+  </tbody>
+</table>

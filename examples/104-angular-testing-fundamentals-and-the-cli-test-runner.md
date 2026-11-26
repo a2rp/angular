@@ -138,9 +138,17 @@ Custom runner configuration can add maintenance and compatibility work. Keep it 
 
 A pure function test and a service test do not prove that the UI is usable or that the real browser renders the application correctly. Add component tests for template and interaction behavior, HTTP tests for request construction and response handling, and a small number of end-to-end tests for important user journeys in the following chapters.
 
-## Further reading
+## Chapter navigation
 
-- [Angular testing overview](https://angular.dev/guide/testing)
-- [Angular testing services](https://angular.dev/guide/testing/services)
-- [Angular CLI ng test](https://angular.dev/cli/test)
-- [Vitest migration guide](https://angular.dev/guide/testing/migrating-to-vitest)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="103-semantic-html-keyboard-access-and-accessible-angular-ui.md">103 - Semantic HTML, Keyboard Access, and Accessible Angular UI</a></td><td><a href="../lessons/104-angular-testing-fundamentals-and-the-cli-test-runner.md">Lesson</a></td><td><a href="../qnas/104-angular-testing-fundamentals-and-the-cli-test-runner.md">Q&amp;A</a></td><td><a href="105-component-tests-fixtures-and-template-behavior.md">105 - Component Tests, Fixtures, and Template Behavior</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# 34. Q&A: Global styles, CSS variables, and theming
+# 34. Q&A: Global styles, CSS variables, and theming
 
 ## Global and component styles
 
@@ -158,7 +158,22 @@ Verify the provider is registered in the correct application, the code path is i
 
 - [Lesson 34: Global styles, CSS variables, and theming](../lessons/034-global-styles-css-variables-and-theming.md)
 - [Example 34: Global styles, CSS variables, and theming](../examples/034-global-styles-css-variables-and-theming.md)
-- [Angular styling guide](https://angular.dev/guide/components/styling)
-- [`provideCssVarNamespacing` API](https://angular.dev/api/platform-browser/provideCssVarNamespacing)
-- [`APP_ID` API](https://angular.dev/api/core/APP_ID)
-- [Angular workspace file structure](https://angular.dev/reference/configs/file-structure)
+- Angular styling guide
+- [`provideCssVarNamespacing` API](`https://angular.dev/api/platform-browser/provideCssVarNamespacing`)
+- [`APP_ID` API](`https://angular.dev/api/core/APP_ID`)
+- Angular workspace file structure
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="033-component-styles-and-view-encapsulation.md">033 - 33. Component styles and view encapsulation</a></td><td><a href="../lessons/034-global-styles-css-variables-and-theming.md">Lesson</a></td><td><a href="../examples/034-global-styles-css-variables-and-theming.md">Example</a></td><td><a href="035-built-in-pipes-and-the-async-pipe.md">035 - 35. Built-in pipes and the async pipe</a></td>
+</tr>
+  </tbody>
+</table>

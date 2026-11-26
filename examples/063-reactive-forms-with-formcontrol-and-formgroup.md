@@ -542,10 +542,17 @@ That resets the controls' values and their interaction state. Without explicit v
 - Review the [Q&A](../qnas/063-reactive-forms-with-formcontrol-and-formgroup.md).
 - Continue with [Typed reactive forms and non-nullable controls](../lessons/064-typed-reactive-forms-and-non-nullable-controls.md).
 
-## Official references
+## Chapter navigation
 
-- [Reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [FormControl API](https://angular.dev/api/forms/FormControl)
-- [FormGroup API](https://angular.dev/api/forms/FormGroup)
-- [Validators API](https://angular.dev/api/forms/Validators)
-- [ReactiveFormsModule API](https://angular.dev/api/forms/ReactiveFormsModule)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="062-template-driven-forms-and-ngform.md">062 - Template-driven forms and NgForm</a></td><td><a href="../lessons/063-reactive-forms-with-formcontrol-and-formgroup.md">Lesson</a></td><td><a href="../qnas/063-reactive-forms-with-formcontrol-and-formgroup.md">Q&amp;A</a></td><td><a href="064-typed-reactive-forms-and-non-nullable-controls.md">064 - Typed reactive forms and non-nullable controls</a></td>
+</tr>
+  </tbody>
+</table>

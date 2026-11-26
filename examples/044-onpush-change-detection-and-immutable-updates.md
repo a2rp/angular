@@ -349,9 +349,17 @@ Prefer updating the state that feeds the template binding. For a programmaticall
 - Unchanged child inputs can keep their references so Angular can skip those rows.
 - Stable @for keys preserve DOM identity; immutable references communicate state changes.
 
-## Official references
+## Chapter navigation
 
-- [Skipping component subtrees](https://angular.dev/best-practices/skipping-subtrees)
-- [Advanced component configuration](https://angular.dev/guide/components/advanced-configuration)
-- [Angular Signals](https://angular.dev/guide/signals)
-- [Angular input() API](https://angular.dev/api/core/input)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="043-angular-rendering-and-change-detection.md">043 - 43. Angular rendering and change detection</a></td><td><a href="../lessons/044-onpush-change-detection-and-immutable-updates.md">Lesson</a></td><td><a href="../qnas/044-onpush-change-detection-and-immutable-updates.md">Q&amp;A</a></td><td><a href="045-zoneless-angular-applications.md">045 - 45. Zoneless Angular applications</a></td>
+</tr>
+  </tbody>
+</table>

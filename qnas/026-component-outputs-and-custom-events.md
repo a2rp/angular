@@ -1,4 +1,4 @@
-﻿# 26. Q&A: Component outputs and custom events
+# 26. Q&A: Component outputs and custom events
 
 ## 1. What is a component output?
 
@@ -188,4 +188,19 @@ Ask who owns the value and who initiates the communication. If the parent suppli
 
 ## 36. Where can I read the official output API details?
 
-See Angular's [component outputs guide](https://angular.dev/guide/components/outputs), [`output()` API reference](https://angular.dev/api/core/output), and [output migration guide](https://angular.dev/reference/migrations/outputs).
+See Angular's component outputs guide, [`output()` API reference](`https://angular.dev/api/core/output`), and output migration guide.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="025-signal-inputs-required-inputs-and-input-transforms.md">025 - 25. Signal inputs, required inputs, and input transforms</a></td><td><a href="../lessons/026-component-outputs-and-custom-events.md">Lesson</a></td><td><a href="../examples/026-component-outputs-and-custom-events.md">Example</a></td><td><a href="027-model-inputs-and-component-level-two-way-binding.md">027 - 27. Model inputs and component-level two-way binding</a></td>
+</tr>
+  </tbody>
+</table>

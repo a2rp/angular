@@ -170,11 +170,17 @@ A plain field gets updated from a timer, promise, external event, or library cal
 
 No. Angular recommends OnPush for application components because it encourages clear notification paths, but it is not required. A component using another strategy can still be compatible if it notifies Angular when its rendered state changes.
 
-## Official references
+## Chapter navigation
 
-- [Angular without ZoneJS (Zoneless)](https://angular.dev/guide/zoneless)
-- [provideZonelessChangeDetection API](https://angular.dev/api/core/provideZonelessChangeDetection)
-- [Angular Signals](https://angular.dev/guide/signals)
-- [AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Resolving Zone pollution](https://angular.dev/best-practices/zone-pollution)
-- [Server and hybrid rendering](https://angular.dev/guide/ssr)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="044-onpush-change-detection-and-immutable-updates.md">044 - 44. OnPush change detection and immutable updates</a></td><td><a href="../lessons/045-zoneless-angular-applications.md">Lesson</a></td><td><a href="../examples/045-zoneless-angular-applications.md">Example</a></td><td><a href="046-state-ownership-and-avoiding-duplicated-state.md">046 - State ownership and avoiding duplicated state</a></td>
+</tr>
+  </tbody>
+</table>

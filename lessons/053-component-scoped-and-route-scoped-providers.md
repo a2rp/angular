@@ -202,18 +202,24 @@ When a dependency is unexpectedly missing or shared:
 
 A NullInjectorError usually means Angular found no matching provider in the consumer's lookup path. Unexpected shared state often means the provider is registered higher than intended; unexpectedly separate state often means it is registered independently in multiple component trees.
 
-## Further reading
-
-- [Hierarchical dependency injection](https://angular.dev/guide/di/hierarchical-dependency-injection)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Route-level providers](https://angular.dev/guide/routing/define-routes#route-level-providers-for-dependency-injection)
-- [Route API](https://angular.dev/api/router/Route)
-- [Debugging and troubleshooting DI](https://angular.dev/guide/di/debugging-and-troubleshooting-di)
-- [Injector Tree in Angular DevTools](https://angular.dev/tools/devtools/injectors)
-
 ## Continue learning
 
 - Previous: [Application and environment providers](052-application-and-environment-providers.md)
 - Q&A: [Component-scoped and route-scoped providers](../qnas/053-component-scoped-and-route-scoped-providers.md)
 - Example: [Component-scoped and route-scoped providers](../examples/053-component-scoped-and-route-scoped-providers.md)
 - Next: [InjectionToken and typed application configuration](054-injectiontoken-and-typed-application-configuration.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="052-application-and-environment-providers.md">052 - Application and environment providers</a></td><td><a href="../qnas/053-component-scoped-and-route-scoped-providers.md">Q&amp;A</a></td><td><a href="../examples/053-component-scoped-and-route-scoped-providers.md">Example</a></td><td><a href="054-injectiontoken-and-typed-application-configuration.md">054 - InjectionToken and typed application configuration</a></td>
+</tr>
+  </tbody>
+</table>

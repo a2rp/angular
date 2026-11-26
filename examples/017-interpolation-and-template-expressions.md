@@ -1,4 +1,4 @@
-﻿# Examples: Interpolation and Template Expressions
+# Examples: Interpolation and Template Expressions
 
 This walkthrough displays order information using interpolation and small Angular expressions. It includes ordinary component properties, a signal read, arithmetic, a conditional expression, nullish fallbacks, and a string that looks like HTML.
 
@@ -138,9 +138,17 @@ Methods called from templates should be inexpensive and free of side effects. An
 - If Angular reports a missing component, check that OrderSummary is imported by the root component.
 - If a value does not update after an edit, inspect the terminal for compilation errors and the browser Console for runtime errors.
 
-## Further reading
+## Chapter navigation
 
-- [Angular expression syntax](https://angular.dev/guide/templates/expression-syntax)
-- [Binding dynamic text and properties](https://angular.dev/guide/templates/binding)
-- [Angular security best practices](https://angular.dev/best-practices/security)
-- [Signals](https://angular.dev/guide/signals)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="016-angular-templates-and-html-structure.md">016 - 16. Angular templates and HTML structure</a></td><td><a href="../lessons/017-interpolation-and-template-expressions.md">Lesson</a></td><td><a href="../qnas/017-interpolation-and-template-expressions.md">Q&amp;A</a></td><td><a href="018-property-attribute-class-and-style-bindings.md">018 - 18. Property, attribute, class, and style bindings</a></td>
+</tr>
+  </tbody>
+</table>

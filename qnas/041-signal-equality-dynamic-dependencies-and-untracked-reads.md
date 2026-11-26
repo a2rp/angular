@@ -1,4 +1,4 @@
-﻿# 41. Signal equality, dynamic dependencies, and untracked reads — Q&A
+# 41. Signal equality, dynamic dependencies, and untracked reads — Q&A
 
 ## Equality and updates
 
@@ -150,10 +150,17 @@ items.update((current) =>
 
 Use the default equality and normal tracked reads unless you can explain precisely why a difference or dependency should be ignored. Equality decides whether a proposed value counts as changed; `untracked()` decides whether a read can invalidate the current consumer.
 
-## Official references
+## Chapter navigation
 
-- [Angular signals guide: equality and dynamic dependencies](https://angular.dev/guide/signals)
-- [Angular `signal()` API](https://angular.dev/api/core/signal)
-- [Angular `CreateSignalOptions` API](https://angular.dev/api/core/CreateSignalOptions)
-- [Angular `CreateComputedOptions` API](https://angular.dev/api/core/CreateComputedOptions)
-- [Angular `untracked()` API](https://angular.dev/api/core/untracked)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="040-effects-cleanup-and-when-not-to-use-effects.md">040 - 40. Effects, cleanup, and when not to use effects</a></td><td><a href="../lessons/041-signal-equality-dynamic-dependencies-and-untracked-reads.md">Lesson</a></td><td><a href="../examples/041-signal-equality-dynamic-dependencies-and-untracked-reads.md">Example</a></td><td><a href="042-rxjs-interop-with-tosignal-and-toobservable.md">042 - 42. RxJS interop with `toSignal()` and `toObservable()`</a></td>
+</tr>
+  </tbody>
+</table>

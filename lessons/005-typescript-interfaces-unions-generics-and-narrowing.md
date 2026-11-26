@@ -1,4 +1,4 @@
-﻿# TypeScript Interfaces, Unions, Generics, and Narrowing
+# TypeScript Interfaces, Unions, Generics, and Narrowing
 
 Angular applications pass structured data through components, services, forms, and HTTP calls. TypeScript interfaces and type aliases describe that data, unions represent alternatives, generics preserve relationships between types, and narrowing lets code safely work with one possibility at a time.
 
@@ -336,9 +336,17 @@ For larger or more complex API contracts, a runtime schema-validation library ma
 
 Answers are in [Chapter 5 Q&A](../qnas/005-typescript-interfaces-unions-generics-and-narrowing.md). The [Chapter 5 examples](../examples/005-typescript-interfaces-unions-generics-and-narrowing.md) put these patterns together in a small task-state model.
 
-## Further reading
+## Chapter navigation
 
-- [TypeScript object types and interfaces](https://www.typescriptlang.org/docs/handbook/2/objects.html)
-- [Everyday Types and unions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
-- [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
-- [Narrowing and discriminated unions](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="004-typescript-essentials-values-types-and-inference.md">004 - TypeScript Essentials: Values, Types, and Inference</a></td><td><a href="../qnas/005-typescript-interfaces-unions-generics-and-narrowing.md">Q&amp;A</a></td><td><a href="../examples/005-typescript-interfaces-unions-generics-and-narrowing.md">Example</a></td><td><a href="006-classes-modules-decorators-and-compiler-options.md">006 - Classes, Modules, Decorators, and Compiler Options</a></td>
+</tr>
+  </tbody>
+</table>

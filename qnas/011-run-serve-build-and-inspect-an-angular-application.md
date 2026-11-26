@@ -1,4 +1,4 @@
-﻿# Q&A: Run, Serve, Build, and Inspect an Angular Application
+# Q&A: Run, Serve, Build, and Inspect an Angular Application
 
 ## Workspace context and targets
 
@@ -169,15 +169,17 @@ It runs a named project target using a target string such as project:target or p
 
 Use the current Angular CLI command references and workspace configuration guide. These describe the builders, options, and named configurations supported by the installed Angular generation.
 
-## Official references
+## Chapter navigation
 
-- [Angular CLI ng serve](https://angular.dev/cli/serve)
-- [Angular CLI ng build](https://angular.dev/cli/build)
-- [Angular workspace configuration](https://angular.dev/reference/configs/workspace-config)
-- [Angular CLI builders](https://angular.dev/tools/cli/cli-builder)
-- [Angular deployment](https://angular.dev/tools/cli/deployment)
-- [Angular build environments](https://angular.dev/tools/cli/environments)
-
----
-
-[← Lesson 011: Run, Serve, Build, and Inspect an Angular Application](../lessons/011-run-serve-build-and-inspect-an-angular-application.md) | [Examples 011 →](../examples/011-run-serve-build-and-inspect-an-angular-application.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="010-workspace-structure-source-files-and-configuration.md">010 - Workspace Structure, Source Files, and Configuration</a></td><td><a href="../lessons/011-run-serve-build-and-inspect-an-angular-application.md">Lesson</a></td><td><a href="../examples/011-run-serve-build-and-inspect-an-angular-application.md">Example</a></td><td><a href="012-bootstrap-applicationconfig-and-application-providers.md">012 - 12. Bootstrap, ApplicationConfig, and application providers</a></td>
+</tr>
+  </tbody>
+</table>

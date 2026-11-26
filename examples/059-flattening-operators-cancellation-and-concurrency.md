@@ -330,17 +330,23 @@ When a newer debounced query reaches **switchMap()**, RxJS unsubscribes from the
 | **finalize()** | Runs for completed timers and for the inner timer cancelled by **switchMap()**. |
 | **takeUntilDestroyed()** | Unsubscribes from the component's operator pipelines when the component is destroyed. |
 
-## Further reading
-
-- [RxJS switchMap() API](https://rxjs.dev/api/operators/switchMap)
-- [RxJS mergeMap() API](https://rxjs.dev/api/operators/mergeMap)
-- [RxJS concatMap() API](https://rxjs.dev/api/operators/concatMap)
-- [RxJS exhaustMap() API](https://rxjs.dev/api/operators/exhaustMap)
-- [Angular HttpClient request cancellation](https://angular.dev/guide/http/making-requests)
-- [Angular takeUntilDestroyed() API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
-
 ## Related files
 
 - [Lesson: Flattening operators, cancellation, and concurrency](../lessons/059-flattening-operators-cancellation-and-concurrency.md)
 - [Q&A: Flattening operators, cancellation, and concurrency](../qnas/059-flattening-operators-cancellation-and-concurrency.md)
 - [Next lesson: Error handling, cleanup, and takeUntilDestroyed](../lessons/060-error-handling-cleanup-and-takeuntildestroyed.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="058-rxjs-operators-for-mapping-and-combining-streams.md">058 - RxJS operators for mapping and combining streams</a></td><td><a href="../lessons/059-flattening-operators-cancellation-and-concurrency.md">Lesson</a></td><td><a href="../qnas/059-flattening-operators-cancellation-and-concurrency.md">Q&amp;A</a></td><td><a href="060-error-handling-cleanup-and-takeuntildestroyed.md">060 - Error handling, cleanup, and takeUntilDestroyed</a></td>
+</tr>
+  </tbody>
+</table>

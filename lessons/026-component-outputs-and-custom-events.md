@@ -1,4 +1,4 @@
-﻿# 26. Component outputs and custom events
+# 26. Component outputs and custom events
 
 A component input carries a value from a parent into a child. A component output communicates an event from a child back to the parent. Outputs let a reusable component report that something meaningful happened while leaving the parent in control of application state.
 
@@ -221,8 +221,17 @@ Before exposing a component output, check that:
 - Any alias is needed and consistently used.
 - A programmatic subscription is unsubscribed if it must end before owner destruction.
 
-## Further reading
+## Chapter navigation
 
-- [Component outputs](https://angular.dev/guide/components/outputs)
-- [The `output` API](https://angular.dev/api/core/output)
-- [Migrate to the `output()` function](https://angular.dev/reference/migrations/outputs)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="025-signal-inputs-required-inputs-and-input-transforms.md">025 - 25. Signal inputs, required inputs, and input transforms</a></td><td><a href="../qnas/026-component-outputs-and-custom-events.md">Q&amp;A</a></td><td><a href="../examples/026-component-outputs-and-custom-events.md">Example</a></td><td><a href="027-model-inputs-and-component-level-two-way-binding.md">027 - 27. Model inputs and component-level two-way binding</a></td>
+</tr>
+  </tbody>
+</table>

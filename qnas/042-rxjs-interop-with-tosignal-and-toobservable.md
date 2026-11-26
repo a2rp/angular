@@ -1,4 +1,4 @@
-﻿# 42. RxJS interop with `toSignal()` and `toObservable()` — Q&A
+# 42. RxJS interop with `toSignal()` and `toObservable()` — Q&A
 
 ## `toSignal()` and Observable sources
 
@@ -133,9 +133,17 @@ If the main task is asynchronous data loading from reactive parameters and the a
 - Do I need every event, or only the latest state?
 - Does the conversion preserve the timing semantics the consumer expects?
 
-## Official references
+## Chapter navigation
 
-- [Angular RxJS interop guide](https://angular.dev/ecosystem/rxjs-interop)
-- [Angular `toSignal()` API](https://angular.dev/api/core/rxjs-interop/toSignal)
-- [Angular `ToSignalOptions` API](https://angular.dev/api/core/rxjs-interop/ToSignalOptions)
-- [Angular `toObservable()` API](https://angular.dev/api/core/rxjs-interop/toObservable)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="041-signal-equality-dynamic-dependencies-and-untracked-reads.md">041 - 41. Signal equality, dynamic dependencies, and untracked reads</a></td><td><a href="../lessons/042-rxjs-interop-with-tosignal-and-toobservable.md">Lesson</a></td><td><a href="../examples/042-rxjs-interop-with-tosignal-and-toobservable.md">Example</a></td><td><a href="043-angular-rendering-and-change-detection.md">043 - 43. Angular rendering and change detection</a></td>
+</tr>
+  </tbody>
+</table>

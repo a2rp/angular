@@ -1,4 +1,4 @@
-﻿# TypeScript Interfaces, Unions, Generics, and Narrowing — Q&A
+# TypeScript Interfaces, Unions, Generics, and Narrowing — Q&A
 
 This Q&A accompanies [Chapter 5: TypeScript Interfaces, Unions, Generics, and Narrowing](../lessons/005-typescript-interfaces-unions-generics-and-narrowing.md).
 
@@ -160,9 +160,17 @@ If the switch uses an exhaustive never assignment in its default branch, TypeScr
 
 Structural typing checks that the required fields are present and compatible. Extra fields on an existing variable do not generally prevent it from satisfying the narrower requirement.
 
-## References
+## Chapter navigation
 
-- [TypeScript object types and interfaces](https://www.typescriptlang.org/docs/handbook/2/objects.html)
-- [Everyday Types and unions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
-- [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
-- [Narrowing and discriminated unions](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="004-typescript-essentials-values-types-and-inference.md">004 - TypeScript Essentials: Values, Types, and Inference</a></td><td><a href="../lessons/005-typescript-interfaces-unions-generics-and-narrowing.md">Lesson</a></td><td><a href="../examples/005-typescript-interfaces-unions-generics-and-narrowing.md">Example</a></td><td><a href="006-classes-modules-decorators-and-compiler-options.md">006 - Classes, Modules, Decorators, and Compiler Options</a></td>
+</tr>
+  </tbody>
+</table>

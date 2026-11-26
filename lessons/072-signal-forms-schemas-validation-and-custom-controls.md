@@ -241,12 +241,17 @@ Validation belongs in the form schema. A custom control displays the state it re
 | Implementing a custom control without disabled behavior | Pass `disabled` state to the actual interactive element |
 | Omitting the custom control's touch output | Emit `touch` when the control is blurred so interaction state can update |
 
-## Further reading
+## Chapter navigation
 
-- [Signal Forms validation](https://angular.dev/guide/forms/signals/validation)
-- [Schemas and schema composability](https://angular.dev/guide/forms/signals/schemas)
-- [Custom controls](https://angular.dev/guide/forms/signals/custom-controls)
-- [Field state management](https://angular.dev/guide/forms/signals/field-state-management)
-- [FormField API](https://angular.dev/api/forms/signals/FormField)
-- [FormValueControl API](https://angular.dev/api/forms/signals/FormValueControl)
-- [FormCheckboxControl API](https://angular.dev/api/forms/signals/FormCheckboxControl)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="071-signal-forms-models-fields-and-form-setup.md">071 - Signal Forms: models, fields, and form setup</a></td><td><a href="../qnas/072-signal-forms-schemas-validation-and-custom-controls.md">Q&amp;A</a></td><td><a href="../examples/072-signal-forms-schemas-validation-and-custom-controls.md">Example</a></td><td><a href="073-configure-the-angular-router-in-a-standalone-app.md">073 - Configure the Angular Router in a standalone app</a></td>
+</tr>
+  </tbody>
+</table>

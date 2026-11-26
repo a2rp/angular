@@ -276,9 +276,17 @@ Before committing a state transition, check:
 - Preserve references for unchanged items instead of deep-cloning the entire state.
 - TypeScript `readonly` and Angular read-only signals are useful boundaries, not runtime deep freezes.
 
-## Further reading
+## Chapter navigation
 
-- [Angular signals](https://angular.dev/guide/signals)
-- [WritableSignal API](https://angular.dev/api/core/WritableSignal)
-- [TypeScript object types and readonly properties](https://www.typescriptlang.org/docs/handbook/2/objects.html)
-- [TypeScript spread syntax](https://www.typescriptlang.org/docs/handbook/variable-declarations.html#spread)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="046-state-ownership-and-avoiding-duplicated-state.md">046 - State ownership and avoiding duplicated state</a></td><td><a href="../qnas/047-immutable-state-updates-for-arrays-and-objects.md">Q&amp;A</a></td><td><a href="../examples/047-immutable-state-updates-for-arrays-and-objects.md">Example</a></td><td><a href="048-inspect-signals-and-components-with-angular-devtools.md">048 - Inspect signals and components with Angular DevTools</a></td>
+</tr>
+  </tbody>
+</table>

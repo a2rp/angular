@@ -198,11 +198,17 @@ Each retry sends a new HTTP request and runs the interceptor chain again. Accoun
 
 Treat an HTTP failure as data in an error channel, distinguish transient failures from permanent ones, and use finite retries only when repeating the operation is safe. Angular's timeout bounds each backend attempt, not the entire interceptor chain.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/090-http-errors-retry-policy-and-timeout-handling.md
-- Examples: examples/090-http-errors-retry-policy-and-timeout-handling.md
-- Angular HTTP errors and timeouts: https://angular.dev/guide/http/making-requests
-- Angular interceptors and retrying: https://angular.dev/guide/http/interceptors
-- RxJS retry operator: https://rxjs.dev/api/index/function/retry
-- RxJS RetryConfig: https://rxjs.dev/api/operators/RetryConfig
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="089-functional-interceptors-and-request-context.md">089 - Functional Interceptors and Request Context</a></td><td><a href="../qnas/090-http-errors-retry-policy-and-timeout-handling.md">Q&amp;A</a></td><td><a href="../examples/090-http-errors-retry-policy-and-timeout-handling.md">Example</a></td><td><a href="091-cancel-requests-and-prevent-stale-response-races.md">091 - Cancel Requests and Prevent Stale Response Races</a></td>
+</tr>
+  </tbody>
+</table>

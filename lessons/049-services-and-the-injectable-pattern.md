@@ -297,17 +297,24 @@ Before adding a service, ask:
 - Provider location controls visibility, instance reuse, and lifetime; a nearer provider can shadow an ancestor.
 - Keep service responsibilities focused and choose scope deliberately.
 
-## Further reading
-
-- [Creating and using services](https://angular.dev/guide/di/creating-and-using-services)
-- [The `@Service` API](https://angular.dev/api/core/Service)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Dependency-injection context](https://angular.dev/guide/di/dependency-injection-context)
-- [Dependency-injection overview](https://angular.dev/guide/di)
-
 ## Continue learning
 
 - Previous: [Inspect signals and components with Angular DevTools](048-inspect-signals-and-components-with-angular-devtools.md)
 - Q&A: [Services and the injectable pattern](../qnas/049-services-and-the-injectable-pattern.md)
 - Example: [Services and the injectable pattern](../examples/049-services-and-the-injectable-pattern.md)
 - Next: [Inject dependencies with inject and constructor injection](050-inject-dependencies-with-inject-and-constructor-injection.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="048-inspect-signals-and-components-with-angular-devtools.md">048 - Inspect signals and components with Angular DevTools</a></td><td><a href="../qnas/049-services-and-the-injectable-pattern.md">Q&amp;A</a></td><td><a href="../examples/049-services-and-the-injectable-pattern.md">Example</a></td><td><a href="050-inject-dependencies-with-inject-and-constructor-injection.md">050 - Inject dependencies with `inject()` and constructor injection</a></td>
+</tr>
+  </tbody>
+</table>

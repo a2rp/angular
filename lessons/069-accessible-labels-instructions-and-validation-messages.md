@@ -249,11 +249,17 @@ Review each form and confirm that:
 - Live announcements are helpful and not repetitive.
 - Repeated fields have unique IDs and matching label relationships.
 
-## Further reading
+## Chapter navigation
 
-- [Angular reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [Angular form validation](https://angular.dev/guide/forms/form-validation)
-- [W3C WAI: Labeling controls](https://www.w3.org/WAI/tutorials/forms/labels/)
-- [W3C WAI: Form instructions](https://www.w3.org/WAI/tutorials/forms/instructions/)
-- [W3C WAI: Validating input](https://www.w3.org/WAI/tutorials/forms/validation/)
-- [W3C WAI: User notification](https://www.w3.org/WAI/tutorials/forms/notifications/)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="068-submission-flows-pending-state-and-reset-behavior.md">068 - Submission flows, pending state, and reset behavior</a></td><td><a href="../qnas/069-accessible-labels-instructions-and-validation-messages.md">Q&amp;A</a></td><td><a href="../examples/069-accessible-labels-instructions-and-validation-messages.md">Example</a></td><td><a href="070-custom-controls-with-controlvalueaccessor.md">070 - Custom controls with ControlValueAccessor</a></td>
+</tr>
+  </tbody>
+</table>

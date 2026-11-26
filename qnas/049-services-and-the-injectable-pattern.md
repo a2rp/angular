@@ -204,15 +204,22 @@ For a larger application, it can be useful to separate an API client from a feat
 6. Inject it where needed and keep `inject()` calls in valid contexts.
 7. Verify that consumers share or isolate state as intended, and provide a fake in tests where useful.
 
-## Official references
-
-- [Creating and using services](https://angular.dev/guide/di/creating-and-using-services)
-- [The `@Service` API](https://angular.dev/api/core/Service)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Dependency-injection context](https://angular.dev/guide/di/dependency-injection-context)
-- [Debugging and troubleshooting dependency injection](https://angular.dev/guide/di/debugging-and-troubleshooting-di)
-
 ## Continue learning
 
 - Lesson: [Services and the injectable pattern](../lessons/049-services-and-the-injectable-pattern.md)
 - Example: [Services and the injectable pattern](../examples/049-services-and-the-injectable-pattern.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="048-inspect-signals-and-components-with-angular-devtools.md">048 - Inspect signals and components with Angular DevTools</a></td><td><a href="../lessons/049-services-and-the-injectable-pattern.md">Lesson</a></td><td><a href="../examples/049-services-and-the-injectable-pattern.md">Example</a></td><td><a href="050-inject-dependencies-with-inject-and-constructor-injection.md">050 - Inject dependencies with `inject()` and constructor injection</a></td>
+</tr>
+  </tbody>
+</table>

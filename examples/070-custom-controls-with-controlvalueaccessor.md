@@ -335,10 +335,17 @@ The parent applies **Validators.required** to the rating's **FormControl** and p
 
 If the rating control is reused more than once, pass a different **idPrefix** to each instance. In production, also style focus, selected, and disabled states to match the design system while keeping them visually distinct.
 
-## Further reading
+## Chapter navigation
 
-- [Custom controls with ControlValueAccessor](../lessons/070-custom-controls-with-controlvalueaccessor.md)
-- [ControlValueAccessor API](https://angular.dev/api/forms/ControlValueAccessor)
-- [NG_VALUE_ACCESSOR API](https://angular.dev/api/forms/NG_VALUE_ACCESSOR)
-- [Angular reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [Angular form validation](https://angular.dev/guide/forms/form-validation)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="069-accessible-labels-instructions-and-validation-messages.md">069 - Accessible labels, instructions, and validation messages</a></td><td><a href="../lessons/070-custom-controls-with-controlvalueaccessor.md">Lesson</a></td><td><a href="../qnas/070-custom-controls-with-controlvalueaccessor.md">Q&amp;A</a></td><td><a href="071-signal-forms-models-fields-and-form-setup.md">071 - Signal Forms: models, fields, and form setup</a></td>
+</tr>
+  </tbody>
+</table>

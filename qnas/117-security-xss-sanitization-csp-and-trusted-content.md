@@ -88,10 +88,17 @@ No. They are defense-in-depth controls. Servers still need context-appropriate o
 
 Trust should be explicit, narrow, and tied to a documented source and context. Never mark data trusted merely to make a binding render. Prefer a safe representation that avoids executable markup altogether.
 
-## Further reading
+## Chapter navigation
 
-- [Angular security best practices](https://angular.dev/best-practices/security)
-- [Angular `DomSanitizer` API](https://angular.dev/api/platform-browser/DomSanitizer)
-- [Angular `SecurityContext` API](https://angular.dev/api/core/SecurityContext)
-- [Angular `CSP_NONCE` API](https://angular.dev/api/core/CSP_NONCE)
-- [Angular workspace configuration](https://angular.dev/reference/configs/workspace-config)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="116-server-compatible-code-metadata-and-search-visibility.md">116 - Server-Compatible Code, Metadata, and Search Visibility</a></td><td><a href="../lessons/117-security-xss-sanitization-csp-and-trusted-content.md">Lesson</a></td><td><a href="../examples/117-security-xss-sanitization-csp-and-trusted-content.md">Example</a></td><td><a href="118-authentication-authorization-secrets-and-browser-storage.md">118 - Authentication, Authorization, Secrets, and Browser Storage</a></td>
+</tr>
+  </tbody>
+</table>

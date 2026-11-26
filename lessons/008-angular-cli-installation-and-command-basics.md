@@ -1,4 +1,4 @@
-﻿# Angular CLI Installation and Command Basics
+# Angular CLI Installation and Command Basics
 
 The Angular CLI is the command-line tool for creating and maintaining Angular applications. It scaffolds projects, generates source files, invokes builders, serves applications during development, and helps update dependencies. This lesson covers installation and the everyday command patterns; the next lesson creates a standalone application and inspects its structure.
 
@@ -222,15 +222,17 @@ Read the full error and identify whether it mentions network access, permissions
 - Command help describes the options supported by the installed CLI.
 - The CLI can change project files, so review generated code and dependency updates.
 
-## Further reading
+## Chapter navigation
 
-- [Angular local environment setup](https://angular.dev/tools/cli/setup-local)
-- [Angular CLI overview](https://angular.dev/tools/cli)
-- [Angular CLI command reference](https://angular.dev/cli)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-- [Serving Angular apps for development](https://angular.dev/tools/cli/serve)
-- [Keeping Angular up to date](https://angular.dev/update)
-
----
-
-[← Lesson 007: Node.js, npm, Package Managers, and Workspaces](007-node-js-npm-package-managers-and-workspaces.md) | [Q&A 008 →](../qnas/008-angular-cli-installation-and-command-basics.md) | [Examples 008 →](../examples/008-angular-cli-installation-and-command-basics.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="007-node-js-npm-package-managers-and-workspaces.md">007 - Node.js, npm, Package Managers, and Workspaces</a></td><td><a href="../qnas/008-angular-cli-installation-and-command-basics.md">Q&amp;A</a></td><td><a href="../examples/008-angular-cli-installation-and-command-basics.md">Example</a></td><td><a href="009-create-a-standalone-angular-application.md">009 - Create a Standalone Angular Application</a></td>
+</tr>
+  </tbody>
+</table>

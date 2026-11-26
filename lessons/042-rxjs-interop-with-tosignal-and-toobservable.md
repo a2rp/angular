@@ -1,4 +1,4 @@
-﻿# 42. RxJS interop with `toSignal()` and `toObservable()`
+# 42. RxJS interop with `toSignal()` and `toObservable()`
 
 Angular applications may use signals for local and template state while existing services, HTTP APIs, or event streams use RxJS Observables. The `@angular/core/rxjs-interop` package provides two bridges:
 
@@ -225,9 +225,17 @@ The bridge does not replace the need to model loading and error states. Add an e
 - `toObservable()` exposes Signal state through an effect-backed Observable; subsequent updates are asynchronous and may be coalesced.
 - Use Observable/Subject sources for event streams that must preserve every event.
 
-## Official references
+## Chapter navigation
 
-- [Angular RxJS interop guide](https://angular.dev/ecosystem/rxjs-interop)
-- [Angular `toSignal()` API](https://angular.dev/api/core/rxjs-interop/toSignal)
-- [Angular `ToSignalOptions` API](https://angular.dev/api/core/rxjs-interop/ToSignalOptions)
-- [Angular `toObservable()` API](https://angular.dev/api/core/rxjs-interop/toObservable)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="041-signal-equality-dynamic-dependencies-and-untracked-reads.md">041 - 41. Signal equality, dynamic dependencies, and untracked reads</a></td><td><a href="../qnas/042-rxjs-interop-with-tosignal-and-toobservable.md">Q&amp;A</a></td><td><a href="../examples/042-rxjs-interop-with-tosignal-and-toobservable.md">Example</a></td><td><a href="043-angular-rendering-and-change-detection.md">043 - 43. Angular rendering and change detection</a></td>
+</tr>
+  </tbody>
+</table>

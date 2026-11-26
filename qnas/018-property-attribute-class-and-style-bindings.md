@@ -1,4 +1,4 @@
-﻿# Q&A: Property, Attribute, Class, and Style Bindings
+# Q&A: Property, Attribute, Class, and Style Bindings
 
 ## Property and attribute bindings
 
@@ -238,9 +238,17 @@ Inspect the rendered DOM and the live element property separately. Check the exp
 - Keep binding values immutable when replacing class or style collections.
 - Let Angular apply context-specific security handling; do not bypass it casually.
 
-## Further reading
+## Chapter navigation
 
-- [Angular template binding](https://angular.dev/guide/templates/binding)
-- [Angular security best practices](https://angular.dev/best-practices/security)
-- [Angular accessibility](https://angular.dev/best-practices/a11y)
-- [Angular component host elements and binding collisions](https://angular.dev/guide/components/host-elements)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="017-interpolation-and-template-expressions.md">017 - 17. Interpolation and template expressions</a></td><td><a href="../lessons/018-property-attribute-class-and-style-bindings.md">Lesson</a></td><td><a href="../examples/018-property-attribute-class-and-style-bindings.md">Example</a></td><td><a href="019-event-bindings-event-objects-and-keyboard-input.md">019 - 19. Event bindings, event objects, and keyboard input</a></td>
+</tr>
+  </tbody>
+</table>

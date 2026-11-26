@@ -119,4 +119,19 @@ Run the practice app and confirm that:
 
 ## 22. Where can I verify the APIs?
 
-Use the official Angular [outlet guide](https://angular.dev/guide/routing/show-routes-with-outlets), [navigation guide](https://angular.dev/guide/routing/navigate-to-routes), [RouterLink API](https://angular.dev/api/router/RouterLink), and [RouterLinkActive API](https://angular.dev/api/router/RouterLinkActive).
+Use the official Angular outlet guide, navigation guide, RouterLink API, and RouterLinkActive API.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="073-configure-the-angular-router-in-a-standalone-app.md">073 - Configure the Angular Router in a standalone app</a></td><td><a href="../lessons/074-routeroutlet-routerlink-and-active-route-links.md">Lesson</a></td><td><a href="../examples/074-routeroutlet-routerlink-and-active-route-links.md">Example</a></td><td><a href="075-route-parameters-snapshots-and-reactive-parameters.md">075 - Route parameters, snapshots, and reactive parameters</a></td>
+</tr>
+  </tbody>
+</table>

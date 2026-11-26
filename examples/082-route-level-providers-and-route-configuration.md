@@ -397,3 +397,18 @@ Each route branch uses the same classes but resolves the tokens and service from
 - Sibling route branches can configure the same service class differently.
 - A service that consumes route-specific configuration must be instantiated in the route scope.
 - Root navigation can enter a route subtree but does not inherit dependencies from it.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="081-nested-routes-child-outlets-and-auxiliary-routes.md">081 - 81. Nested routes, child outlets, and auxiliary routes</a></td><td><a href="../lessons/082-route-level-providers-and-route-configuration.md">Lesson</a></td><td><a href="../qnas/082-route-level-providers-and-route-configuration.md">Q&amp;A</a></td><td><a href="083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">083 - 83. Page titles, redirects, wildcard routes, and not-found pages</a></td>
+</tr>
+  </tbody>
+</table>

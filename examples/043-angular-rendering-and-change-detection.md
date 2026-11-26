@@ -1,4 +1,4 @@
-﻿# 43. Example: follow an Angular rendering update
+# 43. Example: follow an Angular rendering update
 
 This standalone Angular page demonstrates the path from state to DOM. A template-read Signal changes after a button event, and an external timer updates plain component state then calls `markForCheck()` so Angular schedules a future check. The example makes the notification and rendering steps visible without forcing detection manually.
 
@@ -224,10 +224,17 @@ Prefer normal Angular notifications such as template-read signals and `markForCh
 - `markForCheck()` schedules a future check; `detectChanges()` performs a local check immediately.
 - The component declares `OnPush` explicitly so the example works consistently across Angular versions. Angular v22 uses it as the default strategy.
 
-## Official references
+## Chapter navigation
 
-- [Angular component lifecycle](https://angular.dev/guide/components/lifecycle)
-- [Angular advanced component configuration](https://angular.dev/guide/components/advanced-configuration)
-- [Angular zoneless guide](https://angular.dev/guide/experimental/zoneless)
-- [Angular `ChangeDetectorRef` API](https://angular.dev/api/core/ChangeDetectorRef)
-- [Angular `NG0100` error guide](https://angular.dev/errors/NG0100)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="042-rxjs-interop-with-tosignal-and-toobservable.md">042 - 42. RxJS interop with `toSignal()` and `toObservable()`</a></td><td><a href="../lessons/043-angular-rendering-and-change-detection.md">Lesson</a></td><td><a href="../qnas/043-angular-rendering-and-change-detection.md">Q&amp;A</a></td><td><a href="044-onpush-change-detection-and-immutable-updates.md">044 - 44. OnPush change detection and immutable updates</a></td>
+</tr>
+  </tbody>
+</table>

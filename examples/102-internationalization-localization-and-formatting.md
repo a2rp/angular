@@ -165,9 +165,17 @@ Use a long translation or pseudolocalized build and inspect:
 
 Do not use the source-language page as the only layout check. A localized build can compile successfully while still clipping important text.
 
-## Further reading
+## Chapter navigation
 
-- [Angular internationalization guide](https://angular.dev/guide/i18n)
-- [Prepare components for translation](https://angular.dev/guide/i18n/prepare)
-- [Extract and manage translation files](https://angular.dev/guide/i18n/translation-files)
-- [Format data based on locale](https://angular.dev/guide/i18n/format-data-locale)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="101-global-error-handling-logging-and-diagnostics.md">101 - Global Error Handling, Logging, and Diagnostics</a></td><td><a href="../lessons/102-internationalization-localization-and-formatting.md">Lesson</a></td><td><a href="../qnas/102-internationalization-localization-and-formatting.md">Q&amp;A</a></td><td><a href="103-semantic-html-keyboard-access-and-accessible-angular-ui.md">103 - Semantic HTML, Keyboard Access, and Accessible Angular UI</a></td>
+</tr>
+  </tbody>
+</table>

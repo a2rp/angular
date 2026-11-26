@@ -1,4 +1,4 @@
-﻿# 17. Interpolation and template expressions
+# 17. Interpolation and template expressions
 
 Interpolation displays a value from a component in template text. The expression inside the interpolation is evaluated in the component's template context, and Angular converts its result to text. Angular expressions resemble JavaScript, but they have their own supported syntax and should stay small and focused.
 
@@ -179,13 +179,21 @@ Attribute, property, class, and style binding rules are covered in the next less
 - [ ] HTML-looking text is not confused with HTML property binding.
 - [ ] Version-sensitive syntax is checked against the installed Angular release.
 
-## Further reading
-
-- [Angular expression syntax](https://angular.dev/guide/templates/expression-syntax)
-- [Binding dynamic text and properties](https://angular.dev/guide/templates/binding)
-- [Angular security best practices](https://angular.dev/best-practices/security)
-- [Signals](https://angular.dev/guide/signals)
-
 ## Next lesson
 
 Continue with [Property, attribute, class, and style bindings](018-property-attribute-class-and-style-bindings.md).
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="016-angular-templates-and-html-structure.md">016 - 16. Angular templates and HTML structure</a></td><td><a href="../qnas/017-interpolation-and-template-expressions.md">Q&amp;A</a></td><td><a href="../examples/017-interpolation-and-template-expressions.md">Example</a></td><td><a href="018-property-attribute-class-and-style-bindings.md">018 - 18. Property, attribute, class, and style bindings</a></td>
+</tr>
+  </tbody>
+</table>

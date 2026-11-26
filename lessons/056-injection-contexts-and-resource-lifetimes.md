@@ -447,23 +447,24 @@ Check:
 - **Using resource() for a write:** resources can cancel reads; model mutations with an operation flow that matches their semantics.
 - **Keeping a long-lived manual effect without destroying its EffectRef:** make manual ownership explicit.
 
-## Further reading
-
-- [Injection context guide](https://angular.dev/guide/di/dependency-injection-context)
-- [inject() API](https://angular.dev/api/core/inject)
-- [runInInjectionContext() API](https://angular.dev/api/core/runInInjectionContext)
-- [assertInInjectionContext() API](https://angular.dev/api/core/assertInInjectionContext)
-- [DestroyRef API](https://angular.dev/api/core/DestroyRef)
-- [Component lifecycle and DestroyRef](https://angular.dev/guide/components/lifecycle)
-- [takeUntilDestroyed() API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
-- [toSignal() API](https://angular.dev/api/core/rxjs-interop/toSignal)
-- [Effect cleanup](https://angular.dev/guide/signals/effect)
-- [Resource API](https://angular.dev/api/core/resource)
-- [RxJS resource lifetime guide](https://angular.dev/ecosystem/rxjs-interop/take-until-destroyed)
-
 ## Continue learning
 
 - Previous: [Provider recipes, multi providers, and provider functions](055-provider-recipes-multi-providers-and-provider-functions.md)
 - Q&A: [Injection contexts and resource lifetimes](../qnas/056-injection-contexts-and-resource-lifetimes.md)
 - Example: [Injection contexts and resource lifetimes](../examples/056-injection-contexts-and-resource-lifetimes.md)
 - Next: [RxJS Observables, subscriptions, and stream basics](057-rxjs-observables-subscriptions-and-stream-basics.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="055-provider-recipes-multi-providers-and-provider-functions.md">055 - Provider recipes, multi providers, and provider functions</a></td><td><a href="../qnas/056-injection-contexts-and-resource-lifetimes.md">Q&amp;A</a></td><td><a href="../examples/056-injection-contexts-and-resource-lifetimes.md">Example</a></td><td><a href="057-rxjs-observables-subscriptions-and-stream-basics.md">057 - RxJS Observables, subscriptions, and stream basics</a></td>
+</tr>
+  </tbody>
+</table>

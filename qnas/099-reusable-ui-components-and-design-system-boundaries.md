@@ -56,9 +56,17 @@ Yes. Consumers may rely on projected slots, style hooks, focus behavior, ARIA se
 
 It often has many feature-specific flags, injected services, conditionals, or exceptions. If two uses require different meanings or interaction rules, split the component or keep it feature-owned instead of expanding one universal abstraction.
 
-## Further reading
+## Chapter navigation
 
-- [Angular component guide](https://angular.dev/guide/components)
-- [Angular content projection guide](https://angular.dev/guide/components/content-projection)
-- [Angular control flow guide](https://angular.dev/guide/templates/control-flow)
-- [Angular style guide](https://angular.dev/style-guide)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="098-organize-projects-libraries-and-shared-code.md">098 - Organize Projects, Libraries, and Shared Code</a></td><td><a href="../lessons/099-reusable-ui-components-and-design-system-boundaries.md">Lesson</a></td><td><a href="../examples/099-reusable-ui-components-and-design-system-boundaries.md">Example</a></td><td><a href="100-dynamic-components-and-programmatic-rendering.md">100 - Dynamic Components and Programmatic Rendering</a></td>
+</tr>
+  </tbody>
+</table>

@@ -226,8 +226,17 @@ A gradual move is easier to review than a large folder shuffle. Keep each change
 
 Extend the orders feature with a detail route. Keep the detail page in the feature, load it by its order ID, and decide which information is part of the stable order model. If another feature needs a value, expose a narrow type or API instead of importing the details page.
 
-## Further reading
+## Chapter navigation
 
-- [Angular style guide](https://angular.dev/style-guide)
-- [Workspace and project file structure](https://angular.dev/reference/configs/file-structure)
-- [Angular routing guide](https://angular.dev/guide/routing)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="096-server-sent-events-websockets-and-live-updates.md">096 - Server-Sent Events, WebSockets, and Live Updates</a></td><td><a href="../lessons/097-feature-based-application-architecture.md">Lesson</a></td><td><a href="../qnas/097-feature-based-application-architecture.md">Q&amp;A</a></td><td><a href="098-organize-projects-libraries-and-shared-code.md">098 - Organize Projects, Libraries, and Shared Code</a></td>
+</tr>
+  </tbody>
+</table>

@@ -342,10 +342,17 @@ code {
 - **A keyboard focus outline is missing:** Keep the `:focus-visible` rule and check that global styles do not remove outlines.
 - **A truncated emoji looks unusual:** `String.slice()` uses UTF-16 code units. Use a grapheme-aware implementation if that behavior matters to the product.
 
-## Further reading
+## Chapter navigation
 
-- [Lesson 36: Custom pipes, attribute directives, and reusable behavior](../lessons/036-custom-pipes-attribute-directives-and-reusable-behavior.md)
-- [Q&A 36](../qnas/036-custom-pipes-attribute-directives-and-reusable-behavior.md)
-- [Angular pipes guide](https://angular.dev/guide/templates/pipes)
-- [Attribute directives guide](https://angular.dev/guide/directives/attribute-directives)
-- [Directive composition API](https://angular.dev/guide/directives/directive-composition-api)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="035-built-in-pipes-and-the-async-pipe.md">035 - 35. Built-in pipes and the async pipe</a></td><td><a href="../lessons/036-custom-pipes-attribute-directives-and-reusable-behavior.md">Lesson</a></td><td><a href="../qnas/036-custom-pipes-attribute-directives-and-reusable-behavior.md">Q&amp;A</a></td><td><a href="037-writable-signals-and-updating-signal-state.md">037 - 37. Writable signals and updating signal state</a></td>
+</tr>
+  </tbody>
+</table>

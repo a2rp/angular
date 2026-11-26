@@ -1,4 +1,4 @@
-﻿# 40. Effects, cleanup, and when not to use effects
+# 40. Effects, cleanup, and when not to use effects
 
 An Angular effect runs imperative code in response to signal changes. Use it to synchronize signal state with something outside Angular's reactive state model, such as browser storage, analytics, timers, or a third-party library. An effect is not the default way to calculate another piece of state: use `computed()` for read-only derived values and `linkedSignal()` when derived state also needs to be writable.
 
@@ -261,10 +261,17 @@ export class ChartComponent {
 - Use `untracked()` only for reads that should not trigger reruns.
 - For direct DOM work, prefer normal Angular APIs and use `afterRenderEffect()` only when post-render timing is required.
 
-## Official references
+## Chapter navigation
 
-- [Angular effects guide](https://angular.dev/guide/signals/effect)
-- [Angular `effect()` API](https://angular.dev/api/core/effect)
-- [Angular `afterRenderEffect()` API](https://angular.dev/api/core/afterRenderEffect)
-- [Angular signals overview: reactive contexts and `untracked`](https://angular.dev/guide/signals)
-- [Angular dependency injection context](https://angular.dev/guide/di/dependency-injection-context)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="039-linkedsignal-and-dependent-writable-state.md">039 - 39. `linkedSignal` and dependent writable state</a></td><td><a href="../qnas/040-effects-cleanup-and-when-not-to-use-effects.md">Q&amp;A</a></td><td><a href="../examples/040-effects-cleanup-and-when-not-to-use-effects.md">Example</a></td><td><a href="041-signal-equality-dynamic-dependencies-and-untracked-reads.md">041 - 41. Signal equality, dynamic dependencies, and untracked reads</a></td>
+</tr>
+  </tbody>
+</table>

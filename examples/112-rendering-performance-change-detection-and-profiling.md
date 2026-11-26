@@ -219,9 +219,17 @@ Repeat measurement:
 Visual behavior verified:
 ~~~
 
-## References
+## Chapter navigation
 
-- [Angular slow computations](https://angular.dev/best-practices/slow-computations)
-- [Skipping component subtrees](https://angular.dev/best-practices/skipping-subtrees)
-- [Zoneless change detection](https://angular.dev/guide/zoneless)
-- [Angular DevTools Profiler](https://angular.dev/tools/devtools/profiler)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="111-lazy-loading-and-deferrable-views-with-defer.md">111 - Lazy Loading and Deferrable Views with defer</a></td><td><a href="../lessons/112-rendering-performance-change-detection-and-profiling.md">Lesson</a></td><td><a href="../qnas/112-rendering-performance-change-detection-and-profiling.md">Q&amp;A</a></td><td><a href="113-client-rendering-server-rendering-and-prerendering.md">113 - Client Rendering, Server Rendering, and Prerendering</a></td>
+</tr>
+  </tbody>
+</table>

@@ -160,11 +160,17 @@ Client credentials settings do not configure the server. Browser cookie policy, 
 | Same-origin credentials | credentials: 'same-origin' |
 | Cross-origin credentials when explicitly required | credentials: 'include' |
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/087-url-parameters-headers-response-types-and-credentials.md
-- Examples: examples/087-url-parameters-headers-response-types-and-credentials.md
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- HttpParams API: https://angular.dev/api/common/http/HttpParams
-- HttpHeaders API: https://angular.dev/api/common/http/HttpHeaders
-- HttpClient API: https://angular.dev/api/common/http/HttpClient
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="086-build-typed-http-requests-and-api-services.md">086 - Build Typed HTTP Requests and API Services</a></td><td><a href="../lessons/087-url-parameters-headers-response-types-and-credentials.md">Lesson</a></td><td><a href="../examples/087-url-parameters-headers-response-types-and-credentials.md">Example</a></td><td><a href="088-upload-and-download-progress-events.md">088 - Upload and Download Progress Events</a></td>
+</tr>
+  </tbody>
+</table>

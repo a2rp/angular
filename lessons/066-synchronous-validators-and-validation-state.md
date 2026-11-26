@@ -327,9 +327,17 @@ Use the form model for business logic and error messages. CSS classes are a pres
 - Work through the [complete example](../examples/066-synchronous-validators-and-validation-state.md).
 - Revisit [FormArray and dynamic form structures](065-formarray-and-dynamic-form-structures.md).
 
-## Official references
+## Chapter navigation
 
-- [Validate form input](https://angular.dev/guide/forms/form-validation)
-- [Validators API](https://angular.dev/api/forms/Validators)
-- [Reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [AbstractControl API](https://angular.dev/api/forms/AbstractControl)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="065-formarray-and-dynamic-form-structures.md">065 - FormArray and dynamic form structures</a></td><td><a href="../qnas/066-synchronous-validators-and-validation-state.md">Q&amp;A</a></td><td><a href="../examples/066-synchronous-validators-and-validation-state.md">Example</a></td><td><a href="067-cross-field-and-asynchronous-validation.md">067 - Cross-field and asynchronous validation</a></td>
+</tr>
+  </tbody>
+</table>

@@ -87,4 +87,19 @@ For each failure, ask:
 6. Can the reporting path itself fail safely?
 7. Does the user need retry, sign-in, or a support path?
 
-See Angular's [error handling best practices](https://angular.dev/best-practices/error-handling), [ErrorHandler API](https://angular.dev/api/core/ErrorHandler), and, on supported versions, [template error boundaries](https://angular.dev/guide/templates/error-boundaries).
+See Angular's error handling best practices, ErrorHandler API, and, on supported versions, template error boundaries.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="100-dynamic-components-and-programmatic-rendering.md">100 - Dynamic Components and Programmatic Rendering</a></td><td><a href="../qnas/101-global-error-handling-logging-and-diagnostics.md">Q&amp;A</a></td><td><a href="../examples/101-global-error-handling-logging-and-diagnostics.md">Example</a></td><td><a href="102-internationalization-localization-and-formatting.md">102 - Internationalization, Localization, and Formatting</a></td>
+</tr>
+  </tbody>
+</table>

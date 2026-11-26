@@ -1,4 +1,4 @@
-﻿# Examples: Angular CLI Installation and Command Basics
+# Examples: Angular CLI Installation and Command Basics
 
 This hands-on walkthrough installs Angular CLI, creates a disposable workspace, and uses common commands. Run the commands in a terminal on your own computer. Keep the practice app separate from this learning-notes repository so generated project files do not get mixed into your notes.
 
@@ -172,16 +172,17 @@ Stop any running dev server with Ctrl+C. If you want to keep the project, leave 
 6. Find the serve and build targets in angular.json and relate them to the commands you ran.
 7. Write down which commands need a workspace and which command creates one.
 
-## References
+## Chapter navigation
 
-- [Lesson 008: Angular CLI Installation and Command Basics](../lessons/008-angular-cli-installation-and-command-basics.md)
-- [Q&A 008](../qnas/008-angular-cli-installation-and-command-basics.md)
-- [Angular local environment setup](https://angular.dev/tools/cli/setup-local)
-- [Angular CLI overview](https://angular.dev/tools/cli)
-- [Angular CLI command reference](https://angular.dev/cli)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-- [Serving Angular apps for development](https://angular.dev/tools/cli/serve)
-
----
-
-[← Lesson 008](../lessons/008-angular-cli-installation-and-command-basics.md) | [← Q&A 008](../qnas/008-angular-cli-installation-and-command-basics.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="007-node-js-npm-package-managers-and-workspaces.md">007 - Node.js, npm, Package Managers, and Workspaces</a></td><td><a href="../lessons/008-angular-cli-installation-and-command-basics.md">Lesson</a></td><td><a href="../qnas/008-angular-cli-installation-and-command-basics.md">Q&amp;A</a></td><td><a href="009-create-a-standalone-angular-application.md">009 - Create a Standalone Angular Application</a></td>
+</tr>
+  </tbody>
+</table>

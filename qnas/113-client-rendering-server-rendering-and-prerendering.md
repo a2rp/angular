@@ -96,8 +96,17 @@ Common mistakes include enabling SSR for every route without need, prerendering 
 
 A documentation section can be prerendered, a frequently changing public catalog can be SSR-rendered, and a signed-in workspace can be client-rendered. These are starting points; product needs and measurements should decide.
 
-## Further reading
+## Chapter navigation
 
-- [Angular rendering strategies](https://angular.dev/guide/routing/rendering-strategies)
-- [Angular prerendering and hybrid rendering](https://angular.dev/guide/prerendering)
-- [Angular SSR](https://angular.dev/guide/ssr)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="112-rendering-performance-change-detection-and-profiling.md">112 - Rendering Performance, Change Detection, and Profiling</a></td><td><a href="../lessons/113-client-rendering-server-rendering-and-prerendering.md">Lesson</a></td><td><a href="../examples/113-client-rendering-server-rendering-and-prerendering.md">Example</a></td><td><a href="114-set-up-server-side-rendering-and-hybrid-route-rendering.md">114 - Set Up Server-Side Rendering and Hybrid Route Rendering</a></td>
+</tr>
+  </tbody>
+</table>

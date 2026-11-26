@@ -128,11 +128,17 @@ const options = {
 | Send a browser file | FormData; let the browser set multipart Content-Type |
 | Older Angular compatibility | Use the progress option supported by the installed version |
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/088-upload-and-download-progress-events.md
-- Examples: examples/088-upload-and-download-progress-events.md
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- HttpEventType: https://angular.dev/api/common/http/HttpEventType
-- HttpUploadProgressEvent: https://angular.dev/api/common/http/HttpUploadProgressEvent
-- HttpDownloadProgressEvent: https://angular.dev/api/common/http/HttpDownloadProgressEvent
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="087-url-parameters-headers-response-types-and-credentials.md">087 - URL Parameters, Headers, Response Types, and Credentials</a></td><td><a href="../lessons/088-upload-and-download-progress-events.md">Lesson</a></td><td><a href="../examples/088-upload-and-download-progress-events.md">Example</a></td><td><a href="089-functional-interceptors-and-request-context.md">089 - Functional Interceptors and Request Context</a></td>
+</tr>
+  </tbody>
+</table>

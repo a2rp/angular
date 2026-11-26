@@ -1,4 +1,4 @@
-﻿# Q&A: Components, Metadata, and Component Boundaries
+# Q&A: Components, Metadata, and Component Boundaries
 
 ## Component fundamentals
 
@@ -160,10 +160,17 @@ The component must be in the scope of the template where it is used. Standalone 
 
 Review whether its class, template, and styles still describe one cohesive UI responsibility. Check for unrelated state or operations that belong in child components or services, and split only where a meaningful boundary improves clarity.
 
-## Further reading
+## Chapter navigation
 
-- [Angular component guide](https://angular.dev/guide/components)
-- [Component decorator API](https://angular.dev/api/core/Component)
-- [Component templates](https://angular.dev/guide/templates)
-- [Component host elements](https://angular.dev/guide/components/host-elements)
-- [Component styling](https://angular.dev/guide/components/styling)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="012-bootstrap-applicationconfig-and-application-providers.md">012 - 12. Bootstrap, ApplicationConfig, and application providers</a></td><td><a href="../lessons/013-components-metadata-and-component-boundaries.md">Lesson</a></td><td><a href="../examples/013-components-metadata-and-component-boundaries.md">Example</a></td><td><a href="014-standalone-components-and-template-imports.md">014 - 14. Standalone components and template imports</a></td>
+</tr>
+  </tbody>
+</table>

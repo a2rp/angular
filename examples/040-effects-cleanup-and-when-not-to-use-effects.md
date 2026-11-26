@@ -1,4 +1,4 @@
-﻿# 40. Example: effects, cleanup, and imperative side effects
+# 40. Example: effects, cleanup, and imperative side effects
 
 This standalone Angular page demonstrates three appropriate effect uses: syncing a signal to browser storage, scheduling work that is cancelled when its input changes, and starting/stopping an independently managed logging effect. It also shows a computed value for derived state so an effect is not used as a state-copying mechanism.
 
@@ -370,9 +370,17 @@ readonly announcementLength = computed(() => this.announcement().length);
 - The computed character count is derived state, so it does not require an effect.
 - Browser-only APIs are guarded so the storage and timer effects do not access `window` during server rendering.
 
-## Official references
+## Chapter navigation
 
-- [Angular effects guide](https://angular.dev/guide/signals/effect)
-- [Angular `effect()` API](https://angular.dev/api/core/effect)
-- [Angular `afterRenderEffect()` API](https://angular.dev/api/core/afterRenderEffect)
-- [Angular signals overview](https://angular.dev/guide/signals)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="039-linkedsignal-and-dependent-writable-state.md">039 - 39. `linkedSignal` and dependent writable state</a></td><td><a href="../lessons/040-effects-cleanup-and-when-not-to-use-effects.md">Lesson</a></td><td><a href="../qnas/040-effects-cleanup-and-when-not-to-use-effects.md">Q&amp;A</a></td><td><a href="041-signal-equality-dynamic-dependencies-and-untracked-reads.md">041 - 41. Signal equality, dynamic dependencies, and untracked reads</a></td>
+</tr>
+  </tbody>
+</table>

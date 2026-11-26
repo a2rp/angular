@@ -306,20 +306,23 @@ Ask what relationship the output should have to its inputs:
 7. Forward independent events as they arrive? Use **merge()**.
 8. Run finite sources one after another? Use **concat()**.
 
-## Further reading
-
-- [RxJS operators and pipe semantics](https://rxjs.dev/guide/glossary-and-semantics)
-- [RxJS importing guide](https://rxjs.dev/guide/importing)
-- [map() API](https://rxjs.dev/api/operators/map)
-- [combineLatest() API](https://rxjs.dev/api/index/function/combineLatest)
-- [withLatestFrom() API](https://rxjs.dev/api/operators/withLatestFrom)
-- [forkJoin() API](https://rxjs.dev/api/index/function/forkJoin)
-- [zip() API](https://rxjs.dev/api/index/function/zip)
-- [Angular AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Angular toSignal() API](https://angular.dev/api/core/rxjs-interop/toSignal)
-
 ## Continue learning
 
 - Lesson: [RxJS operators for mapping and combining streams](../lessons/058-rxjs-operators-for-mapping-and-combining-streams.md)
 - Example: [RxJS operators for mapping and combining streams](../examples/058-rxjs-operators-for-mapping-and-combining-streams.md)
 - Next lesson: [Flattening operators, cancellation, and concurrency](../lessons/059-flattening-operators-cancellation-and-concurrency.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="057-rxjs-observables-subscriptions-and-stream-basics.md">057 - RxJS Observables, subscriptions, and stream basics</a></td><td><a href="../lessons/058-rxjs-operators-for-mapping-and-combining-streams.md">Lesson</a></td><td><a href="../examples/058-rxjs-operators-for-mapping-and-combining-streams.md">Example</a></td><td><a href="059-flattening-operators-cancellation-and-concurrency.md">059 - Flattening operators, cancellation, and concurrency</a></td>
+</tr>
+  </tbody>
+</table>

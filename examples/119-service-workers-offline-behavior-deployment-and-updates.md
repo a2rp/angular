@@ -162,10 +162,17 @@ Verify that:
 - CDN or intermediary caches do not serve a manifest from one release with files from another;
 - the previous active build can still fetch needed lazy chunks during rollout.
 
-## Further reading
+## Chapter navigation
 
-- [Angular service worker getting started](https://angular.dev/ecosystem/service-workers/getting-started)
-- [Angular service worker configuration](https://angular.dev/ecosystem/service-workers/config)
-- [Angular service worker communications](https://angular.dev/ecosystem/service-workers/communications)
-- [Angular service worker deployment guidance](https://angular.dev/ecosystem/service-workers/devops)
-- [Angular `SwUpdate` API](https://angular.dev/api/service-worker/SwUpdate)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="118-authentication-authorization-secrets-and-browser-storage.md">118 - Authentication, Authorization, Secrets, and Browser Storage</a></td><td><a href="../lessons/119-service-workers-offline-behavior-deployment-and-updates.md">Lesson</a></td><td><a href="../qnas/119-service-workers-offline-behavior-deployment-and-updates.md">Q&amp;A</a></td><td><a href="120-upgrade-angular-safely-and-build-an-accessible-capstone-app.md">120 - Upgrade Angular Safely and Build an Accessible Capstone App</a></td>
+</tr>
+  </tbody>
+</table>

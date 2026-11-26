@@ -228,18 +228,24 @@ Before adding a provider, ask:
 - providers and viewProviders differ at the content-projection boundary.
 - Resolution modifiers adjust one lookup; they do not create providers or change the scope of other requests.
 
-## Further reading
-
-- [Hierarchical injectors](https://angular.dev/guide/di/hierarchical-dependency-injection)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Dependency-injection debugging](https://angular.dev/guide/di/debugging-and-troubleshooting-di)
-- [Injection context](https://angular.dev/guide/di/dependency-injection-context)
-- [inject() API](https://angular.dev/api/core/inject)
-- [InjectOptions API](https://angular.dev/api/core/InjectOptions)
-
 ## Continue learning
 
 - Previous: [Inject dependencies with inject() and constructor injection](050-inject-dependencies-with-inject-and-constructor-injection.md)
 - Q&A: [Hierarchical dependency injection](../qnas/051-hierarchical-dependency-injection.md)
 - Example: [Hierarchical dependency injection](../examples/051-hierarchical-dependency-injection.md)
 - Next: [Application and environment providers](052-application-and-environment-providers.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="050-inject-dependencies-with-inject-and-constructor-injection.md">050 - Inject dependencies with `inject()` and constructor injection</a></td><td><a href="../qnas/051-hierarchical-dependency-injection.md">Q&amp;A</a></td><td><a href="../examples/051-hierarchical-dependency-injection.md">Example</a></td><td><a href="052-application-and-environment-providers.md">052 - Application and environment providers</a></td>
+</tr>
+  </tbody>
+</table>

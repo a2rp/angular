@@ -212,10 +212,17 @@ Before adding validation or submission behavior, confirm that:
 - Input types, labels, and empty values match the data.
 - The project uses a compatible Angular version.
 
-## Further reading
+## Chapter navigation
 
-- [Signal Forms overview](https://angular.dev/guide/forms/signals/overview)
-- [Signal Forms essentials](https://angular.dev/essentials/signal-forms)
-- [Form models](https://angular.dev/guide/forms/signals/models)
-- [form() API](https://angular.dev/api/forms/signals/form)
-- [FormField API](https://angular.dev/api/forms/signals/FormField)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="070-custom-controls-with-controlvalueaccessor.md">070 - Custom controls with ControlValueAccessor</a></td><td><a href="../qnas/071-signal-forms-models-fields-and-form-setup.md">Q&amp;A</a></td><td><a href="../examples/071-signal-forms-models-fields-and-form-setup.md">Example</a></td><td><a href="072-signal-forms-schemas-validation-and-custom-controls.md">072 - Signal Forms: schemas, validation, and custom controls</a></td>
+</tr>
+  </tbody>
+</table>

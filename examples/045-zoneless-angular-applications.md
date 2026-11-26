@@ -422,9 +422,17 @@ A bound template listener is already a zoneless notification. State changes made
 - Keep unrelated update examples in separate component views when demonstrating which view each notification refreshes.
 - Remove ZoneJS from the build only after checking the project's configuration and dependencies.
 
-## Official references
+## Chapter navigation
 
-- [Angular without ZoneJS (Zoneless)](https://angular.dev/guide/zoneless)
-- [provideZonelessChangeDetection API](https://angular.dev/api/core/provideZonelessChangeDetection)
-- [Angular Signals](https://angular.dev/guide/signals)
-- [ChangeDetectorRef API](https://angular.dev/api/core/ChangeDetectorRef)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="044-onpush-change-detection-and-immutable-updates.md">044 - 44. OnPush change detection and immutable updates</a></td><td><a href="../lessons/045-zoneless-angular-applications.md">Lesson</a></td><td><a href="../qnas/045-zoneless-angular-applications.md">Q&amp;A</a></td><td><a href="046-state-ownership-and-avoiding-duplicated-state.md">046 - State ownership and avoiding duplicated state</a></td>
+</tr>
+  </tbody>
+</table>

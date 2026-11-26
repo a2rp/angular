@@ -1,4 +1,4 @@
-﻿# 42. Example: bridge Angular signals and RxJS
+# 42. Example: bridge Angular signals and RxJS
 
 This standalone Angular page shows both directions of interop. A `BehaviorSubject` exposes its current theme through `toSignal(..., { requireSync: true })`. A Signal-backed search query passes through `toObservable()`, RxJS operators, and back into Angular as results with `toSignal()`.
 
@@ -357,9 +357,17 @@ query.set('angular');
 - `switchMap()` cancels the previous inner search when a newer query arrives.
 - State bridges are not event logs; use a Subject or Observable when every event matters.
 
-## Official references
+## Chapter navigation
 
-- [Angular RxJS interop guide](https://angular.dev/ecosystem/rxjs-interop)
-- [Angular `toSignal()` API](https://angular.dev/api/core/rxjs-interop/toSignal)
-- [Angular `ToSignalOptions` API](https://angular.dev/api/core/rxjs-interop/ToSignalOptions)
-- [Angular `toObservable()` API](https://angular.dev/api/core/rxjs-interop/toObservable)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="041-signal-equality-dynamic-dependencies-and-untracked-reads.md">041 - 41. Signal equality, dynamic dependencies, and untracked reads</a></td><td><a href="../lessons/042-rxjs-interop-with-tosignal-and-toobservable.md">Lesson</a></td><td><a href="../qnas/042-rxjs-interop-with-tosignal-and-toobservable.md">Q&amp;A</a></td><td><a href="043-angular-rendering-and-change-detection.md">043 - 43. Angular rendering and change detection</a></td>
+</tr>
+  </tbody>
+</table>

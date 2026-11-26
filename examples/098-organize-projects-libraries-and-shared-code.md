@@ -123,9 +123,17 @@ ng build storefront
 
 For a real workspace, also run the team's normal tests and review that application imports use public entry points. Do not include generated build artifacts in version control unless the repository's release process explicitly requires them.
 
-## Further reading
+## Chapter navigation
 
-- [Angular workspace and file structure](https://angular.dev/reference/configs/file-structure)
-- [Workspace configuration](https://angular.dev/reference/configs/workspace-config)
-- [Generate an Angular library](https://angular.dev/cli/generate/library)
-- [Create and publish Angular libraries](https://angular.dev/tools/libraries/creating-libraries)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="097-feature-based-application-architecture.md">097 - Feature-Based Application Architecture</a></td><td><a href="../lessons/098-organize-projects-libraries-and-shared-code.md">Lesson</a></td><td><a href="../qnas/098-organize-projects-libraries-and-shared-code.md">Q&amp;A</a></td><td><a href="099-reusable-ui-components-and-design-system-boundaries.md">099 - Reusable UI Components and Design-System Boundaries</a></td>
+</tr>
+  </tbody>
+</table>

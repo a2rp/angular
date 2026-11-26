@@ -185,12 +185,17 @@ Export the token when app consumers or other packages need to provide or inject 
 
 Use an input when a parent configures one component instance through the template. Use a DI token when the value is a dependency shared through an injector scope, used by services, or configured at the application or route level.
 
-## Further reading
+## Chapter navigation
 
-- [The lesson](../lessons/054-injectiontoken-and-typed-application-configuration.md)
-- [The example](../examples/054-injectiontoken-and-typed-application-configuration.md)
-- [InjectionToken API](https://angular.dev/api/core/InjectionToken)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Injection context](https://angular.dev/guide/di/dependency-injection-context)
-- [makeEnvironmentProviders API](https://angular.dev/api/core/makeEnvironmentProviders)
-- [ApplicationConfig API](https://angular.dev/api/core/ApplicationConfig)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="053-component-scoped-and-route-scoped-providers.md">053 - Component-scoped and route-scoped providers</a></td><td><a href="../lessons/054-injectiontoken-and-typed-application-configuration.md">Lesson</a></td><td><a href="../examples/054-injectiontoken-and-typed-application-configuration.md">Example</a></td><td><a href="055-provider-recipes-multi-providers-and-provider-functions.md">055 - Provider recipes, multi providers, and provider functions</a></td>
+</tr>
+  </tbody>
+</table>

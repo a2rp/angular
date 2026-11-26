@@ -1,4 +1,4 @@
-﻿# Q&A: Two-Way Binding and ngModel
+# Q&A: Two-Way Binding and ngModel
 
 ## Two-way binding basics
 
@@ -191,10 +191,17 @@ Check that FormsModule is in the correct template scope, the expression is writa
 
 [(ngModel)] is convenient two-way synchronization for template-driven form controls. Import FormsModule, register form controls intentionally, and keep it separate from reactive form directives.
 
-## Further reading
+## Chapter navigation
 
-- [Angular two-way binding](https://angular.dev/guide/templates/two-way-binding)
-- [Angular template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
-- [NgModel API](https://angular.dev/api/forms/NgModel)
-- [NgForm API](https://angular.dev/api/forms/NgForm)
-- [Angular forms overview](https://angular.dev/guide/forms)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="019-event-bindings-event-objects-and-keyboard-input.md">019 - 19. Event bindings, event objects, and keyboard input</a></td><td><a href="../lessons/020-two-way-binding-and-ngmodel.md">Lesson</a></td><td><a href="../examples/020-two-way-binding-and-ngmodel.md">Example</a></td><td><a href="021-built-in-control-flow-with-if-and-switch.md">021 - 21. Built-in control flow with if and switch</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# 18. Property, attribute, class, and style bindings
+# 18. Property, attribute, class, and style bindings
 
 Angular bindings connect a component value to something in the rendered view. Square-bracket syntax can target a DOM property, a component or directive input, or an explicit HTML attribute. Angular also provides focused syntax for dynamic classes and styles.
 
@@ -186,14 +186,21 @@ Do not bypass Angular sanitization just to make a value appear. In particular, d
 - [ ] Keep each dynamic class or style property under one clear owner.
 - [ ] Treat bound values as untrusted and preserve Angular's security handling.
 
-## Further reading
-
-- [Binding dynamic text, properties, and attributes](https://angular.dev/guide/templates/binding)
-- [Angular security best practices](https://angular.dev/best-practices/security)
-- [Angular accessibility practices](https://angular.dev/best-practices/a11y)
-- [Component host elements and binding precedence](https://angular.dev/guide/components/host-elements)
-- [Angular style guide](https://angular.dev/style-guide)
-
 ## Next lesson
 
 Continue with [Event bindings, event objects, and keyboard input](019-event-bindings-event-objects-and-keyboard-input.md).
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="017-interpolation-and-template-expressions.md">017 - 17. Interpolation and template expressions</a></td><td><a href="../qnas/018-property-attribute-class-and-style-bindings.md">Q&amp;A</a></td><td><a href="../examples/018-property-attribute-class-and-style-bindings.md">Example</a></td><td><a href="019-event-bindings-event-objects-and-keyboard-input.md">019 - 19. Event bindings, event objects, and keyboard input</a></td>
+</tr>
+  </tbody>
+</table>

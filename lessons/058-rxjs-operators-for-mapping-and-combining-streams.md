@@ -320,21 +320,24 @@ The example that follows builds this pattern with filter and search streams. Pre
 - **Forgetting errors can still occur:** a projection or source can fail and send an error through the resulting Observable.
 - **Mixing up combination and flattening:** **switchMap()**, **mergeMap()**, **concatMap()**, and **exhaustMap()** handle Observables emitted by another Observable; they are introduced in the next lesson.
 
-## Further reading
-
-- [RxJS operators and pipe semantics](https://rxjs.dev/guide/glossary-and-semantics)
-- [RxJS importing guide](https://rxjs.dev/guide/importing)
-- [map() API](https://rxjs.dev/api/operators/map)
-- [combineLatest() API](https://rxjs.dev/api/index/function/combineLatest)
-- [withLatestFrom() API](https://rxjs.dev/api/operators/withLatestFrom)
-- [forkJoin() API](https://rxjs.dev/api/index/function/forkJoin)
-- [zip() API](https://rxjs.dev/api/index/function/zip)
-- [Angular AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Angular toSignal() API](https://angular.dev/api/core/rxjs-interop/toSignal)
-
 ## Continue learning
 
 - Previous: [RxJS Observables, subscriptions, and stream basics](057-rxjs-observables-subscriptions-and-stream-basics.md)
 - Q&A: [RxJS operators for mapping and combining streams](../qnas/058-rxjs-operators-for-mapping-and-combining-streams.md)
 - Example: [RxJS operators for mapping and combining streams](../examples/058-rxjs-operators-for-mapping-and-combining-streams.md)
 - Next: [Flattening operators, cancellation, and concurrency](059-flattening-operators-cancellation-and-concurrency.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="057-rxjs-observables-subscriptions-and-stream-basics.md">057 - RxJS Observables, subscriptions, and stream basics</a></td><td><a href="../qnas/058-rxjs-operators-for-mapping-and-combining-streams.md">Q&amp;A</a></td><td><a href="../examples/058-rxjs-operators-for-mapping-and-combining-streams.md">Example</a></td><td><a href="059-flattening-operators-cancellation-and-concurrency.md">059 - Flattening operators, cancellation, and concurrency</a></td>
+</tr>
+  </tbody>
+</table>

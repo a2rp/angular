@@ -51,7 +51,7 @@ Evaluate these metrics at the 75th percentile of real visits, generally segmente
 
 LCP can be affected by server response, render-blocking resources, image delivery, and when the main content is discovered. INP can be affected by long JavaScript tasks and expensive work triggered by an interaction. CLS can be affected by media without reserved space, late content insertion, and font changes.
 
-See Google's current [Web Vitals overview](https://web.dev/articles/vitals) for metric definitions and thresholds.
+See Google's current Web Vitals overview for metric definitions and thresholds.
 
 ## 4. Measure a representative page
 
@@ -64,7 +64,7 @@ Choose a route that users actually visit and record a predictable scenario:
 5. Note both the measured symptom and browser trace evidence.
 6. Repeat the same scenario after a change.
 
-Chrome DevTools Performance can show JavaScript tasks, rendering, layout, paint, network timing, and Angular-specific activity where enabled. Angular DevTools and browser profiling were covered in the previous chapter. The [Angular performance guide](https://angular.dev/best-practices/performance) maps common symptoms to tools and techniques.
+Chrome DevTools Performance can show JavaScript tasks, rendering, layout, paint, network timing, and Angular-specific activity where enabled. Angular DevTools and browser profiling were covered in the previous chapter. The Angular performance guide maps common symptoms to tools and techniques.
 
 ## 5. Read Angular CLI build output
 
@@ -108,7 +108,7 @@ Angular CLI budgets set size boundaries in the workspace build configuration. Fo
 
 Replace the project name and thresholds with values appropriate for the application. The initial budget covers JavaScript and CSS needed for application startup. Other budget types can cover all scripts, individual files, component styles, or a named bundle. A named bundle budget is useful for watching a substantial feature chunk.
 
-Treat budgets as guardrails that prompt investigation. Set thresholds from a measured baseline and the product's constraints; arbitrary tiny limits can create noisy warnings, while overly generous limits fail to catch regressions. Review the [Angular CLI build documentation](https://angular.dev/tools/cli/build) for the supported budget types and configuration shape.
+Treat budgets as guardrails that prompt investigation. Set thresholds from a measured baseline and the product's constraints; arbitrary tiny limits can create noisy warnings, while overly generous limits fail to catch regressions. Review the Angular CLI build documentation for the supported budget types and configuration shape.
 
 ## 7. Investigate bundle growth
 
@@ -158,9 +158,17 @@ Record the device, browser, build, network profile, metric, and percentile along
 - Budgets are investigation guardrails; tune them from real baselines.
 - Repeat comparable measurements after the change.
 
-## Further reading
+## Chapter navigation
 
-- [Angular performance best practices](https://angular.dev/best-practices/performance)
-- [Building Angular apps and configuring budgets](https://angular.dev/tools/cli/build)
-- [Google Web Vitals](https://web.dev/articles/vitals)
-- [Angular image optimization](https://angular.dev/best-practices/performance/image-optimization)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="109-angular-devtools-debugging-and-production-diagnostics.md">109 - Angular DevTools, Debugging, and Production Diagnostics</a></td><td><a href="../qnas/110-measure-performance-bundle-size-and-core-web-vitals.md">Q&amp;A</a></td><td><a href="../examples/110-measure-performance-bundle-size-and-core-web-vitals.md">Example</a></td><td><a href="111-lazy-loading-and-deferrable-views-with-defer.md">111 - Lazy Loading and Deferrable Views with defer</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Example 35: Built-in pipes and the async pipe
+# Example 35: Built-in pipes and the async pipe
 
 This example is a small standalone Angular page that uses the built-in pipes in `@angular/common`. It formats product data for display, slices a list, renders object entries, selects plural/status messages, and displays values from both an Observable and a Promise.
 
@@ -381,13 +381,17 @@ The async `@if` aliases a `Date` object, which is truthy. Do not copy this truth
 
 The template stores `currentTime$` and `welcomePromise` as stable component properties. The Observable starts when `AsyncPipe` subscribes and stops when the view is destroyed; no manual subscription or cleanup code is needed for this display.
 
-## References
+## Chapter navigation
 
-- [Angular pipes guide](https://angular.dev/guide/templates/pipes)
-- [AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Format data based on locale](https://angular.dev/guide/i18n/format-data-locale)
-- [DatePipe API](https://angular.dev/api/common/DatePipe)
-- [CurrencyPipe API](https://angular.dev/api/common/CurrencyPipe)
-- [KeyValuePipe API](https://angular.dev/api/common/KeyValuePipe)
-- [SlicePipe API](https://angular.dev/api/common/SlicePipe)
-- [Angular template control flow](https://angular.dev/guide/templates/control-flow)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="034-global-styles-css-variables-and-theming.md">034 - 34. Global styles, CSS variables, and theming</a></td><td><a href="../lessons/035-built-in-pipes-and-the-async-pipe.md">Lesson</a></td><td><a href="../qnas/035-built-in-pipes-and-the-async-pipe.md">Q&amp;A</a></td><td><a href="036-custom-pipes-attribute-directives-and-reusable-behavior.md">036 - 36. Custom pipes, attribute directives, and reusable behavior</a></td>
+</tr>
+  </tbody>
+</table>

@@ -42,7 +42,7 @@ Use a repeatable interaction such as opening a large menu, typing in a filter, c
 5. Inspect the component, template, lifecycle method, and browser work involved.
 6. Repeat the same action after making one focused change.
 
-Angular DevTools can show which components and directives consumed time in a change-detection cycle. Chrome Performance can reveal whether the delay is Angular work, another script, layout, paint, or a combination. See [Angular slow computations](https://angular.dev/best-practices/slow-computations) and [profiling with Chrome DevTools](https://angular.dev/best-practices/profiling-with-chrome-devtools).
+Angular DevTools can show which components and directives consumed time in a change-detection cycle. Chrome Performance can reveal whether the delay is Angular work, another script, layout, paint, or a combination. See Angular slow computations and profiling with Chrome DevTools.
 
 ## 3. Keep template expressions inexpensive
 
@@ -140,7 +140,7 @@ Zoneless change detection removes ZoneJS as Angular's scheduling signal and uses
 
 Existing applications need to ensure that state changes notify Angular, particularly when using third-party callbacks or reactive forms. Angular signals, template listeners, AsyncPipe, and markForCheck are common ways to provide the notification. A migration should be validated against real application flows and tests.
 
-See the current [zoneless guide](https://angular.dev/guide/zoneless).
+See the current zoneless guide.
 
 ## 8. Avoid unnecessary layout work
 
@@ -195,10 +195,17 @@ Keep the trace, route, build, device, and reproduction steps with the change so 
 - Angular v21+ uses zoneless change detection by default; OnPush becomes default in v22 according to current Angular docs.
 - Re-measure the same interaction and confirm the UI still responds correctly.
 
-## Further reading
+## Chapter navigation
 
-- [Angular performance best practices](https://angular.dev/best-practices/performance)
-- [Slow computations](https://angular.dev/best-practices/slow-computations)
-- [Skipping component subtrees](https://angular.dev/best-practices/skipping-subtrees)
-- [Angular zoneless change detection](https://angular.dev/guide/zoneless)
-- [Angular DevTools Profiler](https://angular.dev/tools/devtools/profiler)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="111-lazy-loading-and-deferrable-views-with-defer.md">111 - Lazy Loading and Deferrable Views with defer</a></td><td><a href="../qnas/112-rendering-performance-change-detection-and-profiling.md">Q&amp;A</a></td><td><a href="../examples/112-rendering-performance-change-detection-and-profiling.md">Example</a></td><td><a href="113-client-rendering-server-rendering-and-prerendering.md">113 - Client Rendering, Server Rendering, and Prerendering</a></td>
+</tr>
+  </tbody>
+</table>

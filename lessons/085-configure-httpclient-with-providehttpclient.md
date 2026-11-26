@@ -196,11 +196,17 @@ Before moving on, confirm:
 
 provideHttpClient configures HttpClient through Angular dependency injection. Start with the default configuration, then add feature functions for specific requirements. Keep the provider at the correct injector level and make transport or security changes deliberately.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/085-configure-httpclient-with-providehttpclient.md
-- Examples: examples/085-configure-httpclient-with-providehttpclient.md
-- Angular HttpClient setup: https://angular.dev/guide/http/setup
-- provideHttpClient API: https://angular.dev/api/common/http/provideHttpClient
-- Angular interceptors: https://angular.dev/guide/http/interceptors
-- Angular HTTP testing: https://angular.dev/guide/http/testing
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="084-preloading-scroll-restoration-and-router-testing.md">084 - 84. Preloading, scroll restoration, and router testing</a></td><td><a href="../qnas/085-configure-httpclient-with-providehttpclient.md">Q&amp;A</a></td><td><a href="../examples/085-configure-httpclient-with-providehttpclient.md">Example</a></td><td><a href="086-build-typed-http-requests-and-api-services.md">086 - Build Typed HTTP Requests and API Services</a></td>
+</tr>
+  </tbody>
+</table>

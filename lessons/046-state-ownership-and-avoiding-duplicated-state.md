@@ -197,10 +197,17 @@ Before adding a new signal, field, or store entry, ask:
 - Choose service scope deliberately; component-level providers create separate instances.
 - Keep form drafts when their separate, temporary meaning is intentional.
 
-## Further reading
+## Chapter navigation
 
-- [Signals](https://angular.dev/guide/signals)
-- [Dependent state with `linkedSignal`](https://angular.dev/guide/signals/linked-signal)
-- [Effects](https://angular.dev/guide/signals/effect)
-- [Defining dependency providers](https://angular.dev/guide/di/dependency-injection-providers)
-- [Hierarchical dependency injection](https://angular.dev/guide/di/hierarchical-dependency-injection)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="045-zoneless-angular-applications.md">045 - 45. Zoneless Angular applications</a></td><td><a href="../qnas/046-state-ownership-and-avoiding-duplicated-state.md">Q&amp;A</a></td><td><a href="../examples/046-state-ownership-and-avoiding-duplicated-state.md">Example</a></td><td><a href="047-immutable-state-updates-for-arrays-and-objects.md">047 - Immutable state updates for arrays and objects</a></td>
+</tr>
+  </tbody>
+</table>

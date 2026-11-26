@@ -1,4 +1,4 @@
-﻿# 40. Effects, cleanup, and when not to use effects — Q&A
+# 40. Effects, cleanup, and when not to use effects — Q&A
 
 ## Core concepts
 
@@ -163,10 +163,17 @@ Ask:
 5. Does this effect need a browser-only or post-render guard?
 6. Who owns the effect, and when should it be destroyed?
 
-## Official references
+## Chapter navigation
 
-- [Angular effects guide](https://angular.dev/guide/signals/effect)
-- [Angular `effect()` API](https://angular.dev/api/core/effect)
-- [Angular `afterRenderEffect()` API](https://angular.dev/api/core/afterRenderEffect)
-- [Angular signals overview: reactive contexts and `untracked`](https://angular.dev/guide/signals)
-- [Angular dependency injection context](https://angular.dev/guide/di/dependency-injection-context)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="039-linkedsignal-and-dependent-writable-state.md">039 - 39. `linkedSignal` and dependent writable state</a></td><td><a href="../lessons/040-effects-cleanup-and-when-not-to-use-effects.md">Lesson</a></td><td><a href="../examples/040-effects-cleanup-and-when-not-to-use-effects.md">Example</a></td><td><a href="041-signal-equality-dynamic-dependencies-and-untracked-reads.md">041 - 41. Signal equality, dynamic dependencies, and untracked reads</a></td>
+</tr>
+  </tbody>
+</table>

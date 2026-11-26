@@ -188,12 +188,17 @@ Yes. They are public configuration functions that package the framework provider
 
 In Angular v22.1 and newer, use @Service({ autoProvided: false }) when the class should only be registered through the provider helper or providers array. In projects using Injectable, use Injectable() without providedIn for the same manual-registration intent.
 
-## Further reading
+## Chapter navigation
 
-- [The lesson](../lessons/055-provider-recipes-multi-providers-and-provider-functions.md)
-- [The example](../examples/055-provider-recipes-multi-providers-and-provider-functions.md)
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Provider recipes and provider identifiers](https://angular.dev/guide/di/dependency-injection-providers)
-- [makeEnvironmentProviders API](https://angular.dev/api/core/makeEnvironmentProviders)
-- [Invalid multi-provider error](https://angular.dev/errors/NG0209)
-- [InjectionToken and typed application configuration](../lessons/054-injectiontoken-and-typed-application-configuration.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="054-injectiontoken-and-typed-application-configuration.md">054 - InjectionToken and typed application configuration</a></td><td><a href="../lessons/055-provider-recipes-multi-providers-and-provider-functions.md">Lesson</a></td><td><a href="../examples/055-provider-recipes-multi-providers-and-provider-functions.md">Example</a></td><td><a href="056-injection-contexts-and-resource-lifetimes.md">056 - Injection contexts and resource lifetimes</a></td>
+</tr>
+  </tbody>
+</table>

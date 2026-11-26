@@ -465,7 +465,7 @@ The server should identify the sender and create authoritative message IDs and t
 | Update history after disconnect | Server-supported event IDs, cursors, or a normal HTTP history endpoint |
 | Several views consume one feed | Deliberately shared connection with an explicit owner and teardown policy |
 
-SSE is a text event stream with browser-managed reconnect behavior. WebSocket supports two-way messages, but application code must own reconnection behavior. In Angular, toSignal subscribes immediately and cleans up when created in an injection context; takeUntilDestroyed is another option for imperative subscriptions. See the [Angular toSignal API](https://angular.dev/api/core/rxjs-interop/toSignal), [takeUntilDestroyed guide](https://angular.dev/ecosystem/rxjs-interop/take-until-destroyed), [MDN SSE guide](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events), and [RxJS WebSocketSubject configuration](https://rxjs.dev/api/webSocket/WebSocketSubjectConfig).
+SSE is a text event stream with browser-managed reconnect behavior. WebSocket supports two-way messages, but application code must own reconnection behavior. In Angular, toSignal subscribes immediately and cleans up when created in an injection context; takeUntilDestroyed is another option for imperative subscriptions. See the Angular toSignal API, takeUntilDestroyed guide, MDN SSE guide, and RxJS WebSocketSubject configuration.
 
 ## 4. Production checklist
 
@@ -479,3 +479,18 @@ SSE is a text event stream with browser-managed reconnect behavior. WebSocket su
 - Define a bounded WebSocket reconnect policy if the product requires automatic recovery.
 - Close the connection when its feature owner is destroyed.
 - Show whether displayed data may be stale after a disconnect.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="095-angular-resources-and-signal-based-asynchronous-data.md">095 - Angular Resources and Signal-Based Asynchronous Data</a></td><td><a href="../lessons/096-server-sent-events-websockets-and-live-updates.md">Lesson</a></td><td><a href="../qnas/096-server-sent-events-websockets-and-live-updates.md">Q&amp;A</a></td><td><a href="097-feature-based-application-architecture.md">097 - Feature-Based Application Architecture</a></td>
+</tr>
+  </tbody>
+</table>

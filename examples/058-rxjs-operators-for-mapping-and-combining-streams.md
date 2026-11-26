@@ -378,19 +378,23 @@ Start the app with the Angular CLI command used by your workspace, usually **ng 
 | Read the forkJoin output | Both finite inputs complete before their final values are emitted together. |
 | Compare merge and concat | **merge()** forwards input events; **concat()** waits for each finite source to complete in order. |
 
-## Further reading
-
-- [RxJS operators and pipe semantics](https://rxjs.dev/guide/glossary-and-semantics)
-- [RxJS importing guide](https://rxjs.dev/guide/importing)
-- [map() API](https://rxjs.dev/api/operators/map)
-- [combineLatest() API](https://rxjs.dev/api/index/function/combineLatest)
-- [withLatestFrom() API](https://rxjs.dev/api/operators/withLatestFrom)
-- [forkJoin() API](https://rxjs.dev/api/index/function/forkJoin)
-- [zip() API](https://rxjs.dev/api/index/function/zip)
-- [Angular toSignal() API](https://angular.dev/api/core/rxjs-interop/toSignal)
-
 ## Related files
 
 - [Lesson: RxJS operators for mapping and combining streams](../lessons/058-rxjs-operators-for-mapping-and-combining-streams.md)
 - [Q&A: RxJS operators for mapping and combining streams](../qnas/058-rxjs-operators-for-mapping-and-combining-streams.md)
 - [Next lesson: Flattening operators, cancellation, and concurrency](../lessons/059-flattening-operators-cancellation-and-concurrency.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="057-rxjs-observables-subscriptions-and-stream-basics.md">057 - RxJS Observables, subscriptions, and stream basics</a></td><td><a href="../lessons/058-rxjs-operators-for-mapping-and-combining-streams.md">Lesson</a></td><td><a href="../qnas/058-rxjs-operators-for-mapping-and-combining-streams.md">Q&amp;A</a></td><td><a href="059-flattening-operators-cancellation-and-concurrency.md">059 - Flattening operators, cancellation, and concurrency</a></td>
+</tr>
+  </tbody>
+</table>

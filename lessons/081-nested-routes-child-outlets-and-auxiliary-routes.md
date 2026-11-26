@@ -330,8 +330,17 @@ Outlets choose where routed components are inserted; CSS chooses how those regio
 - A named outlet and a route configured with the same `outlet` name create an auxiliary route branch.
 - Use auxiliary routes when the secondary view should be represented in navigation and browser history.
 
-## Further reading
+## Chapter navigation
 
-- [Show routes with outlets](https://angular.dev/guide/routing/show-routes)
-- [Define routes](https://angular.dev/guide/routing/define-routes)
-- [RouterOutlet API](https://angular.dev/api/router/RouterOutlet)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="080-lazy-load-routes-and-standalone-components.md">080 - Lazy-load routes and standalone components</a></td><td><a href="../qnas/081-nested-routes-child-outlets-and-auxiliary-routes.md">Q&amp;A</a></td><td><a href="../examples/081-nested-routes-child-outlets-and-auxiliary-routes.md">Example</a></td><td><a href="082-route-level-providers-and-route-configuration.md">082 - 82. Route-level providers and route configuration</a></td>
+</tr>
+  </tbody>
+</table>

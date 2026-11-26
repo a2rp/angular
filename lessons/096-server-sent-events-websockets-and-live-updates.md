@@ -305,15 +305,17 @@ A valid connection can still send an unauthorized message. Enforce permissions o
 
 Use SSE for server-to-client updates over HTTP, WebSockets for genuine bidirectional messaging, and polling for simpler low-frequency refresh. In Angular, adapt connection events to Observables or Signals, model connection state separately from data, validate every message, and make cleanup and recovery part of the design.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/096-server-sent-events-websockets-and-live-updates.md
-- Examples: examples/096-server-sent-events-websockets-and-live-updates.md
-- Angular RxJS interop: https://angular.dev/guide/signals/rxjs-interop
-- Angular toSignal API: https://angular.dev/api/core/rxjs-interop/toSignal
-- Angular takeUntilDestroyed: https://angular.dev/ecosystem/rxjs-interop/take-until-destroyed
-- RxJS WebSocketSubject configuration: https://rxjs.dev/api/webSocket/WebSocketSubjectConfig
-- MDN: Using server-sent events: https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events
-- WHATWG HTML standard: Server-sent events: https://html.spec.whatwg.org/dev/server-sent-events.html
-- MDN: Writing WebSocket client applications: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
-- MDN: Writing WebSocket servers: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="095-angular-resources-and-signal-based-asynchronous-data.md">095 - Angular Resources and Signal-Based Asynchronous Data</a></td><td><a href="../qnas/096-server-sent-events-websockets-and-live-updates.md">Q&amp;A</a></td><td><a href="../examples/096-server-sent-events-websockets-and-live-updates.md">Example</a></td><td><a href="097-feature-based-application-architecture.md">097 - Feature-Based Application Architecture</a></td>
+</tr>
+  </tbody>
+</table>

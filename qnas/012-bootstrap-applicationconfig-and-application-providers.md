@@ -1,4 +1,4 @@
-﻿# Q&A: Bootstrap, ApplicationConfig, and Application Providers
+# Q&A: Bootstrap, ApplicationConfig, and Application Providers
 
 ## Startup and the root component
 
@@ -172,9 +172,17 @@ Check the component's imports for the template dependency, such as RouterOutlet.
 
 Preserve providers already generated for the project, verify each imported API and path, and confirm the bootstrap entry passes the intended appConfig. Then run the project's normal development or build command when you are ready to verify it.
 
-## Further reading
+## Chapter navigation
 
-- [bootstrapApplication API](https://angular.dev/api/platform-browser/bootstrapApplication)
-- [ApplicationConfig API](https://angular.dev/api/core/ApplicationConfig)
-- [Define dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Dependency injection providers](https://angular.dev/guide/di/dependency-injection-providers)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="011-run-serve-build-and-inspect-an-angular-application.md">011 - Run, Serve, Build, and Inspect an Angular Application</a></td><td><a href="../lessons/012-bootstrap-applicationconfig-and-application-providers.md">Lesson</a></td><td><a href="../examples/012-bootstrap-applicationconfig-and-application-providers.md">Example</a></td><td><a href="013-components-metadata-and-component-boundaries.md">013 - 13. Components, metadata, and component boundaries</a></td>
+</tr>
+  </tbody>
+</table>

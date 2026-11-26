@@ -324,11 +324,17 @@ Calling fixture.detectChanges() manually forces a check. It can hide missing not
 - Reactive forms, SSR stability, and tests each have specific zoneless considerations.
 - NgZone run methods remain compatible, while NgZone stability observables are not useful in zoneless applications.
 
-## Official references
+## Chapter navigation
 
-- [Angular without ZoneJS (Zoneless)](https://angular.dev/guide/zoneless)
-- [provideZonelessChangeDetection API](https://angular.dev/api/core/provideZonelessChangeDetection)
-- [Angular Signals](https://angular.dev/guide/signals)
-- [AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Resolving Zone pollution](https://angular.dev/best-practices/zone-pollution)
-- [Server and hybrid rendering](https://angular.dev/guide/ssr)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="044-onpush-change-detection-and-immutable-updates.md">044 - 44. OnPush change detection and immutable updates</a></td><td><a href="../qnas/045-zoneless-angular-applications.md">Q&amp;A</a></td><td><a href="../examples/045-zoneless-angular-applications.md">Example</a></td><td><a href="046-state-ownership-and-avoiding-duplicated-state.md">046 - State ownership and avoiding duplicated state</a></td>
+</tr>
+  </tbody>
+</table>

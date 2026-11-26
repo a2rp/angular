@@ -165,9 +165,17 @@ Path parameters commonly identify a resource; query parameters commonly represen
 
 Use a snapshot for a one-time read when the component's lifetime and use case make that sufficient. Use the `paramMap` observable when a routed component should update as navigation changes its parameters. In either case, keep the value nullable until it has been checked, validate it for the domain, and provide a clear invalid or not-found state.
 
-## Official references
+## Chapter navigation
 
-- [Read route state](https://angular.dev/guide/routing/read-route-state)
-- [ActivatedRoute API](https://angular.dev/api/router/ActivatedRoute)
-- [ParamMap API](https://angular.dev/api/router/ParamMap)
-- [withComponentInputBinding API](https://angular.dev/api/router/withComponentInputBinding)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="074-routeroutlet-routerlink-and-active-route-links.md">074 - RouterOutlet, RouterLink, and active route links</a></td><td><a href="../qnas/075-route-parameters-snapshots-and-reactive-parameters.md">Q&amp;A</a></td><td><a href="../examples/075-route-parameters-snapshots-and-reactive-parameters.md">Example</a></td><td><a href="076-query-parameters-fragments-and-navigation-state.md">076 - Query parameters, fragments, and navigation state</a></td>
+</tr>
+  </tbody>
+</table>

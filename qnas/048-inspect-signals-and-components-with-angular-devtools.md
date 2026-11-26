@@ -142,7 +142,22 @@ Inspect the component's inputs and signals, then reproduce the interaction. A pr
 
 ## 36. Which official Angular pages cover these features?
 
-- [Angular DevTools overview](https://angular.dev/tools/devtools)
-- [Inspect the component tree](https://angular.dev/tools/devtools/component)
-- [Debug the signal graph](https://angular.dev/tools/devtools/signals)
-- [Profile your application](https://angular.dev/tools/devtools/profiler)
+- Angular DevTools overview
+- Inspect the component tree
+- Debug the signal graph
+- Profile your application
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="047-immutable-state-updates-for-arrays-and-objects.md">047 - Immutable state updates for arrays and objects</a></td><td><a href="../lessons/048-inspect-signals-and-components-with-angular-devtools.md">Lesson</a></td><td><a href="../examples/048-inspect-signals-and-components-with-angular-devtools.md">Example</a></td><td><a href="049-services-and-the-injectable-pattern.md">049 - Services and the injectable pattern</a></td>
+</tr>
+  </tbody>
+</table>

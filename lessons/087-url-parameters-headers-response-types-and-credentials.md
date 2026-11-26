@@ -286,11 +286,17 @@ URLs are widely recorded. Use an appropriate request body or header according to
 
 Use params for query data, headers for request metadata, responseType for the response body's representation, and observe for the level of response detail. Configure credentials only when the destination and server policy are known.
 
-## Related references
+## Chapter navigation
 
-- Q&A: qnas/087-url-parameters-headers-response-types-and-credentials.md
-- Examples: examples/087-url-parameters-headers-response-types-and-credentials.md
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- HttpParams API: https://angular.dev/api/common/http/HttpParams
-- HttpHeaders API: https://angular.dev/api/common/http/HttpHeaders
-- HttpClient API: https://angular.dev/api/common/http/HttpClient
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="086-build-typed-http-requests-and-api-services.md">086 - Build Typed HTTP Requests and API Services</a></td><td><a href="../qnas/087-url-parameters-headers-response-types-and-credentials.md">Q&amp;A</a></td><td><a href="../examples/087-url-parameters-headers-response-types-and-credentials.md">Example</a></td><td><a href="088-upload-and-download-progress-events.md">088 - Upload and Download Progress Events</a></td>
+</tr>
+  </tbody>
+</table>

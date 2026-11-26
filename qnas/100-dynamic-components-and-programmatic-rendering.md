@@ -56,9 +56,17 @@ You can, but unbounded creation can retain views, subscriptions, DOM nodes, and 
 
 It is a handle to a dynamically created component instance and its host view. It provides ways to set inputs, inspect the instance, access the location and change detector, and destroy the component.
 
-## Further reading
+## Chapter navigation
 
-- [Programmatic component rendering](https://angular.dev/guide/components/programmatic-rendering)
-- [ViewContainerRef API](https://angular.dev/api/core/ViewContainerRef)
-- [Deferrable views](https://angular.dev/guide/templates/defer)
-- [Angular component guide](https://angular.dev/guide/components)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="099-reusable-ui-components-and-design-system-boundaries.md">099 - Reusable UI Components and Design-System Boundaries</a></td><td><a href="../lessons/100-dynamic-components-and-programmatic-rendering.md">Lesson</a></td><td><a href="../examples/100-dynamic-components-and-programmatic-rendering.md">Example</a></td><td><a href="101-global-error-handling-logging-and-diagnostics.md">101 - Global Error Handling, Logging, and Diagnostics</a></td>
+</tr>
+  </tbody>
+</table>

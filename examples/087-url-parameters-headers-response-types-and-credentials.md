@@ -349,11 +349,17 @@ The Observable emits HttpResponse<Product[]>, allowing the caller to inspect bot
 | Cross-origin cookies when explicitly required | credentials: 'include' |
 | Do not send browser credentials | credentials: 'omit' |
 
-## Related files and official documentation
+## Chapter navigation
 
-- Lesson: lessons/087-url-parameters-headers-response-types-and-credentials.md
-- Q&A: qnas/087-url-parameters-headers-response-types-and-credentials.md
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- HttpParams API: https://angular.dev/api/common/http/HttpParams
-- HttpHeaders API: https://angular.dev/api/common/http/HttpHeaders
-- HttpClient API: https://angular.dev/api/common/http/HttpClient
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="086-build-typed-http-requests-and-api-services.md">086 - Build Typed HTTP Requests and API Services</a></td><td><a href="../lessons/087-url-parameters-headers-response-types-and-credentials.md">Lesson</a></td><td><a href="../qnas/087-url-parameters-headers-response-types-and-credentials.md">Q&amp;A</a></td><td><a href="088-upload-and-download-progress-events.md">088 - Upload and Download Progress Events</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# TypeScript Essentials: Values, Types, and Inference — Examples
+# TypeScript Essentials: Values, Types, and Inference — Examples
 
 These examples let you inspect inferred types, write basic annotations, handle uncertain values, and distinguish compile-time checking from runtime behavior.
 
@@ -6,7 +6,7 @@ Read [Chapter 4](../lessons/004-typescript-essentials-values-types-and-inference
 
 ## Run the main example
 
-Create a scratch folder with a file named values.ts. You can use the [TypeScript Playground](https://www.typescriptlang.org/play/) to inspect the code without installing anything.
+Create a scratch folder with a file named values.ts. You can use the TypeScript Playground to inspect the code without installing anything.
 
 To compile locally, install Node.js and npm if they are not already available, then run:
 
@@ -229,3 +229,18 @@ Static checking cannot prove that every external value is valid or that the prog
 ## Key takeaway
 
 Inference avoids redundant annotations, explicit types describe important contracts, and runtime checks protect data the type checker cannot inspect. Use these tools together rather than expecting a type declaration to convert or validate a value.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="003-browser-dom-http-and-javascript-foundations.md">003 - Browser, DOM, HTTP, and JavaScript Foundations</a></td><td><a href="../lessons/004-typescript-essentials-values-types-and-inference.md">Lesson</a></td><td><a href="../qnas/004-typescript-essentials-values-types-and-inference.md">Q&amp;A</a></td><td><a href="005-typescript-interfaces-unions-generics-and-narrowing.md">005 - TypeScript Interfaces, Unions, Generics, and Narrowing</a></td>
+</tr>
+  </tbody>
+</table>

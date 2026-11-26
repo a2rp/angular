@@ -376,20 +376,24 @@ For a component-owned manual subscription, use an Angular-aware cleanup approach
 - **Assuming a Promise can be cancelled by unsubscribe():** the subscriber can stop receiving values, but the Promise's underlying work may continue.
 - **Passing an array to of() expecting separate emissions:** **of(array)** emits one array; **from(array)** emits the array's items.
 
-## Further reading
-
-- [RxJS glossary and semantics](https://rxjs.dev/guide/glossary-and-semantics)
-- [RxJS Subscription guide](https://rxjs.dev/guide/subscription)
-- [Observer API](https://rxjs.dev/api/index/interface/Observer)
-- [Subscription API](https://rxjs.dev/api/index/class/Subscription)
-- [RxJS subscribe argument guidance](https://rxjs.dev/deprecations/subscribe-arguments)
-- [Angular AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Angular toSignal() API](https://angular.dev/api/core/rxjs-interop/toSignal)
-- [Making HTTP requests with Angular](https://angular.dev/guide/http/making-requests)
-
 ## Continue learning
 
 - Previous: [Injection contexts and resource lifetimes](056-injection-contexts-and-resource-lifetimes.md)
 - Q&A: [RxJS Observables, subscriptions, and stream basics](../qnas/057-rxjs-observables-subscriptions-and-stream-basics.md)
 - Example: [RxJS Observables, subscriptions, and stream basics](../examples/057-rxjs-observables-subscriptions-and-stream-basics.md)
 - Next: [RxJS operators for mapping and combining streams](058-rxjs-operators-for-mapping-and-combining-streams.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="056-injection-contexts-and-resource-lifetimes.md">056 - Injection contexts and resource lifetimes</a></td><td><a href="../qnas/057-rxjs-observables-subscriptions-and-stream-basics.md">Q&amp;A</a></td><td><a href="../examples/057-rxjs-observables-subscriptions-and-stream-basics.md">Example</a></td><td><a href="058-rxjs-operators-for-mapping-and-combining-streams.md">058 - RxJS operators for mapping and combining streams</a></td>
+</tr>
+  </tbody>
+</table>

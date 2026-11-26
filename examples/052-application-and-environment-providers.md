@@ -287,3 +287,18 @@ The snippets in the optional sections show how to extend the app configuration; 
 - Lesson: [Application and environment providers](../lessons/052-application-and-environment-providers.md)
 - Q&A: [Application and environment providers](../qnas/052-application-and-environment-providers.md)
 - Next lesson: [Component-scoped and route-scoped providers](../lessons/053-component-scoped-and-route-scoped-providers.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="051-hierarchical-dependency-injection.md">051 - Hierarchical dependency injection</a></td><td><a href="../lessons/052-application-and-environment-providers.md">Lesson</a></td><td><a href="../qnas/052-application-and-environment-providers.md">Q&amp;A</a></td><td><a href="053-component-scoped-and-route-scoped-providers.md">053 - Component-scoped and route-scoped providers</a></td>
+</tr>
+  </tbody>
+</table>

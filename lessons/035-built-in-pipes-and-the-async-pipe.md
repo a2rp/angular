@@ -1,4 +1,4 @@
-﻿# 35. Built-in pipes and the async pipe
+# 35. Built-in pipes and the async pipe
 
 Angular pipes transform values in template expressions. They are useful for presentation tasks such as formatting a date or currency, changing letter case, selecting part of a string or array, and displaying the latest value from an asynchronous source. A pipe keeps this presentation transformation close to the template without changing the value stored by the component.
 
@@ -361,15 +361,17 @@ Use an explicit subscription in TypeScript only when the component must perform 
 - `AsyncPipe` subscribes, exposes the latest value, marks the view for checking, and cleans up when the view or source changes.
 - Model loading and errors explicitly, keep async sources stable, and avoid accidental duplicate subscriptions.
 
-## Further reading
+## Chapter navigation
 
-- [Angular pipes guide](https://angular.dev/guide/templates/pipes)
-- [AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Format data based on locale](https://angular.dev/guide/i18n/format-data-locale)
-- [DatePipe API](https://angular.dev/api/common/DatePipe)
-- [CurrencyPipe API](https://angular.dev/api/common/CurrencyPipe)
-- [DecimalPipe API](https://angular.dev/api/common/DecimalPipe)
-- [PercentPipe API](https://angular.dev/api/common/PercentPipe)
-- [KeyValuePipe API](https://angular.dev/api/common/KeyValuePipe)
-- [SlicePipe API](https://angular.dev/api/common/SlicePipe)
-- [Angular template control flow](https://angular.dev/guide/templates/control-flow)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="034-global-styles-css-variables-and-theming.md">034 - 34. Global styles, CSS variables, and theming</a></td><td><a href="../qnas/035-built-in-pipes-and-the-async-pipe.md">Q&amp;A</a></td><td><a href="../examples/035-built-in-pipes-and-the-async-pipe.md">Example</a></td><td><a href="036-custom-pipes-attribute-directives-and-reusable-behavior.md">036 - 36. Custom pipes, attribute directives, and reusable behavior</a></td>
+</tr>
+  </tbody>
+</table>

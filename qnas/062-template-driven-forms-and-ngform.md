@@ -167,11 +167,17 @@ Angular provides the **ngNoForm** attribute for a form that should not receive t
 
 For a complete implementation, continue to the [example](../examples/062-template-driven-forms-and-ngform.md).
 
-## Official references
+## Chapter navigation
 
-- [Template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
-- [Forms overview](https://angular.dev/guide/forms)
-- [Validate form input](https://angular.dev/guide/forms/form-validation)
-- [NgForm API](https://angular.dev/api/forms/NgForm)
-- [NgModel API](https://angular.dev/api/forms/NgModel)
-- [NgModelGroup API](https://angular.dev/api/forms/NgModelGroup)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="061-choose-template-driven-reactive-or-signal-forms.md">061 - Choose template-driven, reactive, or signal forms</a></td><td><a href="../lessons/062-template-driven-forms-and-ngform.md">Lesson</a></td><td><a href="../examples/062-template-driven-forms-and-ngform.md">Example</a></td><td><a href="063-reactive-forms-with-formcontrol-and-formgroup.md">063 - Reactive forms with FormControl and FormGroup</a></td>
+</tr>
+  </tbody>
+</table>

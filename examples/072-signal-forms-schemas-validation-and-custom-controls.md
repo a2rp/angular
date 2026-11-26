@@ -539,11 +539,17 @@ The example uses a small custom control but leaves validation in the parent sche
 - `submit()` marks fields touched and runs its action only when validation allows submission.
 - Client-side validation improves interaction but does not replace server-side validation.
 
-## References
+## Chapter navigation
 
-- [Signal Forms validation](https://angular.dev/guide/forms/signals/validation)
-- [Schemas and schema composability](https://angular.dev/guide/forms/signals/schemas)
-- [Custom controls](https://angular.dev/guide/forms/signals/custom-controls)
-- [Form submission](https://angular.dev/guide/forms/signals/form-submission)
-- [FormValueControl API](https://angular.dev/api/forms/signals/FormValueControl)
-- [FormField API](https://angular.dev/api/forms/signals/FormField)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="071-signal-forms-models-fields-and-form-setup.md">071 - Signal Forms: models, fields, and form setup</a></td><td><a href="../lessons/072-signal-forms-schemas-validation-and-custom-controls.md">Lesson</a></td><td><a href="../qnas/072-signal-forms-schemas-validation-and-custom-controls.md">Q&amp;A</a></td><td><a href="073-configure-the-angular-router-in-a-standalone-app.md">073 - Configure the Angular Router in a standalone app</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# 41. Signal equality, dynamic dependencies, and untracked reads
+# 41. Signal equality, dynamic dependencies, and untracked reads
 
 Signals notify reactive consumers when their value changes. Equality determines whether a proposed value counts as a change. Dependency tracking determines which signal reads can cause a `computed()` or `effect()` to run again. `untracked()` lets code read a signal without adding that dependency to the current reactive computation.
 
@@ -189,10 +189,17 @@ For example, updating an inactive branch's signal will not rerun a consumer beca
 - Conditional branches can add and remove dependencies as the consumer reruns.
 - `untracked()` reads current values without adding dependencies to the surrounding reactive computation.
 
-## Official references
+## Chapter navigation
 
-- [Angular signals guide: equality and dynamic dependencies](https://angular.dev/guide/signals)
-- [Angular `signal()` API](https://angular.dev/api/core/signal)
-- [Angular `CreateSignalOptions` API](https://angular.dev/api/core/CreateSignalOptions)
-- [Angular `CreateComputedOptions` API](https://angular.dev/api/core/CreateComputedOptions)
-- [Angular `untracked()` API](https://angular.dev/api/core/untracked)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="040-effects-cleanup-and-when-not-to-use-effects.md">040 - 40. Effects, cleanup, and when not to use effects</a></td><td><a href="../qnas/041-signal-equality-dynamic-dependencies-and-untracked-reads.md">Q&amp;A</a></td><td><a href="../examples/041-signal-equality-dynamic-dependencies-and-untracked-reads.md">Example</a></td><td><a href="042-rxjs-interop-with-tosignal-and-toobservable.md">042 - 42. RxJS interop with `toSignal()` and `toObservable()`</a></td>
+</tr>
+  </tbody>
+</table>

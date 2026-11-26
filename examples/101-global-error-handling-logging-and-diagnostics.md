@@ -165,9 +165,17 @@ Use a boundary for rendering failures. It does not replace request-state handlin
 
 Before enabling telemetry, verify that it does not include passwords, access tokens, raw form values, full request bodies, personal identifiers, or sensitive URL parameters. Confirm the server validates payload size, applies access controls and retention, and does not return a failure that recursively triggers the same reporting pipeline.
 
-## Further reading
+## Chapter navigation
 
-- [Angular error handling best practices](https://angular.dev/best-practices/error-handling)
-- [Angular ErrorHandler API](https://angular.dev/api/core/ErrorHandler)
-- [Browser global error listeners](https://angular.dev/api/core/provideBrowserGlobalErrorListeners)
-- [Angular template error boundaries](https://angular.dev/guide/templates/error-boundaries)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="100-dynamic-components-and-programmatic-rendering.md">100 - Dynamic Components and Programmatic Rendering</a></td><td><a href="../lessons/101-global-error-handling-logging-and-diagnostics.md">Lesson</a></td><td><a href="../qnas/101-global-error-handling-logging-and-diagnostics.md">Q&amp;A</a></td><td><a href="102-internationalization-localization-and-formatting.md">102 - Internationalization, Localization, and Formatting</a></td>
+</tr>
+  </tbody>
+</table>

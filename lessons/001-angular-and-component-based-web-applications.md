@@ -207,12 +207,17 @@ The goal is not to use every Angular API. Choose a simple structure that makes t
 - AngularJS is a distinct older framework.
 - Good structure comes from clear state ownership and small responsibilities, not from using the largest number of framework features.
 
-## Further reading
+## Chapter navigation
 
-- [What is Angular?](https://angular.dev/overview)
-- [Anatomy of components](https://angular.dev/guide/components)
-- [Template syntax](https://angular.dev/guide/templates)
-- [Angular signals](https://angular.dev/guide/signals)
-- [Angular CLI: ng new](https://angular.dev/cli/new)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-- [AngularJS documentation](https://docs.angularjs.org/)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td>Start of course</td><td><a href="../qnas/001-angular-and-component-based-web-applications.md">Q&amp;A</a></td><td><a href="../examples/001-angular-and-component-based-web-applications.md">Example</a></td><td><a href="002-angular-compared-with-angularjs.md">002 - Angular Compared with AngularJS</a></td>
+</tr>
+  </tbody>
+</table>

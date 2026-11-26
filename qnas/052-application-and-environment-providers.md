@@ -165,7 +165,7 @@ Check where it is registered:
 - Route.providers: a route environment for that feature.
 - Component.providers: an ElementInjector associated with a component instance.
 
-The nearest provider on the lookup path wins. See [hierarchical dependency injection](https://angular.dev/guide/di/hierarchical-dependency-injection).
+The nearest provider on the lookup path wins. See hierarchical dependency injection.
 
 ## 28. What should I check when a provider is missing?
 
@@ -179,19 +179,23 @@ Do not use array ordering as a general service initialization mechanism. Provide
 
 Use a public provideX() function when a framework or library offers one for a feature. Use direct class/value/factory providers for your own app-level tokens and services. Use makeEnvironmentProviders() to package a reusable environment-only configuration.
 
-## Further reading
-
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [ApplicationConfig API](https://angular.dev/api/core/ApplicationConfig)
-- [EnvironmentProviders API](https://angular.dev/api/core/EnvironmentProviders)
-- [makeEnvironmentProviders API](https://angular.dev/api/core/makeEnvironmentProviders)
-- [provideAppInitializer API](https://angular.dev/api/core/provideAppInitializer)
-- [importProvidersFrom API](https://angular.dev/api/core/importProvidersFrom)
-- [provideHttpClient API](https://angular.dev/api/common/http/provideHttpClient)
-- [provideRouter API](https://angular.dev/api/router/provideRouter)
-
 ## Continue learning
 
 - Lesson: [Application and environment providers](../lessons/052-application-and-environment-providers.md)
 - Example: [Application and environment providers](../examples/052-application-and-environment-providers.md)
 - Next lesson: [Component-scoped and route-scoped providers](../lessons/053-component-scoped-and-route-scoped-providers.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="051-hierarchical-dependency-injection.md">051 - Hierarchical dependency injection</a></td><td><a href="../lessons/052-application-and-environment-providers.md">Lesson</a></td><td><a href="../examples/052-application-and-environment-providers.md">Example</a></td><td><a href="053-component-scoped-and-route-scoped-providers.md">053 - Component-scoped and route-scoped providers</a></td>
+</tr>
+  </tbody>
+</table>

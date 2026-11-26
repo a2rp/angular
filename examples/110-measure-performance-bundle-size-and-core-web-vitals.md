@@ -161,10 +161,17 @@ Compare the same route and scenario. Do not compare a development-server run wit
 - **High CLS:** reserve space for media and asynchronous content, and investigate late style or font changes.
 - **Large route chunk:** check whether it is expected and how often users need the route before trying to split it further.
 
-## References
+## Chapter navigation
 
-- [Angular CLI build budgets](https://angular.dev/tools/cli/build)
-- [Angular performance best practices](https://angular.dev/best-practices/performance)
-- [Angular image optimization](https://angular.dev/best-practices/performance/image-optimization)
-- [Google Web Vitals](https://web.dev/articles/vitals)
-- [web-vitals library](https://github.com/GoogleChrome/web-vitals)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="109-angular-devtools-debugging-and-production-diagnostics.md">109 - Angular DevTools, Debugging, and Production Diagnostics</a></td><td><a href="../lessons/110-measure-performance-bundle-size-and-core-web-vitals.md">Lesson</a></td><td><a href="../qnas/110-measure-performance-bundle-size-and-core-web-vitals.md">Q&amp;A</a></td><td><a href="111-lazy-loading-and-deferrable-views-with-defer.md">111 - Lazy Loading and Deferrable Views with defer</a></td>
+</tr>
+  </tbody>
+</table>

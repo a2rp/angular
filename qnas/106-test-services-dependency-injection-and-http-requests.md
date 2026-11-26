@@ -48,8 +48,17 @@ No. Test important interceptor contracts in focused tests. A service test can ve
 
 No. It verifies the client-side request construction and response handling. It does not contact the server or validate the deployed endpoint. Use integration or end-to-end checks for that boundary.
 
-## Further reading
+## Chapter navigation
 
-- [Angular HTTP testing](https://angular.dev/guide/http/testing)
-- [Testing services](https://angular.dev/guide/testing/services)
-- [HttpClient setup](https://angular.dev/guide/http/setup)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="105-component-tests-fixtures-and-template-behavior.md">105 - Component Tests, Fixtures, and Template Behavior</a></td><td><a href="../lessons/106-test-services-dependency-injection-and-http-requests.md">Lesson</a></td><td><a href="../examples/106-test-services-dependency-injection-and-http-requests.md">Example</a></td><td><a href="107-test-routing-forms-accessibility-and-user-flows.md">107 - Test Routing, Forms, Accessibility, and User Flows</a></td>
+</tr>
+  </tbody>
+</table>

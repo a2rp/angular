@@ -1,4 +1,4 @@
-﻿# Examples: View queries and content queries
+# Examples: View queries and content queries
 
 Build a search panel that uses both query categories:
 
@@ -295,3 +295,18 @@ Open the local address printed by the CLI.
 - The query result and displayed labels reflect the current projected content.
 - Projected click handlers still run in the parent component's context.
 - Queries retrieve references; they do not replace inputs, outputs, or ownership of application state.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="029-content-projection-and-multiple-slots.md">029 - 29. Content projection and multiple slots</a></td><td><a href="../lessons/030-view-queries-and-content-queries.md">Lesson</a></td><td><a href="../qnas/030-view-queries-and-content-queries.md">Q&amp;A</a></td><td><a href="031-lifecycle-hooks-and-component-initialization.md">031 - 31. Lifecycle hooks and component initialization</a></td>
+</tr>
+  </tbody>
+</table>

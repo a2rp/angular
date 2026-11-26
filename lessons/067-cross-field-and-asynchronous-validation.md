@@ -257,10 +257,17 @@ Also avoid putting unrelated side effects in validators. Angular can call them a
 - Work through the [complete example](../examples/067-cross-field-and-asynchronous-validation.md).
 - Revisit [Synchronous validators and validation state](066-synchronous-validators-and-validation-state.md).
 
-## Official references
+## Chapter navigation
 
-- [Validate form input](https://angular.dev/guide/forms/form-validation)
-- [AsyncValidatorFn API](https://angular.dev/api/forms/AsyncValidatorFn)
-- [AsyncValidator API](https://angular.dev/api/forms/AsyncValidator)
-- [AbstractControlOptions API](https://angular.dev/api/forms/AbstractControlOptions)
-- [Reactive forms](https://angular.dev/guide/forms/reactive-forms)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="066-synchronous-validators-and-validation-state.md">066 - Synchronous validators and validation state</a></td><td><a href="../qnas/067-cross-field-and-asynchronous-validation.md">Q&amp;A</a></td><td><a href="../examples/067-cross-field-and-asynchronous-validation.md">Example</a></td><td><a href="068-submission-flows-pending-state-and-reset-behavior.md">068 - Submission flows, pending state, and reset behavior</a></td>
+</tr>
+  </tbody>
+</table>

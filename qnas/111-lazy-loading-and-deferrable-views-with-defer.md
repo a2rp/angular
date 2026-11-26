@@ -104,8 +104,17 @@ Use route lazy loading when a distinct page or child route is not needed until n
 
 Keep critical content promptly available, defer optional code at a meaningful boundary, show stable placeholder/loading/error states, avoid nested request waterfalls, and measure both initial load and first feature use.
 
-## Further reading
+## Chapter navigation
 
-- [Angular deferrable views](https://angular.dev/guide/templates/defer)
-- [Angular lazy-loaded routes](https://angular.dev/best-practices/performance/lazy-loaded-routes)
-- [Angular performance best practices](https://angular.dev/best-practices/performance)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="110-measure-performance-bundle-size-and-core-web-vitals.md">110 - Measure Performance, Bundle Size, and Core Web Vitals</a></td><td><a href="../lessons/111-lazy-loading-and-deferrable-views-with-defer.md">Lesson</a></td><td><a href="../examples/111-lazy-loading-and-deferrable-views-with-defer.md">Example</a></td><td><a href="112-rendering-performance-change-detection-and-profiling.md">112 - Rendering Performance, Change Detection, and Profiling</a></td>
+</tr>
+  </tbody>
+</table>

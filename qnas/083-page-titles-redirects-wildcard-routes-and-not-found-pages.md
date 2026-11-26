@@ -192,3 +192,18 @@ Yes. A title such as Page not found makes the browser tab and assistive technolo
 - **full path matching:** the entire remaining path must match.
 - **Wildcard:** final fallback for paths not matched earlier.
 - **Not-found view:** client-side page; server HTTP status is configured separately.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="082-route-level-providers-and-route-configuration.md">082 - 82. Route-level providers and route configuration</a></td><td><a href="../lessons/083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">Lesson</a></td><td><a href="../examples/083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">Example</a></td><td><a href="084-preloading-scroll-restoration-and-router-testing.md">084 - 84. Preloading, scroll restoration, and router testing</a></td>
+</tr>
+  </tbody>
+</table>

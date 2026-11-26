@@ -101,10 +101,17 @@ Compare Angular DevTools with Chrome Performance. Angular DevTools helps identif
 5. Repeat the same trace and verify the user-visible behavior.
 6. Check for stale state or missed notifications.
 
-## Further reading
+## Chapter navigation
 
-- [Angular performance](https://angular.dev/best-practices/performance)
-- [Slow computations](https://angular.dev/best-practices/slow-computations)
-- [Skipping component subtrees](https://angular.dev/best-practices/skipping-subtrees)
-- [Zoneless change detection](https://angular.dev/guide/zoneless)
-- [Angular DevTools Profiler](https://angular.dev/tools/devtools/profiler)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="111-lazy-loading-and-deferrable-views-with-defer.md">111 - Lazy Loading and Deferrable Views with defer</a></td><td><a href="../lessons/112-rendering-performance-change-detection-and-profiling.md">Lesson</a></td><td><a href="../examples/112-rendering-performance-change-detection-and-profiling.md">Example</a></td><td><a href="113-client-rendering-server-rendering-and-prerendering.md">113 - Client Rendering, Server Rendering, and Prerendering</a></td>
+</tr>
+  </tbody>
+</table>

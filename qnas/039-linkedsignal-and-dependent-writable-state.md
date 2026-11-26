@@ -150,9 +150,17 @@ It can depend on signal state that represents async results, but its computation
 
 See [Example 39](../examples/039-linkedsignal-and-dependent-writable-state.md). The concepts and design trade-offs are explained in [Lesson 39](../lessons/039-linkedsignal-and-dependent-writable-state.md).
 
-## Further reading
+## Chapter navigation
 
-- [Angular linkedSignal guide](https://angular.dev/guide/signals/linked-signal)
-- [linkedSignal API](https://angular.dev/api/core/linkedSignal)
-- [Effects guide](https://angular.dev/guide/signals/effect)
-- [Signal writes in a disallowed context](https://angular.dev/errors/NG0600)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="038-computed-signals-and-derived-values.md">038 - 38. Computed signals and derived values</a></td><td><a href="../lessons/039-linkedsignal-and-dependent-writable-state.md">Lesson</a></td><td><a href="../examples/039-linkedsignal-and-dependent-writable-state.md">Example</a></td><td><a href="040-effects-cleanup-and-when-not-to-use-effects.md">040 - 40. Effects, cleanup, and when not to use effects</a></td>
+</tr>
+  </tbody>
+</table>

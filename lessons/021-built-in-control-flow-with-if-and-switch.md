@@ -1,4 +1,4 @@
-﻿# 21. Built-in control flow with if and switch
+# 21. Built-in control flow with if and switch
 
 Angular's built-in control flow blocks decide which template content to render. Use @if, @else if, and @else for conditions. Use @switch, @case, and @default when one value selects among several alternatives.
 
@@ -255,9 +255,17 @@ Existing directive-based templates can continue to use their directives. When mi
 7. Is exhaustive checking supported by this project's Angular version?
 8. Does a branch need to preserve state after its view is removed?
 
-## Further reading
+## Chapter navigation
 
-- [Angular control flow](https://angular.dev/guide/templates/control-flow)
-- [Angular variables in templates](https://angular.dev/guide/templates/variables)
-- [Angular template expression syntax](https://angular.dev/guide/templates/expression-syntax)
-- [Angular template syntax migration guide](https://angular.dev/reference/migrations/control-flow)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="020-two-way-binding-and-ngmodel.md">020 - 20. Two-way binding and ngModel</a></td><td><a href="../qnas/021-built-in-control-flow-with-if-and-switch.md">Q&amp;A</a></td><td><a href="../examples/021-built-in-control-flow-with-if-and-switch.md">Example</a></td><td><a href="022-render-collections-with-for-track-and-empty.md">022 - 22. Render collections with for, track, and empty</a></td>
+</tr>
+  </tbody>
+</table>

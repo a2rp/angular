@@ -137,10 +137,17 @@ CSP and Trusted Types reduce risk; they do not replace safe coding, server-side 
 - Use CSP and Trusted Types as defense in depth with only required policies.
 - CSP nonces must be unique per response and integrated with caching correctly.
 
-## Further reading
+## Chapter navigation
 
-- [Angular security best practices](https://angular.dev/best-practices/security)
-- [Angular DomSanitizer API](https://angular.dev/api/platform-browser/DomSanitizer)
-- [Angular SecurityContext API](https://angular.dev/api/core/SecurityContext)
-- [Angular CSP_NONCE API](https://angular.dev/api/core/CSP_NONCE)
-- [Angular workspace security configuration](https://angular.dev/reference/configs/workspace-config)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="116-server-compatible-code-metadata-and-search-visibility.md">116 - Server-Compatible Code, Metadata, and Search Visibility</a></td><td><a href="../qnas/117-security-xss-sanitization-csp-and-trusted-content.md">Q&amp;A</a></td><td><a href="../examples/117-security-xss-sanitization-csp-and-trusted-content.md">Example</a></td><td><a href="118-authentication-authorization-secrets-and-browser-storage.md">118 - Authentication, Authorization, Secrets, and Browser Storage</a></td>
+</tr>
+  </tbody>
+</table>

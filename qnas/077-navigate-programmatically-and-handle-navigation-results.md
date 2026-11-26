@@ -165,4 +165,19 @@ Do not treat a successful save as proof that the next route activated.
 
 ## 23. Where can I verify the behavior?
 
-See the official Angular [programmatic navigation guide](https://angular.dev/guide/routing/navigate-to-routes), [Router API](https://angular.dev/api/router/Router), [NavigationCancel API](https://angular.dev/api/router/NavigationCancel), [NavigationSkipped API](https://angular.dev/api/router/NavigationSkipped), and [NavigationError API](https://angular.dev/api/router/NavigationError).
+See the official Angular programmatic navigation guide, Router API, NavigationCancel API, NavigationSkipped API, and NavigationError API.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="076-query-parameters-fragments-and-navigation-state.md">076 - Query parameters, fragments, and navigation state</a></td><td><a href="../lessons/077-navigate-programmatically-and-handle-navigation-results.md">Lesson</a></td><td><a href="../examples/077-navigate-programmatically-and-handle-navigation-results.md">Example</a></td><td><a href="078-route-guards-and-access-control-boundaries.md">078 - Route guards and access control boundaries</a></td>
+</tr>
+  </tbody>
+</table>

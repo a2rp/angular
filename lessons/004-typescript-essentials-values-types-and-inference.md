@@ -1,4 +1,4 @@
-﻿# TypeScript Essentials: Values, Types, and Inference
+# TypeScript Essentials: Values, Types, and Inference
 
 TypeScript is JavaScript with a static type checker and additional language features. Angular applications commonly use TypeScript for components, services, and application code. Learning how values and types relate helps you read Angular APIs, understand editor feedback, and catch mistakes before code runs.
 
@@ -29,7 +29,7 @@ console.log(label + ': ' + quantity);
 
 The annotation tells the type checker that quantity should be a number. The value 3 is the runtime value. The type number is not a runtime wrapper around that value.
 
-See the official [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) for the language's type-checking model.
+See the official TypeScript Handbook for the language's type-checking model.
 
 ## Values and types
 
@@ -132,7 +132,7 @@ The map callback gets its context from the array. You do not need to repeat numb
 
 Inference can sometimes be broader than you want. A mutable object property may be inferred as a general string even when it starts with one particular string. When the intended type is not clear, add a deliberate annotation or use a more specific type pattern covered in a later chapter.
 
-The official [Type Inference guide](https://www.typescriptlang.org/docs/handbook/type-inference.html) explains initializer inference and contextual typing.
+The official Type Inference guide explains initializer inference and contextual typing.
 
 ## When to write a type annotation
 
@@ -291,9 +291,17 @@ For conversion, use a runtime operation such as Number(value), and validate the 
 
 Answers are in [Chapter 4 Q&A](../qnas/004-typescript-essentials-values-types-and-inference.md). Work through the [Chapter 4 examples](../examples/004-typescript-essentials-values-types-and-inference.md) to inspect inference, annotations, and runtime checks.
 
-## Further reading
+## Chapter navigation
 
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-- [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
-- [Type Inference](https://www.typescriptlang.org/docs/handbook/type-inference.html)
-- [Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="003-browser-dom-http-and-javascript-foundations.md">003 - Browser, DOM, HTTP, and JavaScript Foundations</a></td><td><a href="../qnas/004-typescript-essentials-values-types-and-inference.md">Q&amp;A</a></td><td><a href="../examples/004-typescript-essentials-values-types-and-inference.md">Example</a></td><td><a href="005-typescript-interfaces-unions-generics-and-narrowing.md">005 - TypeScript Interfaces, Unions, Generics, and Narrowing</a></td>
+</tr>
+  </tbody>
+</table>

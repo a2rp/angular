@@ -150,9 +150,17 @@ If hydration fails, compare the server HTML with what reaches the browser. Remov
 
 For example, avoid rendering structurally different content on the server and client with a browser check in the template. Keep the initial markup consistent and initialize browser-only behavior after rendering using an appropriate Angular render hook.
 
-## References
+## Chapter navigation
 
-- [Angular hydration](https://angular.dev/guide/hydration)
-- [Incremental hydration](https://angular.dev/guide/incremental-hydration)
-- [Deferrable views](https://angular.dev/guide/templates/defer)
-- [Event Replay API](https://angular.dev/api/platform-browser/withEventReplay)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="114-set-up-server-side-rendering-and-hybrid-route-rendering.md">114 - Set Up Server-Side Rendering and Hybrid Route Rendering</a></td><td><a href="../lessons/115-hydration-event-replay-and-incremental-hydration.md">Lesson</a></td><td><a href="../qnas/115-hydration-event-replay-and-incremental-hydration.md">Q&amp;A</a></td><td><a href="116-server-compatible-code-metadata-and-search-visibility.md">116 - Server-Compatible Code, Metadata, and Search Visibility</a></td>
+</tr>
+  </tbody>
+</table>

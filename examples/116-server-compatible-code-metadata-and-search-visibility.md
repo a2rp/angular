@@ -193,11 +193,17 @@ Private values excluded:
 Direct-response verification:
 ~~~
 
-## References
+## Chapter navigation
 
-- [Angular SSR best practices](https://angular.dev/best-practices/performance/ssr)
-- [Angular route titles](https://angular.dev/guide/routing/define-routes)
-- [Angular Meta service](https://angular.dev/api/platform-browser/Meta)
-- [Angular Title service](https://angular.dev/api/platform-browser/Title)
-- [afterNextRender API](https://angular.dev/api/core/afterNextRender)
-- [Angular hydration](https://angular.dev/guide/hydration)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="115-hydration-event-replay-and-incremental-hydration.md">115 - Hydration, Event Replay, and Incremental Hydration</a></td><td><a href="../lessons/116-server-compatible-code-metadata-and-search-visibility.md">Lesson</a></td><td><a href="../qnas/116-server-compatible-code-metadata-and-search-visibility.md">Q&amp;A</a></td><td><a href="117-security-xss-sanitization-csp-and-trusted-content.md">117 - Security: XSS, Sanitization, CSP, and Trusted Content</a></td>
+</tr>
+  </tbody>
+</table>

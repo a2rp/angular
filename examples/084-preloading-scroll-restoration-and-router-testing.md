@@ -380,12 +380,17 @@ The browser check matters because document layout, rendering timing, and native 
 - If a harness test cannot find a component, confirm the URL, route configuration, imports, guard results, and expected component type.
 - If the test runner rejects a matcher or spy, adapt only the test syntax to the runner configured by the project.
 
-## Related files and official documentation
+## Chapter navigation
 
-- Lesson: lessons/084-preloading-scroll-restoration-and-router-testing.md
-- Q&A: qnas/084-preloading-scroll-restoration-and-router-testing.md
-- Angular routing tests: https://angular.dev/guide/routing/testing
-- Angular preloading strategies: https://angular.dev/guide/routing/customizing-route-behavior
-- In-memory scrolling options: https://angular.dev/api/router/InMemoryScrollingOptions
-- Router preloading API: https://angular.dev/api/router/withPreloading
-- In-memory scrolling feature: https://angular.dev/api/router/withInMemoryScrolling
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">083 - 83. Page titles, redirects, wildcard routes, and not-found pages</a></td><td><a href="../lessons/084-preloading-scroll-restoration-and-router-testing.md">Lesson</a></td><td><a href="../qnas/084-preloading-scroll-restoration-and-router-testing.md">Q&amp;A</a></td><td><a href="085-configure-httpclient-with-providehttpclient.md">085 - Configure HttpClient with provideHttpClient</a></td>
+</tr>
+  </tbody>
+</table>

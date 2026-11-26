@@ -1,4 +1,4 @@
-﻿# Examples: Selectors and the Component Host Element
+# Examples: Selectors and the Component Host Element
 
 This walkthrough adds a status indicator using a custom element selector and a save action using an attribute selector on a native button. It shows where Angular renders each component, and how host metadata applies attributes and classes to the matched host element.
 
@@ -175,9 +175,17 @@ Use native elements where they already express the right behavior. Add host role
 - If the native button does not look styled, inspect its class and the :host stylesheet rule.
 - If the app reports more than one component matching the same element, check whether two component selectors overlap.
 
-## Further reading
+## Chapter navigation
 
-- [Angular component selectors](https://angular.dev/guide/components/selectors)
-- [Component host elements](https://angular.dev/guide/components/host-elements)
-- [Component decorator API](https://angular.dev/api/core/Component)
-- [Component styling](https://angular.dev/guide/components/styling)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="014-standalone-components-and-template-imports.md">014 - 14. Standalone components and template imports</a></td><td><a href="../lessons/015-selectors-and-the-component-host-element.md">Lesson</a></td><td><a href="../qnas/015-selectors-and-the-component-host-element.md">Q&amp;A</a></td><td><a href="016-angular-templates-and-html-structure.md">016 - 16. Angular templates and HTML structure</a></td>
+</tr>
+  </tbody>
+</table>

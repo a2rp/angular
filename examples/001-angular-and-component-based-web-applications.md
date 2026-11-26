@@ -226,10 +226,17 @@ The title and count are owned by App; the greeting text is owned by GreetingCard
 - **Counter does not change:** Check that the button has (click)="increment()", the method updates clickCount, and the template reads clickCount().
 - **Unexpected starter content remains:** Confirm you edited the root component template used by the project and saved the file.
 
-## Further reading
+## Chapter navigation
 
-- [Anatomy of components](https://angular.dev/guide/components)
-- [Template syntax](https://angular.dev/guide/templates)
-- [Signals](https://angular.dev/guide/signals)
-- [Angular CLI: ng new](https://angular.dev/cli/new)
-- [Version compatibility](https://angular.dev/reference/versions)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td>Start of course</td><td><a href="../lessons/001-angular-and-component-based-web-applications.md">Lesson</a></td><td><a href="../qnas/001-angular-and-component-based-web-applications.md">Q&amp;A</a></td><td><a href="002-angular-compared-with-angularjs.md">002 - Angular Compared with AngularJS</a></td>
+</tr>
+  </tbody>
+</table>

@@ -96,12 +96,17 @@ When its stated core journeys work, server permissions are enforced, errors and 
 
 No. Accessibility depends on the complete page and journey, including content, labels, focus transitions, validation, responsive behavior, third-party widgets, and backend error handling. Review shared components and end-to-end workflows.
 
-## Further reading
+## Chapter navigation
 
-- [Angular keeping up-to-date](https://angular.dev/update)
-- [Angular Update Guide](https://angular.dev/update-guide)
-- [Angular CLI `ng update`](https://angular.dev/cli/update)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-- [Angular accessibility best practices](https://angular.dev/best-practices/a11y)
-- [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/)
-- [W3C WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="119-service-workers-offline-behavior-deployment-and-updates.md">119 - Service Workers, Offline Behavior, Deployment, and Updates</a></td><td><a href="../lessons/120-upgrade-angular-safely-and-build-an-accessible-capstone-app.md">Lesson</a></td><td><a href="../examples/120-upgrade-angular-safely-and-build-an-accessible-capstone-app.md">Example</a></td><td>End of course</td>
+</tr>
+  </tbody>
+</table>

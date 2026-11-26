@@ -386,3 +386,18 @@ The top-level `mail` route is activated in the app's primary outlet. Its childre
 - A named outlet can render a second route branch at the same time.
 - Outlet command links can target multiple branches in one navigation.
 - Setting one named outlet to `null` closes that branch without clearing the primary view.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="080-lazy-load-routes-and-standalone-components.md">080 - Lazy-load routes and standalone components</a></td><td><a href="../lessons/081-nested-routes-child-outlets-and-auxiliary-routes.md">Lesson</a></td><td><a href="../qnas/081-nested-routes-child-outlets-and-auxiliary-routes.md">Q&amp;A</a></td><td><a href="082-route-level-providers-and-route-configuration.md">082 - 82. Route-level providers and route configuration</a></td>
+</tr>
+  </tbody>
+</table>

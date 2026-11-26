@@ -69,7 +69,7 @@ Incremental hydration uses @defer boundaries to let the server render a section'
 
 A trigger might hydrate the section when it enters the viewport, when the user interacts, when the browser is idle, or when a condition becomes true. Hydration triggers are separate from normal defer loading triggers. They primarily control initial SSR hydration; later client-side navigations use the regular defer behavior.
 
-See Angular's [incremental hydration guide](https://angular.dev/guide/incremental-hydration).
+See Angular's incremental hydration guide.
 
 ## 5. Hydrate content on interaction
 
@@ -149,9 +149,17 @@ Do not delay all hydration simply to reduce startup work. A visible but unrespon
 - Use ngSkipHydration only on a specific component host as a temporary measure.
 - Verify both initial rendering and the first user interaction.
 
-## Further reading
+## Chapter navigation
 
-- [Angular hydration](https://angular.dev/guide/hydration)
-- [Incremental hydration](https://angular.dev/guide/incremental-hydration)
-- [Deferrable views](https://angular.dev/guide/templates/defer)
-- [Angular SSR and hybrid rendering](https://angular.dev/guide/ssr)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="114-set-up-server-side-rendering-and-hybrid-route-rendering.md">114 - Set Up Server-Side Rendering and Hybrid Route Rendering</a></td><td><a href="../qnas/115-hydration-event-replay-and-incremental-hydration.md">Q&amp;A</a></td><td><a href="../examples/115-hydration-event-replay-and-incremental-hydration.md">Example</a></td><td><a href="116-server-compatible-code-metadata-and-search-visibility.md">116 - Server-Compatible Code, Metadata, and Search Visibility</a></td>
+</tr>
+  </tbody>
+</table>

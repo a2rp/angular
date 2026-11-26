@@ -150,9 +150,17 @@ Use a computed signal rather than manually copying the derived value into anothe
 
 See [Example 37](../examples/037-writable-signals-and-updating-signal-state.md). The full concepts and code decisions are in [Lesson 37](../lessons/037-writable-signals-and-updating-signal-state.md).
 
-## Further reading
+## Chapter navigation
 
-- [Angular Signals guide](https://angular.dev/guide/signals)
-- [WritableSignal API](https://angular.dev/api/core/WritableSignal)
-- [Signal essentials](https://angular.dev/essentials/signals)
-- [Signal writes in a disallowed context](https://angular.dev/errors/NG0600)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="036-custom-pipes-attribute-directives-and-reusable-behavior.md">036 - 36. Custom pipes, attribute directives, and reusable behavior</a></td><td><a href="../lessons/037-writable-signals-and-updating-signal-state.md">Lesson</a></td><td><a href="../examples/037-writable-signals-and-updating-signal-state.md">Example</a></td><td><a href="038-computed-signals-and-derived-values.md">038 - 38. Computed signals and derived values</a></td>
+</tr>
+  </tbody>
+</table>

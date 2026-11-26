@@ -325,9 +325,17 @@ Avoid testing private router implementation details or asserting every router ev
 - RouterTestingHarness navigates the real router and helps assert routed component behavior.
 - Keep route tests focused on URLs, rendered content, parameters, redirects, guards, and outlets.
 
-## Further reading
+## Chapter navigation
 
-- [Route testing and navigation](https://angular.dev/guide/routing/testing)
-- [Customize route behavior and preloading](https://angular.dev/guide/routing/customizing-route-behavior)
-- [In-memory scrolling options](https://angular.dev/api/router/InMemoryScrollingOptions)
-- [withInMemoryScrolling API](https://angular.dev/api/router/withInMemoryScrolling)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">083 - 83. Page titles, redirects, wildcard routes, and not-found pages</a></td><td><a href="../qnas/084-preloading-scroll-restoration-and-router-testing.md">Q&amp;A</a></td><td><a href="../examples/084-preloading-scroll-restoration-and-router-testing.md">Example</a></td><td><a href="085-configure-httpclient-with-providehttpclient.md">085 - Configure HttpClient with provideHttpClient</a></td>
+</tr>
+  </tbody>
+</table>

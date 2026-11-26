@@ -254,20 +254,23 @@ Check the exact call stack and ask:
 
 Then check cleanup separately. Fixing NG0203 does not automatically fix a leaked subscription or a request with the wrong lifetime.
 
-## Further reading
-
-- [Injection context guide](https://angular.dev/guide/di/dependency-injection-context)
-- [inject() API](https://angular.dev/api/core/inject)
-- [runInInjectionContext() API](https://angular.dev/api/core/runInInjectionContext)
-- [assertInInjectionContext() API](https://angular.dev/api/core/assertInInjectionContext)
-- [DestroyRef API](https://angular.dev/api/core/DestroyRef)
-- [takeUntilDestroyed() API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
-- [toSignal() API](https://angular.dev/api/core/rxjs-interop/toSignal)
-- [Effect cleanup](https://angular.dev/guide/signals/effect)
-- [Resource API](https://angular.dev/api/core/resource)
-
 ## Continue learning
 
 - Lesson: [Injection contexts and resource lifetimes](../lessons/056-injection-contexts-and-resource-lifetimes.md)
 - Example: [Injection contexts and resource lifetimes](../examples/056-injection-contexts-and-resource-lifetimes.md)
 - Next lesson: [RxJS Observables, subscriptions, and stream basics](../lessons/057-rxjs-observables-subscriptions-and-stream-basics.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="055-provider-recipes-multi-providers-and-provider-functions.md">055 - Provider recipes, multi providers, and provider functions</a></td><td><a href="../lessons/056-injection-contexts-and-resource-lifetimes.md">Lesson</a></td><td><a href="../examples/056-injection-contexts-and-resource-lifetimes.md">Example</a></td><td><a href="057-rxjs-observables-subscriptions-and-stream-basics.md">057 - RxJS Observables, subscriptions, and stream basics</a></td>
+</tr>
+  </tbody>
+</table>

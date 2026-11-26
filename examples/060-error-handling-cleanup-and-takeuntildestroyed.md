@@ -550,11 +550,17 @@ The retry condition is only an example policy: adapt it to the API, authenticati
 - Q&A: [Error handling, cleanup, and takeUntilDestroyed](../qnas/060-error-handling-cleanup-and-takeuntildestroyed.md)
 - Next: [Choose template-driven, reactive, or signal forms](../lessons/061-choose-template-driven-reactive-or-signal-forms.md)
 
-## Further reading
+## Chapter navigation
 
-- [RxJS catchError() API](https://rxjs.dev/api/operators/catchError)
-- [RxJS retry() API](https://rxjs.dev/api/index/function/retry)
-- [RxJS finalize() API](https://rxjs.dev/api/operators/finalize)
-- [Angular HttpClient guide](https://angular.dev/guide/http/making-requests)
-- [Angular provideHttpClient() API](https://angular.dev/api/common/http/provideHttpClient)
-- [Angular takeUntilDestroyed() API](https://angular.dev/api/core/rxjs-interop/takeUntilDestroyed)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="059-flattening-operators-cancellation-and-concurrency.md">059 - Flattening operators, cancellation, and concurrency</a></td><td><a href="../lessons/060-error-handling-cleanup-and-takeuntildestroyed.md">Lesson</a></td><td><a href="../qnas/060-error-handling-cleanup-and-takeuntildestroyed.md">Q&amp;A</a></td><td><a href="061-choose-template-driven-reactive-or-signal-forms.md">061 - Choose template-driven, reactive, or signal forms</a></td>
+</tr>
+  </tbody>
+</table>

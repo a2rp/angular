@@ -1,4 +1,4 @@
-﻿# Examples: Classes, Modules, Decorators, and Compiler Options
+# Examples: Classes, Modules, Decorators, and Compiler Options
 
 This walkthrough builds a small task counter and task list with plain TypeScript modules, then connects them to an Angular standalone component. It demonstrates where JavaScript classes, TypeScript-only contracts, Angular decorators, and compiler settings each belong.
 
@@ -176,16 +176,17 @@ This is an illustration of option placement, not a replacement tsconfig for an A
 5. Temporarily pass a string where a number is required. Read the diagnostic and correct the call without disabling strict mode.
 6. Add a subclass of TaskCounter that overrides a method. Add the override keyword and inspect how the compiler checks the relationship.
 
-## References
+## Chapter navigation
 
-- [Lesson 006: Classes, Modules, Decorators, and Compiler Options](../lessons/006-classes-modules-decorators-and-compiler-options.md)
-- [Q&A 006](../qnas/006-classes-modules-decorators-and-compiler-options.md)
-- [TypeScript classes](https://www.typescriptlang.org/docs/handbook/2/classes.html)
-- [TypeScript modules](https://www.typescriptlang.org/docs/handbook/modules/introduction)
-- [TypeScript 5.0 decorators](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html)
-- [Angular Component API](https://angular.dev/api/core/Component)
-- [Angular compiler options](https://angular.dev/reference/configs/angular-compiler-options)
-
----
-
-[← Lesson 006](../lessons/006-classes-modules-decorators-and-compiler-options.md) | [← Q&A 006](../qnas/006-classes-modules-decorators-and-compiler-options.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="005-typescript-interfaces-unions-generics-and-narrowing.md">005 - TypeScript Interfaces, Unions, Generics, and Narrowing</a></td><td><a href="../lessons/006-classes-modules-decorators-and-compiler-options.md">Lesson</a></td><td><a href="../qnas/006-classes-modules-decorators-and-compiler-options.md">Q&amp;A</a></td><td><a href="007-node-js-npm-package-managers-and-workspaces.md">007 - Node.js, npm, Package Managers, and Workspaces</a></td>
+</tr>
+  </tbody>
+</table>

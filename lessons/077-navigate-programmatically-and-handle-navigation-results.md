@@ -237,11 +237,17 @@ Register or inject this diagnostics service if the application needs these logs.
 4. Handle `false` separately from unexpected errors.
 5. Use router events for cross-application diagnostics, not as a replacement for a local result that the caller already receives.
 
-## Official references
+## Chapter navigation
 
-- [Navigate to routes](https://angular.dev/guide/routing/navigate-to-routes)
-- [Router API](https://angular.dev/api/router/Router)
-- [NavigationCancel API](https://angular.dev/api/router/NavigationCancel)
-- [NavigationSkipped API](https://angular.dev/api/router/NavigationSkipped)
-- [NavigationError API](https://angular.dev/api/router/NavigationError)
-- [RouterConfigOptions API](https://angular.dev/api/router/RouterConfigOptions)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="076-query-parameters-fragments-and-navigation-state.md">076 - Query parameters, fragments, and navigation state</a></td><td><a href="../qnas/077-navigate-programmatically-and-handle-navigation-results.md">Q&amp;A</a></td><td><a href="../examples/077-navigate-programmatically-and-handle-navigation-results.md">Example</a></td><td><a href="078-route-guards-and-access-control-boundaries.md">078 - Route guards and access control boundaries</a></td>
+</tr>
+  </tbody>
+</table>

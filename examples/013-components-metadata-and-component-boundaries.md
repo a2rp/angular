@@ -1,4 +1,4 @@
-﻿# Examples: Components, Metadata, and Component Boundaries
+# Examples: Components, Metadata, and Component Boundaries
 
 This walkthrough creates a small Profile Summary component and places it inside a page component. It shows how the class, @Component metadata, template, and styles fit together, and how the rendered component appears in the browser DOM.
 
@@ -151,10 +151,17 @@ Ask whether the profile card has a clear purpose and whether the parent page has
 - If the browser shows a blank page, check the development server terminal for compilation diagnostics and the browser Console for runtime errors.
 - If the card appears but styles do not, confirm styleUrl points to the stylesheet and inspect the browser's computed styles.
 
-## Further reading
+## Chapter navigation
 
-- [Angular component guide](https://angular.dev/guide/components)
-- [Component decorator API](https://angular.dev/api/core/Component)
-- [Component templates](https://angular.dev/guide/templates)
-- [Component host elements](https://angular.dev/guide/components/host-elements)
-- [Component styling](https://angular.dev/guide/components/styling)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="012-bootstrap-applicationconfig-and-application-providers.md">012 - 12. Bootstrap, ApplicationConfig, and application providers</a></td><td><a href="../lessons/013-components-metadata-and-component-boundaries.md">Lesson</a></td><td><a href="../qnas/013-components-metadata-and-component-boundaries.md">Q&amp;A</a></td><td><a href="014-standalone-components-and-template-imports.md">014 - 14. Standalone components and template imports</a></td>
+</tr>
+  </tbody>
+</table>

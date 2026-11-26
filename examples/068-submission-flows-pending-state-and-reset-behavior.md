@@ -295,9 +295,17 @@ export class AppComponent {
 
 The mock email check is intentionally simple. In a real application, use an API for the availability check, handle transport failures according to product requirements, and enforce uniqueness again on the server. The save endpoint must validate its payload independently of browser-side state.
 
-## Further reading
+## Chapter navigation
 
-- [Submission flows, pending state, and reset behavior](../lessons/068-submission-flows-pending-state-and-reset-behavior.md)
-- [Form validation](https://angular.dev/guide/forms/form-validation)
-- [FormGroup API](https://angular.dev/api/forms/FormGroup)
-- [AbstractFormDirective API](https://angular.dev/api/forms/AbstractFormDirective)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="067-cross-field-and-asynchronous-validation.md">067 - Cross-field and asynchronous validation</a></td><td><a href="../lessons/068-submission-flows-pending-state-and-reset-behavior.md">Lesson</a></td><td><a href="../qnas/068-submission-flows-pending-state-and-reset-behavior.md">Q&amp;A</a></td><td><a href="069-accessible-labels-instructions-and-validation-messages.md">069 - Accessible labels, instructions, and validation messages</a></td>
+</tr>
+  </tbody>
+</table>

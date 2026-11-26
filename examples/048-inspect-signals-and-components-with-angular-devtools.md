@@ -227,3 +227,18 @@ The sample keeps its signals in the root component, so it is most useful for the
 - Does the profiler identify a measurable slow component in a real interaction, or are the recorded costs negligible?
 
 DevTools gives runtime evidence for these questions. The source code and the reproduced user interaction explain why the runtime state changed.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="047-immutable-state-updates-for-arrays-and-objects.md">047 - Immutable state updates for arrays and objects</a></td><td><a href="../lessons/048-inspect-signals-and-components-with-angular-devtools.md">Lesson</a></td><td><a href="../qnas/048-inspect-signals-and-components-with-angular-devtools.md">Q&amp;A</a></td><td><a href="049-services-and-the-injectable-pattern.md">049 - Services and the injectable pattern</a></td>
+</tr>
+  </tbody>
+</table>

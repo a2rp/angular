@@ -117,9 +117,17 @@ Avoid implementing the same detailed assertions in every layer. Broader tests sh
 
 Use dedicated test accounts and repeatable data. Do not run destructive flows against production. Capture traces or screenshots on failure when useful, and ensure reports do not expose credentials or personal information.
 
-## Further reading
+## Chapter navigation
 
-- [Angular end-to-end testing](https://angular.dev/tools/cli/end-to-end)
-- [Angular code coverage](https://angular.dev/guide/testing/code-coverage)
-- [Playwright installation](https://playwright.dev/docs/intro)
-- [Playwright assertions](https://playwright.dev/docs/test-assertions)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="107-test-routing-forms-accessibility-and-user-flows.md">107 - Test Routing, Forms, Accessibility, and User Flows</a></td><td><a href="../lessons/108-end-to-end-testing-coverage-and-test-strategy.md">Lesson</a></td><td><a href="../qnas/108-end-to-end-testing-coverage-and-test-strategy.md">Q&amp;A</a></td><td><a href="109-angular-devtools-debugging-and-production-diagnostics.md">109 - Angular DevTools, Debugging, and Production Diagnostics</a></td>
+</tr>
+  </tbody>
+</table>

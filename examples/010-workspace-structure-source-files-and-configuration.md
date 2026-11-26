@@ -1,4 +1,4 @@
-﻿# Examples: Workspace Structure, Source Files, and Configuration
+# Examples: Workspace Structure, Source Files, and Configuration
 
 This walkthrough creates a disposable Angular workspace and traces how the workspace configuration, app source, component, and a static asset fit together. Use a practice directory separate from the angular notes repository.
 
@@ -193,16 +193,17 @@ If the asset or stylesheet is missing, check its source path and the configured 
 6. Find a test file and identify which TypeScript configuration includes it.
 7. Remove the SVG reference from the template while keeping the file; observe that a static file does not render until something references it.
 
-## References
+## Chapter navigation
 
-- [Lesson 010: Workspace Structure, Source Files, and Configuration](../lessons/010-workspace-structure-source-files-and-configuration.md)
-- [Q&A 010](../qnas/010-workspace-structure-source-files-and-configuration.md)
-- [Angular workspace and project file structure](https://angular.dev/reference/configs/file-structure)
-- [Angular workspace configuration](https://angular.dev/reference/configs/workspace-config)
-- [Angular CLI ng new command](https://angular.dev/cli/new)
-- [Angular CLI ng config command](https://angular.dev/cli/config)
-- [Angular application npm packages](https://angular.dev/reference/configs/npm-packages)
-
----
-
-[← Lesson 010](../lessons/010-workspace-structure-source-files-and-configuration.md) | [← Q&A 010](../qnas/010-workspace-structure-source-files-and-configuration.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="009-create-a-standalone-angular-application.md">009 - Create a Standalone Angular Application</a></td><td><a href="../lessons/010-workspace-structure-source-files-and-configuration.md">Lesson</a></td><td><a href="../qnas/010-workspace-structure-source-files-and-configuration.md">Q&amp;A</a></td><td><a href="011-run-serve-build-and-inspect-an-angular-application.md">011 - Run, Serve, Build, and Inspect an Angular Application</a></td>
+</tr>
+  </tbody>
+</table>

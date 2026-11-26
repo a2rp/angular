@@ -1,4 +1,4 @@
-﻿# 31. Example: Lifecycle hooks and component initialization
+# 31. Example: Lifecycle hooks and component initialization
 
 This small standalone Angular app lets you watch a component's lifecycle in the browser console. It demonstrates initial input setup, a later input change, post-render work, and cleanup when Angular destroys and recreates the child component.
 
@@ -333,6 +333,21 @@ Angular can perform additional checks, so the checked hooks may appear more than
 
 - [Lesson 31: Lifecycle hooks and component initialization](../lessons/031-lifecycle-hooks-and-component-initialization.md)
 - [Q&A 31: Lifecycle hooks and component initialization](../qnas/031-lifecycle-hooks-and-component-initialization.md)
-- [Angular component lifecycle guide](https://angular.dev/guide/components/lifecycle)
-- [`afterNextRender` API](https://angular.dev/api/core/afterNextRender)
-- [`DestroyRef` API](https://angular.dev/api/core/DestroyRef)
+- Angular component lifecycle guide
+- [`afterNextRender` API](`https://angular.dev/api/core/afterNextRender`)
+- [`DestroyRef` API](`https://angular.dev/api/core/DestroyRef`)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="030-view-queries-and-content-queries.md">030 - 30. View queries and content queries</a></td><td><a href="../lessons/031-lifecycle-hooks-and-component-initialization.md">Lesson</a></td><td><a href="../qnas/031-lifecycle-hooks-and-component-initialization.md">Q&amp;A</a></td><td><a href="032-host-bindings-host-listeners-and-host-directives.md">032 - 32. Host bindings, host listeners, and host directives</a></td>
+</tr>
+  </tbody>
+</table>

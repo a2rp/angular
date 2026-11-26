@@ -144,15 +144,17 @@ Polling can be appropriate when data changes rarely, a small delay is acceptable
 
 Use polling for simple low-frequency refresh, SSE for one-way server updates, and WebSockets for genuine two-way messaging. Bridge transport events into Angular through Observables or Signals, validate messages, and design cleanup, reconnect, and data-retention behavior explicitly.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/096-server-sent-events-websockets-and-live-updates.md
-- Examples: examples/096-server-sent-events-websockets-and-live-updates.md
-- Angular RxJS interop: https://angular.dev/guide/signals/rxjs-interop
-- Angular toSignal API: https://angular.dev/api/core/rxjs-interop/toSignal
-- Angular takeUntilDestroyed: https://angular.dev/ecosystem/rxjs-interop/take-until-destroyed
-- RxJS WebSocketSubject configuration: https://rxjs.dev/api/webSocket/WebSocketSubjectConfig
-- MDN: Using server-sent events: https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events
-- WHATWG HTML standard: Server-sent events: https://html.spec.whatwg.org/dev/server-sent-events.html
-- MDN: Writing WebSocket client applications: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
-- MDN: Writing WebSocket servers: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="095-angular-resources-and-signal-based-asynchronous-data.md">095 - Angular Resources and Signal-Based Asynchronous Data</a></td><td><a href="../lessons/096-server-sent-events-websockets-and-live-updates.md">Lesson</a></td><td><a href="../examples/096-server-sent-events-websockets-and-live-updates.md">Example</a></td><td><a href="097-feature-based-application-architecture.md">097 - Feature-Based Application Architecture</a></td>
+</tr>
+  </tbody>
+</table>

@@ -149,9 +149,17 @@ Before shipping the configuration, document why each route uses its mode:
 
 Adjust the entries to match the project. Avoid putting private data into prerendered HTML or public caches.
 
-## References
+## Chapter navigation
 
-- [Angular rendering strategies](https://angular.dev/guide/routing/rendering-strategies)
-- [Angular prerendering and hybrid rendering](https://angular.dev/guide/prerendering)
-- [Angular SSR setup](https://angular.dev/guide/ssr)
-- [Angular server routes API](https://angular.dev/api/ssr/ServerRoute)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="112-rendering-performance-change-detection-and-profiling.md">112 - Rendering Performance, Change Detection, and Profiling</a></td><td><a href="../lessons/113-client-rendering-server-rendering-and-prerendering.md">Lesson</a></td><td><a href="../qnas/113-client-rendering-server-rendering-and-prerendering.md">Q&amp;A</a></td><td><a href="114-set-up-server-side-rendering-and-hybrid-route-rendering.md">114 - Set Up Server-Side Rendering and Hybrid Route Rendering</a></td>
+</tr>
+  </tbody>
+</table>

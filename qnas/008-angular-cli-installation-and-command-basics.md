@@ -1,4 +1,4 @@
-﻿# Q&A: Angular CLI Installation and Command Basics
+# Q&A: Angular CLI Installation and Command Basics
 
 ## Installation and prerequisites
 
@@ -189,17 +189,17 @@ ng serve only verifies a local development workflow. Inspect the production buil
 
 Use a disposable practice directory, confirm the current path, read help for unfamiliar options, and review files after generation or update commands. Do not run dependency updates or generators against an important project just to experiment.
 
-## Official references
+## Chapter navigation
 
-- [Angular local environment setup](https://angular.dev/tools/cli/setup-local)
-- [Angular CLI overview](https://angular.dev/tools/cli)
-- [Angular CLI command reference](https://angular.dev/cli)
-- [Angular CLI version command](https://angular.dev/cli/version)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-- [Serving Angular apps for development](https://angular.dev/tools/cli/serve)
-- [Keeping Angular up to date](https://angular.dev/update)
-- [npm run scripts](https://docs.npmjs.com/cli/v12/commands/npm-run/)
-
----
-
-[← Lesson 008: Angular CLI Installation and Command Basics](../lessons/008-angular-cli-installation-and-command-basics.md) | [Examples 008 →](../examples/008-angular-cli-installation-and-command-basics.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="007-node-js-npm-package-managers-and-workspaces.md">007 - Node.js, npm, Package Managers, and Workspaces</a></td><td><a href="../lessons/008-angular-cli-installation-and-command-basics.md">Lesson</a></td><td><a href="../examples/008-angular-cli-installation-and-command-basics.md">Example</a></td><td><a href="009-create-a-standalone-angular-application.md">009 - Create a Standalone Angular Application</a></td>
+</tr>
+  </tbody>
+</table>

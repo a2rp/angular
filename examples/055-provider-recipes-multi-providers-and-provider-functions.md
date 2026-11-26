@@ -377,10 +377,17 @@ Register one token consistently: do not mix a regular provider and multi provide
 - [Q&A: Provider recipes, multi providers, and provider functions](../qnas/055-provider-recipes-multi-providers-and-provider-functions.md)
 - [Next lesson: Injection contexts and resource lifetimes](../lessons/056-injection-contexts-and-resource-lifetimes.md)
 
-## Further reading
+## Chapter navigation
 
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Provider recipes and provider identifiers](https://angular.dev/guide/di/dependency-injection-providers)
-- [Provider API](https://angular.dev/api/core/Provider)
-- [makeEnvironmentProviders API](https://angular.dev/api/core/makeEnvironmentProviders)
-- [EnvironmentProviders API](https://angular.dev/api/core/EnvironmentProviders)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="054-injectiontoken-and-typed-application-configuration.md">054 - InjectionToken and typed application configuration</a></td><td><a href="../lessons/055-provider-recipes-multi-providers-and-provider-functions.md">Lesson</a></td><td><a href="../qnas/055-provider-recipes-multi-providers-and-provider-functions.md">Q&amp;A</a></td><td><a href="056-injection-contexts-and-resource-lifetimes.md">056 - Injection contexts and resource lifetimes</a></td>
+</tr>
+  </tbody>
+</table>

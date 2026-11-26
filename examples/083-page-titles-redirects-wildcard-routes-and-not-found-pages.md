@@ -318,3 +318,18 @@ The example also does not implement product or article APIs. The page components
 - Redirects support default navigation, legacy paths, prefix mapping, and a conditional destination.
 - Route ordering determines which matching configuration is used.
 - A final wildcard route renders a useful not-found page.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="082-route-level-providers-and-route-configuration.md">082 - 82. Route-level providers and route configuration</a></td><td><a href="../lessons/083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">Lesson</a></td><td><a href="../qnas/083-page-titles-redirects-wildcard-routes-and-not-found-pages.md">Q&amp;A</a></td><td><a href="084-preloading-scroll-restoration-and-router-testing.md">084 - 84. Preloading, scroll restoration, and router testing</a></td>
+</tr>
+  </tbody>
+</table>

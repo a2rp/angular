@@ -1,4 +1,4 @@
-﻿# 32. Host bindings, host listeners, and host directives
+# 32. Host bindings, host listeners, and host directives
 
 A component's **host element** is the DOM element that matches its selector. For `<app-notice>`, the `<app-notice>` element is the host; the component template is rendered inside it. Directives also have a host: the element on which the directive matches.
 
@@ -319,10 +319,17 @@ Before adding host behavior, ask:
 - Would this behavior be clearer as a reusable attribute directive?
 - If I compose a host directive, which inputs and outputs should become part of the component's API?
 
-## Further reading
+## Chapter navigation
 
-- [Component host elements](https://angular.dev/guide/components/host-elements)
-- [Directive composition API](https://angular.dev/guide/directives/directive-composition-api)
-- [Angular directives overview](https://angular.dev/guide/directives)
-- [`HostBinding` API](https://angular.dev/api/core/HostBinding)
-- [`HostListener` API](https://angular.dev/api/core/HostListener)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="031-lifecycle-hooks-and-component-initialization.md">031 - 31. Lifecycle hooks and component initialization</a></td><td><a href="../qnas/032-host-bindings-host-listeners-and-host-directives.md">Q&amp;A</a></td><td><a href="../examples/032-host-bindings-host-listeners-and-host-directives.md">Example</a></td><td><a href="033-component-styles-and-view-encapsulation.md">033 - 33. Component styles and view encapsulation</a></td>
+</tr>
+  </tbody>
+</table>

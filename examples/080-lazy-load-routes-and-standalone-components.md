@@ -259,6 +259,21 @@ If the first visit to Admin feels slow, consider an appropriate preloading strat
 - [Lesson: Lazy-load routes and standalone components](../lessons/080-lazy-load-routes-and-standalone-components.md)
 - [Q&A: Lazy-load routes and standalone components](../qnas/080-lazy-load-routes-and-standalone-components.md)
 - [Resolvers, route data, and loading a page before activation](../lessons/079-resolvers-route-data-and-loading-a-page-before-activation.md)
-- [Angular lazy-loaded routes guide](https://angular.dev/best-practices/performance/lazy-loaded-routes)
-- [Angular route loading strategies](https://angular.dev/guide/routing/loading-strategies)
-- [Standalone component imports](https://angular.dev/guide/components/importing)
+- Angular lazy-loaded routes guide
+- Angular route loading strategies
+- Standalone component imports
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="079-resolvers-route-data-and-loading-a-page-before-activation.md">079 - Resolvers, route data, and loading a page before activation</a></td><td><a href="../lessons/080-lazy-load-routes-and-standalone-components.md">Lesson</a></td><td><a href="../qnas/080-lazy-load-routes-and-standalone-components.md">Q&amp;A</a></td><td><a href="081-nested-routes-child-outlets-and-auxiliary-routes.md">081 - 81. Nested routes, child outlets, and auxiliary routes</a></td>
+</tr>
+  </tbody>
+</table>

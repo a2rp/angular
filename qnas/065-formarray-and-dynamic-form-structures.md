@@ -223,9 +223,17 @@ Check the parent form's **invalid** and, when async validation exists, **pending
 
 Confirm that row structure and types are consistent, all structural changes use the Angular API, validation covers both row-level and collection-level rules, disabled values are handled deliberately, repeated fields have accessible labels, and add/remove actions have the correct button type.
 
-## Official references
+## Chapter navigation
 
-- [Reactive forms and dynamic FormArray controls](https://angular.dev/guide/forms/reactive-forms)
-- [FormArray API](https://angular.dev/api/forms/FormArray)
-- [Strictly typed reactive forms](https://angular.dev/guide/forms/typed-forms)
-- [Building dynamic forms](https://angular.dev/guide/forms/dynamic-forms)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="064-typed-reactive-forms-and-non-nullable-controls.md">064 - Typed reactive forms and non-nullable controls</a></td><td><a href="../lessons/065-formarray-and-dynamic-form-structures.md">Lesson</a></td><td><a href="../examples/065-formarray-and-dynamic-form-structures.md">Example</a></td><td><a href="066-synchronous-validators-and-validation-state.md">066 - Synchronous validators and validation state</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# Q&A: Create a Standalone Angular Application
+# Q&A: Create a Standalone Angular Application
 
 ## Creating the project
 
@@ -142,16 +142,17 @@ The generated configuration may already register providers required by routing, 
 
 Use the current Angular CLI ng new reference and Angular component guide. Defaults differ by version; the CLI reference lists the standalone option and its default for that release.
 
-## Official references
+## Chapter navigation
 
-- [Angular local environment setup](https://angular.dev/tools/cli/setup-local)
-- [Angular CLI ng new command](https://angular.dev/cli/new)
-- [Angular bootstrapApplication API](https://angular.dev/api/platform-browser/bootstrapApplication)
-- [Angular component guide](https://angular.dev/guide/components)
-- [Angular Component API](https://angular.dev/api/core/Component)
-- [Angular standalone migration guide](https://angular.dev/reference/migrations/standalone)
-- [Angular version compatibility](https://angular.dev/reference/versions)
-
----
-
-[← Lesson 009: Create a Standalone Angular Application](../lessons/009-create-a-standalone-angular-application.md) | [Examples 009 →](../examples/009-create-a-standalone-angular-application.md)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="008-angular-cli-installation-and-command-basics.md">008 - Angular CLI Installation and Command Basics</a></td><td><a href="../lessons/009-create-a-standalone-angular-application.md">Lesson</a></td><td><a href="../examples/009-create-a-standalone-angular-application.md">Example</a></td><td><a href="010-workspace-structure-source-files-and-configuration.md">010 - Workspace Structure, Source Files, and Configuration</a></td>
+</tr>
+  </tbody>
+</table>

@@ -122,11 +122,17 @@ Yes. An error callback can update the UI. For reusable transformations or shared
 | 429 response | Respect Retry-After or server rate-limit guidance |
 | Timed-out write with unknown outcome | Reconcile or use idempotency support before repeating |
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/090-http-errors-retry-policy-and-timeout-handling.md
-- Examples: examples/090-http-errors-retry-policy-and-timeout-handling.md
-- Angular HTTP errors and timeouts: https://angular.dev/guide/http/making-requests
-- Angular interceptors: https://angular.dev/guide/http/interceptors
-- RxJS retry operator: https://rxjs.dev/api/index/function/retry
-- RxJS RetryConfig: https://rxjs.dev/api/operators/RetryConfig
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="089-functional-interceptors-and-request-context.md">089 - Functional Interceptors and Request Context</a></td><td><a href="../lessons/090-http-errors-retry-policy-and-timeout-handling.md">Lesson</a></td><td><a href="../examples/090-http-errors-retry-policy-and-timeout-handling.md">Example</a></td><td><a href="091-cancel-requests-and-prevent-stale-response-races.md">091 - Cancel Requests and Prevent Stale Response Races</a></td>
+</tr>
+  </tbody>
+</table>

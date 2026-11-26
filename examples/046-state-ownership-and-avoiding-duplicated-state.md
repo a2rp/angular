@@ -328,3 +328,18 @@ This is different from a read-only derived value: the user can set selectedOptio
 - Components request changes through the service's transition methods.
 - Root-level sharing is intentional. A route or common-ancestor provider would fit a state instance isolated to one feature.
 - A linked signal is useful when a dependent choice must also remain writable.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="045-zoneless-angular-applications.md">045 - 45. Zoneless Angular applications</a></td><td><a href="../lessons/046-state-ownership-and-avoiding-duplicated-state.md">Lesson</a></td><td><a href="../qnas/046-state-ownership-and-avoiding-duplicated-state.md">Q&amp;A</a></td><td><a href="047-immutable-state-updates-for-arrays-and-objects.md">047 - Immutable state updates for arrays and objects</a></td>
+</tr>
+  </tbody>
+</table>

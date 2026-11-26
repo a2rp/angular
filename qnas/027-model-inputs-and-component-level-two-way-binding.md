@@ -1,4 +1,4 @@
-﻿# 27. Q&A: Model inputs and component-level two-way binding
+# 27. Q&A: Model inputs and component-level two-way binding
 
 ## 1. What is a model input?
 
@@ -200,4 +200,19 @@ Yes. Angular documents the `model()` initializer API as stable since Angular v19
 
 ## 36. Where can I read the official documentation?
 
-See Angular's [model inputs guide](https://angular.dev/guide/components/inputs#model-inputs), [two-way binding guide](https://angular.dev/guide/templates/two-way-binding), [`model()` API reference](https://angular.dev/api/core/model), and [`ModelSignal` API reference](https://angular.dev/api/core/ModelSignal).
+See Angular's model inputs guide, two-way binding guide, [`model()` API reference](`https://angular.dev/api/core/model`), and [`ModelSignal` API reference](`https://angular.dev/api/core/ModelSignal`).
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="026-component-outputs-and-custom-events.md">026 - 26. Component outputs and custom events</a></td><td><a href="../lessons/027-model-inputs-and-component-level-two-way-binding.md">Lesson</a></td><td><a href="../examples/027-model-inputs-and-component-level-two-way-binding.md">Example</a></td><td><a href="028-parent-child-communication-and-one-way-data-flow.md">028 - 28. Parent-child communication and one-way data flow</a></td>
+</tr>
+  </tbody>
+</table>

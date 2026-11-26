@@ -1,4 +1,4 @@
-﻿# Examples: Signal inputs, required inputs, and input transforms
+# Examples: Signal inputs, required inputs, and input transforms
 
 This practice app shows a parent passing values into a reusable profile card. The card has required and optional signal inputs, a public input alias, pure text normalization, boolean and number transforms, and a computed display name.
 
@@ -336,8 +336,17 @@ Two profile cards appear. The first card responds to parent changes and displays
 - If `caption` is unknown, check that the alias matches the parent's attribute name. The component's TypeScript property is `description`.
 - Keep transform functions pure; do not update component state or perform side effects from `trimText`.
 
-## Official references
+## Chapter navigation
 
-- [Accepting data with input properties](https://angular.dev/guide/components/inputs)
-- [input API](https://angular.dev/api/core/input)
-- [InputSignalWithTransform API](https://angular.dev/api/core/InputSignalWithTransform)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="024-built-in-directives-and-structural-directive-syntax.md">024 - 24. Built-in directives and structural directive syntax</a></td><td><a href="../lessons/025-signal-inputs-required-inputs-and-input-transforms.md">Lesson</a></td><td><a href="../qnas/025-signal-inputs-required-inputs-and-input-transforms.md">Q&amp;A</a></td><td><a href="026-component-outputs-and-custom-events.md">026 - 26. Component outputs and custom events</a></td>
+</tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-﻿# 13. Components, metadata, and component boundaries
+# 13. Components, metadata, and component boundaries
 
 Angular applications are built as trees of components. A component combines a TypeScript class with metadata that tells Angular how to create it, where it can be used, what its view contains, and which styles belong to it. Understanding this boundary helps keep an application understandable as its UI grows.
 
@@ -177,14 +177,21 @@ The exact filename convention varies between repositories and CLI versions. Foll
 - [ ] Components, directives, and services each have a clear role.
 - [ ] The code follows the Angular version and file conventions used by the workspace.
 
-## Further reading
-
-- [Angular component guide](https://angular.dev/guide/components)
-- [Component decorator API](https://angular.dev/api/core/Component)
-- [Component templates](https://angular.dev/guide/templates)
-- [Component host elements](https://angular.dev/guide/components/host-elements)
-- [Component styling](https://angular.dev/guide/components/styling)
-
 ## Next lesson
 
 Continue with [Standalone components and template imports](014-standalone-components-and-template-imports.md).
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="012-bootstrap-applicationconfig-and-application-providers.md">012 - 12. Bootstrap, ApplicationConfig, and application providers</a></td><td><a href="../qnas/013-components-metadata-and-component-boundaries.md">Q&amp;A</a></td><td><a href="../examples/013-components-metadata-and-component-boundaries.md">Example</a></td><td><a href="014-standalone-components-and-template-imports.md">014 - 14. Standalone components and template imports</a></td>
+</tr>
+  </tbody>
+</table>

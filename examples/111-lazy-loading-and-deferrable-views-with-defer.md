@@ -188,9 +188,17 @@ Keep the optional component exclusively inside the defer block in the parent tem
 - Avoid multiple nested deferred blocks that require several dependent requests.
 - Measure startup and the first-use experience after adding a split.
 
-## References
+## Chapter navigation
 
-- [Deferrable views](https://angular.dev/guide/templates/defer)
-- [Lazy-loaded routes](https://angular.dev/best-practices/performance/lazy-loaded-routes)
-- [Angular performance best practices](https://angular.dev/best-practices/performance)
-- [Angular CLI build output](https://angular.dev/tools/cli/build)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="110-measure-performance-bundle-size-and-core-web-vitals.md">110 - Measure Performance, Bundle Size, and Core Web Vitals</a></td><td><a href="../lessons/111-lazy-loading-and-deferrable-views-with-defer.md">Lesson</a></td><td><a href="../qnas/111-lazy-loading-and-deferrable-views-with-defer.md">Q&amp;A</a></td><td><a href="112-rendering-performance-change-detection-and-profiling.md">112 - Rendering Performance, Change Detection, and Profiling</a></td>
+</tr>
+  </tbody>
+</table>

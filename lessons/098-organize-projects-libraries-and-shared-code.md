@@ -66,7 +66,7 @@ ng generate library data-access
 
 Use the CLI options shown by the installed version's help when naming a project or selecting its root. Avoid copying commands from a different Angular release without checking the current CLI. The CLI's library generator creates workspace configuration and library files; do not manually add a TypeScript path mapping unless your setup explicitly calls for it.
 
-See the [Angular workspace and file structure guide](https://angular.dev/reference/configs/file-structure), [workspace configuration reference](https://angular.dev/reference/configs/workspace-config), and [library generator reference](https://angular.dev/cli/generate/library).
+See the Angular workspace and file structure guide, workspace configuration reference, and library generator reference.
 
 ## 5. Give each library a deliberate public API
 
@@ -128,3 +128,18 @@ When extracting existing code:
 8. Document how consumers adopt changes.
 
 A library is complete when its consumers can understand its public contract and the owning team can evolve it safely, not merely when a folder appears under projects/.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="097-feature-based-application-architecture.md">097 - Feature-Based Application Architecture</a></td><td><a href="../qnas/098-organize-projects-libraries-and-shared-code.md">Q&amp;A</a></td><td><a href="../examples/098-organize-projects-libraries-and-shared-code.md">Example</a></td><td><a href="099-reusable-ui-components-and-design-system-boundaries.md">099 - Reusable UI Components and Design-System Boundaries</a></td>
+</tr>
+  </tbody>
+</table>

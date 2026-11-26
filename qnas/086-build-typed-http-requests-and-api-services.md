@@ -117,9 +117,17 @@ The generic alone cannot establish that. Validate at runtime when the applicatio
 
 The response type should match the actual API response. In particular, do not assume a delete endpoint returns no content unless the backend contract says so.
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/086-build-typed-http-requests-and-api-services.md
-- Examples: examples/086-build-typed-http-requests-and-api-services.md
-- Angular making HTTP requests: https://angular.dev/guide/http/making-requests
-- HttpClient API: https://angular.dev/api/common/http/HttpClient
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="085-configure-httpclient-with-providehttpclient.md">085 - Configure HttpClient with provideHttpClient</a></td><td><a href="../lessons/086-build-typed-http-requests-and-api-services.md">Lesson</a></td><td><a href="../examples/086-build-typed-http-requests-and-api-services.md">Example</a></td><td><a href="087-url-parameters-headers-response-types-and-credentials.md">087 - URL Parameters, Headers, Response Types, and Credentials</a></td>
+</tr>
+  </tbody>
+</table>

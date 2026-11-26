@@ -1,4 +1,4 @@
-﻿# Q&A: Selectors and the Component Host Element
+# Q&A: Selectors and the Component Host Element
 
 ## Selectors and matching
 
@@ -156,9 +156,17 @@ Open Developer Tools and inspect the Elements panel. Find the custom element or 
 
 No. The component selector chooses which host element instantiates the component. The host metadata configures bindings on that element after the component is instantiated.
 
-## Further reading
+## Chapter navigation
 
-- [Angular component selectors](https://angular.dev/guide/components/selectors)
-- [Component host elements](https://angular.dev/guide/components/host-elements)
-- [Component decorator API](https://angular.dev/api/core/Component)
-- [Component styling](https://angular.dev/guide/components/styling)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="014-standalone-components-and-template-imports.md">014 - 14. Standalone components and template imports</a></td><td><a href="../lessons/015-selectors-and-the-component-host-element.md">Lesson</a></td><td><a href="../examples/015-selectors-and-the-component-host-element.md">Example</a></td><td><a href="016-angular-templates-and-html-structure.md">016 - 16. Angular templates and HTML structure</a></td>
+</tr>
+  </tbody>
+</table>

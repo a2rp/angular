@@ -1,4 +1,4 @@
-﻿# Example 034: Global styles, CSS variables, and theming
+# Example 034: Global styles, CSS variables, and theming
 
 This small standalone Angular app demonstrates a useful division of responsibility:
 
@@ -363,8 +363,17 @@ The choice is held in an in-memory signal, so a page reload returns to System mo
 - Angular's optional `provideCssVarNamespacing()` changes handling of custom properties in Angular-compiled component styles. Global stylesheet assets are not rewritten the same way. This runnable example does not enable that provider. If adopting it, follow the official API guidance and test global-token references in component styles, including its documented escape syntax and exceptions.
 - Keep global styles for resets, document defaults, and shared tokens. Keep component styles for the layout and appearance owned by each component.
 
-## References
+## Chapter navigation
 
-- [Angular component styling](https://angular.dev/guide/components/styling)
-- [provideCssVarNamespacing API](https://angular.dev/api/platform-browser/provideCssVarNamespacing)
-- [APP_ID API](https://angular.dev/api/core/APP_ID)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="033-component-styles-and-view-encapsulation.md">033 - 33. Component styles and view encapsulation</a></td><td><a href="../lessons/034-global-styles-css-variables-and-theming.md">Lesson</a></td><td><a href="../qnas/034-global-styles-css-variables-and-theming.md">Q&amp;A</a></td><td><a href="035-built-in-pipes-and-the-async-pipe.md">035 - 35. Built-in pipes and the async pipe</a></td>
+</tr>
+  </tbody>
+</table>

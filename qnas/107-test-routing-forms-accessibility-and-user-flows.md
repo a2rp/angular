@@ -48,9 +48,17 @@ No. It can catch some missing names, attributes, or relationships. It cannot ful
 
 No. Unit tests should cover detailed rules. A broader flow test should check that important parts integrate and the user sees the expected outcome, without duplicating every internal calculation.
 
-## Further reading
+## Chapter navigation
 
-- [Testing routing and navigation](https://angular.dev/guide/routing/testing)
-- [Component testing scenarios](https://angular.dev/guide/testing/component-scenarios)
-- [Form validation](https://angular.dev/guide/forms/form-validation)
-- [Angular accessibility best practices](https://angular.dev/best-practices/a11y)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="106-test-services-dependency-injection-and-http-requests.md">106 - Test Services, Dependency Injection, and HTTP Requests</a></td><td><a href="../lessons/107-test-routing-forms-accessibility-and-user-flows.md">Lesson</a></td><td><a href="../examples/107-test-routing-forms-accessibility-and-user-flows.md">Example</a></td><td><a href="108-end-to-end-testing-coverage-and-test-strategy.md">108 - End-to-End Testing, Coverage, and Test Strategy</a></td>
+</tr>
+  </tbody>
+</table>

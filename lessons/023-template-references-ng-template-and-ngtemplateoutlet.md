@@ -1,4 +1,4 @@
-﻿# 23. Template references, ng-template, and ngTemplateOutlet
+# 23. Template references, ng-template, and ngTemplateOutlet
 
 Angular template references let a template refer to an element, component, directive, or reusable template fragment. The `<ng-template>` element declares a fragment without rendering it immediately. `NgTemplateOutlet` can render that fragment where it is needed and provide local values to it.
 
@@ -264,9 +264,17 @@ Before using a template fragment, check that:
 - `ng-container` is appropriate and semantic HTML is used for meaningful structure.
 - A component would not provide a clearer boundary for this reusable UI.
 
-## Further reading
+## Chapter navigation
 
-- [Create template fragments with ng-template](https://angular.dev/guide/templates/ng-template)
-- [Variables in templates](https://angular.dev/guide/templates/variables)
-- [NgTemplateOutlet API](https://angular.dev/api/common/NgTemplateOutlet)
-- [ng-template API](https://angular.dev/api/core/ng-template)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="022-render-collections-with-for-track-and-empty.md">022 - 22. Render collections with for, track, and empty</a></td><td><a href="../qnas/023-template-references-ng-template-and-ngtemplateoutlet.md">Q&amp;A</a></td><td><a href="../examples/023-template-references-ng-template-and-ngtemplateoutlet.md">Example</a></td><td><a href="024-built-in-directives-and-structural-directive-syntax.md">024 - 24. Built-in directives and structural directive syntax</a></td>
+</tr>
+  </tbody>
+</table>

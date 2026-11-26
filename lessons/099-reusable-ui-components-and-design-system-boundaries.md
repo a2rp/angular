@@ -118,4 +118,19 @@ Keep variants intentional and finite. If one variant changes meaning or behavior
 - Put it in a design-system library when multiple independent applications need the same documented contract and ownership.
 - Do not generalize a component before its real consumers and use cases are understood.
 
-The [Angular component guide](https://angular.dev/guide/components) explains component structure. See also the guides for [content projection](https://angular.dev/guide/components/content-projection) and [template control flow](https://angular.dev/guide/templates/control-flow).
+The Angular component guide explains component structure. See also the guides for content projection and template control flow.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="098-organize-projects-libraries-and-shared-code.md">098 - Organize Projects, Libraries, and Shared Code</a></td><td><a href="../qnas/099-reusable-ui-components-and-design-system-boundaries.md">Q&amp;A</a></td><td><a href="../examples/099-reusable-ui-components-and-design-system-boundaries.md">Example</a></td><td><a href="100-dynamic-components-and-programmatic-rendering.md">100 - Dynamic Components and Programmatic Rendering</a></td>
+</tr>
+  </tbody>
+</table>

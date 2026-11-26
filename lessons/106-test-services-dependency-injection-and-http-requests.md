@@ -97,4 +97,19 @@ For promise-returning code, await the promise. For observables, use firstValueFr
 
 HttpTestingController verifies how Angular's client code constructs and processes requests. It does not prove that the real server accepts the request, that production credentials work, or that the endpoint contract matches the backend. Use integration or end-to-end coverage for those boundaries.
 
-See Angular's [HTTP testing guide](https://angular.dev/guide/http/testing), [testing services guide](https://angular.dev/guide/testing/services), and [HttpClient setup guide](https://angular.dev/guide/http/setup).
+See Angular's HTTP testing guide, testing services guide, and HttpClient setup guide.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="105-component-tests-fixtures-and-template-behavior.md">105 - Component Tests, Fixtures, and Template Behavior</a></td><td><a href="../qnas/106-test-services-dependency-injection-and-http-requests.md">Q&amp;A</a></td><td><a href="../examples/106-test-services-dependency-injection-and-http-requests.md">Example</a></td><td><a href="107-test-routing-forms-accessibility-and-user-flows.md">107 - Test Routing, Forms, Accessibility, and User Flows</a></td>
+</tr>
+  </tbody>
+</table>

@@ -136,8 +136,17 @@ The example uses a real label, input, submit button, headings, list, and links. 
 
 For a modal, menu, combobox, or tab system, use the matching native element or a tested accessibility implementation. Angular CDK and Angular Aria provide helpers for several interaction patterns. After router navigation, decide where focus should move so users can find the new page content.
 
-## Further reading
+## Chapter navigation
 
-- [Angular accessibility best practices](https://angular.dev/best-practices/a11y)
-- [Angular Aria overview](https://angular.dev/guide/aria/overview)
-- [Angular template bindings](https://angular.dev/guide/templates/binding)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="102-internationalization-localization-and-formatting.md">102 - Internationalization, Localization, and Formatting</a></td><td><a href="../lessons/103-semantic-html-keyboard-access-and-accessible-angular-ui.md">Lesson</a></td><td><a href="../qnas/103-semantic-html-keyboard-access-and-accessible-angular-ui.md">Q&amp;A</a></td><td><a href="104-angular-testing-fundamentals-and-the-cli-test-runner.md">104 - Angular Testing Fundamentals and the CLI Test Runner</a></td>
+</tr>
+  </tbody>
+</table>

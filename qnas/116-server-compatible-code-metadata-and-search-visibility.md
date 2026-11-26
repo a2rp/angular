@@ -101,10 +101,17 @@ It runs on the browser after a render, but DOM reads can still trigger layout an
 5. Verify client hydration and interactive behavior.
 6. Check that generated pages contain no visitor-specific data.
 
-## Further reading
+## Chapter navigation
 
-- [Angular SSR best practices](https://angular.dev/best-practices/performance/ssr)
-- [Angular hydration](https://angular.dev/guide/hydration)
-- [Angular Meta service](https://angular.dev/api/platform-browser/Meta)
-- [Angular Title service](https://angular.dev/api/platform-browser/Title)
-- [Angular route titles](https://angular.dev/guide/routing/define-routes)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="115-hydration-event-replay-and-incremental-hydration.md">115 - Hydration, Event Replay, and Incremental Hydration</a></td><td><a href="../lessons/116-server-compatible-code-metadata-and-search-visibility.md">Lesson</a></td><td><a href="../examples/116-server-compatible-code-metadata-and-search-visibility.md">Example</a></td><td><a href="117-security-xss-sanitization-csp-and-trusted-content.md">117 - Security: XSS, Sanitization, CSP, and Trusted Content</a></td>
+</tr>
+  </tbody>
+</table>

@@ -169,3 +169,18 @@ No. Announce meaningful state changes such as a pending check, saving, success, 
 ### 40. What is the essential submission checklist?
 
 Use **ngSubmit**; guard invalid, pending, and saving states; report progress; clear saving state on all request outcomes; preserve values on failure; and reset form, directive, and application state intentionally after success.
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="067-cross-field-and-asynchronous-validation.md">067 - Cross-field and asynchronous validation</a></td><td><a href="../lessons/068-submission-flows-pending-state-and-reset-behavior.md">Lesson</a></td><td><a href="../examples/068-submission-flows-pending-state-and-reset-behavior.md">Example</a></td><td><a href="069-accessible-labels-instructions-and-validation-messages.md">069 - Accessible labels, instructions, and validation messages</a></td>
+</tr>
+  </tbody>
+</table>

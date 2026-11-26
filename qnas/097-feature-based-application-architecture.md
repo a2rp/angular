@@ -48,8 +48,17 @@ Keep focused tests near the code they exercise when that makes the relationship 
 
 A developer should be able to answer where a feature begins, who owns its state, how it talks to other features, and where to find its focused tests. If changes require searching many unrelated folders or cross-feature imports keep forming cycles, revisit the boundaries. Avoid judging architecture by folder count alone.
 
-## Further reading
+## Chapter navigation
 
-- [Angular style guide](https://angular.dev/style-guide)
-- [Angular workspace and file structure](https://angular.dev/reference/configs/file-structure)
-- [Angular routing guide](https://angular.dev/guide/routing)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="096-server-sent-events-websockets-and-live-updates.md">096 - Server-Sent Events, WebSockets, and Live Updates</a></td><td><a href="../lessons/097-feature-based-application-architecture.md">Lesson</a></td><td><a href="../examples/097-feature-based-application-architecture.md">Example</a></td><td><a href="098-organize-projects-libraries-and-shared-code.md">098 - Organize Projects, Libraries, and Shared Code</a></td>
+</tr>
+  </tbody>
+</table>

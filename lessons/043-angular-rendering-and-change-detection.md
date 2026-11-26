@@ -1,4 +1,4 @@
-﻿# 43. Angular rendering and change detection
+# 43. Angular rendering and change detection
 
 Angular components describe a view: a template, its bindings, and child views. Change detection is Angular's process for checking the current values of those bindings and refreshing the DOM when a rendered value has changed. Rendering is the result: the browser DOM reflects the latest application state.
 
@@ -210,10 +210,17 @@ When maintaining an existing project, check its Angular version and any explicit
 - Stable, side-effect-free templates and lifecycle code prevent unnecessary work and `NG0100` errors.
 - Angular v22 defaults to `OnPush`; check the next chapter for subtree behavior and immutable updates.
 
-## Official references
+## Chapter navigation
 
-- [Angular component lifecycle](https://angular.dev/guide/components/lifecycle)
-- [Angular advanced component configuration](https://angular.dev/guide/components/advanced-configuration)
-- [Angular zoneless guide](https://angular.dev/guide/experimental/zoneless)
-- [Angular `ChangeDetectorRef` API](https://angular.dev/api/core/ChangeDetectorRef)
-- [Angular `NG0100` error guide](https://angular.dev/errors/NG0100)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="042-rxjs-interop-with-tosignal-and-toobservable.md">042 - 42. RxJS interop with `toSignal()` and `toObservable()`</a></td><td><a href="../qnas/043-angular-rendering-and-change-detection.md">Q&amp;A</a></td><td><a href="../examples/043-angular-rendering-and-change-detection.md">Example</a></td><td><a href="044-onpush-change-detection-and-immutable-updates.md">044 - 44. OnPush change detection and immutable updates</a></td>
+</tr>
+  </tbody>
+</table>

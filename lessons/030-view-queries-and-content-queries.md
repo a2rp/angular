@@ -1,4 +1,4 @@
-﻿# 30. View queries and content queries
+# 30. View queries and content queries
 
 Angular queries let a component find children or values associated with elements in its component tree. Use a **view query** to find something declared in the component's own template. Use a **content query** to find something supplied between the component's tags by its consumer.
 
@@ -201,10 +201,17 @@ Before adding a query, ask:
 - Am I staying within the component boundary?
 - Would an input, output, or ordinary template binding communicate the need more clearly?
 
-## Further reading
+## Chapter navigation
 
-- [Referencing component children with queries](https://angular.dev/guide/components/queries)
-- [`viewChild()` API](https://angular.dev/api/core/viewChild)
-- [`contentChild()` API](https://angular.dev/api/core/contentChild)
-- [`viewChildren()` API](https://angular.dev/api/core/viewChildren)
-- [`contentChildren()` API](https://angular.dev/api/core/contentChildren)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="029-content-projection-and-multiple-slots.md">029 - 29. Content projection and multiple slots</a></td><td><a href="../qnas/030-view-queries-and-content-queries.md">Q&amp;A</a></td><td><a href="../examples/030-view-queries-and-content-queries.md">Example</a></td><td><a href="031-lifecycle-hooks-and-component-initialization.md">031 - 31. Lifecycle hooks and component initialization</a></td>
+</tr>
+  </tbody>
+</table>

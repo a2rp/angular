@@ -334,22 +334,24 @@ Before adding application providers, check:
 - importProvidersFrom() can bridge NgModule providers into a standalone application’s environment injector.
 - Root, route, and component scopes have different sharing and lifecycle behavior.
 
-## Further reading
-
-- [Defining dependency providers](https://angular.dev/guide/di/defining-dependency-providers)
-- [Hierarchical injectors](https://angular.dev/guide/di/hierarchical-dependency-injection)
-- [ApplicationConfig API](https://angular.dev/api/core/ApplicationConfig)
-- [bootstrapApplication API](https://angular.dev/api/platform-browser/bootstrapApplication)
-- [EnvironmentProviders API](https://angular.dev/api/core/EnvironmentProviders)
-- [makeEnvironmentProviders API](https://angular.dev/api/core/makeEnvironmentProviders)
-- [importProvidersFrom API](https://angular.dev/api/core/importProvidersFrom)
-- [provideAppInitializer API](https://angular.dev/api/core/provideAppInitializer)
-- [provideHttpClient API](https://angular.dev/api/common/http/provideHttpClient)
-- [provideRouter API](https://angular.dev/api/router/provideRouter)
-
 ## Continue learning
 
 - Previous: [Hierarchical dependency injection](051-hierarchical-dependency-injection.md)
 - Q&A: [Application and environment providers](../qnas/052-application-and-environment-providers.md)
 - Example: [Application and environment providers](../examples/052-application-and-environment-providers.md)
 - Next: [Component-scoped and route-scoped providers](053-component-scoped-and-route-scoped-providers.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="051-hierarchical-dependency-injection.md">051 - Hierarchical dependency injection</a></td><td><a href="../qnas/052-application-and-environment-providers.md">Q&amp;A</a></td><td><a href="../examples/052-application-and-environment-providers.md">Example</a></td><td><a href="053-component-scoped-and-route-scoped-providers.md">053 - Component-scoped and route-scoped providers</a></td>
+</tr>
+  </tbody>
+</table>

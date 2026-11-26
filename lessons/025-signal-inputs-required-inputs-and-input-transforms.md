@@ -1,4 +1,4 @@
-﻿# 25. Signal inputs, required inputs, and input transforms
+# 25. Signal inputs, required inputs, and input transforms
 
 A component input is a value supplied by its parent. Angular's signal-based input API declares those values with `input()` and exposes each one as a read-only signal. Use `input.required()` when the parent must provide a value, and an input transform when an incoming representation should be normalized into the type the component uses.
 
@@ -314,9 +314,17 @@ Before exposing a component input, check that:
 - Aliases are deliberate and consistent with the component's public API.
 - Two-way interaction uses a model input rather than writing to a read-only input.
 
-## Further reading
+## Chapter navigation
 
-- [Accepting data with input properties](https://angular.dev/guide/components/inputs)
-- [input API](https://angular.dev/api/core/input)
-- [InputSignalWithTransform API](https://angular.dev/api/core/InputSignalWithTransform)
-- [Migration to signal inputs](https://angular.dev/reference/migrations/signal-inputs)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="024-built-in-directives-and-structural-directive-syntax.md">024 - 24. Built-in directives and structural directive syntax</a></td><td><a href="../qnas/025-signal-inputs-required-inputs-and-input-transforms.md">Q&amp;A</a></td><td><a href="../examples/025-signal-inputs-required-inputs-and-input-transforms.md">Example</a></td><td><a href="026-component-outputs-and-custom-events.md">026 - 26. Component outputs and custom events</a></td>
+</tr>
+  </tbody>
+</table>

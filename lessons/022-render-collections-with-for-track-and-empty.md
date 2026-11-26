@@ -1,4 +1,4 @@
-﻿# 22. Render collections with for, track, and empty
+# 22. Render collections with for, track, and empty
 
 Angular's @for block repeats template content for each item in a collection:
 
@@ -209,11 +209,17 @@ If the key changes, Angular treats it as a different identity. If the track expr
 7. Are aliased values scoped to the correct loop?
 8. Do immutable updates keep each item's stable key?
 
-## Further reading
+## Chapter navigation
 
-- [Angular control flow](https://angular.dev/guide/templates/control-flow)
-- [Angular @for API](https://angular.dev/api/core/%40for)
-- [Angular expression syntax](https://angular.dev/guide/templates/expression-syntax)
-- [Angular control-flow migration](https://angular.dev/reference/migrations/control-flow)
-- [Angular error NG0955: duplicate tracking keys](https://angular.dev/errors/NG0955)
-- [Angular error NG0956: tracking causes DOM recreation](https://angular.dev/errors/NG0956)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="021-built-in-control-flow-with-if-and-switch.md">021 - 21. Built-in control flow with if and switch</a></td><td><a href="../qnas/022-render-collections-with-for-track-and-empty.md">Q&amp;A</a></td><td><a href="../examples/022-render-collections-with-for-track-and-empty.md">Example</a></td><td><a href="023-template-references-ng-template-and-ngtemplateoutlet.md">023 - 23. Template references, ng-template, and ngTemplateOutlet</a></td>
+</tr>
+  </tbody>
+</table>

@@ -147,10 +147,17 @@ Client-side routing changes the URL without requesting a new application documen
 - [ ] The root template includes `RouterOutlet`.
 - [ ] Each route has a meaningful title where appropriate.
 
-## Further reading
+## Chapter navigation
 
-- [Angular routing overview](https://angular.dev/guide/routing)
-- [Define routes](https://angular.dev/guide/routing/define-routes)
-- [Show routes with outlets](https://angular.dev/guide/routing/show-routes-with-outlets)
-- [provideRouter() API](https://angular.dev/api/router/provideRouter)
-- [Router reference](https://angular.dev/guide/routing/router-reference)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="072-signal-forms-schemas-validation-and-custom-controls.md">072 - Signal Forms: schemas, validation, and custom controls</a></td><td><a href="../qnas/073-configure-the-angular-router-in-a-standalone-app.md">Q&amp;A</a></td><td><a href="../examples/073-configure-the-angular-router-in-a-standalone-app.md">Example</a></td><td><a href="074-routeroutlet-routerlink-and-active-route-links.md">074 - RouterOutlet, RouterLink, and active route links</a></td>
+</tr>
+  </tbody>
+</table>

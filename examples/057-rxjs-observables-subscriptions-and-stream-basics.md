@@ -326,18 +326,23 @@ Create a custom Observable only when an existing creation function does not repr
 | Subscribe twice to **source$** | A cold source creates two producer executions. |
 | Read the synchronous trace | **of()** emits and completes during the **subscribe()** call. |
 
-## Further reading
-
-- [RxJS glossary and semantics](https://rxjs.dev/guide/glossary-and-semantics)
-- [RxJS Subscription guide](https://rxjs.dev/guide/subscription)
-- [Observer API](https://rxjs.dev/api/index/interface/Observer)
-- [Subscription API](https://rxjs.dev/api/index/class/Subscription)
-- [Angular AsyncPipe API](https://angular.dev/api/common/AsyncPipe)
-- [Angular toSignal() API](https://angular.dev/api/core/rxjs-interop/toSignal)
-- [Angular HttpClient Observables](https://angular.dev/guide/http/making-requests)
-
 ## Related files
 
 - [Lesson: RxJS Observables, subscriptions, and stream basics](../lessons/057-rxjs-observables-subscriptions-and-stream-basics.md)
 - [Q&A: RxJS Observables, subscriptions, and stream basics](../qnas/057-rxjs-observables-subscriptions-and-stream-basics.md)
 - [Next lesson: RxJS operators for mapping and combining streams](../lessons/058-rxjs-operators-for-mapping-and-combining-streams.md)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="056-injection-contexts-and-resource-lifetimes.md">056 - Injection contexts and resource lifetimes</a></td><td><a href="../lessons/057-rxjs-observables-subscriptions-and-stream-basics.md">Lesson</a></td><td><a href="../qnas/057-rxjs-observables-subscriptions-and-stream-basics.md">Q&amp;A</a></td><td><a href="058-rxjs-operators-for-mapping-and-combining-streams.md">058 - RxJS operators for mapping and combining streams</a></td>
+</tr>
+  </tbody>
+</table>

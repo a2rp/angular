@@ -1,4 +1,4 @@
-﻿# 32. Q&A: Host bindings, host listeners, and host directives
+# 32. Q&A: Host bindings, host listeners, and host directives
 
 ## Host element basics
 
@@ -157,7 +157,22 @@ Usually no. Host bindings target only the component or directive host. For a chi
 
 - [Lesson 32: Host bindings, host listeners, and host directives](../lessons/032-host-bindings-host-listeners-and-host-directives.md)
 - [Example 32: Host bindings, host listeners, and host directives](../examples/032-host-bindings-host-listeners-and-host-directives.md)
-- [Angular component host elements](https://angular.dev/guide/components/host-elements)
-- [Angular directive composition API](https://angular.dev/guide/directives/directive-composition-api)
-- [`HostBinding` API](https://angular.dev/api/core/HostBinding)
-- [`HostListener` API](https://angular.dev/api/core/HostListener)
+- Angular component host elements
+- Angular directive composition API
+- [`HostBinding` API](`https://angular.dev/api/core/HostBinding`)
+- [`HostListener` API](`https://angular.dev/api/core/HostListener`)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="031-lifecycle-hooks-and-component-initialization.md">031 - 31. Lifecycle hooks and component initialization</a></td><td><a href="../lessons/032-host-bindings-host-listeners-and-host-directives.md">Lesson</a></td><td><a href="../examples/032-host-bindings-host-listeners-and-host-directives.md">Example</a></td><td><a href="033-component-styles-and-view-encapsulation.md">033 - 33. Component styles and view encapsulation</a></td>
+</tr>
+  </tbody>
+</table>

@@ -321,3 +321,18 @@ This explicit conversion makes it clear which values are collected by the UI and
 - [Form models](https://angular.dev/guide/forms/signals/models)
 - [form() API](https://angular.dev/api/forms/signals/form)
 - [FormField API](https://angular.dev/api/forms/signals/FormField)
+
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="070-custom-controls-with-controlvalueaccessor.md">070 - Custom controls with ControlValueAccessor</a></td><td><a href="../lessons/071-signal-forms-models-fields-and-form-setup.md">Lesson</a></td><td><a href="../qnas/071-signal-forms-models-fields-and-form-setup.md">Q&amp;A</a></td><td><a href="072-signal-forms-schemas-validation-and-custom-controls.md">072 - Signal Forms: schemas, validation, and custom controls</a></td>
+</tr>
+  </tbody>
+</table>

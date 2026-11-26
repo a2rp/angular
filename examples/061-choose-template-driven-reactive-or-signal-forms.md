@@ -559,12 +559,17 @@ The same visible form can be implemented with each API. The meaningful differenc
 - Q&A: [Choose template-driven, reactive, or signal forms](../qnas/061-choose-template-driven-reactive-or-signal-forms.md)
 - Next: [Template-driven forms and ngForm](../lessons/062-template-driven-forms-and-ngform.md)
 
-## Further reading
+## Chapter navigation
 
-- [Angular template-driven forms](https://angular.dev/guide/forms/template-driven-forms)
-- [Angular reactive forms](https://angular.dev/guide/forms/reactive-forms)
-- [Strictly typed reactive forms](https://angular.dev/guide/forms/typed-forms)
-- [Signal Forms overview](https://angular.dev/guide/forms/signals/overview)
-- [Signal Forms comparison](https://angular.dev/guide/forms/signals/comparison)
-- [Signal Forms validation](https://angular.dev/guide/forms/signals/validation)
-- [Signal Forms submission](https://angular.dev/guide/forms/signals/form-submission)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="060-error-handling-cleanup-and-takeuntildestroyed.md">060 - Error handling, cleanup, and takeUntilDestroyed</a></td><td><a href="../lessons/061-choose-template-driven-reactive-or-signal-forms.md">Lesson</a></td><td><a href="../qnas/061-choose-template-driven-reactive-or-signal-forms.md">Q&amp;A</a></td><td><a href="062-template-driven-forms-and-ngform.md">062 - Template-driven forms and NgForm</a></td>
+</tr>
+  </tbody>
+</table>

@@ -255,12 +255,17 @@ Angular also provides an `info` navigation extra for transient information about
 - **Treating navigation state as secure storage:** it is client-side browser state, not an authorization mechanism.
 - **Comparing `history.state` objects by identity:** Angular adds a navigation ID, so treat it as a bag of data and read the specific key you need.
 
-## Official references
+## Chapter navigation
 
-- [Read route state](https://angular.dev/guide/routing/read-route-state)
-- [Navigate to routes](https://angular.dev/guide/routing/navigate-to-routes)
-- [ActivatedRoute API](https://angular.dev/api/router/ActivatedRoute)
-- [RouterLink API](https://angular.dev/api/router/RouterLink)
-- [NavigationExtras API](https://angular.dev/api/router/NavigationExtras)
-- [QueryParamsHandling API](https://angular.dev/api/router/QueryParamsHandling)
-- [InMemoryScrollingOptions API](https://angular.dev/api/router/InMemoryScrollingOptions)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="075-route-parameters-snapshots-and-reactive-parameters.md">075 - Route parameters, snapshots, and reactive parameters</a></td><td><a href="../qnas/076-query-parameters-fragments-and-navigation-state.md">Q&amp;A</a></td><td><a href="../examples/076-query-parameters-fragments-and-navigation-state.md">Example</a></td><td><a href="077-navigate-programmatically-and-handle-navigation-results.md">077 - Navigate programmatically and handle navigation results</a></td>
+</tr>
+  </tbody>
+</table>

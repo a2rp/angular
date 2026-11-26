@@ -1,4 +1,4 @@
-﻿# Classes, Modules, Decorators, and Compiler Options
+# Classes, Modules, Decorators, and Compiler Options
 
 TypeScript uses JavaScript classes and modules, while Angular adds decorators such as @Component to describe framework metadata. The compiler configuration determines how TypeScript and Angular analyze and build the project. Understanding these pieces helps you read an Angular workspace without confusing language features, framework features, and build-tool settings.
 
@@ -146,7 +146,7 @@ import { Component } from '@angular/core';
 export class TaskCounterComponent {}
 ~~~
 
-@Component tells Angular's compiler and runtime how the class participates as a component. The object passed to the decorator is Angular metadata, including information such as selector, template, imports, and styles. Angular's [Component API reference](https://angular.dev/api/core/Component) describes this framework decorator.
+@Component tells Angular's compiler and runtime how the class participates as a component. The object passed to the decorator is Angular metadata, including information such as selector, template, imports, and styles. Angular's Component API reference describes this framework decorator.
 
 A decorator is not itself a TypeScript type annotation. TypeScript type checking does not infer that a class has the shape of a component just because it is decorated. Angular's compiler interprets Angular metadata and checks Angular-specific concerns such as templates.
 
@@ -156,7 +156,7 @@ TypeScript historically provided an experimental decorator implementation contro
 
 The newer standardized decorators do not support parameter decorators and are not compatible with emitDecoratorMetadata. Existing Angular projects use the decorator setup expected by their Angular and TypeScript versions. Do not toggle experimentalDecorators or related metadata settings simply because a blog post shows a different configuration.
 
-For an Angular application, preserve the configuration generated for its Angular version unless the official Angular or TypeScript migration instructions say otherwise. The [TypeScript 5.0 release notes](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html) explain the difference between standard and legacy decorators.
+For an Angular application, preserve the configuration generated for its Angular version unless the official Angular or TypeScript migration instructions say otherwise. The TypeScript 5.0 release notes explain the difference between standard and legacy decorators.
 
 ## The TypeScript configuration file
 
@@ -195,7 +195,7 @@ The top-level compilerOptions object contains TypeScript compiler settings. The 
 
 The appropriate target, module, and moduleResolution depend on the Angular CLI builder, bundler, runtime, Angular version, and TypeScript version. Do not copy values from a Node.js tutorial into a browser application or vice versa without checking the toolchain.
 
-The TypeScript [TSConfig reference](https://www.typescriptlang.org/tsconfig/) documents TypeScript compiler options. Angular's [compiler options guide](https://angular.dev/reference/configs/angular-compiler-options) documents angularCompilerOptions and configuration inheritance.
+The TypeScript TSConfig reference documents TypeScript compiler options. Angular's compiler options guide documents angularCompilerOptions and configuration inheritance.
 
 ## Configuration inheritance
 
@@ -254,11 +254,17 @@ Configuration changes can make an error disappear by disabling checks without fi
 
 Answers are in [Chapter 6 Q&A](../qnas/006-classes-modules-decorators-and-compiler-options.md). The [Chapter 6 examples](../examples/006-classes-modules-decorators-and-compiler-options.md) show these ideas in a small Angular workspace.
 
-## Further reading
+## Chapter navigation
 
-- [TypeScript classes](https://www.typescriptlang.org/docs/handbook/2/classes.html)
-- [TypeScript modules introduction](https://www.typescriptlang.org/docs/handbook/modules/introduction.html)
-- [TypeScript 5.0 decorators](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html)
-- [TypeScript TSConfig reference](https://www.typescriptlang.org/tsconfig/)
-- [Angular Component API](https://angular.dev/api/core/Component)
-- [Angular compiler options](https://angular.dev/reference/configs/angular-compiler-options)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="005-typescript-interfaces-unions-generics-and-narrowing.md">005 - TypeScript Interfaces, Unions, Generics, and Narrowing</a></td><td><a href="../qnas/006-classes-modules-decorators-and-compiler-options.md">Q&amp;A</a></td><td><a href="../examples/006-classes-modules-decorators-and-compiler-options.md">Example</a></td><td><a href="007-node-js-npm-package-managers-and-workspaces.md">007 - Node.js, npm, Package Managers, and Workspaces</a></td>
+</tr>
+  </tbody>
+</table>

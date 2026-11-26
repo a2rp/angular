@@ -1,4 +1,4 @@
-﻿# Q&A: Template references, ng-template, and ngTemplateOutlet
+# Q&A: Template references, ng-template, and ngTemplateOutlet
 
 ## Core concepts
 
@@ -185,9 +185,17 @@ No. Use a fragment when reuse or choosing template content makes the markup clea
 
 Confirm that the fragment is referenced by the intended outlet, the directive is imported, every `let-` declaration matches the context, `$implicit` is intentional, and the resulting structure uses appropriate semantic HTML.
 
-## Official references
+## Chapter navigation
 
-- [Create template fragments with ng-template](https://angular.dev/guide/templates/ng-template)
-- [Variables in templates](https://angular.dev/guide/templates/variables)
-- [NgTemplateOutlet API](https://angular.dev/api/common/NgTemplateOutlet)
-- [ng-template API](https://angular.dev/api/core/ng-template)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="022-render-collections-with-for-track-and-empty.md">022 - 22. Render collections with for, track, and empty</a></td><td><a href="../lessons/023-template-references-ng-template-and-ngtemplateoutlet.md">Lesson</a></td><td><a href="../examples/023-template-references-ng-template-and-ngtemplateoutlet.md">Example</a></td><td><a href="024-built-in-directives-and-structural-directive-syntax.md">024 - 24. Built-in directives and structural directive syntax</a></td>
+</tr>
+  </tbody>
+</table>

@@ -56,9 +56,17 @@ Not automatically. Karma remains supported. Angular's current migration guidance
 
 Run the configured test target in a non-watch mode in CI and fail the pipeline when tests fail. Use the flags supported by the project's installed CLI and avoid a command that silently ignores the test exit code.
 
-## Further reading
+## Chapter navigation
 
-- [Angular testing overview](https://angular.dev/guide/testing)
-- [Angular Karma testing](https://angular.dev/guide/testing/karma)
-- [Karma-to-Vitest migration](https://angular.dev/guide/testing/migrating-to-vitest)
-- [Testing utility APIs](https://angular.dev/guide/testing/utility-apis)
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="103-semantic-html-keyboard-access-and-accessible-angular-ui.md">103 - Semantic HTML, Keyboard Access, and Accessible Angular UI</a></td><td><a href="../lessons/104-angular-testing-fundamentals-and-the-cli-test-runner.md">Lesson</a></td><td><a href="../examples/104-angular-testing-fundamentals-and-the-cli-test-runner.md">Example</a></td><td><a href="105-component-tests-fixtures-and-template-behavior.md">105 - Component Tests, Fixtures, and Template Behavior</a></td>
+</tr>
+  </tbody>
+</table>

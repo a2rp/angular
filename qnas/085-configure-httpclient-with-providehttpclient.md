@@ -127,11 +127,17 @@ Usually no. Mock the backend with provideHttpClientTesting so the test controls 
 | Test attempts real network access | Is provideHttpClientTesting configured? |
 | XSRF or CORS errors | Verify cookie/header settings and server CORS behavior before disabling protections. |
 
-## Related references
+## Chapter navigation
 
-- Lesson: lessons/085-configure-httpclient-with-providehttpclient.md
-- Examples: examples/085-configure-httpclient-with-providehttpclient.md
-- Angular HttpClient setup: https://angular.dev/guide/http/setup
-- provideHttpClient API: https://angular.dev/api/common/http/provideHttpClient
-- Angular interceptors: https://angular.dev/guide/http/interceptors
-- Angular HTTP testing: https://angular.dev/guide/http/testing
+<table width="100%">
+  <thead>
+    <tr>
+<th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+<td><a href="084-preloading-scroll-restoration-and-router-testing.md">084 - 84. Preloading, scroll restoration, and router testing</a></td><td><a href="../lessons/085-configure-httpclient-with-providehttpclient.md">Lesson</a></td><td><a href="../examples/085-configure-httpclient-with-providehttpclient.md">Example</a></td><td><a href="086-build-typed-http-requests-and-api-services.md">086 - Build Typed HTTP Requests and API Services</a></td>
+</tr>
+  </tbody>
+</table>
