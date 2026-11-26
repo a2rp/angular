@@ -1,4 +1,4 @@
-# Server-Compatible Code, Metadata, and Search Visibility — Examples
+# Server-Compatible Code, Metadata, and Search Visibility - Examples
 
 These snippets show route titles, route-specific metadata, guarded browser-only code, and a direct-response review. Adapt paths and public content for the application.
 

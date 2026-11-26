@@ -1,4 +1,4 @@
-# Client Rendering, Server Rendering, and Prerendering — Q&A
+# Client Rendering, Server Rendering, and Prerendering - Q&A
 
 ## 1. What does CSR mean?
 

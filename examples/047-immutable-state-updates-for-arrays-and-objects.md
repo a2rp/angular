@@ -1,4 +1,4 @@
-# Immutable state updates for arrays and objects — examples
+# Immutable state updates for arrays and objects - examples
 
 This standalone Angular example manages an inventory. It demonstrates immutable array updates, replacing a nested object, updating a nested array, sorting a copied view, and keeping unchanged item references stable.
 

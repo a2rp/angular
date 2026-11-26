@@ -1,4 +1,4 @@
-# Test Routing, Forms, Accessibility, and User Flows — Q&A
+# Test Routing, Forms, Accessibility, and User Flows - Q&A
 
 ## 1. What does RouterTestingHarness help test?
 

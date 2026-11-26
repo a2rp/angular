@@ -1,4 +1,4 @@
-# Immutable state updates for arrays and objects — Q&A
+# Immutable state updates for arrays and objects - Q&A
 
 ## 1. What is an immutable update?
 

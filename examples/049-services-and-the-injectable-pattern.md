@@ -1,4 +1,4 @@
-# Services and the injectable pattern — example
+# Services and the injectable pattern - example
 
 This standalone Angular example demonstrates service responsibilities and dependency injection with a small product catalog. A root-provided catalog service coordinates a data source and a logger. The summary and list are sibling components: both inject the same catalog service, and the product count updates when the list adds a product.
 
@@ -195,7 +195,7 @@ export class ProductListComponent {
     <ul>
       @for (product of catalog.products(); track product.id) {
         <li>
-          {{ product.name }} — {{ product.price | currency }}
+          {{ product.name }} - {{ product.price | currency }}
         </li>
       }
     </ul>

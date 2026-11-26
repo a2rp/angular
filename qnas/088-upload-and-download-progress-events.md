@@ -1,4 +1,4 @@
-# Upload and Download Progress Events — Q&A
+# Upload and Download Progress Events - Q&A
 
 ## Events and configuration
 

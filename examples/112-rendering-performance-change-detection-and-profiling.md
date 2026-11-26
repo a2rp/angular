@@ -1,4 +1,4 @@
-# Rendering Performance, Change Detection, and Profiling — Examples
+# Rendering Performance, Change Detection, and Profiling - Examples
 
 These snippets demonstrate derived state, immutable updates, stable list tracking, and a repeatable profiler workflow. Adapt the files and imports to the Angular version and workspace.
 

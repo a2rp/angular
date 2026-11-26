@@ -1,6 +1,6 @@
 # 44. OnPush change detection and immutable updates
 
-Angular uses change detection to keep a component's rendered view in sync with application state. The OnPush strategy lets Angular skip a component subtree when Angular has no notification that the subtree needs an update. Knowing what counts as a notification—and how object identity affects it—helps prevent stale UI and avoid unnecessary checks.
+Angular uses change detection to keep a component's rendered view in sync with application state. The OnPush strategy lets Angular skip a component subtree when Angular has no notification that the subtree needs an update. Knowing what counts as a notification-and how object identity affects it-helps prevent stale UI and avoid unnecessary checks.
 
 OnPush has been the default change-detection strategy since Angular v22. Making it explicit in a component is still useful when reading code, documenting intent, and supporting earlier Angular versions.
 
@@ -208,7 +208,7 @@ This is a useful way to connect asynchronous values to a template, including in 
 
 ### markForCheck()
 
-Use ChangeDetectorRef.markForCheck() when an update happens through an imperative path that Angular does not otherwise know about—for example, a legacy integration that writes to a plain field:
+Use ChangeDetectorRef.markForCheck() when an update happens through an imperative path that Angular does not otherwise know about-for example, a legacy integration that writes to a plain field:
 
 ~~~ts
 import {

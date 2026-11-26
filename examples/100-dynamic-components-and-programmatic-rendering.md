@@ -1,4 +1,4 @@
-# Dynamic Components and Programmatic Rendering — Examples
+# Dynamic Components and Programmatic Rendering - Examples
 
 This walkthrough lets a dashboard user load one known report widget on demand. It uses a ViewContainerRef insertion point, sets a typed component input, reacts to an output, and clears the component when it is dismissed.
 

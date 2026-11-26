@@ -105,13 +105,13 @@ function createInitialContact(): ContactFormModel {
         <h2 id="preview-heading">Current form model</h2>
         <dl>
           <dt>Name</dt>
-          <dd>{{ contactModel().name || '—' }}</dd>
+          <dd>{{ contactModel().name || '-' }}</dd>
 
           <dt>Email</dt>
-          <dd>{{ contactModel().email || '—' }}</dd>
+          <dd>{{ contactModel().email || '-' }}</dd>
 
           <dt>Message</dt>
-          <dd>{{ contactModel().message || '—' }}</dd>
+          <dd>{{ contactModel().message || '-' }}</dd>
 
           <dt>Preferred reply method</dt>
           <dd>{{ contactModel().preferredContact }}</dd>
@@ -124,7 +124,7 @@ function createInitialContact(): ContactFormModel {
       @if (savedContact; as saved) {
         <section aria-labelledby="saved-heading">
           <h2 id="saved-heading">Last locally saved values</h2>
-          <p>{{ saved.name || 'No name entered' }} — {{ saved.email || 'No email entered' }}</p>
+          <p>{{ saved.name || 'No name entered' }} - {{ saved.email || 'No email entered' }}</p>
         </section>
       }
     </main>
@@ -313,14 +313,6 @@ This explicit conversion makes it clear which values are collected by the UI and
 - Programmatic model updates, including reset, flow back to the controls.
 - Labels, instructions, validation, and network submission are separate responsibilities.
 - This setup uses Signal Forms bindings, not Reactive Forms' `formControlName`.
-
-## References
-
-- [Signal Forms overview](https://angular.dev/guide/forms/signals/overview)
-- [Signal Forms essentials](https://angular.dev/essentials/signal-forms)
-- [Form models](https://angular.dev/guide/forms/signals/models)
-- [form() API](https://angular.dev/api/forms/signals/form)
-- [FormField API](https://angular.dev/api/forms/signals/FormField)
 
 ## Chapter navigation
 

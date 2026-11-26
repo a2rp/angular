@@ -1,4 +1,4 @@
-# Global Error Handling, Logging, and Diagnostics — Q&A
+# Global Error Handling, Logging, and Diagnostics - Q&A
 
 ## 1. What is Angular's ErrorHandler for?
 

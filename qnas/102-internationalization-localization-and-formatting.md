@@ -1,4 +1,4 @@
-# Internationalization, Localization, and Formatting — Q&A
+# Internationalization, Localization, and Formatting - Q&A
 
 ## 1. What is the difference between internationalization and localization?
 

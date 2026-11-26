@@ -166,7 +166,7 @@ query.set('an');
 query.set('angular');
 ~~~
 
-The Observable may emit only `'angular'` for those writes. This coalescing is useful for state such as a current search query. If every occurrence matters—such as clicks, keystrokes as events, or audit records—use an Observable or `Subject` as the event source instead of converting a Signal state value.
+The Observable may emit only `'angular'` for those writes. This coalescing is useful for state such as a current search query. If every occurrence matters-such as clicks, keystrokes as events, or audit records-use an Observable or `Subject` as the event source instead of converting a Signal state value.
 
 ## Combine the bridges with RxJS
 

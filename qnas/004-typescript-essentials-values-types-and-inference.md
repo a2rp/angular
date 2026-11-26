@@ -1,4 +1,4 @@
-# TypeScript Essentials: Values, Types, and Inference — Q&A
+# TypeScript Essentials: Values, Types, and Inference - Q&A
 
 This Q&A accompanies [Chapter 4: TypeScript Essentials: Values, Types, and Inference](../lessons/004-typescript-essentials-values-types-and-inference.md).
 

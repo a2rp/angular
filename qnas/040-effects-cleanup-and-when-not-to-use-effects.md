@@ -1,4 +1,4 @@
-# 40. Effects, cleanup, and when not to use effects — Q&A
+# 40. Effects, cleanup, and when not to use effects - Q&A
 
 ## Core concepts
 
@@ -146,7 +146,7 @@ Inspect all synchronous signal reads, including reads in helpers called by the e
 
 ### 26. Why does an effect appear not to react to a value read in a callback?
 
-The value may only be read later, after the effect has returned—for example, inside a timer, promise continuation, or event callback. Such a read is outside the effect's reactive context. Read and capture the signal synchronously in the effect if changes to it should rerun the effect.
+The value may only be read later, after the effect has returned-for example, inside a timer, promise continuation, or event callback. Such a read is outside the effect's reactive context. Read and capture the signal synchronously in the effect if changes to it should rerun the effect.
 
 ### 27. What should I check if a method creates duplicate side effects?
 

@@ -1,4 +1,4 @@
-# 43. Angular rendering and change detection — Q&A
+# 43. Angular rendering and change detection - Q&A
 
 ## Core model
 

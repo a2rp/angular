@@ -184,7 +184,7 @@ export class AppComponent {
     const timestamp = new Date().toLocaleTimeString();
 
     this.events.update((events) =>
-      [timestamp + ' — ' + message, ...events].slice(0, 10),
+      [timestamp + ' - ' + message, ...events].slice(0, 10),
     );
   }
 }

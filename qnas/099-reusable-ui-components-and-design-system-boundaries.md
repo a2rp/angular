@@ -1,4 +1,4 @@
-# Reusable UI Components and Design-System Boundaries — Q&A
+# Reusable UI Components and Design-System Boundaries - Q&A
 
 ## 1. When should I create a reusable component?
 

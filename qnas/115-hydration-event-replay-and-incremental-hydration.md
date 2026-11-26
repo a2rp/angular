@@ -1,4 +1,4 @@
-# Hydration, Event Replay, and Incremental Hydration — Q&A
+# Hydration, Event Replay, and Incremental Hydration - Q&A
 
 ## 1. What is hydration?
 

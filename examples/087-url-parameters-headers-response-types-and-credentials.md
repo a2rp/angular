@@ -1,4 +1,4 @@
-# URL Parameters, Headers, Response Types, and Credentials — Examples
+# URL Parameters, Headers, Response Types, and Credentials - Examples
 
 These snippets focus on HttpClient request options. They assume the application already provides HttpClient through provideHttpClient. Replace endpoint names and response types with the API contract used by your application.
 

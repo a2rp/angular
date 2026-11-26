@@ -1,4 +1,4 @@
-# Hierarchical dependency injection — example
+# Hierarchical dependency injection - example
 
 This standalone Angular example demonstrates three provider-scope behaviors:
 

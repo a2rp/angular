@@ -1,4 +1,4 @@
-# Server-Compatible Code, Metadata, and Search Visibility — Q&A
+# Server-Compatible Code, Metadata, and Search Visibility - Q&A
 
 ## 1. Why can browser code fail during SSR?
 

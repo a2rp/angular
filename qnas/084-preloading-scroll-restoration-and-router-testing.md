@@ -1,4 +1,4 @@
-# Preloading, Scroll Restoration, and Router Testing — Q&A
+# Preloading, Scroll Restoration, and Router Testing - Q&A
 
 ## Preloading
 

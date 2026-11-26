@@ -1,4 +1,4 @@
-# Inspect signals and components with Angular DevTools — Q&A
+# Inspect signals and components with Angular DevTools - Q&A
 
 ## 1. What is Angular DevTools?
 

@@ -105,7 +105,7 @@ It is a directive applied to a component's or another directive's host through t
 
 ### 22. When is `hostDirectives` useful?
 
-Use it when a component should always include a reusable behavior as part of its implementation—for example, shared focus handling or a common host class. Use an ordinary attribute directive when consumers should independently choose where to apply behavior. Use a component when the behavior also owns a view and its own UI.
+Use it when a component should always include a reusable behavior as part of its implementation-for example, shared focus handling or a common host class. Use an ordinary attribute directive when consumers should independently choose where to apply behavior. Use a component when the behavior also owns a view and its own UI.
 
 ### 23. Does a host directive need to match its selector?
 

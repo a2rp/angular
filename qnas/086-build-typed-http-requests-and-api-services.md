@@ -1,4 +1,4 @@
-# Build Typed HTTP Requests and API Services — Q&A
+# Build Typed HTTP Requests and API Services - Q&A
 
 ## Typed data and request methods
 

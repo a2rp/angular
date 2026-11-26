@@ -1,4 +1,4 @@
-# TypeScript Interfaces, Unions, Generics, and Narrowing — Examples
+# TypeScript Interfaces, Unions, Generics, and Narrowing - Examples
 
 This exercise combines an object interface, a literal union, a generic helper, a discriminated state union, an exhaustive switch, and runtime validation for unknown input.
 

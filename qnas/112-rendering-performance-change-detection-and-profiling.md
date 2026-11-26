@@ -1,4 +1,4 @@
-# Rendering Performance, Change Detection, and Profiling — Q&A
+# Rendering Performance, Change Detection, and Profiling - Q&A
 
 ## 1. What is Angular change detection?
 

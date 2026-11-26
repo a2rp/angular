@@ -1,4 +1,4 @@
-# 41. Signal equality, dynamic dependencies, and untracked reads — Q&A
+# 41. Signal equality, dynamic dependencies, and untracked reads - Q&A
 
 ## Equality and updates
 

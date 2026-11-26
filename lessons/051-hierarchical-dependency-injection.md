@@ -19,7 +19,7 @@ After this lesson, you should be able to:
 
 ## An injector is a scoped registry
 
-A provider connects a runtime token to the value or class Angular should return when code requests that token. Providers live in injectors. An application has multiple injectors arranged in parent–child hierarchies; a component’s request can see its own injector and the allowed ancestors, but it cannot search down into its children.
+A provider connects a runtime token to the value or class Angular should return when code requests that token. Providers live in injectors. An application has multiple injectors arranged in parent-child hierarchies; a component’s request can see its own injector and the allowed ancestors, but it cannot search down into its children.
 
 Think of a request as asking: “Starting here, which visible injector first provides this token?” If the same token appears more than once along the search path, the closest matching provider wins.
 

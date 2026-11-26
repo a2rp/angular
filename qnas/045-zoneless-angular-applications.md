@@ -1,4 +1,4 @@
-# 45. Zoneless Angular applications — Q&A
+# 45. Zoneless Angular applications - Q&A
 
 ## Core concepts and versions
 

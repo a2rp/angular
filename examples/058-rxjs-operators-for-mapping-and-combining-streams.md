@@ -210,7 +210,7 @@ export class AppComponent {
       of('Ada', 'Grace'),
       of('Architect', 'Compiler pioneer'),
     ).subscribe(([name, role]) => {
-      output.push(`zip: ${name} — ${role}`);
+      output.push(`zip: ${name} - ${role}`);
     });
 
     forkJoin({
@@ -278,7 +278,7 @@ Create **src/app/app.component.html**:
           <button type="button" (click)="toggleTask(task)">
             Mark as {{ task.done ? 'open' : 'done' }}
           </button>
-          <span>{{ task.title }} — {{ task.done ? 'Done' : 'Open' }}</span>
+          <span>{{ task.title }} - {{ task.done ? 'Done' : 'Open' }}</span>
         </li>
       } @empty {
         <li>No tasks match these filters.</li>

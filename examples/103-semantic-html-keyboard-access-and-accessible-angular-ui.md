@@ -1,4 +1,4 @@
-# Semantic HTML, Keyboard Access, and Accessible Angular UI — Examples
+# Semantic HTML, Keyboard Access, and Accessible Angular UI - Examples
 
 This small Angular page demonstrates a labeled search form, text-based validation, an accessible error relationship, semantic result markup, and a polite status announcement. It uses native HTML elements so basic keyboard behavior comes from the browser.
 

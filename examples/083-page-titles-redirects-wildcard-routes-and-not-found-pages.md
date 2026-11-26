@@ -1,4 +1,4 @@
-# 83. Page titles, redirects, wildcard routes, and not-found pages — Examples
+# 83. Page titles, redirects, wildcard routes, and not-found pages - Examples
 
 This example configures route titles, a dynamic product title, old URL redirects, a conditional promo redirect, and a not-found page. It also adds a custom title strategy that appends the application name.
 

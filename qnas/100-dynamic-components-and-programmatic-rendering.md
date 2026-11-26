@@ -1,4 +1,4 @@
-# Dynamic Components and Programmatic Rendering — Q&A
+# Dynamic Components and Programmatic Rendering - Q&A
 
 ## 1. When should I use dynamic component rendering?
 

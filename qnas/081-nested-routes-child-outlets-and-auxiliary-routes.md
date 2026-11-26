@@ -1,4 +1,4 @@
-# 81. Nested routes, child outlets, and auxiliary routes — Q&A
+# 81. Nested routes, child outlets, and auxiliary routes - Q&A
 
 Questions and answers for [Lesson 81](../lessons/081-nested-routes-child-outlets-and-auxiliary-routes.md).
 

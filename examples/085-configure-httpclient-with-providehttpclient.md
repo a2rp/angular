@@ -1,4 +1,4 @@
-# Configure HttpClient with provideHttpClient — Examples
+# Configure HttpClient with provideHttpClient - Examples
 
 These examples show provider setup and small, practical configurations for Angular HttpClient. They use standalone APIs and assume the application's Angular version supports the shown APIs. Check the documentation matching your installed version when maintaining an older project.
 

@@ -1,4 +1,4 @@
-# InjectionToken and typed application configuration — example
+# InjectionToken and typed application configuration - example
 
 This standalone app uses a typed InjectionToken to provide public search settings, then packages the token and a SearchClient into a reusable provideSearch() helper. The app component injects both and builds a URL from the configured API origin.
 

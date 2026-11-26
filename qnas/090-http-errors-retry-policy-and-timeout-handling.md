@@ -1,4 +1,4 @@
-# HTTP Errors, Retry Policy, and Timeout Handling — Q&A
+# HTTP Errors, Retry Policy, and Timeout Handling - Q&A
 
 ## Understanding failures
 

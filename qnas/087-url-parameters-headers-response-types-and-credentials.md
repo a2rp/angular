@@ -1,4 +1,4 @@
-# URL Parameters, Headers, Response Types, and Credentials — Q&A
+# URL Parameters, Headers, Response Types, and Credentials - Q&A
 
 ## URL parameters
 

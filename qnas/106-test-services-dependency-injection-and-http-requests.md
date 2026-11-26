@@ -1,4 +1,4 @@
-# Test Services, Dependency Injection, and HTTP Requests — Q&A
+# Test Services, Dependency Injection, and HTTP Requests - Q&A
 
 ## 1. Why use TestBed for a service test?
 

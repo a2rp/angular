@@ -1,4 +1,4 @@
-# Measure Performance, Bundle Size, and Core Web Vitals — Examples
+# Measure Performance, Bundle Size, and Core Web Vitals - Examples
 
 The examples below cover a production build, a CLI size budget, image loading, and optional field metric collection. Adjust project names, endpoints, image paths, and thresholds for the application.
 

@@ -1,4 +1,4 @@
-# Upload and Download Progress Events — Examples
+# Upload and Download Progress Events - Examples
 
 These examples use the current Angular options reportUploadProgress and reportDownloadProgress. They assume HttpClient is provided through provideHttpClient. For older Angular versions, check the version-specific HTTP guide because progress option names may differ.
 

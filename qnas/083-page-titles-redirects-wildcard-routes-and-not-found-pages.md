@@ -1,4 +1,4 @@
-# 83. Page titles, redirects, wildcard routes, and not-found pages — Q&A
+# 83. Page titles, redirects, wildcard routes, and not-found pages - Q&A
 
 Questions and answers for [Lesson 83](../lessons/083-page-titles-redirects-wildcard-routes-and-not-found-pages.md).
 

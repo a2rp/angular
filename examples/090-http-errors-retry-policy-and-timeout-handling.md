@@ -171,7 +171,7 @@ export class ProductListComponent {
 
 @if (products(); as items) {
   @for (product of items; track product.id) {
-    <p>{{ product.name }} — {{ product.price }}</p>
+    <p>{{ product.name }} - {{ product.price }}</p>
   }
 }
 ~~~

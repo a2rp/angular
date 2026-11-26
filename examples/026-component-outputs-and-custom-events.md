@@ -168,7 +168,7 @@ Create `src/app/app.html`:
         @for (task of savedTasks; track task.id) {
           <li>
             <strong>{{ task.title }}</strong>
-            <span> — {{ task.priority }} priority</span>
+            <span> - {{ task.priority }} priority</span>
           </li>
         }
       </ul>

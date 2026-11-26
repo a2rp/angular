@@ -1,4 +1,4 @@
-# Test Services, Dependency Injection, and HTTP Requests — Examples
+# Test Services, Dependency Injection, and HTTP Requests - Examples
 
 This example tests an Angular service without a real backend. The test captures the request, checks its method, parameters, and interceptor-added header, then supplies controlled responses.
 

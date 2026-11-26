@@ -1,4 +1,4 @@
-# Inject dependencies with `inject()` and constructor injection — example
+# Inject dependencies with `inject()` and constructor injection - example
 
 This standalone Angular example compares field injection with constructor injection in one small catalog feature. The product list uses `inject()`; the summary receives the catalog and an `InjectionToken` through its constructor. Both components read the same root-provided catalog service, so adding an item in the list updates the summary.
 

@@ -1,4 +1,4 @@
-# Preloading, Scroll Restoration, and Router Testing — Examples
+# Preloading, Scroll Restoration, and Router Testing - Examples
 
 This chapter collects small examples for warming lazy routes, configuring document scrolling, and testing routed components. The snippets use standalone Angular APIs. Adapt imports and test-runner syntax to the Angular version and setup in your project.
 

@@ -70,7 +70,7 @@ import { CurrencyPipe, DatePipe, TitleCasePipe } from '@angular/common';
   standalone: true,
   imports: [CurrencyPipe, DatePipe, TitleCasePipe],
   template: `
-    <h1>{{ company | titlecase }} — {{ purchasedAt | date }}</h1>
+    <h1>{{ company | titlecase }} - {{ purchasedAt | date }}</h1>
     <p>Total: {{ amount | currency:'USD' }}</p>
   `,
 })

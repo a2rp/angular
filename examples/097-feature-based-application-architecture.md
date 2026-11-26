@@ -1,4 +1,4 @@
-# Feature-Based Application Architecture — Examples
+# Feature-Based Application Architecture - Examples
 
 This walkthrough organizes a small order workflow by feature. It shows the route entry point, feature-owned data access, a page, and the point where code becomes reusable. Adapt names and paths to the Angular workspace you created.
 
@@ -163,7 +163,7 @@ export class OrderListPage {
       @for (order of orders(); track order.id) {
         <li>
           <a [routerLink]="['/orders', order.id]">
-            {{ order.customerName }} — {{ order.status }}
+            {{ order.customerName }} - {{ order.status }}
           </a>
           <span>{{ order.totalCents / 100 | currency }}</span>
         </li>

@@ -1,4 +1,4 @@
-# End-to-End Testing, Coverage, and Test Strategy — Q&A
+# End-to-End Testing, Coverage, and Test Strategy - Q&A
 
 ## 1. What does an end-to-end test verify?
 

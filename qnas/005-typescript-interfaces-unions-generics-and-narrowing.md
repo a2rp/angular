@@ -1,4 +1,4 @@
-# TypeScript Interfaces, Unions, Generics, and Narrowing — Q&A
+# TypeScript Interfaces, Unions, Generics, and Narrowing - Q&A
 
 This Q&A accompanies [Chapter 5: TypeScript Interfaces, Unions, Generics, and Narrowing](../lessons/005-typescript-interfaces-unions-generics-and-narrowing.md).
 

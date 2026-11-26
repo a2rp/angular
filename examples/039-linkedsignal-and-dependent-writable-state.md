@@ -45,9 +45,9 @@ interface ShippingOption {
 }
 
 const initialOptions: ShippingOption[] = [
-  { id: 1, name: 'Ground (3–5 days)', price: 5 },
-  { id: 2, name: 'Air (1–2 days)', price: 12 },
-  { id: 3, name: 'Sea (7–10 days)', price: 3 },
+  { id: 1, name: 'Ground (3-5 days)', price: 5 },
+  { id: 2, name: 'Air (1-2 days)', price: 12 },
+  { id: 3, name: 'Sea (7-10 days)', price: 3 },
 ];
 
 @Component({
@@ -91,9 +91,9 @@ export class AppComponent {
   refreshOptions(): void {
     // New objects arrive from the refreshed source, with the same stable IDs.
     this.shippingOptions.set([
-      { id: 1, name: 'Ground (2–4 days)', price: 6 },
+      { id: 1, name: 'Ground (2-4 days)', price: 6 },
       { id: 2, name: 'Air (next day)', price: 14 },
-      { id: 3, name: 'Sea (6–9 days)', price: 4 },
+      { id: 3, name: 'Sea (6-9 days)', price: 4 },
     ]);
   }
 
@@ -153,7 +153,7 @@ Create or replace `src/app/app.component.html`:
       <option value="" disabled>Select a shipping option</option>
       @for (option of shippingOptions(); track option.id) {
         <option [value]="option.id">
-          {{ option.name }} — {{ option.price | currency }}
+          {{ option.name }} - {{ option.price | currency }}
         </option>
       }
     </select>
@@ -344,7 +344,7 @@ select:focus-visible {
 
 ## Try the linked behavior
 
-1. Select **Sea (7–10 days)**. The linked signal now holds the Sea option chosen by the user.
+1. Select **Sea (7-10 days)**. The linked signal now holds the Sea option chosen by the user.
 2. Click **Refresh option details**. Angular replaces the list with new objects. The computation finds ID `3` and selects the refreshed Sea object with its updated name and price.
 3. Click **Remove selected option**. The source list no longer contains ID `3`, so the computation selects the first remaining option.
 4. Click **Clear all options**. The computation returns `null`, and the page displays the empty state.

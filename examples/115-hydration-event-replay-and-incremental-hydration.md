@@ -1,4 +1,4 @@
-# Hydration, Event Replay, and Incremental Hydration — Examples
+# Hydration, Event Replay, and Incremental Hydration - Examples
 
 These snippets demonstrate the app provider, a section that hydrates on demand, a mismatch workaround, and a direct-response verification workflow. Use the Angular CLI generated SSR structure for your project version.
 

@@ -1,4 +1,4 @@
-# Application and environment providers — example
+# Application and environment providers - example
 
 This standalone Angular example shows how to configure application-level providers:
 

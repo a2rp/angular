@@ -1,4 +1,4 @@
-# Inspect signals and components with Angular DevTools — examples
+# Inspect signals and components with Angular DevTools - examples
 
 This small standalone application provides a repeatable interaction for exploring the Angular DevTools Components tab, signal graph, and Profiler. It renders a list of tasks, filters them, and lets a row request a state change from its parent.
 

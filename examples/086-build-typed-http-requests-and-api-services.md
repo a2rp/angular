@@ -1,4 +1,4 @@
-# Build Typed HTTP Requests and API Services — Examples
+# Build Typed HTTP Requests and API Services - Examples
 
 These examples build a small typed products API layer. They assume HttpClient has already been configured with provideHttpClient as shown in lesson 085.
 
@@ -98,7 +98,7 @@ export class ProductListComponent {
 <!-- product-list.component.html -->
 <ul>
   @for (product of products$ | async; track product.id) {
-    <li>{{ product.name }} — {{ product.price }}</li>
+    <li>{{ product.name }} - {{ product.price }}</li>
   } @empty {
     <li>No products are available.</li>
   }

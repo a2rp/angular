@@ -1,4 +1,4 @@
-# End-to-End Testing, Coverage, and Test Strategy — Examples
+# End-to-End Testing, Coverage, and Test Strategy - Examples
 
 This example configures a browser e2e target for an Angular application and tests an accessible help-search journey. Adapt the routes, labels, and setup to the application under test.
 

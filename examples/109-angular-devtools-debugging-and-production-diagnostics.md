@@ -1,4 +1,4 @@
-# Angular DevTools, Debugging, and Production Diagnostics — Examples
+# Angular DevTools, Debugging, and Production Diagnostics - Examples
 
 These examples provide a small Angular screen to inspect, then show how to trace a runtime problem or performance issue. Adapt imports and file paths to your workspace. The snippets assume a modern standalone Angular application.
 

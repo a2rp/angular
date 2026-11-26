@@ -1,4 +1,4 @@
-# 81. Nested routes, child outlets, and auxiliary routes — Examples
+# 81. Nested routes, child outlets, and auxiliary routes - Examples
 
 This example builds a small mail workspace with:
 

@@ -1,4 +1,4 @@
-# Measure Performance, Bundle Size, and Core Web Vitals — Q&A
+# Measure Performance, Bundle Size, and Core Web Vitals - Q&A
 
 ## 1. Why should I measure before optimizing?
 

@@ -385,7 +385,7 @@ Replace the root component template:
       @if (profile.skills.length > 0) {
         <ul>
           @for (skill of profile.skills; track $index) {
-            <li>{{ skill.name }} — {{ skill.level }}</li>
+            <li>{{ skill.name }} - {{ skill.level }}</li>
           }
         </ul>
       } @else {

@@ -1,4 +1,4 @@
-# 82. Route-level providers and route configuration — Examples
+# 82. Route-level providers and route configuration - Examples
 
 This example uses the same catalog pages and API service under two route branches:
 
@@ -231,7 +231,7 @@ export class CatalogBooksComponent {
       @for (book of books; track book.id) {
         <li>
           <a [routerLink]="['../book', book.id]">
-            {{ book.title }} — {{ book.author }}
+            {{ book.title }} - {{ book.author }}
           </a>
         </li>
       } @empty {

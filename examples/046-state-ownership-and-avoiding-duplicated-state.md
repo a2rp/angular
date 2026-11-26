@@ -1,4 +1,4 @@
-# State ownership and avoiding duplicated state — examples
+# State ownership and avoiding duplicated state - examples
 
 This example builds a small task board with two sibling components:
 
@@ -146,9 +146,9 @@ type TaskFilter = 'all' | 'open' | 'done';
             </button>
 
             @if (task.done) {
-              <span> — complete</span>
+              <span> - complete</span>
             } @else {
-              <span> — open</span>
+              <span> - open</span>
             }
           </li>
         } @empty {

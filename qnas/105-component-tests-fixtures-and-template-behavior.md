@@ -1,4 +1,4 @@
-# Component Tests, Fixtures, and Template Behavior — Q&A
+# Component Tests, Fixtures, and Template Behavior - Q&A
 
 ## 1. What does TestBed do in a component test?
 

@@ -212,7 +212,7 @@ export const appConfig: ApplicationConfig = {
     provideTextPipeline(
       withPrefix('Angular says: '),
       withUppercase(),
-      withSuffix(' — ready'),
+      withSuffix(' - ready'),
     ),
   ],
 };
@@ -330,7 +330,7 @@ Open the app. It should show the configured application name and build label, fo
 
 - **Prefix:** Angular says: Hello providers
 - **Uppercase:** HELLO PROVIDERS
-- **Suffix:** Hello providers — ready
+- **Suffix:** Hello providers - ready
 
 Edit the text field and each preview updates. Click **Log current input** to see the logger message in the browser console. The alias indicator should be **true** because both tokens resolve to the same **ConsoleLogger** instance.
 
@@ -343,7 +343,7 @@ The feature API is configured in one place. For example, omit the uppercase opti
 ~~~ts
 provideTextPipeline(
   withPrefix('Angular says: '),
-  withSuffix(' — ready'),
+  withSuffix(' - ready'),
 )
 ~~~
 

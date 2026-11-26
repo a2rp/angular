@@ -1,4 +1,4 @@
-# Semantic HTML, Keyboard Access, and Accessible Angular UI — Q&A
+# Semantic HTML, Keyboard Access, and Accessible Angular UI - Q&A
 
 ## 1. Why should I prefer native HTML controls?
 

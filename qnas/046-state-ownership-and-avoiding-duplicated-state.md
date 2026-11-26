@@ -1,4 +1,4 @@
-# State ownership and avoiding duplicated state — Q&A
+# State ownership and avoiding duplicated state - Q&A
 
 ## 1. What does state ownership mean?
 

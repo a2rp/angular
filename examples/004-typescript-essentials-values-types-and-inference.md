@@ -1,4 +1,4 @@
-# TypeScript Essentials: Values, Types, and Inference — Examples
+# TypeScript Essentials: Values, Types, and Inference - Examples
 
 These examples let you inspect inferred types, write basic annotations, handle uncertain values, and distinguish compile-time checking from runtime behavior.
 

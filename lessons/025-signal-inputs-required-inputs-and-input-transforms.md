@@ -8,7 +8,7 @@ import { Component, computed, input } from '@angular/core';
 @Component({
   selector: 'app-user-badge',
   standalone: true,
-  template: '<p>{{ label() }} — {{ isActive() ? "Active" : "Inactive" }}</p>',
+  template: '<p>{{ label() }} - {{ isActive() ? "Active" : "Inactive" }}</p>',
 })
 export class UserBadge {
   readonly label = input('Guest');

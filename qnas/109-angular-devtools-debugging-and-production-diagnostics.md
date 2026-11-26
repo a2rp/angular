@@ -1,4 +1,4 @@
-# Angular DevTools, Debugging, and Production Diagnostics — Q&A
+# Angular DevTools, Debugging, and Production Diagnostics - Q&A
 
 ## 1. What is Angular DevTools?
 

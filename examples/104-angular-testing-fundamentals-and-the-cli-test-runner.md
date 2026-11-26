@@ -1,4 +1,4 @@
-# Angular Testing Fundamentals and the CLI Test Runner — Examples
+# Angular Testing Fundamentals and the CLI Test Runner - Examples
 
 This walkthrough uses the Vitest setup commonly generated for a new Angular CLI project. If the existing workspace uses Karma/Jasmine, keep its configured runner or follow the migration guide deliberately.
 

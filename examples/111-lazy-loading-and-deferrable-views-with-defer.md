@@ -1,4 +1,4 @@
-# Lazy Loading and Deferrable Views with defer — Examples
+# Lazy Loading and Deferrable Views with defer - Examples
 
 These examples show two different boundaries: lazy route files and deferred sections inside a route. Update component names and paths to match your workspace.
 

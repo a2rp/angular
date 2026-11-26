@@ -1,4 +1,4 @@
-# Set Up Server-Side Rendering and Hybrid Route Rendering — Q&A
+# Set Up Server-Side Rendering and Hybrid Route Rendering - Q&A
 
 ## 1. How do I add SSR to an existing Angular application?
 

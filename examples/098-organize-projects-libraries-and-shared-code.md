@@ -1,4 +1,4 @@
-# Organize Projects, Libraries, and Shared Code — Examples
+# Organize Projects, Libraries, and Shared Code - Examples
 
 This walkthrough creates a multi-project Angular workspace with two applications and one small reusable library. It demonstrates workspace setup and a deliberate public API. It is an example layout; use a single application workspace if your project does not need multiple projects.
 

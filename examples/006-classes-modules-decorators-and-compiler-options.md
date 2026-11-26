@@ -117,7 +117,7 @@ Create the external template at **src/app/task-board.component.html**:
   <ul>
     @for (task of taskStore.getAll(); track task.id) {
       <li>
-        {{ task.title }} — {{ task.status }}
+        {{ task.title }} - {{ task.status }}
         @if (task.status === 'open') {
           <button type="button" (click)="taskStore.complete(task.id)">
             Mark done

@@ -1,4 +1,4 @@
-# Server-Sent Events, WebSockets, and Live Updates — Examples
+# Server-Sent Events, WebSockets, and Live Updates - Examples
 
 These examples show two different live-update patterns:
 

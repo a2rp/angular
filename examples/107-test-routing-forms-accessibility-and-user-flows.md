@@ -1,4 +1,4 @@
-# Test Routing, Forms, Accessibility, and User Flows — Examples
+# Test Routing, Forms, Accessibility, and User Flows - Examples
 
 This example tests one short user journey: navigate to a profile edit page, submit an invalid name, correct it, and confirm the success state. It uses a test route and a real rendered form, while keeping the result deterministic and local.
 

@@ -1,4 +1,4 @@
-# Functional Interceptors and Request Context — Examples
+# Functional Interceptors and Request Context - Examples
 
 These examples show functional interceptors and per-request metadata. They assume HttpClient is configured with provideHttpClient.
 

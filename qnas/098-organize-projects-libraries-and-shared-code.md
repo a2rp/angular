@@ -1,4 +1,4 @@
-# Organize Projects, Libraries, and Shared Code — Q&A
+# Organize Projects, Libraries, and Shared Code - Q&A
 
 ## 1. What is the difference between an Angular workspace and an Angular project?
 

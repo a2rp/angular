@@ -1,4 +1,4 @@
-# 44. OnPush change detection and immutable updates — Q&A
+# 44. OnPush change detection and immutable updates - Q&A
 
 ## Core model
 
@@ -160,7 +160,7 @@ Check whether the state changed, whether Angular received a notification, whethe
 
 ### 37. Can a computed signal become stale after deep mutation?
 
-If its source signal was not notified—for example, because the same reference was set again under default equality—the computed signal is not invalidated by that update. Replace the signal value immutably so dependencies are notified.
+If its source signal was not notified-for example, because the same reference was set again under default equality-the computed signal is not invalidated by that update. Replace the signal value immutably so dependencies are notified.
 
 ### 38. Does OnPush make expensive template methods fast?
 

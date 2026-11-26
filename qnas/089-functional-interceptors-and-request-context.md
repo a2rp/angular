@@ -1,4 +1,4 @@
-# Functional Interceptors and Request Context — Q&A
+# Functional Interceptors and Request Context - Q&A
 
 ## Interceptors
 

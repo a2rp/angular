@@ -1,4 +1,4 @@
-# Configure HttpClient with provideHttpClient — Q&A
+# Configure HttpClient with provideHttpClient - Q&A
 
 ## Setup and dependency injection
 

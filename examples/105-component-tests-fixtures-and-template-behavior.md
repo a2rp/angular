@@ -1,4 +1,4 @@
-# Component Tests, Fixtures, and Template Behavior — Examples
+# Component Tests, Fixtures, and Template Behavior - Examples
 
 This example renders a name editor in Angular's test environment and verifies visible behavior. It sets up a ComponentFixture, dispatches a real input event, checks the updated template, and observes an output.
 

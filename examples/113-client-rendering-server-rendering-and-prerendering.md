@@ -1,4 +1,4 @@
-# Client Rendering, Server Rendering, and Prerendering — Examples
+# Client Rendering, Server Rendering, and Prerendering - Examples
 
 These examples sketch a route-by-route rendering plan for a small public learning site with stable articles, a fresh public catalog, and a client-rendered workspace. Angular's setup details can vary by version; follow the generated files in the current workspace.
 

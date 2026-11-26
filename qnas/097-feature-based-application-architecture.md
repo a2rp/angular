@@ -1,4 +1,4 @@
-# Feature-Based Application Architecture — Q&A
+# Feature-Based Application Architecture - Q&A
 
 ## 1. What does feature-based architecture mean in Angular?
 

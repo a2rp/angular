@@ -4,7 +4,7 @@ These questions explain how Angular chooses a provider when a component, directi
 
 ## 1. What does hierarchical dependency injection mean?
 
-Angular stores providers in injectors arranged in parent–child hierarchies. When code requests a token, Angular searches from the requesting context through the applicable ancestors. The location where a provider is registered determines its visibility and instance scope.
+Angular stores providers in injectors arranged in parent-child hierarchies. When code requests a token, Angular searches from the requesting context through the applicable ancestors. The location where a provider is registered determines its visibility and instance scope.
 
 ## 2. What is the difference between a provider and an injector?
 

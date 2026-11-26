@@ -1,4 +1,4 @@
-# Component-scoped and route-scoped providers — example
+# Component-scoped and route-scoped providers - example
 
 This standalone app demonstrates two provider scopes:
 

@@ -1,4 +1,4 @@
-# Internationalization, Localization, and Formatting — Examples
+# Internationalization, Localization, and Formatting - Examples
 
 This example marks user-facing messages, extracts translations, formats localized data, and lays out a summary card with logical CSS properties. It uses Angular's build-time localization workflow. A runtime language switch needs a separate strategy.
 

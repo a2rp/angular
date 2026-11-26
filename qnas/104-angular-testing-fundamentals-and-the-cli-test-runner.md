@@ -1,4 +1,4 @@
-# Angular Testing Fundamentals and the CLI Test Runner — Q&A
+# Angular Testing Fundamentals and the CLI Test Runner - Q&A
 
 ## 1. Which test runner does Angular CLI use?
 

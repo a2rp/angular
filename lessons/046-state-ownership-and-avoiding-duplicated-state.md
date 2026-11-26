@@ -155,7 +155,7 @@ Use the narrowest scope that satisfies the feature:
 
 A parent usually owns a value and passes it to a child through an input. The child can request a change through an output, and the parent decides whether and how to update the source value.
 
-A `model()` input is appropriate when a reusable child control is designed to edit a value and expose that edit through a two-way component API. It is not a reason to create a second copy of every input. If a child needs an independent draft—for example, an editor with Save and Cancel—make that draft explicit and define when it is initialized and committed.
+A `model()` input is appropriate when a reusable child control is designed to edit a value and expose that edit through a two-way component API. It is not a reason to create a second copy of every input. If a child needs an independent draft-for example, an editor with Save and Cancel-make that draft explicit and define when it is initialized and committed.
 
 ## Treat drafts as real, temporary state
 

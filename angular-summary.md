@@ -47,16 +47,16 @@ The Angular roadmap has ten parts and 120 chapters:
 
 | Chapters | Area |
 | --- | --- |
-| 001–012 | Angular and web foundations, TypeScript, Node/npm, CLI, project structure, bootstrap |
-| 013–024 | Components, standalone imports, templates, bindings, events, built-in control flow, directives |
-| 025–036 | Inputs, outputs, models, projection, queries, lifecycle, styles, pipes, custom directives |
-| 037–048 | Signals, RxJS interop, change detection, zoneless apps, state ownership, DevTools |
-| 049–060 | Services, dependency injection, providers, Observables, operators, cancellation, cleanup |
-| 061–072 | Template-driven, reactive, typed, accessible, custom-control, and signal-based forms |
-| 073–084 | Router configuration, links, route state, guards, resolvers, lazy loading, testing |
-| 085–096 | HttpClient, API services, interceptors, errors, caching, resources, SSE, WebSockets |
-| 097–108 | Application structure, reusable UI, accessibility, testing, diagnostics |
-| 109–120 | Performance, deferred views, CSR/SSR/prerendering, hydration, security, deployment, upgrades, capstone |
+| 001-012 | Angular and web foundations, TypeScript, Node/npm, CLI, project structure, bootstrap |
+| 013-024 | Components, standalone imports, templates, bindings, events, built-in control flow, directives |
+| 025-036 | Inputs, outputs, models, projection, queries, lifecycle, styles, pipes, custom directives |
+| 037-048 | Signals, RxJS interop, change detection, zoneless apps, state ownership, DevTools |
+| 049-060 | Services, dependency injection, providers, Observables, operators, cancellation, cleanup |
+| 061-072 | Template-driven, reactive, typed, accessible, custom-control, and signal-based forms |
+| 073-084 | Router configuration, links, route state, guards, resolvers, lazy loading, testing |
+| 085-096 | HttpClient, API services, interceptors, errors, caching, resources, SSE, WebSockets |
+| 097-108 | Application structure, reusable UI, accessibility, testing, diagnostics |
+| 109-120 | Performance, deferred views, CSR/SSR/prerendering, hydration, security, deployment, upgrades, capstone |
 
 Use the README roadmap for the individual chapter titles and reserved lesson/Q&A/example paths. A listed roadmap topic is a learning target; consult the repository files as they are filled in chapter by chapter.
 

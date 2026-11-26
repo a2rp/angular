@@ -153,7 +153,7 @@ Create src/app/profile-editor.html:
   </form>
 
   <p role="status">{{ savedMessage }}</p>
-  <p>Live preview: {{ profile.displayName }} — {{ profile.email }}</p>
+  <p>Live preview: {{ profile.displayName }} - {{ profile.email }}</p>
   <p>Receive updates: {{ profile.receiveUpdates ? 'Yes' : 'No' }}</p>
   <p>Show hints: {{ showHints ? 'Yes' : 'No' }}</p>
 </section>

@@ -1,4 +1,4 @@
-# Global Error Handling, Logging, and Diagnostics — Examples
+# Global Error Handling, Logging, and Diagnostics - Examples
 
 This example separates an expected page-load failure from an unexpected application error. The feature displays a useful message for its own request; the global handler reports unexpected errors with a small, privacy-aware event.
 

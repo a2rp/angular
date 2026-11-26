@@ -1,4 +1,4 @@
-# 82. Route-level providers and route configuration — Q&A
+# 82. Route-level providers and route configuration - Q&A
 
 Questions and answers for [Lesson 82](../lessons/082-route-level-providers-and-route-configuration.md).
 

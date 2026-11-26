@@ -1,4 +1,4 @@
-# 42. RxJS interop with `toSignal()` and `toObservable()` — Q&A
+# 42. RxJS interop with `toSignal()` and `toObservable()` - Q&A
 
 ## `toSignal()` and Observable sources
 

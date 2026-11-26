@@ -152,7 +152,7 @@ Named context keys work in the same way:
 <ng-template #personCard let-person let-heading="heading">
   <article>
     <h2>{{ heading }}</h2>
-    <p>{{ person.name }} — {{ person.role }}</p>
+    <p>{{ person.name }} - {{ person.role }}</p>
   </article>
 </ng-template>
 
@@ -177,7 +177,7 @@ A single fragment can be rendered more than once with different context values:
 <ng-template #personCard let-person let-heading="heading">
   <article>
     <h2>{{ heading }}</h2>
-    <p>{{ person.name }} — {{ person.role }}</p>
+    <p>{{ person.name }} - {{ person.role }}</p>
   </article>
 </ng-template>
 

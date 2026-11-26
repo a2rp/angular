@@ -1,4 +1,4 @@
-# Reusable UI Components and Design-System Boundaries — Examples
+# Reusable UI Components and Design-System Boundaries - Examples
 
 This example builds two small presentation components: a Card that projects consumer content and a Notice that accepts typed data and reports a dismiss action. The consuming page owns the workflow state. Adapt file names to your Angular CLI conventions.
 

@@ -1,4 +1,4 @@
-# Lazy Loading and Deferrable Views with defer — Q&A
+# Lazy Loading and Deferrable Views with defer - Q&A
 
 ## 1. What is lazy loading?
 
